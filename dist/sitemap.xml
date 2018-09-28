@@ -1,30 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://www.tailwindtoolbox.com/</loc>
-  <lastmod>2018-09-27T16:52:56+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.tailwindtoolbox.com/setup/</loc>
-  <lastmod>2018-09-27T16:52:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tailwindtoolbox.com/templates/</loc>
-  <lastmod>2018-09-27T16:52:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tailwindtoolbox.com/templates/fixed-header.html</loc>
-  <lastmod>2018-09-27T16:52:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.tailwindtoolbox.com/</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/setup/</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/fixed-header.html</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/hero-product.html</loc>
+  </url>
 </urlset>
