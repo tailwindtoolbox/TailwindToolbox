@@ -1,11 +1,11 @@
 {
-    "name": "X",
+    "name": "tailwindtoolboxwebsite",
     "version": "1.0.0",
-    "description": "Tailwind Starter Template",
+    "description": "Tailwind Toolbox Website",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourgitusername/repository.git"
+        "url": "https://github.com/tailwindtoolbox/TailwindToolbox.git"
     },
     "main": "postcss.config.js",
     "dependencies": {
