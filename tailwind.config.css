@@ -1,0 +1,123 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+
+@tailwind preflight;
+
+/**
+  * This injects any component classes registered by plugins.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/components";
+  */
+
+@tailwind components;
+
+/**
+  * Here you would add any of your custom component classes; stuff that you'd
+  * want loaded *before* the utilities so that the utilities could still
+  * override them.
+  *
+  * Example:
+  *
+  * .btn { ... }
+  * .form-input { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "components/buttons";
+  * @import "components/forms";
+  */
+
+  /*Links*/
+  .navlink {
+	  @apply mr-2 pb-1 px-2 border-b-2 border-transparent text-white text-sm font-bold text-center no-underline;	  
+  }
+  
+  .navlink:hover {
+	  @apply text-white border-teal-lightest no-underline;	  
+  }
+  
+  .footerlink {
+	  @apply text-brand-ondark font-bold no-underline;	  
+  }
+  
+  .footerlink:hover {
+	  @apply text-brand-alt font-bold no-underline;	  
+  }
+   
+  a {
+	@apply text-brand no-underline;
+  }
+  a:hover {
+	@apply text-brand underline;
+  }
+
+  /*Code syntax*/
+  .code {
+	@apply bg-grey-lighter p-1 text-grey-darkest font-mono shadow break-words;
+  }
+  
+  /*Faux cmd window */
+  .window-nav {
+	@apply rounded-t border-t border-l border-r border-teal bg-teal px-4 py-2;
+  }
+  .window-nav-dot {
+	  @apply inline-block rounded-full bg-grey-lightest h-3 w-3 mr-1;
+  }
+  .window-bg {
+	  @apply relative bg-black text-white text-sm font-mono tracking-wide break-normal p-4;
+  }
+  
+  /*Button*/
+  .btn {
+	  @apply bg-brand text-white no-underline text-sm border-none rounded font-bold p-3 mt-2;
+  }
+  .btn:hover {
+	  @apply bg-teal-dark text-white no-underline shadow;
+  }
+  
+
+  
+/**
+  * This injects all of Tailwind's utility classes, generated based on your
+  * config file.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/utilities";
+  */
+
+@tailwind utilities;
+
+/**
+  * Here you would add any custom utilities you need that don't come out of the
+  * box with Tailwind.
+  *
+  * Example :
+  *
+  * .bg-pattern-graph-paper { ... }
+  * .skew-45 { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "utilities/background-patterns";
+  * @import "utilities/skew-transforms";
+  */
+  
+	.nunito {
+		font-family: 'Nunito', Tahoma;
+	}
+  
+    #post-content p {
+		padding-top: 0.7em;
+	}

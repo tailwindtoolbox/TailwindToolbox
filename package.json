@@ -1,0 +1,24 @@
+{
+    "name": "TailwindStarterTemplate",
+    "version": "1.0.0",
+    "description": "Tailwind Starter Template",
+	"license" : "MIT",
+	"repository": {
+	  "type" : "git",
+	  "url" : "https://github.com/yourgitusername/repository.git"
+	},
+    "main": "postcss.config.js",
+    "dependencies": {
+        "autoprefixer": "^9.1.5",
+        "postcss-cli": "^6.0.0",
+        "tailwindcss": "^0.6.6"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^1.0.1",
+        "cssnano": "^4.0.5"
+    },
+    "scripts": {
+        "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
+        "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css"
+    }
+}
