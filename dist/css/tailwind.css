@@ -705,11 +705,11 @@ table {
 
 a {
   color: #3b7977;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #3b7977;
+  color: #38a89d;
   text-decoration: underline;
 }
 

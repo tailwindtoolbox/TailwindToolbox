@@ -56,10 +56,10 @@
   }
    
   a {
-	@apply text-brand no-underline;
+	@apply text-brand underline;
   }
   a:hover {
-	@apply text-brand underline;
+	@apply text-teal-dark underline;
   }
 
   /*Code syntax*/
