@@ -66,7 +66,7 @@
 
 	<div class="container mx-auto mb-8" id="post-content">
 			<div class="w-full -mt-12 md:-mt-32 px-0">
-				<div class="bg-white rounded overflow-hidden shadow mx-1">
+				<div class="bg-white rounded shadow mx-1">
 					<div class="p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
 								
 						<p class="text-xl md:text-2xl my-6 font-bold">This is a simple skeleton template for you to start your project with. Just copy the text and paste it into your editor</p>
@@ -75,7 +75,7 @@
 					</div>
 					
 					<div class="w-4/5 py-4 mx-auto">
-						<div id="divClipboard" class="overflow-hidden bg-grey-lightest w-full border rounded shadow px-5 mb-5">
+						<div id="divClipboard" class="overflow-x-auto bg-grey-lightest text-sm md:text-base w-full border rounded shadow px-5 mb-5">
 <pre>
 <span class="text-grey-dark">&lt;!DOCTYPE html&gt;</span>
 &lt;html lang=<span class="text-red-dark">&quot;en&quot;</span>&gt;
@@ -116,7 +116,8 @@
 						</div>
 						
 						<div class="py-4">
-							<button onclick="copyClipboard()" class="w-full sm:w-auto bg-teal hover:bg-teal-dark text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">Copy text</button>
+							<button id="copyButton" onclick="copyClipboard()" class="w-full sm:w-auto bg-teal hover:bg-teal-dark text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">Copy Text</button>
+							<span id="confirmation"></span>
 						</div>
 						
 							
@@ -180,7 +181,12 @@
 		range.moveToElementText(elm);
 		range.select();
 		document.execCommand("Copy");
-		alert("Copied to Clipboard!");
+
+		document.getElementById("copyButton").textContent = "Copied!";
+		setTimeout(function(){
+			document.getElementById("copyButton").textContent = "Copy Text";
+		}, 1500);
+
 	  }
 	  else if(window.getSelection) {
 		// other browsers
@@ -191,7 +197,12 @@
 		selection.removeAllRanges();
 		selection.addRange(range);
 		document.execCommand("Copy");
-		alert("Copied to Clipboard!");
+
+		document.getElementById("copyButton").textContent = "Copied!";
+		setTimeout(function(){
+			document.getElementById("copyButton").textContent = "Copy Text";
+		}, 1500);
+
 	  }
 	}
 	</script>	

@@ -10,9 +10,15 @@
     <loc>https://www.tailwindtoolbox.com/templates/</loc>
   </url>
   <url>
-    <loc>https://www.tailwindtoolbox.com/templates/fixed-header.html</loc>
+    <loc>https://www.tailwindtoolbox.com/templates/admin-template/</loc>
   </url>
   <url>
-    <loc>https://www.tailwindtoolbox.com/templates/hero-product.html</loc>
+    <loc>https://www.tailwindtoolbox.com/templates/fixed-header/</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/hero-product/</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/skeleton/</loc>
   </url>
 </urlset>
