@@ -111,16 +111,16 @@
 				</div>
 				<!--Skeleton Template-->
 				<div class="w-full md:w-1/3 mb-12  pb-3 sm:pb-0">
-					<a href="https://www.tailwindtoolbox.com/templates/skeleton" class="no-underline hover:no-underline">
+					<a href="https://www.tailwindtoolbox.com/skeleton" class="no-underline hover:no-underline">
 						<div class="bg-white rounded overflow-hidden shadow mx-5 sm:mx-2 hover:shadow-lg">
 							<div class="p-5 text-center">
-								<img src="templates/skeleton.png" class="h-full w-4/5 md:w-full rounded shadow">
+								<img src="skeleton.png" class="h-full w-4/5 md:w-full rounded shadow">
 								<div class="font-bold text-xl my-3">Skeleton Template</div>
 								<p class="text-grey-darker text-base mb-5">
 									Simple skeleton/boilerplate template to copy/paste into your editor
 								</p>
 								<div>
-									<a href="https://www.tailwindtoolbox.com/templates/skeleton"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
+									<a href="https://www.tailwindtoolbox.com/skeleton"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
 								</div>
 								
 							</div>

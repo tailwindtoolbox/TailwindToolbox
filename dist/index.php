@@ -65,7 +65,7 @@
 			</div>
 			
 			<div class="w-full md:w-1/2 mb-2 md:mb-0 pb-3 sm:pb-0">
-				<a href="https://www.tailwindtoolbox.com/templates" class="no-underline hover:no-underline">
+				<a href="https://www.tailwindtoolbox.com/starter-templates" class="no-underline hover:no-underline">
 					<div class="bg-white rounded overflow-hidden shadow mx-5 sm:mx-2 hover:shadow-lg">
 						<div class="p-8 text-center">
 							<img src="templates.svg" class="h-24 md:h-32" alt="Download Tailwind Templates">
