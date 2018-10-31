@@ -9,17 +9,20 @@
     },
     "main": "postcss.config.js",
     "dependencies": {
-        "autoprefixer": "^9.1.5",
-        "postcss-cli": "^6.0.0",
-        "tailwindcss": "^0.6.6"
+        "autoprefixer": "^9.3.1",
+        "postcss-cli": "^6.0.1",
+        "tailwindcss": "^0.7.0",
+        "watch": "^1.0.2"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^1.1.0",
-        "cssnano": "^4.1.4"
+        "cssnano": "^4.1.7"
     },
     "scripts": {
+        "dev:js": "./node_modules/.bin/tailwind init tailwind.config.js",
         "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
         "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css",
+        "startwatch": "watch 'build:css' ./dist",
         "sitemap": "sitemap-generator https://www.tailwindtoolbox.com -f dist/sitemap.xml"
     }
 }

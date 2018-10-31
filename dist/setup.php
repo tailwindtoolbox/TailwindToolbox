@@ -28,8 +28,9 @@
 	<!--section-->
 	<div class="container mx-auto mb-16" id="post-content">
 		<div class="w-full -mt-12 md:-mt-32 px-0">
-			<div class="bg-white rounded overflow-hidden shadow mx-1">
-				<div class="p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
+			<div class="flex flex-wrap bg-white rounded overflow-hidden shadow mx-1">
+				<div class="w-full lg:w-1/5"></div>
+				<div class="w-full lg:w-3/5 p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
 							
 					<p class="text-xl md:text-2xl my-6 font-bold">It's pretty straight forward to <a href="https://tailwindcss.com/docs/installation" target="_blank" rel="noopener">setup Tailwind</a> and give it a test spin using the CDN version.  However, as mentioned on the Tailwind site, you need to setup Tailwind using npm in order to start customising Tailwind.</p>
 					
@@ -64,7 +65,7 @@
 					<p class="bg-teal-lightest text-sm pb-2 mt-4 text-center">Huge thanks to <a href="https://flaviocopes.com/tailwind-setup/" target="_blank" rel="noopener">https://flaviocopes.com/tailwind-setup/</a> for the excellent setup guide which helped create the starter template.</p>
 
 					<div class="py-4">
-					<p class="text-xs text-grey-light">Advert</p>
+					<p class="text-xs text-grey">Advert</p>
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<ins class="adsbygoogle"
 							 style="display:block; text-align:center;"
@@ -162,10 +163,10 @@
 						<div class="window-bg">
 							<p class="text-grey">&gt;>npm update</p>
 							<p>(some npm messages)<br>
-							+ postcss-cli@6.0.0<br>
-							+ tailwindcss@0.6.6<br>
-							+ autoprefixer@9.1.5<br>
-							added 456 packages from 216 contributors and audited 4094 packages in 122.868s<br>
+							+ postcss-cli@6.0.1<br>
+							+ tailwindcss@0.7.0<br>
+							+ autoprefixer@9.3.1<br>
+							added 472 packages from 355 contributors and audited 4131 packages in 122.868s<br>
 							found 0 vulnerabilities</p>
 						</div>
 					</div>
@@ -288,6 +289,22 @@
 					</div>
 					
 					
+				</div>
+				<div class="w-full lg:w-1/5">
+					<div class="p-12">
+					<p class="text-xs text-grey">Advert</p>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- TailwindToolbox Setup -->
+						<ins class="adsbygoogle"
+							style="display:block"
+							data-ad-client="ca-pub-5079130292699358"
+							data-ad-slot="9864994618"
+							data-ad-format="auto"
+							data-full-width-responsive="true"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
 				</div>
 			</div>
 		</div>

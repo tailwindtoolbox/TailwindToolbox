@@ -42,6 +42,11 @@
 		</div>
 	</div>
 	
+	<div class="container max-w-md mx-auto pt-16">
+		<p class="text-brand font-bold">What's New?</p>
+		<p class="text-grey-dark">31 Oct - Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.0" target="_blank"  rel="noopener">0.7.0</a></p>
+	</div>
+
 	<div class="container mx-auto pt-16 pb-24">
 		<div class="flex flex-wrap mb-2">
 		

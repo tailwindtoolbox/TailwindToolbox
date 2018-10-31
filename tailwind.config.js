@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-// let defaultConfig = require('tailwindcss/defaultConfig')()
+//let defaultConfig = require('tailwindcss/defaultConfig')()
 
 
 /*
@@ -51,7 +51,6 @@ let colors = {
   'brand-ondark': '#6ccec6',
   'brand-white': '#ecf4f3',
    
-  
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
@@ -232,7 +231,7 @@ module.exports = {
       'Liberation Mono',
       'Courier New',
       'monospace',
-    ]
+    ],
   },
 
 
@@ -502,7 +501,7 @@ module.exports = {
     '1/6': '16.66667%',
     '5/6': '83.33333%',
     'full': '100%',
-    'screen': '100vw'
+    'screen': '100vw',
   },
 
 
@@ -540,8 +539,8 @@ module.exports = {
     '64': '16rem',
     'full': '100%',
     'screen': '100vh',
-	'half': '50vh',
-	'3/4': '75vh'
+    'half': '50vh',
+    '3/4': '75vh'
   },
 
 
@@ -582,7 +581,7 @@ module.exports = {
   minHeight: {
     '0': '0',
     'full': '100%',
-    'screen': '100vh'
+    'screen': '100vh',
   },
 
 
@@ -860,6 +859,7 @@ module.exports = {
   |   - responsive
   |   - hover
   |   - focus
+  |   - focus-within
   |   - active
   |   - group-hover
   |
