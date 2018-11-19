@@ -41,11 +41,7 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="container max-w-md mx-auto pt-16">
-		<p class="text-brand font-bold">What's New?</p>
-		<p class="text-grey-dark">31 Oct - Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.0" target="_blank"  rel="noopener">0.7.0</a></p>
-	</div>
+
 
 	<div class="container mx-auto pt-16 pb-24">
 		<div class="flex flex-wrap mb-2">
@@ -89,11 +85,27 @@
 		
 		</div>
 		
-		<div class="w-full flex content-center p-6">
-		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+	</div>
+
+
+	<div class="container mx-auto pb-24">
+		<div class="flex flex-wrap">
+		
+			<div class="w-full md:w-1/2 mb-12 md:mb-0 pb-3 sm:pb-0">
+				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+			</div>
+			
+			<div class="w-full md:w-1/2 mb-2 md:mb-0 pb-3 sm:pb-0">
+				<p class="text-brand font-bold">What's New?</p>
+				<p class="text-grey-dark">19 Nov - Added <a href="https://www.tailwindtoolbox.com/starter-templates#JS">Javascript starter templates</a> and Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.0" target="_blank"  rel="noopener">0.7.2</a></p>
+				<p class="text-grey-dark">31 Oct - Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.0" target="_blank"  rel="noopener">0.7.0</a></p>
+			
+			</div>
+		
 		</div>
 		
 	</div>
+
 
 	<?php include 'includes/footer-home.php';?>
 
