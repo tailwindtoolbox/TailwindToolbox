@@ -12,8 +12,6 @@
 	
 	<?php include '../includes/analytics.php';?>
 
-	<?php include '../includes/ads.php';?>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> <!--Totally optional :) -->
@@ -387,18 +385,11 @@
                         <div class="bg-grey-light border-b-2 border-grey rounded-tl-lg rounded-tr-lg p-2">
                             <h5 class="uppercase text-grey-dark">Advert</h5>
                         </div>
-                        <div class="p-5">
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- Tailwind Toolbox - Admin Template -->
-                            <ins class="adsbygoogle"
-                                style="display:block"
-                                data-ad-client="ca-pub-5079130292699358"
-                                data-ad-slot="5973796198"
-                                data-ad-format="auto"
-                                data-full-width-responsive="true"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
+                        <div class="p-5 text-center">
+                            
+							
+							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+							
 
                         </div>
                     </div>

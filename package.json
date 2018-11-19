@@ -9,9 +9,10 @@
     },
     "main": "postcss.config.js",
     "dependencies": {
+        "@glidejs/glide": "^3.2.3",
         "autoprefixer": "^9.3.1",
         "postcss-cli": "^6.0.1",
-        "tailwindcss": "^0.7.0",
+        "tailwindcss": "^0.7.2",
         "watch": "^1.0.2"
     },
     "devDependencies": {

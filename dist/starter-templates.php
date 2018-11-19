@@ -11,8 +11,6 @@
 	<?php include 'includes/head.php';?>
 	
 	<?php include 'includes/analytics.php';?>
-
-	<?php include 'includes/ads.php';?>
 		
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
@@ -30,11 +28,22 @@
 	<div class="container mx-auto mb-8" id="post-content">
 			<div class="w-full -mt-12 md:-mt-32 px-0">
 				<div class="bg-white rounded overflow-hidden shadow mx-1">
-					<div class="p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
-								
-						<p class="text-xl md:text-2xl my-6 font-bold">These templates are all free to download and are built with Tailwind CSS. They are all open source and feel free to use them for any purpose, even commercially!</p>
+					<div class="flex flex-wrap p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
+							
 						
+						
+						<div class="w-full lg:w-1/5">
+							<div class="p-6">
+							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+							</div>
+						</div>
+						<div class="w-full lg:w-3/5">
+							<p class="text-xl md:text-2xl my-6 font-bold">These templates are all free to download and are built with Tailwind CSS. They are all open source and feel free to use them for any purpose, even commercially!</p>
+							
 						<p>These templates are not finished articles, they are just a starting point template using the default Tailwind CSS styling - which you can turn into your own creation.</p>
+						</div>
+						
+						
 					</div>
 				</div>
 			</div>
@@ -109,6 +118,8 @@
 						</div>
 					</a>
 				</div>
+				
+				
 				<!--Skeleton Template-->
 				<div class="w-full md:w-1/3 mb-12  pb-3 sm:pb-0">
 					<a href="https://www.tailwindtoolbox.com/skeleton" class="no-underline hover:no-underline">
@@ -128,7 +139,9 @@
 					</a>
 				</div>
 				
-			
+
+		
+				
 			</div>
 			
 				<div class="p-3 sm:p-6 lg:p-8 text-brand leading-normal text-center text-base md:text-xl">

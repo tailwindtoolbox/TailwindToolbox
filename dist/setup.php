@@ -11,8 +11,6 @@
 	
 	<?php include 'includes/analytics.php';?>
 
-	<?php include 'includes/ads.php';?>
-
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
@@ -29,7 +27,11 @@
 	<div class="container mx-auto mb-16" id="post-content">
 		<div class="w-full -mt-12 md:-mt-32 px-0">
 			<div class="flex flex-wrap bg-white rounded overflow-hidden shadow mx-1">
-				<div class="w-full lg:w-1/5"></div>
+				<div class="w-full lg:w-1/5">
+					<div class="p-6">
+				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+				</div>
+				</div>
 				<div class="w-full lg:w-3/5 p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
 							
 					<p class="text-xl md:text-2xl my-6 font-bold">It's pretty straight forward to <a href="https://tailwindcss.com/docs/installation" target="_blank" rel="noopener">setup Tailwind</a> and give it a test spin using the CDN version.  However, as mentioned on the Tailwind site, you need to setup Tailwind using npm in order to start customising Tailwind.</p>
@@ -65,17 +67,9 @@
 					<p class="bg-teal-lightest text-sm pb-2 mt-4 text-center">Huge thanks to <a href="https://flaviocopes.com/tailwind-setup/" target="_blank" rel="noopener">https://flaviocopes.com/tailwind-setup/</a> for the excellent setup guide which helped create the starter template.</p>
 
 					<div class="py-4">
-					<p class="text-xs text-grey">Advert</p>
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<ins class="adsbygoogle"
-							 style="display:block; text-align:center;"
-							 data-ad-layout="in-article"
-							 data-ad-format="fluid"
-							 data-ad-client="ca-pub-5079130292699358"
-							 data-ad-slot="8150810508"></ins>
-						<script>
-							 (adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+
+						
+						
 					</div>
 					
 					
@@ -291,20 +285,7 @@
 					
 				</div>
 				<div class="w-full lg:w-1/5">
-					<div class="p-12">
-					<p class="text-xs text-grey">Advert</p>
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- TailwindToolbox Setup -->
-						<ins class="adsbygoogle"
-							style="display:block"
-							data-ad-client="ca-pub-5079130292699358"
-							data-ad-slot="9864994618"
-							data-ad-format="auto"
-							data-full-width-responsive="true"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
+					
 				</div>
 			</div>
 		</div>

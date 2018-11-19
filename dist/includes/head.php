@@ -8,3 +8,4 @@
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#3b7977">
 	<link href="css/tailwind.min.css" rel="stylesheet">
+	<link href="css/carbon.min.css" rel="stylesheet">

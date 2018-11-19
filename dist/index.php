@@ -88,6 +88,11 @@
 			</div>
 		
 		</div>
+		
+		<div class="w-full flex content-center p-6">
+		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+		</div>
+		
 	</div>
 
 	<?php include 'includes/footer-home.php';?>
