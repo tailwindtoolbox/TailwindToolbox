@@ -1,5 +1,5 @@
 <nav class="bg-brand p-2 mt-0 fixed w-full z-10 pin-t">
-        <div class="container mx-auto flex flex-wrap items-center">
+        <div class="container mx-auto flex flex-wrap items-center h-auto lg:h-16">
 		    <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold pl-3">
 				<a class="text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
 					<svg class="fill-current text-white h-6 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 3H2v14h5V3zm2 0v14h9V3H9zM0 3c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm3 1h3v2H3V4zm0 3h3v2H3V7zm0 3h3v2H3v-2z"></path></svg> 
