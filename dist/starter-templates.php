@@ -33,9 +33,7 @@
 						
 						
 						<div class="w-full lg:w-1/5">
-							<div class="p-6">
-								<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-							</div>
+
 						</div>
 						<div class="w-full lg:w-3/5">
 							<p class="text-xl md:text-2xl my-6 font-bold">These templates are all free to download and are built with Tailwind CSS. They are all open source and feel free to use them for any purpose, even commercially!</p>
