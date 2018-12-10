@@ -24,7 +24,7 @@
 		}
 	</script>
 
-	<?php //include 'includes/analytics.php';?>
+	<?php include 'includes/analytics.php';?>
 	
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito h-full" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
