@@ -57,6 +57,21 @@
 	<div id="templates" class="mt-32"></div>
 	<?php include 'includes/templates.php';?>
 
+	<!-- Refactoring UI -->
+	<div class="container mx-auto pb-12">
+			
+		<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
+			<div class="p-6">
+				<h1 class="text-brand pt-12 text-center">Refactoring UI: The Book</h1>
+
+				<p class="p-6 nunito text-grey-dark"><a href="https://twitter.com/adamwatham" target="_blank" rel="noopener">Adam Watham</a> and <a href="https://twitter.com/steveschoger" target="_blank" rel="noopener">Steve Schoger</a> have written a fantastic book where they have put down everything they know about design and have bundled it into <a href="https://refactoringui.com/book/?ref=tailwindtoolbox" target="_blank" rel="noopener">one comprehensive package</a>, including a book, screencasts, a component gallery, custom designed assets, and more.</p>
+				<div class="text-center p-6 nunito"><a href="https://refactoringui.com/book/?ref=tailwindtoolbox" target="_blank" rel="noopener"><img src="refactoringui.png" alt="Buy Refactoring UI!"></a></div>
+			</div>
+		</div>
+		
+	</div>
+
+
 
 	<div class="container mx-auto pb-12">
 			

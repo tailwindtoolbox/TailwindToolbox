@@ -1,9 +1,4 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126312201-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-126312201-1');
-	</script>
+<!--
+	<script async src="https://cdn.simpleanalytics.io/hello.js"></script> 
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>	
+-->

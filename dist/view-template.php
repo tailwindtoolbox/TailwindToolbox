@@ -20,9 +20,7 @@
 	<?php include 'includes/head.php';?>
 
 	<?php include 'includes/analytics.php';?>
-
-	<?php include 'includes/ads.php';?>
-		
+	
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
@@ -48,21 +46,25 @@
     </div>
 
 	<!--header-->
-	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
+	<div class="h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Starter Template - Fixed Header</span>
+			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-32 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Starter Template - Fixed Header</span>
 		</div>
 	</div>
 
 
 	<div class="container mx-auto mb-8" id="post-content">
-		<div class="w-full -mt-12 md:-mt-32 px-0">
+		<div class="w-full -mt-12 xl:-mt-32 px-0">
 			<div class="bg-white rounded overflow-hidden shadow mx-1">
 				<div class="p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
 
-		
+					<div class="text-center lg:pt-6">
+						<button class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" onclick="goMobile()">Mobile</button>
+						<button class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" onclick="goTablet()">Tablet</button>
+						<button class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" onclick="goDesktop()">Desktop</button>
+					</div>
 					
-					<div class="rounded-b overflow-hidden w-full mt-12 mb-4 shadow-lg">
+					<div class="rounded-b overflow-hidden mx-auto w-full mt-12 mb-4 shadow-lg" id="device">
 						<div class="window-nav">
 							<div class="text-right">
 								<span class="window-nav-dot"></span> <span class="window-nav-dot"></span> <span class="window-nav-dot"></span>
@@ -75,37 +77,34 @@
 
 					<p class="my-16 p-6 w-full container mx-auto bg-teal-lightest text-center text-grey-dark">Find more templates at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.tailwindtoolbox.com/starter-templates" target="_blank" rel="noopener">www.TailwindToolbox.com/starter-templates</a></p>	
 					
-					<div id="disqus_thread" class="max-w-lg mx-auto"></div>
-					<script>
-
-					var disqus_config = function () {
-						this.page.url = '<?= $pageURL;?>';
-						this.page.identifier = '<?= $pageID;?>'; 
-					};
-
-					(function() { // DON'T EDIT BELOW THIS LINE
-						var d = document, s = d.createElement('script');
-						s.src = 'https://tailwindtoolbox.disqus.com/embed.js';
-						s.setAttribute('data-timestamp', +new Date());
-						(d.head || d.body).appendChild(s);
-						})();
-					</script>
-					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
 				</div>
 			</div>
 		</div>
 	</div>
 
-
-
 	<?php include 'includes/footer-templates.php';?>
-
 
 <script>
 	function calcIframeHeight(offset) {
 		var the_height = document.getElementById('iframecontent').contentWindow.document.body.scrollHeight;
 		document.getElementById('iframecontent').height = the_height + offset;
+	}
+
+	function goMobile() {
+		document.getElementById("device").classList.add("w-1/3");
+		document.getElementById("device").classList.remove("w-full");
+		document.getElementById("device").classList.remove("w-2/3");
+	}
+
+	function goTablet() {
+		document.getElementById("device").classList.add("w-2/3");
+		document.getElementById("device").classList.remove("w-full");
+		document.getElementById("device").classList.remove("w-1/3");
+	}
+	function goDesktop() {
+		document.getElementById("device").classList.add("w-full");
+		document.getElementById("device").classList.remove("w-1/3");
+		document.getElementById("device").classList.remove("w-2/3");
 	}
 
 </script>
