@@ -23,5 +23,5 @@
 	<meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png">
 
 	<!-- Stylesheets -->
-	<link href="css/tailwind.css" rel="stylesheet">
+	<link href="css/tailwind.min.css" rel="stylesheet">
 	<link href="css/carbon.min.css" rel="stylesheet">
