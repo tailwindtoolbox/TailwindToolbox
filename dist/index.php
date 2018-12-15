@@ -62,7 +62,8 @@
 			
 		<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
 			<div class="p-6">
-				<h1 class="text-brand pt-12 text-center">Refactoring UI: The Book</h1>
+				<h1 class="text-brand text-center pt-12"><span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Refactoring UI: The Book</span></span></h1>
+
 
 				<p class="p-6 nunito text-grey-dark"><a href="https://twitter.com/adamwatham" target="_blank" rel="noopener">Adam Watham</a> and <a href="https://twitter.com/steveschoger" target="_blank" rel="noopener">Steve Schoger</a> have written a fantastic book where they have put down everything they know about design and have bundled it into <a href="https://refactoringui.com/book/?ref=tailwindtoolbox" target="_blank" rel="noopener">one comprehensive package</a>, including a book, screencasts, a component gallery, custom designed assets, and more.</p>
 				<div class="text-center p-6 nunito"><a href="https://refactoringui.com/book/?ref=tailwindtoolbox" target="_blank" rel="noopener"><img src="refactoringui.png" alt="Buy Refactoring UI!"></a></div>
@@ -78,6 +79,7 @@
 			<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
+					<p class="text-grey-dark">15 Dec - Added more Javascript templates</p>
 					<p class="text-grey-dark">10 Dec - New look home page!</p>
 					<p class="text-grey-dark">19 Nov - Added <a href="https://www.tailwindtoolbox.com/starter-templates#JS">Javascript starter templates</a> and Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.0" target="_blank"  rel="noopener">0.7.2</a></p>
 					<p class="text-grey-dark">31 Oct - Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.0" target="_blank"  rel="noopener">0.7.0</a></p>

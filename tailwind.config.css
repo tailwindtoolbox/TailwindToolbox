@@ -85,8 +85,20 @@
   .btn:hover {
 	  @apply bg-teal-dark text-white no-underline shadow;
   }
-  
+  .template-btn {
+    @apply block w-full bg-brand text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b;
+  }
+  .template-btn:hover {
+    @apply bg-teal no-underline;
+  }
 
+  /*Card*/
+  .card {
+    @apply bg-white rounded overflow-hidden shadow mx-2;
+  }
+  .card:hover {
+    @apply shadow-lg;
+  }
   
 /**
   * This injects all of Tailwind's utility classes, generated based on your
