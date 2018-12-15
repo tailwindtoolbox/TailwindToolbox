@@ -1,5 +1,5 @@
 <footer class="w-full bg-grey-darkest text-center">
-		<p class="pt-4 px-5 text-white text-sm"><a class="footerlink" href="http://www.tailwindcss.com" target="_blank" rel="noopener">Tailwind CSS</a> is a utility-first CSS framework for rapid UI development | <span class="clearfix md:float-none">Illustrations - <a class="footerlink" href="https://undraw.co" target="_blank" rel="noopener">undraw.co</a></span></p>
+		<p class="pt-4 px-5 text-white text-sm"><a class="footerlink" href="http://www.tailwindcss.com" target="_blank" rel="noopener">Tailwind CSS</a> is a utility-first CSS framework for rapid UI development</p>
 		
 		<p class="py-3 px-5 text-white text-sm"><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Tailwind Tools</a> is a project created by and maintained by <a class="footerlink" href="https://astrava.solutons">Astrava.Solutions</a></p>
 		
@@ -12,6 +12,19 @@
 	</footer>
 
 <script>
+
+    //Modifed version of : https://codepen.io/derekjp/pen/bpoRVK
+    window.addEventListener('scroll', function() {
+        var scroll = window.pageYOffset;
+        document.querySelector(".diagonal-bg svg line").setAttribute("stroke-width",  ((30 + scroll/10)  + "%"));
+    })
+
+    function showMeTheTemplates() {
+        var elmnt = document.getElementById("templates");
+        elmnt.scrollIntoView();
+    }
+
+
     (function(d, h, m){
         var js, fjs = d.getElementsByTagName(h)[0];
         if (d.getElementById(m)){return;}

@@ -1,0 +1,53 @@
+[
+    {
+        "url":"https:\/\/github.com/tailwindcss/webpack-starter",
+        "url_image":"templates/tailwind-webpack-starter.png",
+        "title":"Webpack Starter Template",
+        "description":"Simple Webpack setup for using <br>Tailwind CSS",
+        "url_author":"https:\/\/github.com/tailwindcss",
+        "author":"Tailwind CSS \/ @tailwindcss"
+     },
+    {
+       "url":"https:\/\/github.com/sgraewe/nuxt-tailwind",
+       "url_image":"templates/nuxt-tailwind.png",
+       "title":"NUXT Tailwind",
+       "description":"A Nuxt.js starter project template using Tailwind CSS",
+       "url_author":"https:\/\/github.com/sgraewe",
+       "author":"Taylor Bryant \/ @taylorbryant"
+    },
+    {
+        "url":"https:\/\/github.com/taylorbryant/gatsby-starter-tailwind",
+        "url_image":"templates/gatsby-tailwind.png",
+        "title":"Gatsby Starter Template",
+        "description":"A Gatsby.js starter project template using Tailwind CSS",
+        "url_author":"https:\/\/github.com/taylorbryant",
+        "author":"Taylor Bryant \/ @taylorbryant"
+     },
+     {
+        "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
+        "url_image":"templates/jekyll-tailwind.png",
+        "title":"Jekyll Starter Template",
+        "description":"A Jekyll starter project template using Tailwind CSS",
+        "url_author":"https:\/\/github.com/taylorbryant",
+        "author":"Taylor Bryant \/ @taylorbryant"
+     },
+     {
+        "url":"https:\/\/github.com/Landish/react-tailwindcss-demo",
+        "url_image":"templates/react-tailwind.png",
+        "title":"React and Tailwind CSS",
+        "description":"A React starter project template using Tailwind CSS",
+        "url_author":"https:\/\/github.com/Landish",
+        "author":"Lado Lomidze \/ @Landish"
+     },
+     {
+        "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
+        "url_image":"templates/jigsaw-tailwind.png",
+        "title":"Jigsaw + Tailwind CSS Starter Kit",
+        "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
+        "url_author":"https:\/\/github.com/hellocosmin",
+        "author":"Cosmin Popovici \/ @hellocosmin"
+     }
+ ]
+
+
+
