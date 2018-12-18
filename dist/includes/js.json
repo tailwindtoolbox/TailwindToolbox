@@ -24,28 +24,12 @@
         "author":"Taylor Bryant \/ @taylorbryant"
      },
      {
-        "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
-        "url_image":"templates/jekyll-tailwind.png",
-        "title":"Jekyll Starter Template",
-        "description":"A Jekyll starter project template using Tailwind CSS",
-        "url_author":"https:\/\/github.com/taylorbryant",
-        "author":"Taylor Bryant \/ @taylorbryant"
-     },
-     {
         "url":"https:\/\/github.com/Landish/react-tailwindcss-demo",
         "url_image":"templates/react-tailwind.png",
         "title":"React and Tailwind CSS",
         "description":"A React starter project template using Tailwind CSS",
         "url_author":"https:\/\/github.com/Landish",
         "author":"Lado Lomidze \/ @Landish"
-     },
-     {
-        "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
-        "url_image":"templates/jigsaw-tailwind.png",
-        "title":"Jigsaw + Tailwind CSS Starter Kit",
-        "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
-        "url_author":"https:\/\/github.com/hellocosmin",
-        "author":"Cosmin Popovici \/ @hellocosmin"
      }
  ]
 

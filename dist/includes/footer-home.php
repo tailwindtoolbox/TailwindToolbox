@@ -19,8 +19,8 @@
         document.querySelector(".diagonal-bg svg line").setAttribute("stroke-width",  ((30 + scroll/10)  + "%"));
     })
 
-    function showMeTheTemplates() {
-        var elmnt = document.getElementById("templates");
+    function showMeThe(thing) {
+        var elmnt = document.getElementById(thing);
         elmnt.scrollIntoView();
     }
 

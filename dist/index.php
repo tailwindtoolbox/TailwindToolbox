@@ -40,7 +40,8 @@
 			</div>
 
 			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source HTML and Javascript framework starter templates to help you get started building with Tailwind CSS</p>
-			<button onclick="showMeTheTemplates();" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show me the templates!!</button>
+			<button onclick="showMeThe('templates');" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show me the templates!!</button>
+			<p class="pt-6 font-bold">Or jump directly: <span onclick="showMeThe('templates');" class="text-brand hover:text-teal underline" style="cursor:pointer;">HTML</span> | <span onclick="showMeThe('JS');" class="text-brand hover:text-teal underline" style="cursor:pointer;">Javascript Framework</span> | <span onclick="showMeThe('CMS');" class="text-brand hover:text-teal underline" style="cursor:pointer;">CMS</span></p>
 		</div>
 		<!--Right Col-->
 		<div class="w-full lg:w-1/2 lg:py-6 text-center">
