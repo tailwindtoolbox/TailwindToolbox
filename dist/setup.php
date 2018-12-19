@@ -167,6 +167,32 @@
 						</div>
 					</div>
 					
+					<p>Refresh the Tailwind.js file</p>
+
+					<p><span class="code">npm run del:js && npm run create:js</span></p>
+
+					<div class="rounded-b overflow-hidden max-w-sm mt-4 mb-4">
+						<div class="window-nav">
+							<div class="text-right">
+								<span class="window-nav-dot"></span> <span class="window-nav-dot"></span> <span class="window-nav-dot"></span>
+							</div> 
+						</div> 
+						<div class="window-bg">
+							<p class="text-grey">&gt;>npm run del:js && npm run create:js</p>
+
+							<p>> TailwindStarterTemplate@1.0.0 del:js C:\project-name<br>
+							> rimraf tailwind.config.js<br><br></p>
+
+							<p>> TailwindStarterTemplate@1.0.0 create:js C:\project-name<br>
+							> tailwind init tailwind.config.js<br><br><br>
+							
+							tailwindcss <span class="text-teal">0.7.3</span><br><br>
+
+							✅ Created Tailwind config file: <span class="text-purple">tailwind.config.js</span><br></p>
+						</div>
+					</div>	
+
+
 					<p>Create the initial css file</p>
 
 					<p><span class="code">npm run dev:css</span></p>
@@ -180,9 +206,15 @@
 						<div class="window-bg">
 							<p class="text-grey">&gt;>npm run dev:css</p>
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
-							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br>
-							Building Tailwind!<br>
-							Finished building Tailwind!</p>
+							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
+							
+							tailwindcss <span class="text-teal">0.7.3</span><br><br>
+
+							🚀 Building... <span class="text-teal">tailwind.config.css</span><br><br>
+
+							✅ Finished in <span class="text-purple">890 ms</span><br>
+							📦 Size: <span class="text-purple">395.04KB</span><br>
+							💾 Saved to <span class="text-teal">dist/css/tailwind.css</span><br></p>
 						</div>
 					</div>	
 
@@ -257,9 +289,18 @@
 						<div class="window-bg">
 							<p class="text-grey">&gt;>npm run dev:css</p>
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
-							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br>
-							Building Tailwind!<br>
-							Finished building Tailwind!</p>
+							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
+							
+							tailwindcss <span class="text-teal">0.7.3</span><br><br>
+
+							🚀 Building... <span class="text-teal">tailwind.config.css</span><br><br>
+
+							✅ Finished in <span class="text-purple">890 ms</span><br>
+							📦 Size: <span class="text-purple">395.04KB</span><br>
+							💾 Saved to <span class="text-teal">dist/css/tailwind.css</span><br></p>
+
+
+
 						</div>
 					</div>				
 					
