@@ -157,9 +157,11 @@
 						<div class="window-bg">
 							<p class="text-grey">&gt;>npm update</p>
 							<p>(some npm messages)<br>
+							+ cssnano@4.1.7<br>
 							+ postcss-cli@6.0.1<br>
-							+ tailwindcss@0.7.0<br>
+							+ tailwindcss@0.7.3<br>
 							+ autoprefixer@9.3.1<br>
+							+ @fullhuman/postcss-purgecss@1.1.0<br>
 							added 472 packages from 355 contributors and audited 4131 packages in 122.868s<br>
 							found 0 vulnerabilities</p>
 						</div>
