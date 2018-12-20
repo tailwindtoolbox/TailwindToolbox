@@ -8,6 +8,14 @@
         "source":"https://github.com/tailwindtoolbox/Admin-Template"
      },
      {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
+        "url_image":"templates/hero-product.png",
+        "title":"Hero Product",
+        "description":"Hero section - two columns for large screens and two rows for small screens",
+        "download":"https:\/\/github.com/tailwindtoolbox/AHero-Product/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Hero-Product"
+     },
+     {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
         "url_image":"templates/fixed-header.png",
         "title":"Fixed Header",
@@ -16,12 +24,12 @@
         "source":"https://github.com/tailwindtoolbox/Fixed-Header"
      },
      {
-        "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
-        "url_image":"templates/hero-product.png",
-        "title":"Hero Product",
-        "description":"Hero section - two columns for large screens and two rows for small screens",
-        "download":"https:\/\/github.com/tailwindtoolbox/AHero-Product/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Hero-Product"
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/responsive-header",
+        "url_image":"templates/responsive-header.png",
+        "title":"Responsive Header",
+        "description":"Basic template with container for content and toggle buttom responsive menu",
+        "download":"https:\/\/github.com/tailwindtoolbox/Responsive-Header/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Responsive-Header"
      }
  ]
 
