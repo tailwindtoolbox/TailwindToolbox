@@ -47,7 +47,7 @@
 
 
 	<!--Container-->
-	<div class="container shadow-lg mx-auto flex bg-white mt-24 md:mt-16">
+	<div class="container flex flex-wrap shadow-lg mx-auto flex bg-white mt-24 md:mt-16">
 		<div class="w-full lg:w-4/5 p-6">
 			<p class="font-bold text-center text-grey-darkest text-2xl md:text-4xl px-3 mb-5 sm:mb-16">Tailwind Starter Templates - Fixed Header</p>
 			<p class="py-4"><i class="em em-wave"></i> <i class="em em-world_map"></i></p>
