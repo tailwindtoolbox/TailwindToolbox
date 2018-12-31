@@ -77,9 +77,9 @@
 				<span class="flex-1 py-1 pl-3 m-1">Container with 1 column</span>
 			</div>
 			
-			<p class="text-center no-underline hover:no-underline mt-8 mb-8"><a href="https://github.com/tailwindtoolbox/Fixed-Header/archive/master.zip" target="_blank" rel="noopener"><button class="w-full sm:w-auto bg-teal hover:bg-teal-dark text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg"><svg class="fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download Template</button></a></p>
+			<p class="text-center no-underline hover:no-underline mt-8 mb-8"><a href="https://github.com/tailwindtoolbox/Responsive-Header/archive/master.zip" target="_blank" rel="noopener"><button class="w-full sm:w-auto bg-teal hover:bg-teal-dark text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg"><svg class="fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download Template</button></a></p>
 			
-			<p class="text-center no-underline hover:no-underline"><a href="https://github.com/tailwindtoolbox/Fixed-Header" target="_blank" rel="noopener"><button class="w-full sm:w-auto bg-grey-lightest hover:bg-black text-grey-darkest hover:text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">View on GitHub</button></a></p>
+			<p class="text-center no-underline hover:no-underline"><a href="https://github.com/tailwindtoolbox/Responsive-Header" target="_blank" rel="noopener"><button class="w-full sm:w-auto bg-grey-lightest hover:bg-black text-grey-darkest hover:text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">View on GitHub</button></a></p>
 			
 			<p class="my-16 p-6 w-full container mx-auto bg-teal-lightest text-center text-grey-dark">Find more templates at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.tailwindtoolbox.com/starter-templates" target="_blank" rel="noopener">www.TailwindToolbox.com/starter-templates</a></p>	
 		
