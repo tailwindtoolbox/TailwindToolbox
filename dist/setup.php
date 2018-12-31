@@ -262,7 +262,7 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;@apply bg-brand text-white text-sm border-none rounded font-bold p-3 mt-2;<br>
 					}<br>
 					.btn:hover {<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;@apply hover:bg-teal-dark<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;@apply bg-teal-dark<br>
 					}</span><br>
 					...
 					</div></p>
