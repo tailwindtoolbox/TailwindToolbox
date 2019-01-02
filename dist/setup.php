@@ -270,7 +270,7 @@
 					<p>This will allow you to setup a button using:<br>
 					
 					<span class="code text-sm">&lt;a href="#" class="btn"&gt;Click Me!&lt;/a&gt;</span> instead of<br>
-					<span class="code text-sm">&lt;a href="#" class="bg-brand text-white text-sm border-none rounded font-bold p-3 mt-2"&gt;Click Me!&lt;/a&gt;</span>
+					<span class="code text-sm">&lt;a href="#" class="bg-brand text-white text-sm border-none rounded font-bold p-3 mt-2 hover:bg-teal-dark"&gt;Click Me!&lt;/a&gt;</span>
 					
 			
 					<h3 class="text-base md:text-2xl pt-12 pb-3">Updating tailwind.css for your project</h3>
