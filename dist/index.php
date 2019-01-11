@@ -80,9 +80,7 @@
 			<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
-					<p class="text-grey-dark">19 Dec - Updated the <a href="https://github.com/tailwindtoolbox/StarterTemplate/" target="_blank" rel="noopener">starter template</a> for Tailwind CSS version <a href="https://github.com/tailwindcss/tailwindcss/releases/tag/v0.7.3" target="_blank"  rel="noopener">0.7.3</a></p>
-					<p class="text-grey-dark">15 Dec - Added more Javascript templates</p>
-					<p class="text-grey-dark">10 Dec - New look home page!</p>
+					<p class="text-grey-dark">11 Jan - Added templates by <a href="https://www.digizu.co.uk/?ref=tailwindtoolbox.com">Ross McNeil</a></p>
 				</div>
 			</div>
 		

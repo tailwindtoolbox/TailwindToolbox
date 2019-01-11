@@ -39,7 +39,7 @@
 							<p class="text-xl md:text-2xl my-6 font-bold">These templates are all free to download and are built with Tailwind CSS. They are all open source and feel free to use them for any purpose, even commercially!</p>
 							<p><a href="#HTML">HTML Starter Templates</a></p>
 							<p><a href="#JS">Javascript Framework Starter Templates</a></p>
-
+							<p><a href="#CMS">CMS Platform Starter Templates</a></p>
 						</div>
 						
 						
