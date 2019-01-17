@@ -12,8 +12,16 @@
         "url_image":"templates/hero-product.png",
         "title":"Hero Product",
         "description":"Hero section - two columns for large screens and two rows for small screens",
-        "download":"https:\/\/github.com/tailwindtoolbox/AHero-Product/archive/master.zip",
+        "download":"https:\/\/github.com/tailwindtoolbox/Hero-Product/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Hero-Product"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/sidebar-bottom",
+        "url_image":"templates/sidebar-bottom.png",
+        "title":"Sidebar Bottom",
+        "description":"Basic template with sidebar which becomes fixed bottom menu",
+        "download":"https:\/\/github.com/tailwindtoolbox/Sidebar-Bottom/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Sidebar-Bottom"
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
@@ -32,6 +40,8 @@
         "source":"https://github.com/tailwindtoolbox/Responsive-Header"
      }
  ]
+
+
 
 
 
