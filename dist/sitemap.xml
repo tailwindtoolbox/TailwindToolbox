@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.tailwindtoolbox.com</loc>
+    <loc>https://www.tailwindtoolbox.com/</loc>
   </url>
   <url>
     <loc>https://www.tailwindtoolbox.com/setup</loc>
@@ -10,15 +10,21 @@
     <loc>https://www.tailwindtoolbox.com/starter-templates</loc>
   </url>
   <url>
-    <loc>https://www.tailwindtoolbox.com/templates/admin-template</loc>
+    <loc>https://www.tailwindtoolbox.com/skeleton</loc>
   </url>
   <url>
-    <loc>https://www.tailwindtoolbox.com/templates/fixed-header</loc>
+    <loc>https://www.tailwindtoolbox.com/templates/admin-template</loc>
   </url>
   <url>
     <loc>https://www.tailwindtoolbox.com/templates/hero-product</loc>
   </url>
   <url>
-    <loc>https://www.tailwindtoolbox.com/skeleton</loc>
+    <loc>https://www.tailwindtoolbox.com/templates/sidebar-bottom</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/fixed-header</loc>
+  </url>
+  <url>
+    <loc>https://www.tailwindtoolbox.com/templates/responsive-header</loc>
   </url>
 </urlset>
