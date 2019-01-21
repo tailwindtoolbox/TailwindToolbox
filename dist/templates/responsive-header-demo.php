@@ -9,9 +9,7 @@
 		<meta name="description" content="Free open source Tailwind CSS starter template with a toggle button responsive menu">
 		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,responsive menu">
 		<?php include '../includes/head-templates.php';?>
-	
-		<?php include '../includes/analytics.php';?>
-			
+
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
 		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> <!--Totally optional :) -->
 		
@@ -51,9 +49,10 @@
 	</nav>
 
 	<!--Container-->
-	<div class="container flex flex-wrap shadow-lg mx-auto bg-white mt-24">
-		<!--filler-->
-		<div style="height:500px;">		
+	<div class="container mt-24">
+		<!--Filler-->
+		<div style="height:500px;">
+		<!--End Filler-->	
 	</div>
 
 	<script>
