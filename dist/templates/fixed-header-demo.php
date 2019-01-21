@@ -9,8 +9,6 @@
 		<meta name="description" content="Free open source Tailwind CSS starter template with a fixed nav header">
 		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,fixed header">
 		<?php include '../includes/head-templates.php';?>
-	
-		<?php include '../includes/analytics.php';?>
 			
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
 		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> <!--Totally optional :) -->

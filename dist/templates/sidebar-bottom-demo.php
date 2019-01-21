@@ -9,10 +9,6 @@
 		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,hero, product">
 		<?php include '../includes/head-templates.php';?>
 	
-		<?php include '../includes/analytics.php';?>
-
-		<?php include '../includes/ads.php';?>
-		
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
