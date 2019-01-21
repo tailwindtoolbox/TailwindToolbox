@@ -1,28 +1,36 @@
 [
-     {
-        "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
-        "url_image":"templates/jekyll-tailwind.png",
-        "title":"Jekyll Starter Template",
-        "description":"A Jekyll starter project template using Tailwind CSS",
-        "url_author":"https:\/\/github.com/taylorbryant",
-        "author":"Taylor Bryant \/ @taylorbryant"
-     },
-     {
-        "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
-        "url_image":"templates/jigsaw-tailwind.png",
-        "title":"Jigsaw + Tailwind CSS Starter Kit",
-        "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
-        "url_author":"https:\/\/github.com/hellocosmin",
-        "author":"Cosmin Popovici \/ @hellocosmin"
-     },
-     {
-        "url":"https:\/\/github.com/statamic/preset-tailwindcss",
-        "url_image":"templates/statamic-tailwind.png",
-        "title":"Statamic + Tailwind CSS Preset",
-        "description":"Statamic 3.0.0+ front-end scaffolding preset for Tailwind CSS",
-        "url_author":"https:\/\/github.com/statamic",
-        "author":"Statamic \/ @statamic"
-     }
+   {
+      "url":"https:\/\/github.com/thelilmercoder/tailwind-css-wordpress-starter-theme",
+      "url_image":"templates/wordpress-tailwind.png",
+      "title":"Wordpress Starter Template",
+      "description":"A Wordpress starter project template using Tailwind CSS",
+      "url_author":"https:\/\/github.com/thelilmercoder",
+      "author":"Rose Sherwood \/ @thelilmercoder"
+   },
+   {
+      "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
+      "url_image":"templates/jekyll-tailwind.png",
+      "title":"Jekyll Starter Template",
+      "description":"A Jekyll starter project template using Tailwind CSS",
+      "url_author":"https:\/\/github.com/taylorbryant",
+      "author":"Taylor Bryant \/ @taylorbryant"
+   },
+   {
+      "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
+      "url_image":"templates/jigsaw-tailwind.png",
+      "title":"Jigsaw + Tailwind CSS Starter Kit",
+      "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
+      "url_author":"https:\/\/github.com/hellocosmin",
+      "author":"Cosmin Popovici \/ @hellocosmin"
+   },
+   {
+      "url":"https:\/\/github.com/statamic/preset-tailwindcss",
+      "url_image":"templates/statamic-tailwind.png",
+      "title":"Statamic + Tailwind CSS Preset",
+      "description":"Statamic 3.0.0+ front-end scaffolding preset for Tailwind CSS",
+      "url_author":"https:\/\/github.com/statamic",
+      "author":"Statamic \/ @statamic"
+   }
  ]
 
 

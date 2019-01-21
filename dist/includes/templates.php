@@ -209,19 +209,6 @@
 									
 					?>
 
-	                <!--Makerads-->
-					<div class="w-full md:w-1/3 mb-12 h-auto pb-3 sm:pb-0">
-						<div class="bg-white rounded overflow-hidden shadow mx-5 sm:mx-2 hover:shadow-lg h-full">
-							<div class="p-5 text-center h-full">
-							<p class="py-4 text-brand font-bold">Advertisment</p>
-							<iframe
-								style="border:0;width:320px;height:144px;"
-								src="https://makerads.xyz/ad"
-								></iframe>
-							</div>
-						</div>
-					</div>
-
 				</div>
 
 			</div>
