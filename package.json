@@ -9,15 +9,15 @@
     },
     "main": "postcss.config.js",
     "dependencies": {
-        "@glidejs/glide": "^3.2.3",
-        "autoprefixer": "^9.3.1",
-        "postcss-cli": "^6.0.1",
-        "tailwindcss": "^0.7.2",
+        "@glidejs/glide": "^3.2.6",
+        "autoprefixer": "^9.4.7",
+        "postcss-cli": "^6.1.1",
+        "tailwindcss": "^0.7.4",
         "watch": "^1.0.2"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^1.1.0",
-        "cssnano": "^4.1.7"
+        "cssnano": "^4.1.9"
     },
     "scripts": {
         "dev:js": "./node_modules/.bin/tailwind init tailwind.config.js",
