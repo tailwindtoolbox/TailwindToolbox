@@ -15,7 +15,7 @@
 	$pageGIT 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE);
 	$pageDL 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE).'/archive/master.zip';
 
-	$pageOFFSET = '-100';
+	$pageOFFSET = '-3500';
 	$pageINTRO	= 'This starter template contains:<br>
 				   <p>*Clone of the <a href="https://github.com/TryGhost/Casper">Casper</a> theme for Ghost</p>
 				   <p>*Sliding in Nav bar with page scrolling progress</p>';
