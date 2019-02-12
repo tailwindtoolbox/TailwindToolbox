@@ -8,6 +8,14 @@
         "source":"https://github.com/tailwindtoolbox/Admin-Template"
      },
      {
+      "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
+      "url_image":"templates/ghostwind.png",
+      "title":"Ghostwind",
+      "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+      "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+      "source":"https://github.com/tailwindtoolbox/Ghostwind"
+     },
+     {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
         "url_image":"templates/hero-product.png",
         "title":"Hero Product",

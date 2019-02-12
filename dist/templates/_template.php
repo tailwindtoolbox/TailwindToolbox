@@ -134,6 +134,7 @@
 						<button class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" onclick="goMobile()">Mobile</button>
 						<button class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" onclick="goTablet()">Tablet</button>
 						<button class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" onclick="goDesktop()">Desktop</button>
+						<a href="<?= $pageSRC;?>" class="bg-white text-brand border border-brand hover:bg-brand hover:text-white font-extrabold -mt-2 py-3 px-5 rounded" target="_blank" rel="noopener">New Tab/Window</a>
 					</div>
 					
 					<div class="rounded-b overflow-hidden mx-auto w-full mt-4 lg:mt-12 mb-4 shadow-lg" id="device">
