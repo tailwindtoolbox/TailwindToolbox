@@ -145,6 +145,32 @@
 								</a>
 							</div>
 
+							<!--Refactor CSS-->
+							<div class="w-full md:w-1/3 mb-12 pb-3 sm:pb-0">
+								<a href="https://github.com/urbantrout/refactor-css" class="no-underline hover:no-underline">
+									<div class="card">
+										<div class="p-5">
+											<div class="flex justify-between content-center items-center">
+												<span class="text-grey text-base">CODE</span>
+												<svg role="img" class="h-6 fill-current text-brand" viewBox="0 0 20 20"><path d="M0.707106781,10.7071068 L-2.00988464e-13,10 L5.48528137,4.51471863 L6.89949494,5.92893219 L2.82842712,10 L6.89949494,14.0710678 L5.48528137,15.4852814 L0.707106781,10.7071068 Z M19.2928932,10.7071068 L20,10 L14.5147186,4.51471863 L13.1005051,5.92893219 L17.1715729,10 L13.1005051,14.0710678 L14.5147186,15.4852814 L19.2928932,10.7071068 Z"/></svg>
+											</div>
+
+											<p class="font-bold text-xl -mt-2">
+												Refactor CSS
+											</p>
+											
+											<p class="text-grey-darker text-base mb-2">
+												Helps you identify reoccurring CSS class name combinations in your markup.
+											</p>
+											<p class="text-grey-darker text-xs mb-5"><a class="no-underline" href="https://github.com/urbantrout" target="_blank" rel="noopener"><span><svg class="h-3 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> Harald Atteneder / @urbantrout</a></p>
+
+											<a href="https://github.com/urbantrout/refactor-css" target="_blank" rel="noopener"><button class="template-btn"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z"/></svg> Visit</button></a>
+													
+										</div>
+									</div>
+								</a>
+							</div>
+
 							<!--Carbon Ad-->
 							<div class="w-full md:w-1/3 mb-12 pb-3 sm:pb-0">
 								<div class="card">
@@ -154,9 +180,6 @@
 									</div>
 								</div>
 							</div>
-
-
-
 
 
 						</div>
