@@ -16,6 +16,14 @@
       "source":"https://github.com/tailwindtoolbox/Ghostwind"
      },
      {
+      "url":"https:\/\/www.tailwindtoolbox.com/templates/minimal-blog",
+      "url_image":"templates/minimal-blog.png",
+      "title":"Minimal Blog",
+      "description":"Minimal monochrome blog post template, with a splash of colour",
+      "download":"https:\/\/github.com/tailwindtoolbox/Minimal-Blog/archive/master.zip",
+      "source":"https://github.com/tailwindtoolbox/Minimal-Blog"
+     },
+     {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
         "url_image":"templates/hero-product.png",
         "title":"Hero Product",
