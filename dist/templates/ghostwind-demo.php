@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tailwind Starter Template - Ghostwind CSS : Tailwind Toolbox</title>
 		<meta name="author" content="name">
-    <meta name="description" content="description here">
-		<meta name="keywords" content="keywords,here">
+		<meta name="description" content="Free open source Tailwind CSS starter Ghost blog template (Casper theme)">
+		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,blog template, blog layout, ghost, casper, theme">
 		<?php include '../includes/head-templates.php';?>
 		
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
