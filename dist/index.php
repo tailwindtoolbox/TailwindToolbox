@@ -64,6 +64,7 @@
 			<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
+					<p class="text-grey-dark">21 Feb - Added new template - <a href="https://www.tailwindtoolbox.com/templates/ghostwind-home">Ghostwind Home page</a> (Clone of home page from the Casper theme for Ghost)</p>
 					<p class="text-grey-dark">19 Feb - Added new template - <a href="https://www.tailwindtoolbox.com/templates/minimal-blog">Minimal Blog</a> (minimalistic monochrome blog layout)</p>
 					<p class="text-grey-dark">13 Feb - Added new section -  <a href="https://www.tailwindtoolbox.com/tools">Tools</a></p>
 					<p class="text-grey-dark">12 Feb - Added new template - <a href="https://www.tailwindtoolbox.com/templates/ghostwind">Ghostwind</a> (Clone of Casper theme for Ghost)</p>
