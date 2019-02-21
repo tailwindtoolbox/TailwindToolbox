@@ -186,29 +186,19 @@ echo htmlentities($code_snippet);
 	</div>
 
 
-	<!--Disqus-->
+	<!--utteranc.es comments-->
 	<div class="container w-4/5 lg:w-3/5 mx-auto pb-12">
-
-	<div id="disqus_thread"></div>
-	<script>
-
-	var disqus_config = function () {
-	this.page.url = '<?=$pageURL;?>';  // Page's canonical URL variable
-	this.page.identifier = '<?=$pageID;?>'; // Page's unique identifier variable
-	};
-
-	(function() { // DON'T EDIT BELOW THIS LINE
-	var d = document, s = d.createElement('script');
-	s.src = 'https://tailwindtoolbox.disqus.com/embed.js';
-	s.setAttribute('data-timestamp', +new Date());
-	(d.head || d.body).appendChild(s);
-	})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-							
+		<script src="https://utteranc.es/client.js"
+				repo="tailwindtoolbox/TailwindToolbox"
+				issue-term="pathname"
+				label="website comment"
+				theme="github-light"
+				crossorigin="anonymous"
+				async>
+		</script>
 	</div>
-	<!-- / Disqus -->
-
+	<!--/utteranc.es comments-->
+	
 	<?php include '../includes/footer-templates.php';?>
 
 <script>
