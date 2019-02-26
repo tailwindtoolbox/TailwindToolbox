@@ -46,6 +46,14 @@
       "description":"Tailwind CSS template for Joomla! (includes Gulp build system using joomla-gulp)",
       "url_author":"https:\/\/github.com/phproberto",
       "author":"Roberto Segura \/ @phproberto"
+   },
+   {
+      "url":"https:\/\/github.com/josephdyer/skeleventy",
+      "url_image":"templates/11ty-tailwind.jpg",
+      "title":"Skeleventy (Eleventy + Tailwind)",
+      "description":"A skeleton boilerplate built with Eleventy and Tailwind CSS.",
+      "url_author":"https:\/\/github.com/josephdyer",
+      "author":"Joseph Dyer \/ @josephdyer"
    }
  ]
 
