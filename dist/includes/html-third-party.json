@@ -5,7 +5,8 @@
          "title":"Home Page 1",
          "description":"A versatile homepage template",
          "url_author":"https:\/\/www.digizu.co.uk?ref=tailwindtoolbox.com",
-         "author":"Ross McNeil \/ digizu.co.uk"
+         "author":"Ross McNeil \/ digizu.co.uk",
+         "category": "Homepage"
      },
     {
          "url":"https:\/\/github.com/rossmcneil/free-tailwindcss-layouts?ref=tailwindtoolbox.com",
@@ -13,7 +14,8 @@
          "title":"Home Page 2",
          "description":"A versatile homepage template",
          "url_author":"https:\/\/www.digizu.co.uk?ref=tailwindtoolbox.com",
-         "author":"Ross McNeil \/ digizu.co.uk"
+         "author":"Ross McNeil \/ digizu.co.uk",
+         "category": "Homepage"
     },
     {
          "url":"https:\/\/github.com/rossmcneil/free-tailwindcss-layouts?ref=tailwindtoolbox.com",
@@ -21,7 +23,8 @@
          "title":"Product Page 1",
          "description":"An online store homepage template",
          "url_author":"https:\/\/www.digizu.co.uk?ref=tailwindtoolbox.com",
-         "author":"Ross McNeil \/ digizu.co.uk"
+         "author":"Ross McNeil \/ digizu.co.uk",
+         "category": "Store"
      }
  ]
 

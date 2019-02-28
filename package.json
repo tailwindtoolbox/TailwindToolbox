@@ -23,7 +23,7 @@
         "dev:js": "./node_modules/.bin/tailwind init tailwind.config.js",
         "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
         "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css",
-        "startwatch": "watch 'build:css' ./dist",
+        "startwatch": "watch 'npm run build:css' ./dist",
         "sitemap": "sitemap-generator https://www.tailwindtoolbox.com -f dist/sitemap.xml"
     }
 }
