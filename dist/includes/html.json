@@ -8,6 +8,22 @@
         "source":"https://github.com/tailwindtoolbox/Admin-Template"
      },
      {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-night",
+        "url_image":"templates/admin-template-night.png",
+        "title":"Admin Template Night",
+        "description":"Night Mode Admin template to use for Admin theme, dashboard, or web application",
+        "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Night/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Admin-Template-Night"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-day",
+        "url_image":"templates/admin-template-day.png",
+        "title":"Admin Template Day",
+        "description":"Day ModeAdmin template to use for Admin theme, dashboard, or web application",
+        "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Day/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Admin-Template-Day"
+     },
+     {
       "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
       "url_image":"templates/ghostwind-home.png",
       "title":"Ghostwind Blog Homepage",
