@@ -55,8 +55,9 @@
 		<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><line x1='100%' y1='0' x2='1' y2='100%' stroke='#f5f5f5' stroke-width='30%'/></svg>
 	</div>
 
-	<div id="templates" class="mt-32"></div>
-	<?php include 'includes/templates.php';?>
+	
+	<div id="templates" class="mt-6"></div>
+	<?php include 'includes/templates-home.php';?>
 
 
 	<div class="container mx-auto pb-12">
@@ -74,6 +75,8 @@
 
 
 	<?php include 'includes/footer-home.php';?>
+
+
 
 </body>
 </html>

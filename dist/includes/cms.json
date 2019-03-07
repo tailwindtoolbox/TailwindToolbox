@@ -5,7 +5,8 @@
       "title":"Wordpress Starter Template",
       "description":"A Wordpress starter project template using Tailwind CSS",
       "url_author":"https:\/\/github.com/thelilmercoder",
-      "author":"Rose Sherwood \/ @thelilmercoder"
+      "author":"Rose Sherwood \/ @thelilmercoder",
+      "category": "CMS"
    },
    {
       "url":"https:\/\/github.com/m2de/vuepress-tailwind-starter",
@@ -13,7 +14,8 @@
       "title":"Vuepress + Tailwind Starter Theme",
       "description":"A Vuepress starter project template using Tailwind CSS",
       "url_author":"https:\/\/github.com/m2de",
-      "author":"Marco Mark \/ @m2de"
+      "author":"Marco Mark \/ @m2de",
+      "category": "CMS"
    },
    {
       "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
@@ -21,7 +23,8 @@
       "title":"Jekyll Starter Template",
       "description":"A Jekyll starter project template using Tailwind CSS",
       "url_author":"https:\/\/github.com/taylorbryant",
-      "author":"Taylor Bryant \/ @taylorbryant"
+      "author":"Taylor Bryant \/ @taylorbryant",
+      "category": "CMS"
    },
    {
       "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
@@ -29,7 +32,8 @@
       "title":"Jigsaw + Tailwind CSS Starter Kit",
       "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
       "url_author":"https:\/\/github.com/hellocosmin",
-      "author":"Cosmin Popovici \/ @hellocosmin"
+      "author":"Cosmin Popovici \/ @hellocosmin",
+      "category": "CMS"
    },
    {
       "url":"https:\/\/github.com/statamic/preset-tailwindcss",
@@ -37,7 +41,8 @@
       "title":"Statamic + Tailwind CSS Preset",
       "description":"Statamic 3.0.0+ front-end scaffolding preset for Tailwind CSS",
       "url_author":"https:\/\/github.com/statamic",
-      "author":"Statamic \/ @statamic"
+      "author":"Statamic \/ @statamic",
+      "category": "CMS"
    },
    {
       "url":"https:\/\/github.com/phproberto/tailwind-joomla",
@@ -45,7 +50,8 @@
       "title":"Tailwind CSS template for Joomla!",
       "description":"Tailwind CSS template for Joomla! (includes Gulp build system using joomla-gulp)",
       "url_author":"https:\/\/github.com/phproberto",
-      "author":"Roberto Segura \/ @phproberto"
+      "author":"Roberto Segura \/ @phproberto",
+      "category":"CMS"
    },
    {
       "url":"https:\/\/github.com/josephdyer/skeleventy",
@@ -54,6 +60,7 @@
       "description":"A skeleton boilerplate built with Eleventy and Tailwind CSS.",
       "url_author":"https:\/\/github.com/josephdyer",
       "author":"Joseph Dyer \/ @josephdyer"
+      "category": "CMS"
    }
  ]
 

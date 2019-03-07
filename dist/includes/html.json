@@ -1,11 +1,12 @@
 [
      {
-        "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
-        "url_image":"templates/admin-template.png",
-        "title":"Admin Template",
-        "description":"Admin template to use for Admin theme, dashboard, or web application",
-        "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Admin-Template"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
+         "url_image":"templates/admin-template.png",
+         "title":"Admin Template",
+         "description":"Admin template to use for Admin theme, dashboard, or web application",
+         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Admin-Template",
+         "category": "Admin"
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-night",
@@ -13,7 +14,8 @@
         "title":"Admin Template Night",
         "description":"Night Mode Admin template to use for Admin theme, dashboard, or web application",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Night/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Admin-Template-Night"
+        "source":"https://github.com/tailwindtoolbox/Admin-Template-Night",
+         "category": "Admin"
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-day",
@@ -21,63 +23,71 @@
         "title":"Admin Template Day",
         "description":"Day Mode Admin template to use for Admin theme, dashboard, or web application",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Day/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Admin-Template-Day"
+        "source":"https://github.com/tailwindtoolbox/Admin-Template-Day",
+         "category": "Admin"
      },
      {
-      "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
-      "url_image":"templates/ghostwind-home.png",
-      "title":"Ghostwind Blog Homepage",
-      "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
-      "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
-      "source":"https://github.com/tailwindtoolbox/Ghostwind"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
+         "url_image":"templates/ghostwind-home.png",
+         "title":"Ghostwind Blog Homepage",
+         "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+         "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Ghostwind",
+         "category": "Blog, Homepage"
      },
      {
-      "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
-      "url_image":"templates/ghostwind.png",
-      "title":"Ghostwind",
-      "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
-      "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
-      "source":"https://github.com/tailwindtoolbox/Ghostwind"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
+         "url_image":"templates/ghostwind.png",
+         "title":"Ghostwind",
+         "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+         "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Ghostwind",
+         "category": "Blog"
      },
      {
-      "url":"https:\/\/www.tailwindtoolbox.com/templates/minimal-blog",
-      "url_image":"templates/minimal-blog.png",
-      "title":"Minimal Blog",
-      "description":"Minimal monochrome blog post template, with a splash of colour",
-      "download":"https:\/\/github.com/tailwindtoolbox/Minimal-Blog/archive/master.zip",
-      "source":"https://github.com/tailwindtoolbox/Minimal-Blog"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/minimal-blog",
+         "url_image":"templates/minimal-blog.png",
+         "title":"Minimal Blog",
+         "description":"Minimal monochrome blog post template, with a splash of colour",
+         "download":"https:\/\/github.com/tailwindtoolbox/Minimal-Blog/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Minimal-Blog",
+         "category": "Blog"
      },
      {
-        "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
-        "url_image":"templates/hero-product.png",
-        "title":"Hero Product",
-        "description":"Hero section - two columns for large screens and two rows for small screens",
-        "download":"https:\/\/github.com/tailwindtoolbox/Hero-Product/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Hero-Product"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
+         "url_image":"templates/hero-product.png",
+         "title":"Hero Product",
+         "description":"Hero section - two columns for large screens and two rows for small screens",
+         "download":"https:\/\/github.com/tailwindtoolbox/Hero-Product/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Hero-Product",
+         "category": "Homepage"
      },
      {
-        "url":"https:\/\/www.tailwindtoolbox.com/templates/sidebar-bottom",
-        "url_image":"templates/sidebar-bottom.png",
-        "title":"Sidebar Bottom",
-        "description":"Basic template with sidebar which becomes fixed bottom menu",
-        "download":"https:\/\/github.com/tailwindtoolbox/Sidebar-Bottom/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Sidebar-Bottom"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/sidebar-bottom",
+         "url_image":"templates/sidebar-bottom.png",
+         "title":"Sidebar Bottom",
+         "description":"Basic template with sidebar which becomes fixed bottom menu",
+         "download":"https:\/\/github.com/tailwindtoolbox/Sidebar-Bottom/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Sidebar-Bottom",
+         "category": "Nav"
      },
      {
-        "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
-        "url_image":"templates/fixed-header.png",
-        "title":"Fixed Header",
-        "description":"Basic template with container for content and fixed header",
-        "download":"https:\/\/github.com/tailwindtoolbox/Fixed-Header/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Fixed-Header"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
+         "url_image":"templates/fixed-header.png",
+         "title":"Fixed Header",
+         "description":"Basic template with container for content and fixed header",
+         "download":"https:\/\/github.com/tailwindtoolbox/Fixed-Header/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Fixed-Header",
+         "category": "Nav"
      },
      {
-        "url":"https:\/\/www.tailwindtoolbox.com/templates/responsive-header",
-        "url_image":"templates/responsive-header.png",
-        "title":"Responsive Header",
-        "description":"Basic template with container for content and toggle buttom responsive menu",
-        "download":"https:\/\/github.com/tailwindtoolbox/Responsive-Header/archive/master.zip",
-        "source":"https://github.com/tailwindtoolbox/Responsive-Header"
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/responsive-header",
+         "url_image":"templates/responsive-header.png",
+         "title":"Responsive Header",
+         "description":"Basic template with container for content and toggle buttom responsive menu",
+         "download":"https:\/\/github.com/tailwindtoolbox/Responsive-Header/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Responsive-Header",
+         "category": "Nav"
      }
  ]
 

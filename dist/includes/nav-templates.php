@@ -1,4 +1,4 @@
-<nav class="bg-brand p-2 mt-0 fixed w-full z-10 pin-t">
+<nav class="bg-brand mt-0 fixed w-full z-10 pin-t">
   <div class="container mx-auto flex flex-wrap items-center h-auto lg:h-16">
 		<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold pl-3">
 			<a class="text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
@@ -14,6 +14,34 @@
 			<a href="https://www.tailwindtoolbox.com/starter-templates" class="flex-1 md:flex-none navlink md:text-xl">
 			<svg class="fill-current text-teal-lightest h-3 md:h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M6 6V2c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h4zm2 0h4a2 2 0 0 1 2 2v4h4V2H8v4zM2 8v10h10V8H2z"></path></svg> Templates</a>
 		</div>
+	</div>
+	<div class="bg-brand-white shadow-md">
+		<ul class="container mx-auto list-reset flex border-b">
+			<li class="mr-1">
+				<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Home');" data-twfilter="Home">Homepage</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Blog');" data-twfilter="Blog">Blog</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Nav');" data-twfilter="Nav">Nav</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Admin');" data-twfilter="Admin">Admin</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Store');" data-twfilter="Store">Store</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Javascript');" data-twfilter="Javascript">Javascript</button>
+			</li>
+			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('CMS');" data-twfilter="CMS">CMS</button>
+			</li>
+		</ul>
 	</div>
 </nav>
 		

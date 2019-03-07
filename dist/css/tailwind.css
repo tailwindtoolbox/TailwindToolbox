@@ -716,6 +716,31 @@ a:hover {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
 }
 
+/*Tabs*/
+
+.tab {
+  color: #606f7b;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600;
+}
+
+.tab:hover {
+  color: #3b7977;
+  border-bottom-width: 4px;
+  border-color: #3b7977;
+}
+
+.active-tab {
+  color: #3b7977;
+  border-bottom-width: 4px;
+  border-color: #3b7977;
+}
+
 /**
   * This injects all of Tailwind's utility classes, generated based on your
   * config file.

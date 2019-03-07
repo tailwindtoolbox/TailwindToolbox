@@ -1,0 +1,216 @@
+[
+    {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
+        "url_image":"templates/admin-template.png",
+        "title":"Admin Template",
+        "description":"Admin template to use for Admin theme, dashboard, or web application",
+        "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Admin-Template",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Admin"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
+        "url_image":"templates/ghostwind-home.png",
+        "title":"Ghostwind Blog Homepage",
+        "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+        "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Ghostwind",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Blog, Homepage"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
+        "url_image":"templates/ghostwind.png",
+        "title":"Ghostwind",
+        "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+        "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Ghostwind",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Blog"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/minimal-blog",
+        "url_image":"templates/minimal-blog.png",
+        "title":"Minimal Blog",
+        "description":"Minimal monochrome blog post template, with a splash of colour",
+        "download":"https:\/\/github.com/tailwindtoolbox/Minimal-Blog/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Minimal-Blog",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Blog"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
+        "url_image":"templates/hero-product.png",
+        "title":"Hero Product",
+        "description":"Hero section - two columns for large screens and two rows for small screens",
+        "download":"https:\/\/github.com/tailwindtoolbox/Hero-Product/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Hero-Product",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Homepage"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/sidebar-bottom",
+        "url_image":"templates/sidebar-bottom.png",
+        "title":"Sidebar Bottom",
+        "description":"Basic template with sidebar which becomes fixed bottom menu",
+        "download":"https:\/\/github.com/tailwindtoolbox/Sidebar-Bottom/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Sidebar-Bottom",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Sidebar, Nav"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
+        "url_image":"templates/fixed-header.png",
+        "title":"Fixed Header",
+        "description":"Basic template with container for content and fixed header",
+        "download":"https:\/\/github.com/tailwindtoolbox/Fixed-Header/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Fixed-Header",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Nav"
+     },
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/responsive-header",
+        "url_image":"templates/responsive-header.png",
+        "title":"Responsive Header",
+        "description":"Basic template with container for content and toggle buttom responsive menu",
+        "download":"https:\/\/github.com/tailwindtoolbox/Responsive-Header/archive/master.zip",
+        "url_author":"https://github.com/tailwindtoolbox/Responsive-Header",
+        "author":"Tailwind Toolbox \/ @tailwindtoolbox",
+        "category": "Nav"
+     },
+    {
+        "url":"https:\/\/github.com/rossmcneil/free-tailwindcss-layouts?ref=tailwindtoolbox.com",
+        "url_image":"templates/digizu-home-1.png",
+        "title":"Home Page 1",
+        "description":"A versatile homepage template",
+        "download":"",
+        "url_author":"https:\/\/www.digizu.co.uk?ref=tailwindtoolbox.com",
+        "author":"Ross McNeil \/ digizu.co.uk",
+        "category": "Homepage"
+    },
+   {
+        "url":"https:\/\/github.com/rossmcneil/free-tailwindcss-layouts?ref=tailwindtoolbox.com",
+        "url_image":"templates/digizu-home-2.png",
+        "title":"Home Page 2",
+        "description":"A versatile homepage template",
+        "download":"",
+        "url_author":"https:\/\/www.digizu.co.uk?ref=tailwindtoolbox.com",
+        "author":"Ross McNeil \/ digizu.co.uk",
+        "category": "Homepage"
+   },
+   {
+        "url":"https:\/\/github.com/rossmcneil/free-tailwindcss-layouts?ref=tailwindtoolbox.com",
+        "url_image":"templates/digizu-product-1.png",
+        "title":"Product Page 1",
+        "description":"An online store homepage template",
+        "download":"",
+        "url_author":"https:\/\/www.digizu.co.uk?ref=tailwindtoolbox.com",
+        "author":"Ross McNeil \/ digizu.co.uk",
+        "category": "Store"
+    },
+    {
+        "url":"https:\/\/github.com/tailwindcss/webpack-starter",
+        "url_image":"templates/tailwind-webpack-starter.png",
+        "title":"Webpack Starter Template",
+        "description":"Simple Webpack setup for using <br>Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/tailwindcss",
+        "author":"Tailwind CSS \/ @tailwindcss",
+        "category": "Javascript"
+     },
+    {
+        "url":"https:\/\/github.com/sgraewe/nuxt-tailwind",
+        "url_image":"templates/nuxt-tailwind.png",
+        "title":"NUXT Tailwind",
+        "description":"A Nuxt.js starter project template using Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/sgraewe",
+        "author":"Stefan Gräwe \/ @sgraewe",
+        "category": "Javascript"
+    },
+    {
+        "url":"https:\/\/github.com/taylorbryant/gatsby-starter-tailwind",
+        "url_image":"templates/gatsby-tailwind.png",
+        "title":"Gatsby Starter Template",
+        "description":"A Gatsby.js starter project template using Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/taylorbryant",
+        "author":"Taylor Bryant \/ @taylorbryant",
+        "category": "Javascript"
+     },
+    {
+        "url":"https:\/\/github.com/Landish/react-tailwindcss-demo",
+        "url_image":"templates/react-tailwind.png",
+        "title":"React and Tailwind CSS",
+        "description":"A React starter project template using Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/Landish",
+        "author":"Lado Lomidze \/ @Landish",
+        "category": "Javascript"
+    },
+    {
+        "url":"https:\/\/github.com/thelilmercoder/tailwind-css-wordpress-starter-theme",
+        "url_image":"templates/wordpress-tailwind.png",
+        "title":"Wordpress Starter Template",
+        "description":"A Wordpress starter project template using Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/thelilmercoder",
+        "author":"Rose Sherwood \/ @thelilmercoder",
+        "category": "CMS"
+    },
+    {
+        "url":"https:\/\/github.com/m2de/vuepress-tailwind-starter",
+        "url_image":"templates/vuepress-tailwind.png",
+        "title":"Vuepress + Tailwind Starter Theme",
+        "description":"A Vuepress starter project template using Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/m2de",
+        "author":"Marco Mark \/ @m2de",
+        "category": "CMS"
+    },
+    {
+        "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
+        "url_image":"templates/jekyll-tailwind.png",
+        "title":"Jekyll Starter Template",
+        "description":"A Jekyll starter project template using Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/taylorbryant",
+        "author":"Taylor Bryant \/ @taylorbryant",
+        "category": "CMS"
+    },
+    {
+        "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
+        "url_image":"templates/jigsaw-tailwind.png",
+        "title":"Jigsaw + Tailwind CSS Starter Kit",
+        "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/hellocosmin",
+        "author":"Cosmin Popovici \/ @hellocosmin",
+        "category": "CMS"
+    },
+    {
+        "url":"https:\/\/github.com/statamic/preset-tailwindcss",
+        "url_image":"templates/statamic-tailwind.png",
+        "title":"Statamic + Tailwind CSS Preset",
+        "description":"Statamic 3.0.0+ front-end scaffolding preset for Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/statamic",
+        "author":"Statamic \/ @statamic",
+        "category": "CMS"
+    },
+    {
+        "url":"https:\/\/github.com/phproberto/tailwind-joomla",
+        "url_image":"templates/joomla-tailwind.png",
+        "title":"Tailwind CSS template for Joomla!",
+        "description":"Tailwind CSS template for Joomla! (includes Gulp build system using joomla-gulp)",
+        "download":"",
+        "url_author":"https:\/\/github.com/phproberto",
+        "author":"Roberto Segura \/ @phproberto",
+        "category": "CMS"
+    }
+  ]
+ 
+ 
+ 
+ 

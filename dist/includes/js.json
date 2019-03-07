@@ -5,7 +5,8 @@
         "title":"Webpack Starter Template",
         "description":"Simple Webpack setup for using <br>Tailwind CSS",
         "url_author":"https:\/\/github.com/tailwindcss",
-        "author":"Tailwind CSS \/ @tailwindcss"
+        "author":"Tailwind CSS \/ @tailwindcss",
+        "category": "Javascript"
      },
     {
        "url":"https:\/\/github.com/sgraewe/nuxt-tailwind",
@@ -13,7 +14,8 @@
        "title":"NUXT Tailwind",
        "description":"A Nuxt.js starter project template using Tailwind CSS",
        "url_author":"https:\/\/github.com/sgraewe",
-       "author":"Stefan Gräwe \/ @sgraewe"
+       "author":"Stefan Gräwe \/ @sgraewe",
+       "category": "Javascript"
     },
     {
         "url":"https:\/\/github.com/taylorbryant/gatsby-starter-tailwind",
@@ -21,7 +23,8 @@
         "title":"Gatsby Starter Template",
         "description":"A Gatsby.js starter project template using Tailwind CSS",
         "url_author":"https:\/\/github.com/taylorbryant",
-        "author":"Taylor Bryant \/ @taylorbryant"
+        "author":"Taylor Bryant \/ @taylorbryant",
+        "category": "Javascript"
      },
      {
         "url":"https:\/\/github.com/Landish/react-tailwindcss-demo",
@@ -29,7 +32,8 @@
         "title":"React and Tailwind CSS",
         "description":"A React starter project template using Tailwind CSS",
         "url_author":"https:\/\/github.com/Landish",
-        "author":"Lado Lomidze \/ @Landish"
+        "author":"Lado Lomidze \/ @Landish",
+        "category": "Javascript"
      }
  ]
 
