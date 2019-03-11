@@ -15,21 +15,18 @@
 				// Store Card template
 				$card ='
 				<!--{{title}} Template-->
-				<div class="w-full md:w-1/3 mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
+				<div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
-						<div class="bg-white rounded overflow-hidden shadow mx-5 sm:mx-2 hover:shadow-lg">
-							<div class="p-5 text-center">
-								<img src="{{url_image}}" class="h-full w-3/5 md:w-full rounded shadow">
-								<div class="font-bold text-xl my-3">{{title}}</div>
-								<p class="text-grey-darker text-base mb-5">
+						<div class="bg-white rounded overflow-hidden shadow mx-1 sm:mx-2 hover:shadow-lg">
+							<img src="{{url_image}}" class="h-full w-full rounded shadow">
+							<div class="p-2 lg:px-5 lg:pt-0 mb-2 text-center">
+								<div class="font-bold text-xl my-1">{{title}}</div>
+								<div class="mx-auto border-t border-grey-light w-12 pt-2"></div>
+								<p class="text-grey-darker text-sm mb-5">
 									{{description}}
 								</p>
 
-								<a href="{{download}}" target="_blank" rel="noopener"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
-								<div class="flex flex-wrap justify-between">
-									<a href="{{url}}" class="no-underline hover:no-underline"><button class="bg-white hover:bg-teal text-brand hover:text-white text-sm border border-grey-light rounded font-bold fixed p-3 mt-2 relative pin-x pin-b">Preview</button></a>
-									<a href="{{source}}" target="_blank" rel="noopener"><button class="flex-1 bg-grey-lightest hover:bg-black text-grey-darkest hover:text-white text-sm border border-grey-light rounded font-bold fixed p-3 mt-2 relative pin-x pin-b">Source</button></a>
-								</div>
+								<a href="{{url}}" target="_blank" rel="noopener"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
 								
 							</div>
 						</div>
@@ -70,17 +67,17 @@
 				// Store Card template
 				$card ='
 				<!--{{title}} Template-->
-				<div class="w-full md:w-1/3 mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
+				<div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
-						<div class="card">
-							<div class="p-5 text-center">
-								<img src="{{url_image}}" class="h-full w-3/5 md:w-full rounded shadow">
-								<div class="font-bold text-xl mt-3 mb-1">{{title}}</div>
-								
-								<p class="text-grey-darker text-base mb-2">
+						<div class="bg-white rounded overflow-hidden shadow mx-1 sm:mx-2 hover:shadow-lg">
+							<img src="{{url_image}}" class="h-full w-full rounded shadow">
+							<div class="p-2 lg:px-5 lg:pt-0 mb-2 text-center">
+								<div class="font-bold text-xl my-1">{{title}}</div>
+								<div class="mx-auto border-t border-grey-light w-12 pt-2"></div>
+								<p class="text-grey-darker text-sm mb-2">
 									{{description}}
 								</p>
-								<p class="text-grey-darker text-base mb-5"><a class="no-underline" href="{{url_author}}" target="_blank" rel="noopener"><span><svg class="h-4 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> {{author}}</a></p>
+								<p class="text-grey-darker text-sm mb-5"><a class="no-underline" href="{{url_author}}" target="_blank" rel="noopener"><span><svg class="h-2 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> {{author}}</a></p>
 
 								<a href="{{url}}" target="_blank" rel="noopener"><button class="template-btn"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z"/></svg> Visit Template</button></a>
 										
@@ -136,17 +133,17 @@
 				// Store Card template
 				$card ='
 				<!--{{title}} Template-->
-				<div class="w-full md:w-1/3 mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
+				<div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
-						<div class="card">
-							<div class="p-5 text-center">
-								<img src="{{url_image}}" class="h-full w-3/5 md:w-full rounded shadow">
-								<div class="font-bold text-xl mt-3 mb-1">{{title}}</div>
-								
-								<p class="text-grey-darker text-base mb-2">
+						<div class="bg-white rounded overflow-hidden shadow mx-1 sm:mx-2 hover:shadow-lg">
+							<img src="{{url_image}}" class="h-full w-full rounded shadow">
+							<div class="p-2 lg:px-5 lg:pt-0 mb-2 text-center">
+								<div class="font-bold text-xl my-1">{{title}}</div>
+								<div class="mx-auto border-t border-grey-light w-12 pt-2"></div>
+								<p class="text-grey-darker text-sm mb-2">
 									{{description}}
 								</p>
-								<p class="text-grey-darker text-base mb-5"><a class="no-underline" href="{{url_author}}" target="_blank" rel="noopener"><span><svg class="h-4 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> {{author}}</a></p>
+								<p class="text-grey-darker text-sm mb-5"><a class="no-underline" href="{{url_author}}" target="_blank" rel="noopener"><span><svg class="h-2 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> {{author}}</a></p>
 
 								<a href="{{url}}" target="_blank" rel="noopener"><button class="template-btn"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z"/></svg> Visit Template</button></a>
 										
@@ -202,17 +199,17 @@
 				// Store Card template
 				$card ='
 				<!--{{title}} Template-->
-				<div class="w-full md:w-1/3 mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
+				<div class="w-full md:w-1/2 lg:w-1/3 mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
-						<div class="card">
-							<div class="p-5 text-center">
-								<img src="{{url_image}}" class="h-full w-3/5 md:w-full rounded shadow">
-								<div class="font-bold text-xl mt-3 mb-1">{{title}}</div>
-								
-								<p class="text-grey-darker text-base mb-2">
+						<div class="bg-white rounded overflow-hidden shadow mx-1 sm:mx-2 hover:shadow-lg">
+							<img src="{{url_image}}" class="h-full w-full rounded shadow">
+							<div class="p-2 lg:px-5 lg:pt-0 mb-2 text-center">
+								<div class="font-bold text-xl my-1">{{title}}</div>
+								<div class="mx-auto border-t border-grey-light w-12 pt-2"></div>
+								<p class="text-grey-darker text-sm mb-2">
 									{{description}}
 								</p>
-								<p class="text-grey-darker text-base mb-5"><a class="no-underline" href="{{url_author}}" target="_blank" rel="noopener"><span><svg class="h-4 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> {{author}}</a></p>
+								<p class="text-grey-darker text-sm mb-5"><a class="no-underline" href="{{url_author}}" target="_blank" rel="noopener"><span><svg class="h-2 fill-current text-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"/></svg></span> {{author}}</a></p>
 
 								<a href="{{url}}" target="_blank" rel="noopener"><button class="template-btn"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z"/></svg> Visit Template</button></a>
 										

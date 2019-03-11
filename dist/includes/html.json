@@ -12,7 +12,7 @@
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-night",
         "url_image":"templates/admin-template-night.png",
         "title":"Admin Template Night",
-        "description":"Night Mode Admin template to use for Admin theme, dashboard, or web application",
+        "description":"Night Mode Admin template for those who prefer to work at night",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Night/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Admin-Template-Night",
          "category": "Admin"
@@ -21,7 +21,7 @@
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-day",
         "url_image":"templates/admin-template-day.png",
         "title":"Admin Template Day",
-        "description":"Day Mode Admin template to use for Admin theme, dashboard, or web application",
+        "description":"Day Mode Admin template for those who prefer to work in the am",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Day/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Admin-Template-Day",
          "category": "Admin"
@@ -66,7 +66,7 @@
          "url":"https:\/\/www.tailwindtoolbox.com/templates/sidebar-bottom",
          "url_image":"templates/sidebar-bottom.png",
          "title":"Sidebar Bottom",
-         "description":"Basic template with sidebar which becomes fixed bottom menu",
+         "description":"Barebones template with sidebar which becomes fixed bottom menu",
          "download":"https:\/\/github.com/tailwindtoolbox/Sidebar-Bottom/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Sidebar-Bottom",
          "category": "Nav"
@@ -75,7 +75,7 @@
          "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
          "url_image":"templates/fixed-header.png",
          "title":"Fixed Header",
-         "description":"Basic template with container for content and fixed header",
+         "description":"Barebones template with a fixed header which flows onto next row",
          "download":"https:\/\/github.com/tailwindtoolbox/Fixed-Header/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Fixed-Header",
          "category": "Nav"
@@ -84,7 +84,7 @@
          "url":"https:\/\/www.tailwindtoolbox.com/templates/responsive-header",
          "url_image":"templates/responsive-header.png",
          "title":"Responsive Header",
-         "description":"Basic template with container for content and toggle buttom responsive menu",
+         "description":"Barebones template with a toggle button responsive menu",
          "download":"https:\/\/github.com/tailwindtoolbox/Responsive-Header/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Responsive-Header",
          "category": "Nav"

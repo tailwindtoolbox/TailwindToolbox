@@ -576,7 +576,7 @@ table {
   border-bottom-width: 2px;
   border-color: transparent;
   color: #fff;
-  font-size: .875rem;
+  font-size: 1rem;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -739,6 +739,27 @@ a:hover {
   color: #3b7977;
   border-bottom-width: 4px;
   border-color: #3b7977;
+}
+
+.nunito {
+  font-family: 'Nunito', Tahoma;
+}
+
+#post-content p {
+  padding-top: .7em;
+}
+
+/*Horizontal Scrolling*/
+
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
 }
 
 /**
@@ -6516,14 +6537,6 @@ a:hover {
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
-
-.nunito {
-  font-family: 'Nunito', Tahoma;
-}
-
-#post-content p {
-  padding-top: .7em;
-}
 
 @media (min-width: 576px) {
   .sm\:list-reset {

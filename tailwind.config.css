@@ -40,7 +40,7 @@
 
   /*Links*/
   .navlink {
-	  @apply mr-2 pb-1 px-2 border-b-2 border-transparent text-white text-sm font-bold text-center no-underline;	  
+	  @apply mr-2 pb-1 px-2 border-b-2 border-transparent text-white text-base font-bold text-center no-underline;	  
   }
   
   .navlink:hover {
@@ -113,6 +113,27 @@
 
   }
 
+	.nunito {
+		font-family: 'Nunito', Tahoma;
+	}
+  
+    #post-content p {
+		padding-top: 0.7em;
+  }
+  
+
+  /*Horizontal Scrolling*/
+  .scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+   }
+  
+  .scroll::-webkit-scrollbar {
+    display: none; }
+
+
 
 /**
   * This injects all of Tailwind's utility classes, generated based on your
@@ -140,10 +161,3 @@
   * @import "utilities/skew-transforms";
   */
   
-	.nunito {
-		font-family: 'Nunito', Tahoma;
-	}
-  
-    #post-content p {
-		padding-top: 0.7em;
-	}

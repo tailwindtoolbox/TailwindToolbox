@@ -25,32 +25,84 @@
 	</div>
 
 
-	<div class="container mx-auto mb-8" id="post-content">
-			<div class="w-full -mt-12 md:-mt-32 px-0">
-				<div class="bg-white rounded overflow-hidden shadow mx-1">
-					<div class="flex flex-wrap p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
-							
-						<div class="w-full lg:w-3/5">
-							<p class="my-6 font-bold">These templates are all free to download and are built with Tailwind CSS. They are all open source and feel free to use them for any purpose, even commercially!</p>
-						</div>
-						<div class="w-full lg:w-1/5">
-						<p class="text-brand font-bold">Advertisment</p>
-                            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-                        </div>
-			
 
-					</div>
+	<div class="container mx-auto mb-8" id="post-content">
+		<div class="w-full -mt-12 md:-mt-32 px-0">
+
+			<div class="bg-white rounded overflow-hidden shadow mx-1">
+				<div class="flex flex-wrap p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
+						<p class="my-2 font-bold">These templates are all open source and built using the standard Tailwind CSS configuration. Feel free to use them for any purpose, even commercially!</p>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-	<?php include 'includes/templates.php';?>
+		<div class="container mx-auto mb-8 flex inline-block flex-wrap">
+
+
+			<div class="w-full md:w-1/5">
+				<div class="sticky pin-t" style="top:10em;">
+					<p class="text-brand text-center font-bold">Advertisment</p>
+					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+				</div>
+				<div></div>
+	
+					
+		
+			</div>
+
+			<div class="w-full md:w-4/5 px-0">
+				<?php include 'includes/templates.php';?>
+			</div>
+
+		</div>
+
+
+			
 
 	<?php include 'includes/footer.php';?>
 
 
 <script>
+
+
+
+	/*Toggle dropdown list*/
+	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+	var navMenuDiv = document.getElementById("nav-content");
+	var navMenu = document.getElementById("nav-toggle");
+	
+	document.onclick = check;
+
+	function check(e){
+	  var target = (e && e.target) || (event && event.srcElement);
+
+	  //Nav Menu
+	  if (!checkParent(target, navMenuDiv)) {
+		// click NOT on the menu
+		if (checkParent(target, navMenu)) {
+		  // click on the link
+		  if (navMenuDiv.classList.contains("hidden")) {
+			navMenuDiv.classList.remove("hidden");
+		  } else {navMenuDiv.classList.add("hidden");}
+		} else {
+		  // click both outside link and outside menu, hide menu
+		  navMenuDiv.classList.add("hidden");
+		}
+	  }
+	  
+	}
+
+	function checkParent(t, elm) {
+	  while(t.parentNode) {
+		if( t == elm ) {return true;}
+		t = t.parentNode;
+	  }
+	  return false;
+	}
+
 
 
 function filterTemplates(filterVal) {
@@ -80,8 +132,6 @@ function filterTemplates(filterVal) {
 			btns[i].classList.remove('active-tab');
 		}
 	}
-	
-
 		
 }
 
