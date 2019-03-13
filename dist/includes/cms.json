@@ -55,7 +55,7 @@
    },
    {
       "url":"https:\/\/github.com/josephdyer/skeleventy",
-      "url_image":"templates/11ty-tailwind.jpg",
+      "url_image":"templates/11ty-tailwind.png",
       "title":"Skeleventy (Eleventy + Tailwind)",
       "description":"A skeleton boilerplate built with Eleventy and Tailwind CSS.",
       "url_author":"https:\/\/github.com/josephdyer",
