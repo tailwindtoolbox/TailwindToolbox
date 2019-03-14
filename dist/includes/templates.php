@@ -8,6 +8,8 @@
 			<h1 class="text-brand pt-12"><span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>HTML Starter Templates</span></span></h1>
 			<p class="p-6 nunito text-grey-darkest">These templates are not finished articles, they are just a starting point skeleton template using the default Tailwind CSS styling (served via the CDN) - which you can turn into your own creation.</p>
 -->		
+			<div id="filterMsg" class="w-full px-6 mb-2 text-brand text-center font-bold cursor-pointer" onclick="javascript:filterTemplates('');" data-twfilter="all"></div>
+		
 
 			<div class="flex flex-wrap items-stretch mb-2 md:px-3">				
 				
@@ -253,5 +255,6 @@
 
 
 			</div>
+
 		</div>
 	</div>

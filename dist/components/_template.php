@@ -18,22 +18,22 @@
 	<meta name="theme-color" content="#3b7977">
 
 	<!-- Primary Meta Tags -->
-	<title>Tailwind Toolbox - Tailwind CSS <?=$pageTITLE;?> starter template"</title>
+	<title>Tailwind Toolbox - Tailwind CSS <?=$pageTITLE;?> starter component"</title>
 	<meta name="title" content="<?= $pageDESC;?>">
-	<meta name="description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<meta name="description" content="Free open source Tailwind CSS starter components to copy and paste into your Tailwind CSS project!">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.tailwindtoolbox.com/">
 	<meta property="og:title" content="<?= $pageDESC;?>">
-	<meta property="og:description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<meta property="og:description" content="Free open source Tailwind CSS starter components to copy and paste into your Tailwind CSS project!">
 	<meta property="og:image" content="<?= $pageImage;?>">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://www.tailwindtoolbox.com/">
 	<meta property="twitter:title" content="<?= $pageDESC;?>">
-	<meta property="twitter:description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<meta property="twitter:description" content="Free open source Tailwind CSS starter components to copy and paste into your Tailwind CSS project!">
 	<meta property="twitter:image" content="<?= $pageImage;?>">
 
 	<!-- Stylesheets -->
@@ -52,17 +52,10 @@
 
 		<div class="flex-1 text-center">
 			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><?= $pageTITLE;?></span><br>
-			<div class="flex-1 w-4/5 mx-auto pt-3 text-brand font-bold text-center text-base md:text-2xl">Free Open Source Tailwind CSS Starter Template</div>
+			<div class="flex-1 w-4/5 mx-auto pt-3 text-brand font-bold text-center text-base md:text-2xl">Free Open Source Tailwind CSS Starter Component</div>
 		</div>
 
 	</div>
-
-	<!--header
-	<div class="h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
-		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-32 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Starter Template - <?= $pageTITLE;?></span>
-		</div>
-	</div>-->
 
 
 	<div class="container mx-auto mb-8" id="post-content">
@@ -107,14 +100,6 @@
 									</li>
 								</ul>
 							</div>
-
-
-
-							<div class="py-6 md:py-12">
-								<a href="<?= $pageDL;?>" target="_blank" rel="noopener"><button class="w-full sm:w-auto bg-brand hover:bg-teal-dark text-white text-xl font-extrabold -mt-2 py-3 px-5 rounded shadow"><svg class="fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download Template</button></a>
-								<span class="mr-6"></span>	
-								<a href="<?=$pageGIT;?>" target="_blank" rel="noopener"><button class="w-full sm:w-auto bg-grey-lightest hover:bg-black text-grey-darkest hover:text-white text-xl font-extrabold py-3 px-5 rounded shadow">View on GitHub</button></a>
-							</div>
 				
 						</div>
 
@@ -122,10 +107,10 @@
 							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 						</div>
 
-						<div class="w-full pt-12">
+						<div class="w-full">
 							<h2 class="text-xl md:text-3xl text-brand pb-4">Preview</h2>
 							<hr class="border border-grey-lighter">
-							<p class="h-1 invisible md:visible md:h-auto">Use the toggle buttons to view the template on different devices/viewports.</p>
+							<p class="h-1 invisible md:visible md:h-auto">Use the toggle buttons to view the component on different devices/viewports.</p>
 						</div>
 					</div>
 
@@ -152,9 +137,9 @@
 
 					echo '
 					<div class="pt-12">
-						<h2 class="text-xl md:text-3xl text-brand pb-4">Unstyled Code Snippet</h2>
+						<h2 class="text-xl md:text-3xl text-brand pb-4">Code</h2>
 						<hr class="border border-grey-lighter">
-						<p>This snippet is a unstyled version of the starter template which you can drop into your existing project.</p>
+						<p>The code for the starter component which you can drop into your existing project.</p>
 						<div class="py-8">
 							<button id="copyButton" onclick="copyClipboard()" class="w-full sm:w-auto bg-teal hover:bg-teal-dark text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">Copy to Clipboard</button>
 							<span id="confirmation"></span>
@@ -163,7 +148,7 @@
 					</div>
 
 					<div class="w-full lg:w-4/5 py-4 mx-auto">
-						<div id="code" class="overflow-x-auto bg-grey-lightest text-sm md:text-base w-full border rounded shadow px-5 mb-5">
+						<div id="code" class="overflow-x-auto bg-grey-lightest text-sm w-full border rounded shadow px-5 mb-5">
 						<pre>';
 
 $code_snippet = file_get_contents($pageCODE);
@@ -178,7 +163,7 @@ echo htmlentities($code_snippet);
 
 
 
-					<p class="my-16 p-6 w-full container mx-auto bg-teal-lightest text-center text-grey-dark">Find more templates at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.tailwindtoolbox.com/starter-templates" target="_blank" rel="noopener">www.TailwindToolbox.com/starter-templates</a></p>	
+					<p class="my-16 p-6 w-full container mx-auto bg-teal-lightest text-center text-grey-dark">Find more components at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.tailwindtoolbox.com/starter-components" target="_blank" rel="noopener">www.TailwindToolbox.com/starter-components</a></p>	
 					
 				</div>
 			</div>
