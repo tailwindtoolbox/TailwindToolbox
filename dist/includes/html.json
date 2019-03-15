@@ -27,6 +27,15 @@
          "category": "Admin"
      },
      {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/help-article",
+        "url_image":"templates/help-article.png",
+        "title":"Help Article",
+        "description":"Helpdesk / FAQ / knowledgebase article - clone of the <a href=\"https://www.weebly.com/app/help/topics/first-steps\">Weebly Support article</a>",
+        "download":"https:\/\/github.com/tailwindtoolbox/Help-Article/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Help-Article",
+         "category": "Support"
+     },
+     {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
          "url_image":"templates/ghostwind-home.png",
          "title":"Ghostwind Blog Homepage",
