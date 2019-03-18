@@ -34,7 +34,16 @@
         "url_author":"https:\/\/github.com/Landish",
         "author":"Lado Lomidze \/ @Landish",
         "category": "Javascript"
-     }
+     },
+     {
+      "url":"https:\/\/github.com/cossssmin/gridsome-starter-bleda",
+      "url_image":"templates/gridsome-tailwind.png",
+      "title":"Gridsome Blog Starter",
+      "description":"A Gridsome blog starter project using Tailwind CSS",
+      "url_author":"https:\/\/github.com/cossssmin",
+      "author":"Cosmin Popovici \/ @cossssmin",
+      "category": "Javascript"
+   }
  ]
 
 

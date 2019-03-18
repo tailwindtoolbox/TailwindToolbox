@@ -39,9 +39,8 @@
 				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter Templates for your next Tailwind CSS project!</span></span>
 			</div>
 
-			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source HTML and Javascript framework starter templates to help you get started building with Tailwind CSS</p>
-			<button onclick="showMeThe('templates');" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show me the templates!!</button>
-			<p class="pt-6 font-bold">Or jump directly: <span onclick="showMeThe('templates');" class="text-brand hover:text-teal underline" style="cursor:pointer;">HTML</span> | <span onclick="showMeThe('JS');" class="text-brand hover:text-teal underline" style="cursor:pointer;">Javascript Framework</span> | <span onclick="showMeThe('CMS');" class="text-brand hover:text-teal underline" style="cursor:pointer;">CMS</span></p>
+			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source starter templates and components to help you get started building with Tailwind CSS</p>
+			<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show me the templates!!</a>
 		</div>
 		<!--Right Col-->
 		<div class="w-full lg:w-1/2 lg:py-6 text-center">
@@ -63,6 +62,7 @@
 	<div class="container mx-auto pb-12">
 			
 			<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
+
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
 					<p class="text-grey-dark">15 Mar - Added new template - <a href="https://www.tailwindtoolbox.com/templates/help-article">Help Article</a> (clone of Weebly support article)</p>
