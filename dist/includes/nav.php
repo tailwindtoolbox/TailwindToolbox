@@ -26,7 +26,7 @@
 			
 				<li class="mr-4 my-3 xl:my-0">
 					<a href="https://www.tailwindtoolbox.com/setup" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-					<svg class="fill-current text-teal-lightest h-3 md:h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0 L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2 L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475 4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4 18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288 17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20 2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10 L6,12 L6,4 Z"></path></svg>Setup</a>
+					<svg class="fill-current text-teal-lightest h-3 md:h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0 L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2 L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475 4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4 18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288 17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20 2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10 L6,12 L6,4 Z"></path></svg> Setup</a>
 				</li>
 				<li class="mr-4 my-3 xl:my-0">
 					<a href="https://www.tailwindtoolbox.com/starter-templates" class="flex-1 md:flex-none navlink text-base xl:text-xl">

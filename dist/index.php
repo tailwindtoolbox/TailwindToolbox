@@ -34,8 +34,8 @@
 	<!--Hero-->
 	<div class="container mx-auto flex flex-col md:flex-row items-center my-12" >
 		<!--Left Col-->
-		<div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
-			<div class="pt-12">
+		<div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-6 md:pb-12 px-6">
+			<div class="pt-6 md:pt-12">
 				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter Templates for your next Tailwind CSS project!</span></span>
 			</div>
 
