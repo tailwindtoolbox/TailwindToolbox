@@ -31,8 +31,8 @@
       "url_image":"templates/jigsaw-tailwind.png",
       "title":"Jigsaw + Tailwind CSS Starter Kit",
       "description":"A starter kit for using the Jigsaw static site generator with Tailwind CSS",
-      "url_author":"https:\/\/github.com/hellocosmin",
-      "author":"Cosmin Popovici \/ @hellocosmin",
+      "url_author":"https:\/\/github.com/cossssmin",
+      "author":"Cosmin Popovici \/ @cossssmin",
       "category": "CMS"
    },
    {
@@ -59,7 +59,7 @@
       "title":"Skeleventy (Eleventy + Tailwind)",
       "description":"A skeleton boilerplate built with Eleventy and Tailwind CSS.",
       "url_author":"https:\/\/github.com/josephdyer",
-      "author":"Joseph Dyer \/ @josephdyer"
+      "author":"Joseph Dyer \/ @josephdyer",
       "category": "CMS"
    }
  ]

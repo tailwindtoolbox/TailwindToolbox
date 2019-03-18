@@ -2,7 +2,7 @@
 <nav id="header" class="bg-brand fixed w-full z-10 pin-t shadow ">
 	
 	<div class="w-full container mx-auto flex flex-wrap items-center mt-0 py-3">
-				
+			
 		<div class="flex-1 pl-4 md:pl-0">
 			<a class="font-extrabold text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
 				<svg class="fill-current text-white h-4 md:h-6 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 3H2v14h5V3zm2 0v14h9V3H9zM0 3c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm3 1h3v2H3V4zm0 3h3v2H3V7zm0 3h3v2H3v-2z"></path></svg> 
@@ -45,7 +45,7 @@
 			</ul>
 			
 		</div>
-			
+		
 	</div>
 
 
@@ -55,19 +55,16 @@
 				<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Admin');" data-twfilter="Admin">Admin</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Home');" data-twfilter="Home">Homepage</button>
 			</li>
 			<li class="mr-1">
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Blog');" data-twfilter="Blog">Blog</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Support');" data-twfilter="Support">Support</button>
-			</li>
-			<li class="mr-1">
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Nav');" data-twfilter="Nav">Nav</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Home');" data-twfilter="Home">Homepage</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Admin');" data-twfilter="Admin">Admin</button>
 			</li>
 			<li class="mr-1">
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Store');" data-twfilter="Store">Store</button>

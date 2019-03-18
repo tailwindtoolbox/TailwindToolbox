@@ -84,7 +84,9 @@
 									
 					?>
 
-
+<div class="w-full mb-12 pb-3 sm:pb-0 flex-grow text-center">
+<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show all templates</a>
+</div>
 
                 <!--Carbon-->
                 <div class="w-full md:w-1/3 mb-12  pb-3 sm:pb-0 flex-grow">
