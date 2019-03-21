@@ -10,7 +10,7 @@
  * @import "tailwindcss/preflight";
  */
 
-@tailwind preflight;
+@tailwind base;
 
 /**
   * This injects any component classes registered by plugins.
@@ -44,7 +44,7 @@
   }
   
   .navlink:hover {
-	  @apply text-white border-teal-lightest no-underline;	  
+	  @apply text-white border-teal-100 no-underline;	  
   }
   
   .footerlink {
@@ -59,20 +59,20 @@
 	@apply text-brand underline;
   }
   a:hover {
-	@apply text-teal-dark underline;
+	@apply text-teal-700 underline;
   }
 
   /*Code syntax*/
   .code {
-	@apply bg-grey-lighter p-1 text-grey-darkest font-mono shadow break-words;
+	@apply bg-gray-100 p-1 text-gray-900 font-mono shadow break-words;
   }
   
   /*Faux cmd window */
   .window-nav {
-	@apply rounded-t border-t border-l border-r border-teal bg-teal px-4 py-2;
+	@apply rounded-t border-t border-l border-r border-teal-400 bg-teal-400 px-4 py-2;
   }
   .window-nav-dot {
-	  @apply inline-block rounded-full bg-grey-lightest h-3 w-3 mr-1;
+	  @apply inline-block rounded-full bg-gray-100 h-3 w-3 mr-1;
   }
   .window-bg {
 	  @apply relative bg-black text-white text-sm font-mono tracking-wide break-normal p-4;
@@ -83,13 +83,13 @@
 	  @apply bg-brand text-white no-underline text-sm border-none rounded font-bold p-3 mt-2;
   }
   .btn:hover {
-	  @apply bg-teal-dark text-white no-underline shadow;
+	  @apply bg-teal-700 text-white no-underline shadow;
   }
   .template-btn {
-    @apply block w-full bg-brand text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b;
+    @apply block w-full bg-brand text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative inset-x-0 bottom-0;
   }
   .template-btn:hover {
-    @apply bg-teal no-underline;
+    @apply bg-teal-400 no-underline;
   }
 
   /*Card*/
@@ -103,7 +103,7 @@
   /*Tabs*/
 
   .tab {
-    @apply text-grey-darker no-underline inline-block py-2 px-4 font-semibold
+    @apply text-gray-700 no-underline inline-block py-2 px-4 font-semibold
   }
   .tab:hover { 
     @apply text-brand border-b-4 border-brand
@@ -117,7 +117,7 @@
 		font-family: 'Nunito', Tahoma;
 	}
   
-    #post-content p {
+  #post-content p {
 		padding-top: 0.7em;
   }
   
