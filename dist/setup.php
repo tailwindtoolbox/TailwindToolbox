@@ -96,7 +96,7 @@
 							<p class="text-grey">&gt;>node -v</p>
 							<p>v8.12.0</p>
 							<p class="text-grey">&gt;>npm -v</p>
-							<p>6.4.1</p>
+							<p>6.9.0</p>
 						</div>
 					</div>
 					
@@ -116,7 +116,7 @@
 						<div class="window-bg">
 							<p class="text-grey">&gt;>npm install -g npm</p>
 							<p>(some npm messages)<br>
-							+ npm@6.4.1<br>
+							+ npm@6.9.0<br>
 							added 387 packages from 770 contributors in 86.554s</p>
 						</div>
 					</div>
@@ -157,10 +157,10 @@
 						<div class="window-bg">
 							<p class="text-grey">&gt;>npm update</p>
 							<p>(some npm messages)<br>
-							+ cssnano@4.1.7<br>
-							+ postcss-cli@6.0.1<br>
-							+ tailwindcss@0.7.3<br>
-							+ autoprefixer@9.3.1<br>
+							+ cssnano@4.1.10<br>
+							+ postcss-cli@6.1.2<br>
+							+ tailwindcss@1.0.0-beta.3<br>
+							+ autoprefixer@9.5.0<br>
 							+ @fullhuman/postcss-purgecss@1.1.0<br>
 							added 472 packages from 355 contributors and audited 4131 packages in 122.868s<br>
 							found 0 vulnerabilities</p>
@@ -186,7 +186,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 create:js C:\project-name<br>
 							> tailwind init tailwind.config.js<br><br><br>
 							
-							tailwindcss <span class="text-teal">0.7.3</span><br><br>
+							tailwindcss <span class="text-teal">1.0.0-beta.3</span><br><br>
 
 							✅ Created Tailwind config file: <span class="text-purple">tailwind.config.js</span><br></p>
 						</div>
@@ -208,7 +208,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
-							tailwindcss <span class="text-teal">0.7.3</span><br><br>
+							tailwindcss <span class="text-teal">1.0.0-beta.3</span><br><br>
 
 							🚀 Building... <span class="text-teal">tailwind.config.css</span><br><br>
 
@@ -233,16 +233,25 @@
 					
 					<p class="text-sm font-bold">Example: Adding two new colour classes 'primary' and 'secondary'</p>
 					<p><div class="code text-sm">
-					let colors = {<br>
-				   'transparent': 'transparent',<br><br>
+					const defaultTheme = require('tailwindcss/defaultTheme')<br><br>
 
-				   <span class="text-red-dark">'primary': '#57a99a',<br>
-				   'secondary': '#76dbd1',</span><br><br>			   
-				   
-				   'black': '#22292f',<br>
-				   'grey-darkest': '#3d4852',<br>
-				   'grey-darker': '#606f7b',<br>
-				   ...
+
+					module.exports = {<br>
+					&nbsp;&nbsp;theme: {<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;// Some useful comment<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-brand font-bold">colors: {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...defaultTheme.colors,<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'primary': '#3b7977',<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'secondary': '#57a99a'<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;},</span><br>
+					&nbsp;&nbsp;},<br>
+					&nbsp;&nbsp;variants: {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;// Some useful comment<br>
+					&nbsp;&nbsp;},<br>
+					&nbsp;&nbsp;plugins: [<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;// Some useful comment<br>
+					&nbsp;&nbsp;]<br>
+					}
 					</div></p>
 					
 					
@@ -257,7 +266,7 @@
 					<p><div class="code text-sm">
 					<br>
 					@tailwind components;<br><br>
-					<span class="text-red-dark">
+					<span class="text-brand font-bold">
 					.btn {<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;@apply bg-brand text-white text-sm border-none rounded font-bold p-3 mt-2;<br>
 					}<br>
@@ -291,7 +300,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
-							tailwindcss <span class="text-teal">0.7.3</span><br><br>
+							tailwindcss <span class="text-teal">1.0.0-beta.3</span><br><br>
 
 							🚀 Building... <span class="text-teal">tailwind.config.css</span><br><br>
 

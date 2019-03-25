@@ -17,11 +17,6 @@ module.exports = {
       'half': '50vh',
       '3/4': '75vh'
     },
-
-
-
-
-
   },
   variants: {
     // Some useful comment
