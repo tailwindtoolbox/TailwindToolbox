@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Toolbox - Setup Tailwind CSS starter template</title>
+    <title>Tailwind Toolbox - Setup Tailwind CSS v1.0</title>
 	<meta name="description" content="Step by step instructions to setup the Tailwind CSS starter template to use with node.js/npm, postcss+purgecss!">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template, setup tailwind, newbie guide, step by step, instructions">
 	<?php include 'includes/head.php';?>
@@ -19,7 +19,7 @@
 	<!--header-->
 	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Setting up Tailwind</span>
+			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Setting up Tailwind v1.0.0 (Beta 3)</span>
 		</div>
 	</div>
 
@@ -28,15 +28,17 @@
 		<div class="w-full -mt-12 md:-mt-32 px-0">
 			<div class="flex flex-wrap bg-white rounded overflow-hidden shadow mx-1">
 				<div class="w-full lg:w-1/5">
-					<div class="p-6">
+					<div class="p-6 top-6">
 						<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 					</div>
 				</div>
-				<div class="w-full lg:w-3/5 p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
+				<div class="w-full lg:w-3/5 p-3 sm:p-6 lg:p-8 text-gray-800 leading-normal text-base md:text-xl">
 							
 					<p class="text-xl md:text-2xl my-6 font-bold">It's pretty straight forward to <a href="https://tailwindcss.com/docs/installation" target="_blank" rel="noopener">setup Tailwind</a> and give it a test spin using the CDN version.  However, as mentioned on the Tailwind site, you need to setup Tailwind using npm in order to start customising Tailwind.</p>
 					
-					<p>This guide will help beginners get to grasp with: </p>
+					<p class="text-brand font-bold bg-teal-lightest pb-2 px-2 border-l-4 border-teal">Note: this guide is subject to change with changes to v1.0</p>
+
+					<p class="mt-2">This guide will help beginners get to grasp with: </p>
 					
 					 <div class="flex items-center pt-2">
 						<svg class="flex-none m-2 h-6 fill-current text-brand" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -73,8 +75,8 @@
 					</div>
 					
 					
-					<h2 class="text-xl md:text-3xl text-brand pt-12 pb-4">Setup Node.js/npm</h2>
-					<hr class="border border-grey-lighter">
+					<h2 class="font-bold text-xl md:text-3xl text-brand pt-12 pb-4">Setup Node.js/npm</h2>
+					<hr class="border border-gray-lighter">
 					
 					<p>Download and install Node.js/npm</p>
 				
@@ -93,9 +95,9 @@
 							</div> 
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>node -v</p>
+							<p class="text-gray-600">&gt;>node -v</p>
 							<p>v8.12.0</p>
-							<p class="text-grey">&gt;>npm -v</p>
+							<p class="text-gray-600">&gt;>npm -v</p>
 							<p>6.9.0</p>
 						</div>
 					</div>
@@ -114,15 +116,15 @@
 							</div> 
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>npm install -g npm</p>
+							<p class="text-gray-600">&gt;>npm install -g npm</p>
 							<p>(some npm messages)<br>
 							+ npm@6.9.0<br>
 							added 387 packages from 770 contributors in 86.554s</p>
 						</div>
 					</div>
 
-					<h2 class="text-xl md:text-3xl text-brand pt-12 pb-4">Tailwind-Starter Setup</h2>
-					<hr class="border border-grey-lighter">
+					<h2 class="font-bold text-xl md:text-3xl text-brand pt-12 pb-4">Tailwind-Starter Setup</h2>
+					<hr class="border border-gray-lighter">
 					
 					<p>Create your 'project-name' folder and download the Tailwind-Starter zip file and extract the contents.</p>
 
@@ -155,7 +157,7 @@
 							</div>
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>npm update</p>
+							<p class="text-gray-600">&gt;>npm update</p>
 							<p>(some npm messages)<br>
 							+ cssnano@4.1.10<br>
 							+ postcss-cli@6.1.2<br>
@@ -178,7 +180,7 @@
 							</div> 
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>npm run del:js && npm run create:js</p>
+							<p class="text-gray-600">&gt;>npm run del:js && npm run create:js</p>
 
 							<p>> TailwindStarterTemplate@1.0.0 del:js C:\project-name<br>
 							> rimraf tailwind.config.js<br><br></p>
@@ -204,7 +206,7 @@
 							</div> 
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>npm run dev:css</p>
+							<p class="text-gray-600">&gt;>npm run dev:css</p>
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
@@ -222,10 +224,10 @@
 					<p>Start building your website using the starter template in the <span class="code">dist</span> folder.</p>
 
 				
-					<h2 class="text-xl md:text-3xl text-brand pt-12 pb-4">Customising Tailwind</h2>
-					<hr class="border border-grey-lighter">
+					<h2 class="font-bold text-xl md:text-3xl text-brand pt-12 pb-4">Customising Tailwind</h2>
+					<hr class="border border-gray-lighter">
 
-					<h3 class="text-base md:text-2xl pt-6 pb-3">Customise tailwind.config.js</h3>
+					<h3 class="font-bold text-base md:text-2xl pt-6 pb-3">Customise tailwind.config.js</h3>
 					
 					<p>To make changes to the configuration, go to your 'project-name' folder and open <span class="code">tailwind.config.js</span> and make amendments for your website (e.g. update the colour palette, fonts etc).</p>
 					
@@ -255,7 +257,7 @@
 					</div></p>
 					
 					
-					<h3 class="text-base md:text-2xl pt-6 pb-3">Customise tailwind.config.css</h3>			
+					<h3 class="font-bold text-base md:text-2xl pt-6 pb-3">Customise tailwind.config.css</h3>			
 									
 					<p>As your development goes on and you start getting a lot of repetition of CSS classes, you can create your own utilities and components</p>
 					
@@ -282,7 +284,7 @@
 					<span class="code text-sm">&lt;a href="#" class="bg-brand text-white text-sm border-none rounded font-bold p-3 mt-2 hover:bg-teal-dark"&gt;Click Me!&lt;/a&gt;</span>
 					
 			
-					<h3 class="text-base md:text-2xl pt-12 pb-3">Updating tailwind.css for your project</h3>
+					<h3 class="font-bold text-base md:text-2xl pt-12 pb-3">Updating tailwind.css for your project</h3>
 					
 					<p>After any changes to tailwind.config.js and tailwind.css, you <b>must</b> recreate the tailwind css file in order to get the updated classes/utilities for use in your project.</p>
 					<p>Open your node command prompt/terminal run:</p>
@@ -296,7 +298,7 @@
 							</div> 
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>npm run dev:css</p>
+							<p class="text-gray-600">&gt;>npm run dev:css</p>
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
@@ -313,8 +315,8 @@
 						</div>
 					</div>				
 					
-					<h2 class="text-xl md:text-3xl text-brand pt-12 pb-4">Create purged and minified css</h2>
-					<hr class="border border-grey-lighter">
+					<h2 class="font-bold text-xl md:text-3xl text-brand pt-12 pb-4">Create purged and minified css</h2>
+					<hr class="border border-gray-lighter">
 					
 					<p>Once you have finalised your project you can build the final minified version (<span class="code">tailwind.min.css</span> in the <span class="code">/dist/css</span> folder) which will remove all of the classes which you have not used within your project.</p>
 					<p>Open your node command prompt/terminal run:</p>
@@ -328,7 +330,7 @@
 							</div> 
 						</div> 
 						<div class="window-bg">
-							<p class="text-grey">&gt;>npm run build:css</p>
+							<p class="text-gray-600">&gt;>npm run build:css</p>
 							<p>> TailwindStarterTemplate@1.0.0 build:css C:\project-name<br>
 							> postcss tailwind.config.css -o dist/css/tailwind.min.css</p>
 						</div>

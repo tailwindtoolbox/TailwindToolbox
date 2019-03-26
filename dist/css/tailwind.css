@@ -4009,6 +4009,10 @@ a:hover {
   height: 16rem;
 }
 
+.h-128 {
+  height: 20rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -4023,6 +4027,14 @@ a:hover {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-half {
+  height: 50vh;
+}
+
+.h-3\/4 {
+  height: 75vh;
 }
 
 .leading-none {
@@ -10969,6 +10981,10 @@ a:hover {
     height: 16rem;
   }
 
+  .sm\:h-128 {
+    height: 20rem;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -10983,6 +10999,14 @@ a:hover {
 
   .sm\:h-screen {
     height: 100vh;
+  }
+
+  .sm\:h-half {
+    height: 50vh;
+  }
+
+  .sm\:h-3\/4 {
+    height: 75vh;
   }
 
   .sm\:leading-none {
@@ -17899,6 +17923,10 @@ a:hover {
     height: 16rem;
   }
 
+  .md\:h-128 {
+    height: 20rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -17913,6 +17941,14 @@ a:hover {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-half {
+    height: 50vh;
+  }
+
+  .md\:h-3\/4 {
+    height: 75vh;
   }
 
   .md\:leading-none {
@@ -24829,6 +24865,10 @@ a:hover {
     height: 16rem;
   }
 
+  .lg\:h-128 {
+    height: 20rem;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -24843,6 +24883,14 @@ a:hover {
 
   .lg\:h-screen {
     height: 100vh;
+  }
+
+  .lg\:h-half {
+    height: 50vh;
+  }
+
+  .lg\:h-3\/4 {
+    height: 75vh;
   }
 
   .lg\:leading-none {
@@ -31759,6 +31807,10 @@ a:hover {
     height: 16rem;
   }
 
+  .xl\:h-128 {
+    height: 20rem;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -31773,6 +31825,14 @@ a:hover {
 
   .xl\:h-screen {
     height: 100vh;
+  }
+
+  .xl\:h-half {
+    height: 50vh;
+  }
+
+  .xl\:h-3\/4 {
+    height: 75vh;
   }
 
   .xl\:leading-none {

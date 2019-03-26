@@ -50,7 +50,7 @@
 	</div>
 	
 
-	<div class="diagonal-bg fixed h-full w-full pin-t" style="z-index:-1;">
+	<div class="diagonal-bg fixed h-full w-full top-0" style="z-index:-1;">
 		<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><line x1='100%' y1='0' x2='1' y2='100%' stroke='#f5f5f5' stroke-width='30%'/></svg>
 	</div>
 
