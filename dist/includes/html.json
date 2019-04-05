@@ -39,7 +39,7 @@
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
          "url_image":"templates/ghostwind-home.png",
          "title":"Ghostwind Blog Homepage",
-         "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+         "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
          "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Ghostwind",
          "category": "Blog, Homepage"
@@ -48,7 +48,7 @@
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
          "url_image":"templates/ghostwind.png",
          "title":"Ghostwind",
-         "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper</a> theme for Ghost",
+         "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
          "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Ghostwind",
          "category": "Blog"

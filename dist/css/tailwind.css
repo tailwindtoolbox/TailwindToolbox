@@ -571,7 +571,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -666,7 +666,8 @@ video {
   padding-bottom: .25rem;
   padding-left: .5rem;
   padding-right: .5rem;
-  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 0;
   border-color: transparent;
   color: #fff;
   font-size: 1rem;
@@ -676,9 +677,20 @@ video {
 }
 
 .navlink:hover {
-  color: #fff;
+  color: #b2f5ea;
   border-color: #e6fffa;
   text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  .navlink {
+    margin-right: .5rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-left-width: 0;
+    border-bottom-width: 2px;
+  }
 }
 
 .footerlink {
@@ -708,8 +720,8 @@ a:hover {
 .code {
   background-color: #f7fafc;
   padding: .25rem;
-  color: #1a202c;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #2d3748;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
   overflow-wrap: break-word;
 }
@@ -744,7 +756,7 @@ a:hover {
   background-color: #000;
   color: #fff;
   font-size: .875rem;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   letter-spacing: .025em;
   overflow-wrap: normal;
   word-break: normal;
@@ -3826,7 +3838,7 @@ a:hover {
 }
 
 .font-mono {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-hairline {
@@ -10798,7 +10810,7 @@ a:hover {
   }
 
   .sm\:font-mono {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .sm\:font-hairline {
@@ -17740,7 +17752,7 @@ a:hover {
   }
 
   .md\:font-mono {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .md\:font-hairline {
@@ -24682,7 +24694,7 @@ a:hover {
   }
 
   .lg\:font-mono {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .lg\:font-hairline {
@@ -31624,7 +31636,7 @@ a:hover {
   }
 
   .xl\:font-mono {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .xl\:font-hairline {

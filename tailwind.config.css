@@ -40,13 +40,19 @@
 
   /*Links*/
   .navlink {
-	  @apply mr-2 pb-1 px-2 border-b-2 border-transparent text-white text-base font-bold text-center no-underline;	  
+	  @apply mr-2 pb-1 px-2 border-l-2 border-b-0 border-transparent text-white text-base font-bold text-center no-underline;	  
   }
   
   .navlink:hover {
-	  @apply text-white border-teal-100 no-underline;	  
+	  @apply text-teal-200 border-teal-100 no-underline;	  
   }
   
+  @screen sm {
+    .navlink {
+      @apply mr-2 pb-1 px-2 border-l-0 border-b-2;	   
+    }
+  }
+
   .footerlink {
 	  @apply text-brand-ondark font-bold no-underline;	  
   }
@@ -64,7 +70,7 @@
 
   /*Code syntax*/
   .code {
-	@apply bg-gray-100 p-1 text-gray-900 font-mono shadow break-words;
+	@apply bg-gray-100 p-1 text-gray-800 font-mono shadow break-words;
   }
   
   /*Faux cmd window */

@@ -1,5 +1,5 @@
 
-<nav id="header" class="bg-brand fixed w-full z-10 pin-t shadow ">
+<nav id="header" class="bg-brand fixed w-full z-10 top-0 shadow ">
 	
 	<div class="w-full container mx-auto flex flex-wrap items-center mt-0 py-3">
 				

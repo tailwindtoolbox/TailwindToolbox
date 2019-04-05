@@ -22,7 +22,7 @@
 									Simple skeleton/boilerplate template to copy/paste into your editor
 								</p>
 								<div>
-									<a href="https://www.tailwindtoolbox.com/skeleton"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
+									<a href="https://www.tailwindtoolbox.com/skeleton"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="inline fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
 								</div>
 								
 							</div>
@@ -45,11 +45,7 @@
 									{{description}}
 								</p>
 
-								<a href="{{download}}" target="_blank" rel="noopener"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
-								<div class="flex flex-wrap justify-between">
-									<a href="{{url}}" class="no-underline hover:no-underline"><button class="bg-white hover:bg-teal text-brand hover:text-white text-sm border border-grey-light rounded font-bold fixed p-3 mt-2 relative pin-x pin-b">Preview</button></a>
-									<a href="{{source}}" target="_blank" rel="noopener"><button class="flex-1 bg-grey-lightest hover:bg-black text-grey-darkest hover:text-white text-sm border border-grey-light rounded font-bold fixed p-3 mt-2 relative pin-x pin-b">Source</button></a>
-								</div>
+								<a href="{{download}}" target="_blank" rel="noopener"><button class="block w-full bg-brand hover:bg-teal text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative pin-x pin-b"><svg class="inline fill-current h-3 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg> Download</button></a>
 								
 							</div>
 						</div>
