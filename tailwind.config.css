@@ -140,6 +140,14 @@
     display: none; }
 
 
+.hidescrollbar {
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.hidescrollbar::-webkit-scrollbar {
+  display: none; }
+
 
 /**
   * This injects all of Tailwind's utility classes, generated based on your
