@@ -67,7 +67,10 @@
  
 	var openmodal = document.querySelectorAll('.modal-open')
 	for (var i = 0; i < openmodal.length; i++) {
-		openmodal[i].addEventListener('click', toggleModal)
+		openmodal[i].addEventListener('click', function(event){
+		  event.preventDefault()
+		  toggleModal()
+		})
 	}
 
 	const overlay = document.querySelector('.modal-overlay')
