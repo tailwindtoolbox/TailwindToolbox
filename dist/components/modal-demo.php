@@ -27,7 +27,7 @@
 
 <body class="relative bg-gray-100 font-sans leading-normal tracking-normal">
 
-  <div class="container mx-auto text-center pt-12">
+  <div class="container mx-auto text-center pt-12 pb-32">
     
 	<div class="py-12">
 		<button class="modal-open bg-indigo-500 p-3 rounded-lg text-white hover:bg-indigo-400">Open Modal</button>
