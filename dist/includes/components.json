@@ -2,8 +2,8 @@
      {
          "url":"https:\/\/www.tailwindtoolbox.com/components/modal",
          "url_image":"components/modal.png",
-         "title":"Modal (NEW)",
-         "description":"Simple message modal",
+         "title":"New! Modal",
+         "description":"Simple pop up modal with full screen overlay",
          "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Admin-Template",
          "category": "Admin"
