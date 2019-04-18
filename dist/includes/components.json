@@ -9,10 +9,10 @@
          "category": "Admin"
      },
      {
-         "url":"https:\/\/www.tailwindtoolbox.com/components/accordian",
+         "url":"https:\/\/www.tailwindtoolbox.com/components/accordion",
          "url_image":"components/accordian.png",
-         "title":"Accordian",
-         "description":"CSS only accordians - multi open or single open",
+         "title":"Accordion",
+         "description":"CSS only accordions - multi open or single open",
          "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Admin-Template",
          "category": "Admin"
