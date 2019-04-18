@@ -52,10 +52,10 @@
                      <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
                   </li>
                   <li class="mr-3 py-2 lg:py-0">
-                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:text-underline py-2 px-4" href="#">link</a>
+                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:underline py-2 px-4" href="#">link</a>
                   </li>
                   <li class="mr-3 py-2 lg:py-0">
-                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:text-underline py-2 px-4" href="#">link</a>
+                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:underline py-2 px-4" href="#">link</a>
                   </li>
                </ul>
             </div>
@@ -182,7 +182,7 @@
                      <h3 class="font-bold text-black">Social</h3>
                      <ul class="list-reset items-center text-sm pt-3">
                         <li>
-                           <a class="inline-block text-grey-dark no-underline hover:text-black hover:text-underline py-1" href="#">Add social links</a>
+                           <a class="inline-block text-grey-dark no-underline hover:text-black hover:underline py-1" href="#">Add social links</a>
                         </li>
                      </ul>
                   </div>
