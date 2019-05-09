@@ -8,6 +8,7 @@
 				<div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
 						<div class="bg-white rounded overflow-hidden shadow mx-1 sm:mx-2 hover:shadow-lg">
+							<img src="{{url_image}}" class="h-full w-full rounded shadow">
 							<div class="p-2 lg:px-5 lg:pt-0 mb-2 text-center">
 								<div class="font-bold text-xl pt-2 my-1">{{title}}</div>
 								<div class="mx-auto border-t border-grey-light w-12 pt-2"></div>

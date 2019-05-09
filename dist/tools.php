@@ -20,7 +20,7 @@
 	<!--header-->
 	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Starter Components</span>
+			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Tools and Utilities</span>
 		</div>
 	</div>
 
@@ -42,7 +42,7 @@
 
 
 			<div class="w-full md:w-1/5">
-				<div class="sticky pin-t" style="top:10em;">
+				<div class="sticky pin-t" style="top:8em;">
 					<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 				</div>

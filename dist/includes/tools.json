@@ -1,7 +1,7 @@
 [
     {
          "url":"https:\/\/github.com/vinkla/autocomplete-tailwind",
-         "url_image":"#",
+         "url_image":"tools/atom-autocomplete.png",
          "title":"Atom Auto Complete",
          "description":"Tailwind CSS Autocompletion provider for Atom",
          "url_author":"https:\/\/github.com/vinkla",
@@ -10,7 +10,7 @@
      },
     {
          "url":"https:\/\/marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
-         "url_image":"#",
+         "url_image":"tools/vsc-autocomplete.png",
          "title":"Tailwind CSS IntelliSense",
          "description":"Tailwind CSS class name completion for VS Code",
          "url_author":"https:\/\/github.com/bradlc",
@@ -19,7 +19,7 @@
     },
     {
          "url":"https:\/\/packagecontrol.io/packages/TailwindCSSAutocomplete",
-         "url_image":"#",
+         "url_image":"tools/sublime-autocomplete.png",
          "title":"Tailwind CSS Autocomplete",
          "description":"Tailwind CSS class name completion for Sublime Text",
          "url_author":"https:\/\/github.com/bradlc",
@@ -28,7 +28,7 @@
      },
      {
           "url":"https:\/\/nerdcave.com/tailwind-cheat-sheet",
-          "url_image":"#",
+          "url_image":"tools/tailwind-cheat-sheet.png",
           "title":"Tailwind CSS Cheatsheet",
           "description":"Cheat sheet to search the Tailwind CSS utility classes and CSS properties",
           "url_author":"https:\/\/github.com/nerdcave",
@@ -37,7 +37,7 @@
       },
       {
            "url":"https:\/\/github.com/urbantrout/refactor-css",
-           "url_image":"#",
+           "url_image":"tools/refactor-tailwind.png",
            "title":"Refactor CSS",
            "description":"Helps you identify reoccurring CSS class name combinations in your markup",
            "url_author":"https:\/\/github.com/urbantrout",
@@ -46,7 +46,7 @@
        },
        {
             "url":"https:\/\/github.com/jan-dh/sketch-tailwind",
-            "url_image":"#",
+            "url_image":"placeholder.png",
             "title":"Sketch Tailwind",
             "description":"Export aspects of a design made in Sketch into Tailwind CSS ready javascript files",
             "url_author":"https:\/\/github.com/jan-dh",

@@ -9,16 +9,16 @@
     },
     "main": "postcss.config.js",
     "dependencies": {
-        "@glidejs/glide": "^3.2.7",
-        "autoprefixer": "^9.5.0",
+        "@glidejs/glide": "^3.3.0",
+        "autoprefixer": "^9.5.1",
         "postcss-cli": "^6.1.2",
         "rimraf": "^2.6.3",
         "watch": "^1.0.2"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^1.1.0",
+        "@fullhuman/postcss-purgecss": "^1.2.0",
         "cssnano": "^4.1.10",
-        "tailwindcss": "^1.0.0-beta.4"
+        "tailwindcss": "^1.0.0-beta.8"
     },
     "scripts": {
         "del:js": "rimraf tailwind.config.js",
