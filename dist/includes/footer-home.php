@@ -1,7 +1,7 @@
 <footer class="w-full flex flex-col bg-gray-700 text-center">
 		<p class="pt-4 px-5 text-white text-sm"><a class="footerlink" href="http://www.tailwindcss.com" target="_blank" rel="noopener">Tailwind CSS</a> is a utility-first CSS framework for rapid UI development</p>
 		
-		<p class="py-3 px-5 text-white text-sm"><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Tailwind Tools</a> is a project created by and maintained by <a class="footerlink" href="https://astrava.solutons">Astrava.Solutions</a></p>
+		<p class="py-3 px-5 text-white text-sm"><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Tailwind Toolbox</a> is a project created by and maintained by <a class="footerlink" href="https://twitter.com/amritnagi">Amrit Nagi</a></p>
 		
 		<p class="py-3">
       <a class="footerlink pr-3" href="https://simpleanalytics.io/tailwindtoolbox.com" target="_blank" rel="noopener"><svg class="inline fill-current text-brand-ondark w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M1 10h3v10H1V10zM6 0h3v20H6V0zm5 8h3v12h-3V8zm5-4h3v16h-3V4z"/></svg></a>

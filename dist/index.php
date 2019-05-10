@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Toolbox - Free Starter Templates for Tailwind CSS</title>
-	<meta name="description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+    <title>Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS</title>
+	<meta name="description" content="Free open source Tailwind CSS starter templates and components to get you started quickly to creating websites in Tailwind CSS!">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free templates,admin templates, admin template, admin dashboard, admin console, free tailwind css templates, tailwind example, tailwind skeleton">
 	<?php include 'includes/head.php';?>
 	
@@ -36,11 +36,11 @@
 		<!--Left Col-->
 		<div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-6 md:pb-12 px-6">
 			<div class="pt-6 md:pt-12">
-				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter Templates for your next Tailwind CSS project!</span></span>
+				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter Templates and Components for Tailwind CSS</span></span>
 			</div>
 
-			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source starter templates and components to help you get started building with Tailwind CSS</p>
-			<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show me the templates!!</a>
+			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source starter templates and components to help you get started building with Tailwind CSS<br><br>Show me the:</p>
+			<div class="flex"><a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4 mr-4">Templates</a> <a href="https://www.tailwindtoolbox.com/starter-components" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Components</a></div>
 		</div>
 		<!--Right Col-->
 		<div class="w-full lg:w-1/2 lg:py-6 text-center">
@@ -65,7 +65,7 @@
 
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
-					<p class="text-grey-dark">25 Mar - Added new template - <a href="https://www.tailwindtoolbox.com/templates/landing-page">Landing Page</a></p>
+					<p class="text-grey-dark">10 May - Updated site to v1 and added images for <a href="https://www.tailwindtoolbox.com/tools">tools</a></p>
 				</div>
 			</div>
 		

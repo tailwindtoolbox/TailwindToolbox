@@ -48,7 +48,7 @@
 				';
 
 				// Read JSON file
-				$json = file_get_contents("includes/html.json");
+				$json = file_get_contents("includes/html-home.json");
 				//Decode JSON
 				$json_data = json_decode($json,true);
 
