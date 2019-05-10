@@ -9,18 +9,20 @@
     },
     "main": "postcss.config.js",
     "dependencies": {
-        "@glidejs/glide": "^3.2.6",
-        "autoprefixer": "^9.5.0",
+        "@glidejs/glide": "^3.3.0",
+        "autoprefixer": "^9.5.1",
         "postcss-cli": "^6.1.2",
-        "tailwindcss": "^0.7.4",
+        "rimraf": "^2.6.3",
         "watch": "^1.0.2"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^1.1.0",
-        "cssnano": "^4.1.10"
+        "@fullhuman/postcss-purgecss": "^1.2.0",
+        "cssnano": "^4.1.10",
+        "tailwindcss": "^1.0.0-beta.8"
     },
     "scripts": {
-        "dev:js": "./node_modules/.bin/tailwind init tailwind.config.js",
+        "del:js": "rimraf tailwind.config.js",
+        "create:js": "./node_modules/.bin/tailwind init tailwind.config.js",
         "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
         "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css",
         "startwatch": "watch 'npm run build:css' ./dist",

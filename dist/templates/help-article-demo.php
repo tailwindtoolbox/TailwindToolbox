@@ -5,9 +5,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Tailwind Starter Template - Help Article: Tailwind Toolbox</title>
-			<meta name="description" content="Free open source Tailwind CSS starter Help / FAQ / KB article">
-			<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,help, faq, knowledge base, kb">
-			<?php include '../includes/head-templates.php';?>
+      <meta name="description" content="Free open source Tailwind CSS starter Help / FAQ / KB article">
+      <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,help, faq, knowledge base, kb">
+      <?php include '../includes/head-templates.php';?>
 
       <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
       <!--Replace with your tailwind.css once created-->
@@ -72,8 +72,9 @@
                   </svg>
                </button>
             </div>
-            <div class="w-full sticky pin hidden h-64 lg:h-auto overflow-x-hidden overflow-y-auto lg:overflow-y-hidden lg:block mt-0 border border-grey-light lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20" style="top:5em;" id="menu-content">
-               <ul class="list-reset">
+
+            <div class="w-full sticky pin hidden h-64 lg:h-auto overflow-hidden overflow-scroll-y lg:block mt-0 border border-grey-light lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20" style="top:5em;" id="menu-content">
+                <ul class="list-reset">
                   <li class="py-2 md:my-0 hover:bg-purple-lightest lg:hover:bg-transparent">
                      <a href="#" class="block pl-4 align-middle text-grey-darker no-underline hover:text-purple border-l-4 border-transparent lg:border-purple lg:hover:border-purple">
                      <span class="pb-1 md:pb-0 text-sm text-black font-bold">Home</span>

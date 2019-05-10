@@ -2,7 +2,7 @@
      {
          "url":"https:\/\/www.tailwindtoolbox.com/components/modal",
          "url_image":"components/modal.png",
-         "title":"New! Modal",
+         "title":"Modal",
          "description":"Simple pop up modal with full screen overlay",
          "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Admin-Template",
@@ -10,7 +10,7 @@
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/components/accordion",
-         "url_image":"components/accordian.png",
+         "url_image":"components/accordion.png",
          "title":"Accordion",
          "description":"CSS only accordions - multi open or single open",
          "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
