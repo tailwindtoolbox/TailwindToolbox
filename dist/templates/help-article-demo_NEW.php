@@ -52,10 +52,10 @@
                      <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
                   </li>
                   <li class="mr-3 py-2 lg:py-0">
-                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:text-underline py-2 px-4" href="#">link</a>
+                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:underline py-2 px-4" href="#">link</a>
                   </li>
                   <li class="mr-3 py-2 lg:py-0">
-                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:text-underline py-2 px-4" href="#">link</a>
+                     <a class="inline-block text-grey-dark no-underline hover:text-black hover:underline py-2 px-4" href="#">link</a>
                   </li>
                </ul>
             </div>
@@ -72,8 +72,9 @@
                   </svg>
                </button>
             </div>
+
             <div class="w-full sticky pin hidden h-64 lg:h-auto overflow-hidden overflow-scroll-y lg:block mt-0 border border-grey-light lg:border-transparent bg-white shadow lg:shadow-none lg:bg-transparent z-20" style="top:5em;" id="menu-content">
-               <ul class="list-reset">
+                <ul class="list-reset">
                   <li class="py-2 md:my-0 hover:bg-purple-lightest lg:hover:bg-transparent">
                      <a href="#" class="block pl-4 align-middle text-grey-darker no-underline hover:text-purple border-l-4 border-transparent lg:border-purple lg:hover:border-purple">
                      <span class="pb-1 md:pb-0 text-sm text-black font-bold">Home</span>
@@ -105,7 +106,7 @@
          <div class="w-full lg:w-4/5 p-8 mt-6 lg:mt-0 text-black leading-normal bg-white border border-grey-light border-rounded">
             <!--Title-->
             <div class="font-sans">
-               <span class="text-base text-purple font-bold">&lt;<span> <a href="#" class="text-base md:text-sm text-purple font-bold no-underline hover:underline">Back Link</a></p>
+               <span class="text-base text-purple font-bold">&laquo;<span> <a href="#" class="text-base md:text-sm text-purple font-bold no-underline hover:underline">Back Link</a></p>
                <h1 class="font-sans break-normal text-black pt-6 pb-2 text-xl">Help page title</h1>
                <hr class="border-b border-grey-light">
             </div>
@@ -182,7 +183,7 @@
                      <h3 class="font-bold text-black">Social</h3>
                      <ul class="list-reset items-center text-sm pt-3">
                         <li>
-                           <a class="inline-block text-grey-dark no-underline hover:text-black hover:text-underline py-1" href="#">Add social links</a>
+                           <a class="inline-block text-grey-dark no-underline hover:text-black hover:underline py-1" href="#">Add social links</a>
                         </li>
                      </ul>
                   </div>

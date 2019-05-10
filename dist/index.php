@@ -65,7 +65,7 @@
 
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
-					<p class="text-grey-dark">15 Mar - Added new template - <a href="https://www.tailwindtoolbox.com/templates/help-article">Help Article</a> (clone of Weebly support article)</p>
+					<p class="text-grey-dark">25 Mar - Added new template - <a href="https://www.tailwindtoolbox.com/templates/landing-page">Landing Page</a></p>
 				</div>
 			</div>
 		

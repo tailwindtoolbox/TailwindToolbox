@@ -1,4 +1,13 @@
 [
+    {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/landing-page",
+        "url_image":"templates/landing-page.png",
+        "title":"NEW! Landing Page",
+        "description":"Bright landing page which can be used for many purposes",
+        "download":"https:\/\/github.com/tailwindtoolbox/Landing-Page/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Landing-Page",
+        "category": "Homepage"
+    },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
          "url_image":"templates/admin-template.png",

@@ -195,7 +195,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 create:js C:\project-name<br>
 							> tailwind init tailwind.config.js<br><br><br>
 							
-							tailwindcss <span class="text-teal-500">1.0.0-beta.4</span><br><br>
+							tailwindcss <span class="text-teal-500">1.0.0-beta.8</span><br><br>
 
 							✅ Created Tailwind config file: <span class="text-pink-500">tailwind.config.js</span><br></p>
 						</div>
@@ -217,7 +217,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
-							tailwindcss <span class="text-teal-500">1.0.0-beta.4</span><br><br>
+							tailwindcss <span class="text-teal-500">1.0.0-beta.8</span><br><br>
 
 							🚀 Building... <span class="text-pink-500">tailwind.config.css</span><br><br>
 
@@ -239,7 +239,7 @@
 					<p>To make changes to the configuration, go to your 'project-name' folder and open <span class="code">tailwind.config.js</span> and make amendments for your website (e.g. update the colour palette, fonts etc).</p>
 					
 					<p>Refer to the Tailwind documentation for more information: <a href="https://tailwindcss.com/docs/configuration" target="_blank" rel="noopener">Configure tailwind.js</a></p>
-					
+
 					<p class="mt-4 text-sm font-bold">Example: Adding two new colour classes 'primary' and 'secondary' and some useful heights</p>
 					<p><div class="code p-3 text-sm">
 					const defaultTheme = require('tailwindcss/defaultTheme')<br><br>
@@ -259,10 +259,6 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3/4': '75vh'<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;}</span>,<br>
-
-
-
-
 					&nbsp;&nbsp;variants: {<br>
 						&nbsp;&nbsp;&nbsp;&nbsp;// Some useful comment<br>
 					&nbsp;&nbsp;},<br>
@@ -284,6 +280,7 @@
 					<p><div class="code text-sm">
 					<br>
 					@tailwind components;<br><br>
+
 					<span class="text-brand bg-teal-100 font-bold">
 					.btn {<br>
 					&nbsp;&nbsp;&nbsp;&nbsp;@apply bg-brand text-white text-sm border-none rounded font-bold p-3 mt-2;<br>
@@ -317,8 +314,8 @@
 							<p class="text-gray-600">&gt;>npm run dev:css</p>
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
-							
-							tailwindcss <span class="text-teal-500">1.0.0-beta.4</span><br><br>
+
+							tailwindcss <span class="text-teal-500">1.0.0-beta.8</span><br><br>
 
 							🚀 Building... <span class="text-pink-500">tailwind.config.css</span><br><br>
 
