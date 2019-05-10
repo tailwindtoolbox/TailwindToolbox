@@ -2,6 +2,7 @@
 <div class="container mx-auto mb-16" id="html-templates">
 		<div class="w-full px-5 md:px-0">
 	
+			<h2 class="font-bold text-xl md:text-3xl text-brand text-center pb-4 md:pb-8">Popular Templates</h2>
 
 			<div class="flex flex-wrap items-stretch mb-2 md:px-3">				
 				
@@ -74,18 +75,8 @@
 									
 					?>
 
-<div class="w-full mb-12 pb-3 sm:pb-0 flex-grow text-center">
-<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show all templates</a>
-</div>
-
-                <!--Carbon-->
-                <div class="w-full md:w-1/3 mb-12  pb-3 sm:pb-0 flex-grow">
-                    <div class="bg-white rounded overflow-hidden shadow mx-5 sm:mx-2 hover:shadow-lg h-full">
-                        <div class="p-5 text-center h-full items-center">
-							<p class="py-4 text-brand font-bold">Advertisment</p>
-                            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-                        </div>
-                    </div>
+				<div class="w-full mb-12 pb-3 sm:pb-0 flex-grow text-center">
+				<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white text-xl border-none rounded font-bold p-4">Show all templates</a>
 				</div>
 				
 
