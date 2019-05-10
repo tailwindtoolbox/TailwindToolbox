@@ -45,7 +45,11 @@
 				<div class="sticky pin-t" style="top:9em;">
 					<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+					<div class="w-full p-6 text-center">
+					<p class="text-brand text-center font-bold mb-2">Find something useful?</p>
+					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" class="mx-auto"></a>
 				</div>
+			</div>
 				<div></div>
 	
 					
