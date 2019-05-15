@@ -130,13 +130,13 @@
         "category": "Javascript"
     },
     {
-        "url":"https:\/\/github.com/taylorbryant/gatsby-starter-tailwind",
+        "url":"https:\/\/github.com/Oddstronaut/gatsby-starter-tailwind",
         "url_image":"templates/gatsby-tailwind.png",
         "title":"Gatsby Starter Template",
         "description":"A Gatsby.js starter project template using Tailwind CSS",
         "download":"",
-        "url_author":"https:\/\/github.com/taylorbryant",
-        "author":"Taylor Bryant \/ @taylorbryant",
+        "url_author":"https:\/\/github.com/Oddstronaut",
+        "author":"Taylor Bryant \/ @Oddstronaut",
         "category": "Javascript"
      },
     {
@@ -170,13 +170,13 @@
         "category": "CMS"
     },
     {
-        "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
+        "url":"https:\/\/github.com/Oddstronaut/tailwind-jekyll",
         "url_image":"templates/jekyll-tailwind.png",
         "title":"Jekyll Starter Template",
         "description":"A Jekyll starter project template using Tailwind CSS",
         "download":"",
-        "url_author":"https:\/\/github.com/taylorbryant",
-        "author":"Taylor Bryant \/ @taylorbryant",
+        "url_author":"https:\/\/github.com/Oddstronaut",
+        "author":"Taylor Bryant \/ @Oddstronaut",
         "category": "CMS"
     },
     {
