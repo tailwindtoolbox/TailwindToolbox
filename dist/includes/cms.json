@@ -18,14 +18,23 @@
       "category": "CMS"
    },
    {
-      "url":"https:\/\/github.com/taylorbryant/tailwind-jekyll",
-      "url_image":"templates/jekyll-tailwind.png",
-      "title":"Jekyll Starter Template",
-      "description":"A Jekyll starter project template using Tailwind CSS",
-      "url_author":"https:\/\/github.com/taylorbryant",
-      "author":"Taylor Bryant \/ @taylorbryant",
-      "category": "CMS"
-   },
+        "url":"https:\/\/github.com/Oddstronaut/tailwind-jekyll",
+        "url_image":"templates/jekyll-tailwind.png",
+        "title":"Jekyll Starter Template",
+        "description":"A Jekyll starter project template using Tailwind CSS",
+        "url_author":"https:\/\/github.com/Oddstronaut",
+        "author":"Taylor Bryant \/ @Oddstronaut",
+        "category": "CMS"
+    },
+    {
+        "url":"https:\/\/github.com/mhanberg/jekyll-tailwind-starter",
+        "url_image":"templates/jekyll-tailwind.png",
+        "title":"Jekyll Starter Template",
+        "description":"Starter project for using Jekyll with Tailwind CSS",
+        "url_author":"https:\/\/github.com/mhanberg",
+        "author":"Mitchell Hanberg \/ @mhanberg",
+        "category": "CMS"
+    },
    {
       "url":"https:\/\/github.com/hellocosmin/jigsaw-tailwindcss",
       "url_image":"templates/jigsaw-tailwind.png",
