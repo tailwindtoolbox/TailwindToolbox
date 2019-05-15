@@ -180,6 +180,16 @@
         "category": "CMS"
     },
     {
+        "url":"https:\/\/github.com/mhanberg/jekyll-tailwind-starter",
+        "url_image":"templates/jekyll-tailwind.png",
+        "title":"Jekyll Starter Template",
+        "description":"Starter project for using Jekyll with Tailwind CSS",
+        "download":"",
+        "url_author":"https:\/\/github.com/mhanberg",
+        "author":"Mitchell Hanberg \/ @mhanberg",
+        "category": "CMS"
+    },
+    {
         "url":"https:\/\/github.com/Attps:\/\/github.com/phproberto/tailwind-joomla",
         "url_image":"templates/joomla-tailwind.png",
         "title":"Tailwind CSS template for Joomla!",
