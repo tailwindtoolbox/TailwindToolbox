@@ -10,7 +10,7 @@
 	<?php include '../includes/head-templates.php';?>
 	
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
+    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js" integrity="sha256-XF29CBwU1MWLaGEnsELogU6Y6rcc5nCkhhx89nFMIDQ=" crossorigin="anonymous"></script>
 
 	<style>
@@ -29,37 +29,37 @@
 </head>
 <body class="bg-black-alt font-sans leading-normal tracking-normal">
 
-<nav id="header" class="bg-black fixed w-full z-10 pin-t shadow">
+<nav id="header" class="bg-gray-900 fixed w-full z-10 top-0 shadow">
 	
 
 		<div class="w-full container mx-auto flex flex-wrap items-center mt-0 pt-3 pb-3 md:pb-0">
 				
 			<div class="w-1/2 pl-2 md:pl-0">
-				<a class="text-grey-lightest text-base xl:text-xl no-underline hover:no-underline font-bold"  href="#"> 
-					<i class="fas fa-moon text-blue-light pr-3"></i> Admin Dark Mode
+				<a class="text-gray-100 text-base xl:text-xl no-underline hover:no-underline font-bold"  href="#"> 
+					<i class="fas fa-moon text-blue-400 pr-3"></i> Admin Dark Mode
 				</a>
             </div>
 			<div class="w-1/2 pr-0">
 				<div class="flex relative inline-block float-right">
 				
-				  <div class="relative text-sm text-grey-lightest">
+				  <div class="relative text-sm text-gray-100">
 					  <button id="userButton" class="flex items-center focus:outline-none mr-3">
-						<img class="w-8 h-8 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of User"> <span class="hidden md:inline-block text-grey-lightest">Hi, User</span>
-						<svg class="pl-2 h-2 fill-current text-grey-lightest" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/></g></svg>
+						<img class="w-8 h-8 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of User"> <span class="hidden md:inline-block text-gray-100">Hi, User</span>
+						<svg class="pl-2 h-2 fill-current text-gray-100" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/></g></svg>
 					  </button>
-					  <div id="userMenu" class="bg-black rounded shadow-md mt-2 absolute mt-12 pin-t pin-r min-w-full overflow-auto z-30 invisible">
+					  <div id="userMenu" class="bg-gray-900 rounded shadow-md mt-2 absolute mt-12 top-0 right-0 min-w-full overflow-auto z-30 invisible">
 						  <ul class="list-reset">
-							<li><a href="#" class="px-4 py-2 block text-grey-lightest hover:bg-grey-darkest no-underline hover:no-underline">My account</a></li>
-							<li><a href="#" class="px-4 py-2 block text-grey-lightest hover:bg-grey-darkest no-underline hover:no-underline">Notifications</a></li>
-							<li><hr class="border-t mx-2 border-grey-light"></li>
-							<li><a href="#" class="px-4 py-2 block text-grey-lightest hover:bg-grey-darkest no-underline hover:no-underline">Logout</a></li>
+							<li><a href="#" class="px-4 py-2 block text-gray-100 hover:bg-gray-800 no-underline hover:no-underline">My account</a></li>
+							<li><a href="#" class="px-4 py-2 block text-gray-100 hover:bg-gray-800 no-underline hover:no-underline">Notifications</a></li>
+							<li><hr class="border-t mx-2 border-gray-400"></li>
+							<li><a href="#" class="px-4 py-2 block text-gray-100 hover:bg-gray-800 no-underline hover:no-underline">Logout</a></li>
 						  </ul>
 					  </div>
 				  </div>
 
 
 					<div class="block lg:hidden pr-4">
-					<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-grey border-grey-dark hover:text-grey-lightest hover:border-teal appearance-none focus:outline-none">
+					<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-100 hover:border-teal-500 appearance-none focus:outline-none">
 						<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
 					</button>
 				</div>
@@ -68,39 +68,39 @@
 			</div>
 
 
-			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-black z-20" id="nav-content">
+			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-900 z-20" id="nav-content">
 				<ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
 					<li class="mr-6 my-2 md:my-0">
-                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-blue-light no-underline hover:text-grey-lightest border-b-2 border-blue-light hover:border-blue-light">
-                            <i class="fas fa-home fa-fw mr-3 text-blue-light"></i><span class="pb-1 md:pb-0 text-sm">Home</span>
+                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-blue-400 no-underline hover:text-gray-100 border-b-2 border-blue-400 hover:border-blue-400">
+                            <i class="fas fa-home fa-fw mr-3 text-blue-400"></i><span class="pb-1 md:pb-0 text-sm">Home</span>
                         </a>
                     </li>
 					<li class="mr-6 my-2 md:my-0">
-                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-grey no-underline hover:text-grey-lightest border-b-2 border-black  hover:border-pink-light">
+                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-100 border-b-2 border-gray-900  hover:border-pink-400">
                             <i class="fas fa-tasks fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Tasks</span>
                         </a>
                     </li>
                     <li class="mr-6 my-2 md:my-0">
-                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-grey no-underline hover:text-grey-lightest border-b-2 border-black  hover:border-purple-light">
+                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-100 border-b-2 border-gray-900  hover:border-purple-400">
                             <i class="fa fa-envelope fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Messages</span>
                         </a>
                     </li>
                     <li class="mr-6 my-2 md:my-0">
-                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-grey no-underline hover:text-grey-lightest border-b-2 border-black  hover:border-green-light">
+                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-100 border-b-2 border-gray-900  hover:border-green-400">
                             <i class="fas fa-chart-area fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Analytics</span>
                         </a>
                     </li>
                     <li class="mr-6 my-2 md:my-0">
-                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-grey no-underline hover:text-grey-lightest border-b-2 border-black  hover:border-red-light">
+                        <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-100 border-b-2 border-gray-900  hover:border-red-400">
                             <i class="fa fa-wallet fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Payments</span>
                         </a>
                     </li>
 				</ul>
 				
 				<div class="relative pull-right pl-4 pr-4 md:pr-0">
-                    <input type="search" placeholder="Search" class="w-full bg-black text-sm text-grey-light transition border border-grey-darkest focus:outline-none focus:border-grey-dark rounded py-1 px-2 pl-10 appearance-none leading-normal">
+                    <input type="search" placeholder="Search" class="w-full bg-gray-900 text-sm text-gray-400 transition border border-gray-800 focus:outline-none focus:border-gray-600 rounded py-1 px-2 pl-10 appearance-none leading-normal">
                     <div class="absolute search-icon" style="top: 0.375rem;left: 1.75rem;">
-                        <svg class="fill-current pointer-events-none text-grey w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <svg class="fill-current pointer-events-none text-gray-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
                         </svg>
                     </div>
@@ -114,21 +114,21 @@
 	<!--Container-->
 	<div class="container w-full mx-auto pt-20">
 		
-		<div class="w-full px-4 md:px-0 md:mt-8 mb-16 text-grey-darkest leading-normal">
+		<div class="w-full px-4 md:px-0 md:mt-8 mb-16 text-gray-800 leading-normal">
 			
 			<!--Console Content-->
 			
 			<div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Metric Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow p-2">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded p-3 bg-green-dark"><i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i></div>
+                                <div class="rounded p-3 bg-green-600"><i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
-                                <h5 class="uppercase text-grey-light">Total Revenue</h5>
-                                <h3 class="text-3xl text-grey-dark">$3249 <span class="text-green"><i class="fas fa-caret-up"></i></span></h3>
+                                <h5 class="font-bold uppercase text-gray-400">Total Revenue</h5>
+                                <h3 class="font-bold text-3xl text-gray-600">$3249 <span class="text-green-500"><i class="fas fa-caret-up"></i></span></h3>
                             </div>
                         </div>
                     </div>
@@ -136,14 +136,14 @@
                 </div>
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Metric Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow p-2">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded p-3 bg-orange-dark"><i class="fas fa-users fa-2x fa-fw fa-inverse"></i></div>
+                                <div class="rounded p-3 bg-orange-600"><i class="fas fa-users fa-2x fa-fw fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
-                                <h5 class="uppercase text-grey-light">Total Users</h5>
-                                <h3 class="text-3xl text-grey-dark">249 <span class="text-orange"><i class="fas fa-exchange-alt"></i></span></h3>
+                                <h5 class="font-bold uppercase text-gray-400">Total Users</h5>
+                                <h3 class="font-bold text-3xl text-gray-600">249 <span class="text-orange-500"><i class="fas fa-exchange-alt"></i></span></h3>
                             </div>
                         </div>
                     </div>
@@ -151,14 +151,14 @@
                 </div>
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Metric Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow p-2">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded p-3 bg-yellow-dark"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
+                                <div class="rounded p-3 bg-yellow-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
-                                <h5 class="uppercase text-grey-light">New Users</h5>
-                                <h3 class="text-3xl text-grey-dark">2 <span class="text-yellow-dark"><i class="fas fa-caret-up"></i></span></h3>
+                                <h5 class="font-bold uppercase text-gray-400">New Users</h5>
+                                <h3 class="font-bold text-3xl text-gray-600">2 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
                             </div>
                         </div>
                     </div>
@@ -166,14 +166,14 @@
                 </div>
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Metric Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow p-2">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded p-3 bg-blue-dark"><i class="fas fa-server fa-2x fa-fw fa-inverse"></i></div>
+                                <div class="rounded p-3 bg-blue-600"><i class="fas fa-server fa-2x fa-fw fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
-                                <h5 class="uppercase text-grey-light">Server Uptime</h5>
-                                <h3 class="text-3xl text-grey-dark">152 days</h3>
+                                <h5 class="font-bold uppercase text-gray-400">Server Uptime</h5>
+                                <h3 class="font-bold text-3xl text-gray-600">152 days</h3>
                             </div>
                         </div>
                     </div>
@@ -181,14 +181,14 @@
                 </div>
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Metric Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow p-2">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded p-3 bg-indigo-dark"><i class="fas fa-tasks fa-2x fa-fw fa-inverse"></i></div>
+                                <div class="rounded p-3 bg-indigo-600"><i class="fas fa-tasks fa-2x fa-fw fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
-                                <h5 class="uppercase text-grey-light">To Do List</h5>
-                                <h3 class="text-3xl text-grey-dark">7 tasks</h3>
+                                <h5 class="font-bold uppercase text-gray-400">To Do List</h5>
+                                <h3 class="font-bold text-3xl text-gray-600">7 tasks</h3>
                             </div>
                         </div>
                     </div>
@@ -196,14 +196,14 @@
                 </div>
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Metric Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow p-2">
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded p-3 bg-red-dark"><i class="fas fa-inbox fa-2x fa-fw fa-inverse"></i></div>
+                                <div class="rounded p-3 bg-red-600"><i class="fas fa-inbox fa-2x fa-fw fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
-                                <h5 class="uppercase text-grey-light">Issues</h5>
-                                <h3 class="text-3xl text-grey-dark">3 <span class="text-red"><i class="fas fa-caret-up"></i></span></h3>
+                                <h5 class="font-bold uppercase text-gray-400">Issues</h5>
+                                <h3 class="font-bold text-3xl text-gray-600">3 <span class="text-red-500"><i class="fas fa-caret-up"></i></span></h3>
                             </div>
                         </div>
                     </div>
@@ -212,15 +212,15 @@
             </div>
 
 			<!--Divider-->
-			<hr class="border-b-2 border-grey-dark my-8 mx-4">
+			<hr class="border-b-2 border-gray-600 my-8 mx-4">
 
             <div class="flex flex-row flex-wrap flex-grow mt-2">
 
                 <div class="w-full md:w-1/2 p-3">
                     <!--Graph Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow">
-                        <div class="border-b border-grey-darkest p-3">
-                            <h5 class="uppercase text-grey-dark">Graph</h5>
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
                             <canvas id="chartjs-7" class="chartjs" width="undefined" height="undefined"></canvas>
@@ -260,9 +260,9 @@
 
                 <div class="w-full md:w-1/2 p-3">
                     <!--Graph Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow">
-                        <div class="border-b border-grey-darkest p-3">
-                            <h5 class="uppercase text-grey-dark">Graph</h5>
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
                             <canvas id="chartjs-0" class="chartjs" width="undefined" height="undefined"></canvas>
@@ -289,9 +289,9 @@
 
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Graph Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow">
-                        <div class="border-b border-grey-darkest p-3">
-                            <h5 class="uppercase text-grey-dark">Graph</h5>
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
                             <canvas id="chartjs-1" class="chartjs" width="undefined" height="undefined"></canvas>
@@ -327,9 +327,9 @@
 
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Graph Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow">
-                        <div class="border-b border-grey-darkest p-3">
-                            <h5 class="uppercase text-grey-dark">Graph</h5>
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5"><canvas id="chartjs-4" class="chartjs" width="undefined" height="undefined"></canvas>
                             <script>
@@ -352,9 +352,9 @@
 
                 <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                     <!--Template Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow">
-                        <div class="border-b border-grey-darkest p-3">
-                            <h5 class="uppercase text-grey-dark">Template</h5>
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Template</h5>
                         </div>
                         <div class="p-5">
              
@@ -365,17 +365,17 @@
 
                 <div class="w-full p-3">
                     <!--Table Card-->
-                    <div class="bg-black border border-grey-darkest rounded shadow">
-                        <div class="border-b border-grey-darkest p-3">
-                            <h5 class="uppercase text-grey-dark">Table</h5>
+                    <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                        <div class="border-b border-gray-800 p-3">
+                            <h5 class="font-bold uppercase text-gray-600">Table</h5>
                         </div>
                         <div class="p-5">
-                            <table class="w-full p-5 text-grey-darker">
+                            <table class="w-full p-5 text-gray-700">
                                 <thead>
                                     <tr>
-                                        <th class="text-left text-grey-dark">Name</th>
-                                        <th class="text-left text-grey-dark">Side</th>
-                                        <th class="text-left text-grey-dark">Role</th>
+                                        <th class="text-left text-gray-600">Name</th>
+                                        <th class="text-left text-gray-600">Side</th>
+                                        <th class="text-left text-gray-600">Role</th>
                                     </tr>
                                 </thead>
 
@@ -416,14 +416,14 @@
 	</div> 
 	<!--/container-->
 	
-	<footer class="bg-black border-t border-grey-light shadow">	
+	<footer class="bg-gray-900 border-t border-gray-400 shadow">	
 		<div class="container max-w-md mx-auto flex py-8">
 
 			<div class="w-full mx-auto flex flex-wrap">
 				<div class="flex w-full md:w-1/2 ">
 					<div class="px-8">
-						<h3 class="font-bold text-grey-lightest">About</h3>
-						<p class="py-4 text-grey-dark text-sm">
+						<h3 class="font-bold font-bold text-gray-100">About</h3>
+						<p class="py-4 text-gray-600 text-sm">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia. 
 						</p>
 					</div>
@@ -431,16 +431,16 @@
 				
 				<div class="flex w-full md:w-1/2">
 					<div class="px-8">
-					<h3 class="font-bold text-grey-lightest">Social</h3>
+					<h3 class="font-bold font-bold text-gray-100">Social</h3>
 						<ul class="list-reset items-center text-sm pt-3">
 						  <li>
-							<a class="inline-block text-grey-dark no-underline hover:text-grey-lightest hover:text-underline py-1" href="#">Add social link</a>
+							<a class="inline-block text-gray-600 no-underline hover:text-gray-100 hover:text-underline py-1" href="#">Add social link</a>
 						  </li>
 						  <li>
-							<a class="inline-block text-grey-dark no-underline hover:text-grey-lightest hover:text-underline py-1" href="#">Add social link</a>
+							<a class="inline-block text-gray-600 no-underline hover:text-gray-100 hover:text-underline py-1" href="#">Add social link</a>
 						  </li>
 							<li>
-							<a class="inline-block text-grey-dark no-underline hover:text-grey-lightest hover:text-underline py-1" href="#">Add social link</a>
+							<a class="inline-block text-gray-600 no-underline hover:text-gray-100 hover:text-underline py-1" href="#">Add social link</a>
 						  </li>
 						</ul>
 					</div>

@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tailwind Starter Template - Landing Page Template: Tailwind Toolbox</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tailwind Starter Template - Landing Page Template: Tailwind Toolbox</title>
 	<meta name="description" content="Free open source Tailwind CSS starter template (Hero Product) to use with node.js/npm, postcss+purgecss!">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,hero, product">
 	<?php include '../includes/head-templates.php';?>
 
-  <!-- Font Awesome if you need it
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@next/dist/tailwind.min.css">
-  <!--Replace with your tailwind.css once created-->
+	<!-- Font Awesome if you need it
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	-->
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+	<!--Replace with your tailwind.css once created-->
 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 
@@ -26,6 +26,7 @@
 	</style>
 
 </head>
+
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
@@ -78,7 +79,7 @@
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 		<!--Left Col-->
 		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-			<p class="uppercase tracking-loose w-full">What business are you?</span></p>
+			<p class="uppercase tracking-loose w-full">What business are you?</p>
 			<h1 class="my-4 text-5xl font-bold leading-tight">Main Hero Message to sell yourself!</h1>
 			<p class="leading-normal text-2xl mb-8">Sub-hero message, not too long and not too short. Make it just right!</p>
 		
@@ -124,7 +125,7 @@
 		<div class="flex flex-wrap">
 			<div class="w-5/6 sm:w-1/2 p-6">
 				<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-				<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br><br>
+				<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
 				
 				Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
 				
@@ -227,7 +228,7 @@
 			<div class="w-full sm:w-1/2 p-6 mt-6">
 				<div class="align-middle">
 					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-					<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br><br>
+					<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
 					Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
 				</div>
 			</div>
@@ -508,15 +509,19 @@
   -->
 
 <script>
+
 	var scrollpos = window.scrollY;
 	var header = document.getElementById("header");
 	var navcontent = document.getElementById("nav-content");
 	var navaction = document.getElementById("navAction");
 	var brandname = document.getElementById("brandname");
 	var toToggle = document.querySelectorAll(".toggleColour");
+
 	document.addEventListener('scroll', function() {
+
 	/*Apply classes for slide in bar*/
 	scrollpos = window.scrollY;
+
     if(scrollpos > 10){
       header.classList.add("bg-white");
 	  navaction.classList.remove("bg-white");
@@ -549,7 +554,9 @@
 	  navcontent.classList.add("bg-gray-100");
 	  
     }
+
 	});
+
 	
 </script>
 
