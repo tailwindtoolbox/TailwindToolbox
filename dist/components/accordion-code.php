@@ -2,9 +2,9 @@
 <html>
    <head>
       <title>
-         Tailwind CSS Accordian
+         Tailwind CSS Accordion
       </title>
-      <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+      <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
       </link>
       <style>
          /* Tab content - closed */
@@ -20,12 +20,12 @@
          }
          /* Label formatting when open */
          .tab input:checked + label{
-         /*@apply text-xl p-5 border-l-2 border-indigo bg-grey-lightest text-indigo*/
+         /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
          font-size: 1.25rem; /*.text-xl*/
          padding: 1.25rem; /*.p-5*/
          border-left-width: 2px; /*.border-l-2*/
          border-color: #6574cd; /*.border-indigo*/
-         background-color: #f8fafc; /*.bg-grey-lightest */
+         background-color: #f8fafc; /*.bg-gray-100 */
          color: #6574cd; /*.text-indigo*/
          }
          /* Icon */
@@ -71,28 +71,28 @@
          }
       </style>
    </head>
-   <body class="font-sans">
+   <body class="font-sans container">
       <div class="w-full md:w-3/5 mx-auto p-8">
          <p>Open <strong>multiple</strong></p>
          <div class="shadow-md">
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0 " id="tab-multi-one" type="checkbox" name="tabs">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-one">Label One</label>
-               <div class="tab-content overflow-hidden border-l-2 bg-grey-lightest border-indigo leading-normal">
+               <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                   <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                </div>
             </div>
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-multi-two" type="checkbox" name="tabs">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-two">Label Two</label>
-               <div class="tab-content overflow-hidden border-l-2 bg-grey-lightest border-indigo leading-normal">
+               <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                   <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                </div>
             </div>
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-multi-three" type="checkbox" name="tabs">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-three">Label Three</label>
-               <div class="tab-content overflow-hidden border-l-2 bg-grey-lightest border-indigo leading-normal">
+               <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                   <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                </div>
             </div>
@@ -104,21 +104,21 @@
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-single-one" type="radio" name="tabs2">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-single-one">Label One</label>
-               <div class="tab-content overflow-hidden border-l-2 bg-grey-lightest border-indigo leading-normal">
+               <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                   <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                </div>
             </div>
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-single-two" type="radio" name="tabs2">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-single-two">Label Two</label>
-               <div class="tab-content overflow-hidden border-l-2 bg-grey-lightest border-indigo leading-normal">
+               <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                   <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                </div>
             </div>
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-single-three" type="radio" name="tabs2">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-single-three">Label Three</label>
-               <div class="tab-content overflow-hidden border-l-2 bg-grey-lightest border-indigo leading-normal">
+               <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                   <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                </div>
             </div>
