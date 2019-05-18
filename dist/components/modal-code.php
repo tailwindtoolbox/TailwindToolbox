@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <title>Tailwind CSS Modal</title>
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">  
   <style>
     .modal {
       transition: opacity 0.25s ease;

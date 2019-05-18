@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>
-         Tailwind CSS Accordion
-      </title>
-      <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-      </link>
+      <title>Tailwind CSS Accordion</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> 
       <style>
          /* Tab content - closed */
          .tab-content {

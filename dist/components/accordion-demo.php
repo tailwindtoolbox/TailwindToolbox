@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Starter Component - Accordian : Tailwind Toolbox</title>
-		<meta name="description" content="Free open source Tailwind CSS starter template with a toggle button responsive menu">
-		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,responsive menu">
-			<?php include '../includes/head-templates.php';?>
+    <title>Tailwind CSS Starter Component - Accordion : Tailwind Toolbox</title>
+		<meta name="description" content="Simple Tailwind CSS Accordions - open multiple panels or just a single one">
+		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter component, component, accordion, accordian">
+		<?php include '../includes/head-templates.php';?>
 
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"></link>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> 
 				
 		<style>
 

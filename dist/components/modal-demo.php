@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tailwind CSS Starter Component - Modal : Tailwind Toolbox</title>
-		<meta name="description" content="Tailwind CSS Modal | Tailwind Toolbox Free open source starter components">
-		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,modal">
+		<meta name="description" content="Simple Modal in Tailwind CSS">
+		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter component,free component,modal">
 		<?php include '../includes/head-templates.php';?>
 
-	    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@next/dist/tailwind.min.css"> 
-	    <!--Replace with your tailwind.css once created-->
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> 
 	  
 	    <style>
 		  .modal {

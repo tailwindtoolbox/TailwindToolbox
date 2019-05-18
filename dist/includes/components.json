@@ -1,25 +1,72 @@
-[
-     {
-         "url":"https:\/\/www.tailwindtoolbox.com/components/modal",
-         "url_image":"components/modal.png",
-         "title":"Modal",
-         "description":"Simple pop up modal with full screen overlay",
-         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
-         "source":"https://github.com/tailwindtoolbox/Admin-Template",
-         "category": "Admin"
-     },
-     {
-         "url":"https:\/\/www.tailwindtoolbox.com/components/accordion",
-         "url_image":"components/accordion.png",
-         "title":"Accordion",
-         "description":"CSS only accordions - multi open or single open",
-         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
-         "source":"https://github.com/tailwindtoolbox/Admin-Template",
-         "category": "Admin"
-     }
- ]
+[{
+        "url": "https:\/\/www.tailwindtoolbox.com/components/carousel",
+        "url_image": "components/carousel.png",
+        "title": "Carousel (NEW!)",
+        "description": "Simple CSS-only Carousel with indicators (requires clicks to toggle)",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin"
+    },
+    {
+        "url": "https:\/\/www.tailwindtoolbox.com/components/modal",
+        "url_image": "components/modal.png",
+        "title": "Modal",
+        "description": "Simple pop up modal with full screen overlay",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin"
+    },
+    {
+        "url": "https:\/\/www.tailwindtoolbox.com/components/accordion",
+        "url_image": "components/accordion.png",
+        "title": "Accordion",
+        "description": "Simple accordions - open multiple panels or just a single one",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin"
+    },
+    {
+        "url": "https:\/\/www.tailwindtoolbox.com/components/searchy",
+        "url_image": "components/searchy.png",
+        "title": "Searchy",
+        "description": "Large search field appearing under the nav bar",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin"
+    },
+    {
+        "url": "https:\/\/stitches.hyperyolo.com",
+        "url_image": "components/stitches.png",
+        "title": "Stitches",
+        "description": "A web templates generator with Tailwind CSS)",
+        "download": "",
+        "url_author": "https:\/\/github.com\/amiechen\/stitches-template-generator",
+        "author": "Amie Chen \/ @amiechen",
+        "category": "Various"
+    },
+    {
+        "url": "https:\/\/angulartailwind.com",
+        "url_image": "components/angular-tailwind.png",
+        "title": "Angular Tailwind",
+        "description": "Reusable and customisable components built with Angular and Tailwind CSS",
+        "download": "",
+        "url_author": "https:\/\/twitter.com/angulartailwind",
+        "author": "Angular Tailwind \/ @angulartailwind",
+        "category": "Various"
+    },
+    {
+        "url": "https:\/\/codepen.io/steveschoger/pen/YbQXGq",
+        "url_image": "components/card-ss.png",
+        "title": "Steve Schoger's Card",
+        "description": "Steve Schoger's popular card from Refactoring UI Design Tips",
+        "download": "",
+        "url_author": "https:\/\/codepen.io/steveschoger/pen/YbQXGq",
+        "author": "Steve Schoger \/ @steveschoger",
+        "category": "Card"
+    }
 
-
-
-
-
+]
