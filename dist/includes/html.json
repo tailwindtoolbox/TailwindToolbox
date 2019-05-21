@@ -1,5 +1,14 @@
 [
-    {
+     {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/profile-card",
+        "url_image":"templates/profile-card.png",
+        "title":"Profile Card [NEW!]",
+        "description":"Single page layout for use as a user profile / card (Includes ☀️/🌙 toggle)",
+        "download":"https:\/\/github.com/tailwindtoolbox/profile-card/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Profile-Card",
+        "category": "Profile"
+     },
+     {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/landing-page",
         "url_image":"templates/landing-page.png",
         "title":"Landing Page",
@@ -7,7 +16,7 @@
         "download":"https:\/\/github.com/tailwindtoolbox/Landing-Page/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Landing-Page",
         "category": "Homepage"
-    },
+     },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
          "url_image":"templates/admin-template.png",

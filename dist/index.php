@@ -91,7 +91,7 @@
 
 				<div class="p-6">
 					<p class="text-brand font-bold">What's New?</p>
-					<p class="text-grey-dark">10 May - Updated site to v1 and added images for <a href="https://www.tailwindtoolbox.com/tools">tools</a></p>
+					<p class="text-grey-dark">21 May - Added new template - <a href="https://www.tailwindtoolbox.com/templates/profile-card">Profile Card</a></p>
 				</div>
 			</div>
 		

@@ -62,6 +62,9 @@
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Blog');" data-twfilter="Blog">Blog</button>
 			</li>
 			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Profile');" data-twfilter="Profile">Profile</button>
+			</li>
+			<li class="mr-1">
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Support');" data-twfilter="Support">Support</button>
 			</li>
 			<li class="mr-1">
