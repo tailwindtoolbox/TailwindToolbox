@@ -67,6 +67,16 @@
         "url_author": "https:\/\/codepen.io/steveschoger/pen/YbQXGq",
         "author": "Steve Schoger \/ @steveschoger",
         "category": "Card"
+    },
+    {
+        "url": "https:\/\/github.com/huphtur/Tailwind-Theme-Switcher",
+        "url_image": "components/switcher.png",
+        "title": "Dark Mode Theme Switcher",
+        "description": "Basic demo on how to switch styles with Tailwind, handy for dark mode type purposes",
+        "download": "",
+        "url_author": "https:\/\/github.com/huphtur",
+        "author": "M. Appelman \/ @huphtur",
+        "category": "Card"
     }
 
 ]
