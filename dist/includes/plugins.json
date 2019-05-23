@@ -178,5 +178,14 @@
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
          "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/cossssmin/tailwindcss-border-gradients",
+         "url_image":"placeholder.png",
+         "title":"Border Gradients",
+         "description":"Tailwind CSS plugin to generate border gradients utilities",
+         "url_author":"https:\/\/github.com/cossssmin",
+         "author":"Cosmin Popovici \/ @cossssmin",
+         "category": "plugins"
     }
  ]
