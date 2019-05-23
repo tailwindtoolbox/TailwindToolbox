@@ -1,0 +1,92 @@
+[
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-transitions",
+         "url_image":"placeholder.png",
+         "title":"Transitions",
+         "description":"Tailwind CSS plugin to generate transition utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+     },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-gradients",
+         "url_image":"placeholder.png",
+         "title":"Gradient Backgrounds",
+         "description":"Tailwind CSS plugin to generate gradient background utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-transforms",
+         "url_image":"placeholder.png",
+         "title":"Transforms",
+         "description":"Tailwind CSS plugin to generate transform utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/hacknug/tailwindcss-blend-mode",
+         "url_image":"placeholder.png",
+         "title":"Blend Modes",
+         "description":"Tailwind CSS plugin to generate blend mode utilities",
+         "url_author":"https:\/\/github.com/hacknug",
+         "author":"Nestor Vera \/ @hacknug",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-filters",
+         "url_image":"placeholder.png",
+         "title":"Filters",
+         "description":"Tailwind CSS plugin to generate filter utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-typography",
+         "url_image":"placeholder.png",
+         "title":"Typography",
+         "description":"Tailwind CSS plugin to generate typography utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/hacknug/tailwindcss-image-rendering",
+         "url_image":"placeholder.png",
+         "title":"Image Rendering",
+         "description":"Tailwind CSS plugin to generate image rendering utilities",
+         "url_author":"https:\/\/github.com/hacknug",
+         "author":"Nestor Vera \/ @hacknug",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/RonMelkhior/tailwindcss-dir",
+         "url_image":"placeholder.png",
+         "title":"Direction",
+         "description":"Tailwind CSS plugin to adds direction (LTR, RTL) variants",
+         "url_author":"https:\/\/github.com/RonMelkhior",
+         "author":"Ron Melkhior \/ @RonMelkhior",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/steadfast-collective/tailwindcss-touch",
+         "url_image":"placeholder.png",
+         "title":"Touch",
+         "description":"Tailwind CSS plugin to generate touch variants",
+         "url_author":"https:\/\/github.com/steadfast-collective",
+         "author":"Steadfast Collective \/ @steadfast-collective",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/jonaskay/tailwindcss-elevation",
+         "url_image":"placeholder.png",
+         "title":"Elevation",
+         "description":"Tailwind CSS plugin to generate Material Components elevation",
+         "url_author":"https:\/\/github.com/jonaskay",
+         "author":"jonaskay \/ @jonaskay",
+         "category": "plugins"
+    }
+ ]
