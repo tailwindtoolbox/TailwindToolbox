@@ -133,6 +133,50 @@
          "url_author":"https:\/\/github.com/log1x",
          "author":"Brandon \/ @log1x",
          "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-triangles",
+         "url_image":"placeholder.png",
+         "title":"Triangles",
+         "description":"Tailwind CSS plugin to generate custom triangle components",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-fluid-container",
+         "url_image":"placeholder.png",
+         "title":"Fluid Container",
+         "description":"Tailwind CSS plugin to add a fluid container component and related utility classes",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/webdna/tailwindcss-aspect-ratio",
+         "url_image":"placeholder.png",
+         "title":"Aspect Ratio",
+         "description":"Tailwind CSS plugin to generate aspect ratio utilities",
+         "url_author":"https:\/\/github.com/webdna",
+         "author":"webdna \/ @webdna",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-gap",
+         "url_image":"placeholder.png",
+         "title":"Gap",
+         "description":"Tailwind CSS plugin to generate gap utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/benface/tailwindcss-interaction-variants",
+         "url_image":"placeholder.png",
+         "title":"Interaction Variants",
+         "description":"Tailwind CSS plugin to generate missing interaction variants utilities",
+         "url_author":"https:\/\/github.com/benface",
+         "author":"Benoît Rouleau \/ @benface",
+         "category": "plugins"
     }
-    
  ]
