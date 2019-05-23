@@ -29,6 +29,9 @@
 				$json = file_get_contents("includes/plugins.json");
 				//Decode JSON
 				$json_data = json_decode($json,true);
+	
+				//Sort Alpha
+				usort($json_data,function($a,$b) {return strnatcasecmp($a['title'],$b['title']);});
 
 				//Print data
 				foreach($json_data as $template)
