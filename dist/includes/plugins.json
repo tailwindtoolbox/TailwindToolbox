@@ -18,6 +18,15 @@
          "category": "plugins"
     },
     {
+         "url":"https:\/\/github.com/hacknug/tailwindcss-background-extended",
+         "url_image":"placeholder.png",
+         "title":"Background Extended",
+         "description":"Tailwind CSS plugin to generate missing background utilities",
+         "url_author":"https:\/\/github.com/hacknug",
+         "author":"Nestor Vera \/ @hacknug",
+         "category": "plugins"
+    },
+    {
          "url":"https:\/\/github.com/benface/tailwindcss-transforms",
          "url_image":"placeholder.png",
          "title":"Transforms",
@@ -88,5 +97,42 @@
          "url_author":"https:\/\/github.com/jonaskay",
          "author":"jonaskay \/ @jonaskay",
          "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/SirNavith/tailwindcss-custom-native",
+         "url_image":"placeholder.png",
+         "title":"Custom Utilities",
+         "description":"Tailwind CSS plugin to write configuration for your own custom utility",
+         "url_author":"https:\/\/github.com/SirNavith",
+         "author":"Navith \/ @SirNavith",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/jack-pallot/tailwindcss-accessibility",
+         "url_image":"placeholder.png",
+         "title":"Accessibility",
+         "description":"Tailwind CSS plugin to add additional functionality to help improve accessibility",
+         "url_author":"https:\/\/github.com/jack-pallot",
+         "author":"Jack Pallot \/ @jack-pallot",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/webdna/tailwindcss-visuallyhidden",
+         "url_image":"placeholder.png",
+         "title":"Visually Hidden",
+         "description":"Tailwind CSS plugin to hide only visually, but have it available for screen readers",
+         "url_author":"https:\/\/github.com/webdna",
+         "author":"webdna \/ @webdna",
+         "category": "plugins"
+    },
+    {
+         "url":"https:\/\/github.com/log1x/tailwindcss-pseudo",
+         "url_image":"placeholder.png",
+         "title":"Pseudo Selector",
+         "description":"Tailwind CSS plugin to generate pseudo selector variants",
+         "url_author":"https:\/\/github.com/log1x",
+         "author":"Brandon \/ @log1x",
+         "category": "plugins"
     }
+    
  ]
