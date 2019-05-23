@@ -71,8 +71,8 @@
     {
         "url": "https:\/\/github.com/huphtur/Tailwind-Theme-Switcher",
         "url_image": "components/switcher.png",
-        "title": "Dark Mode Theme Switcher",
-        "description": "Basic demo on how to switch styles with Tailwind, handy for dark mode type purposes",
+        "title": "Tailwind Theme Switcher (NEW!)",
+        "description": "Basic demo to switch styles with Tailwind (handy for dark mode or themes)",
         "download": "",
         "url_author": "https:\/\/github.com/huphtur",
         "author": "M. Appelman \/ @huphtur",
