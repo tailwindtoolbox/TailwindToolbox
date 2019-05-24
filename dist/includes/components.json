@@ -39,6 +39,16 @@
         "category": "Admin"
     },
     {
+        "url": "https:\/\/www.github.com/tailwindcss/custom-forms",
+        "url_image": "components/custom-forms.png",
+        "title": "Custom Forms",
+        "description": "A better base for styling form elements with Tailwind CSS",
+        "download": "",
+        "url_author": "https:\/\/www.github.com/tailwindcss/custom-forms",
+        "author": "Adam Wathan \/ @tailwindcss",
+        "category": "Admin"
+    },
+    {
         "url": "https:\/\/stitches.hyperyolo.com",
         "url_image": "components/stitches.png",
         "title": "Stitches",
