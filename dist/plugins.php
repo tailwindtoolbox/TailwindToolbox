@@ -149,7 +149,7 @@ function filterTemplates(filterVal) {
 		filterMsg.classList.add('invisible');
 	} else {
 		filterMsg.classList.remove('invisible');
-		filterMsg.innerHTML = 'Showing: ' + filterVal + " templates - Click here to show all plugins!";
+		filterMsg.innerHTML = 'Showing: ' + filterVal + " plugins - Click here to show all plugins!";
 	}
 
 }
