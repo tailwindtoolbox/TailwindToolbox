@@ -102,7 +102,7 @@
         "url": "https:\/\/javisperez.github.io/tailwindcolorshades",
         "url_image": "components/tailwind-color-generator.png",
         "title": "Color Shades Generator",
-        "description": "Generate shades/tints for a given color and generate code for the Tailwind CSS config file",
+        "description": "Generate shades/tints for a given color and generate code for the config file",
         "download": "",
         "url_author": "https:\/\/github.com/javisperez",
         "author": "Javis V. Pérez \/ @javisperez",
