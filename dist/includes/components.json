@@ -87,6 +87,25 @@
         "url_author": "https:\/\/github.com/huphtur",
         "author": "M. Appelman \/ @huphtur",
         "category": "Card"
+    },
+    {
+        "url": "https:\/\/vue-tailwind.com",
+        "url_image": "components/vue-tailwind.png",
+        "title": "Vue Tailwind",
+        "description": "HTML components powered by Vuejs and Tailwind CSS",
+        "download": "",
+        "url_author": "https:\/\/github.com/alfonsobries",
+        "author": "Alfonso Bribiesca \/ @alfonsobries",
+        "category": "Various"
+    },
+    {
+        "url": "https:\/\/javisperez.github.io/tailwindcolorshades",
+        "url_image": "components/tailwind-color-generator.png",
+        "title": "Color Shades Generator",
+        "description": "Generate shades/tints for a given color and generate code for the Tailwind CSS config file",
+        "download": "",
+        "url_author": "https:\/\/github.com/javisperez",
+        "author": "Javis V. Pérez \/ @javisperez",
+        "category": "Various"
     }
-
 ]
