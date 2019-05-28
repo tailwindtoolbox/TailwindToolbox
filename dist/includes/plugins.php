@@ -1,4 +1,8 @@
 <!--section-->
+
+<div id="filterMsg" class="w-full px-6 mb-2 text-brand text-center font-bold cursor-pointer" onclick="javascript:filterTemplates('');" data-twfilter="all"></div>
+
+
 <div class="flex flex-wrap mx-auto pt-12 mb-2 md:px-3">
 
 	<?php
