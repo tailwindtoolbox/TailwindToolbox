@@ -59,10 +59,10 @@
 				<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('utilities');" data-twfilter="utilities">Utilities</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Utilities');" data-twfilter="utilities">Utilities</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('variants');" data-twfilter="variants">Variants</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Variants');" data-twfilter="variants">Variants</button>
 			</li>
 		</ul>
 	</div>
