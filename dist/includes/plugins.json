@@ -6,7 +6,7 @@
          "description":"Tailwind CSS plugin to generate transition utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
      },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-gradients",
@@ -15,7 +15,7 @@
          "description":"Tailwind CSS plugin to generate gradient background utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/hacknug/tailwindcss-background-extended",
@@ -24,7 +24,7 @@
          "description":"Tailwind CSS plugin to generate missing background utilities",
          "url_author":"https:\/\/github.com/hacknug",
          "author":"Nestor Vera \/ @hacknug",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-transforms",
@@ -33,7 +33,7 @@
          "description":"Tailwind CSS plugin to generate transform utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/hacknug/tailwindcss-blend-mode",
@@ -42,7 +42,7 @@
          "description":"Tailwind CSS plugin to generate blend mode utilities",
          "url_author":"https:\/\/github.com/hacknug",
          "author":"Nestor Vera \/ @hacknug",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-filters",
@@ -51,7 +51,7 @@
          "description":"Tailwind CSS plugin to generate filter utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-typography",
@@ -60,7 +60,7 @@
          "description":"Tailwind CSS plugin to generate typography utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/hacknug/tailwindcss-image-rendering",
@@ -69,7 +69,7 @@
          "description":"Tailwind CSS plugin to generate image rendering utilities",
          "url_author":"https:\/\/github.com/hacknug",
          "author":"Nestor Vera \/ @hacknug",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/RonMelkhior/tailwindcss-dir",
@@ -78,7 +78,7 @@
          "description":"Tailwind CSS plugin to adds direction (LTR, RTL) variants",
          "url_author":"https:\/\/github.com/RonMelkhior",
          "author":"Ron Melkhior \/ @RonMelkhior",
-         "category": "variants"
+         "category": "Variants"
     },
     {
          "url":"https:\/\/github.com/steadfast-collective/tailwindcss-touch",
@@ -87,7 +87,7 @@
          "description":"Tailwind CSS plugin to generate touch variants",
          "url_author":"https:\/\/github.com/steadfast-collective",
          "author":"Steadfast Collective \/ @steadfast-collective",
-         "category": "variants"
+         "category": "Variants"
     },
     {
          "url":"https:\/\/github.com/jonaskay/tailwindcss-elevation",
@@ -96,7 +96,7 @@
          "description":"Tailwind CSS plugin to generate Material Components elevation",
          "url_author":"https:\/\/github.com/jonaskay",
          "author":"jonaskay \/ @jonaskay",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/SirNavith/tailwindcss-custom-native",
@@ -105,7 +105,7 @@
          "description":"Tailwind CSS plugin to write configuration for your own custom utility",
          "url_author":"https:\/\/github.com/SirNavith",
          "author":"Navith \/ @SirNavith",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/jack-pallot/tailwindcss-accessibility",
@@ -114,7 +114,7 @@
          "description":"Tailwind CSS plugin to add additional functionality to help improve accessibility",
          "url_author":"https:\/\/github.com/jack-pallot",
          "author":"Jack Pallot \/ @jack-pallot",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/webdna/tailwindcss-visuallyhidden",
@@ -123,7 +123,7 @@
          "description":"Tailwind CSS plugin to hide only visually, but have it available for screen readers",
          "url_author":"https:\/\/github.com/webdna",
          "author":"webdna \/ @webdna",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/log1x/tailwindcss-pseudo",
@@ -132,7 +132,7 @@
          "description":"Tailwind CSS plugin to generate pseudo selector variants",
          "url_author":"https:\/\/github.com/log1x",
          "author":"Brandon \/ @log1x",
-         "category": "variants"
+         "category": "Variants"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-triangles",
@@ -141,7 +141,7 @@
          "description":"Tailwind CSS plugin to generate custom triangle components",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-fluid-container",
@@ -150,7 +150,7 @@
          "description":"Tailwind CSS plugin to add a fluid container component and related utility classes",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/webdna/tailwindcss-aspect-ratio",
@@ -159,7 +159,7 @@
          "description":"Tailwind CSS plugin to generate aspect ratio utilities",
          "url_author":"https:\/\/github.com/webdna",
          "author":"webdna \/ @webdna",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-gap",
@@ -168,7 +168,7 @@
          "description":"Tailwind CSS plugin to generate gap utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-interaction-variants",
@@ -177,7 +177,7 @@
          "description":"Tailwind CSS plugin to generate missing interaction variants utilities",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "plugins"
+         "category": "Variants"
     },
     {
          "url":"https:\/\/github.com/cossssmin/tailwindcss-border-gradients",
@@ -186,7 +186,7 @@
          "description":"Tailwind CSS plugin to generate border gradients utilities",
          "url_author":"https:\/\/github.com/cossssmin",
          "author":"Cosmin Popovici \/ @cossssmin",
-         "category": "utilities"
+         "category": "Utilities"
     },
     {
          "url":"https:\/\/github.com/benface/tailwindcss-children",
@@ -195,6 +195,6 @@
          "description":"Tailwind CSS plugin to target child elements as well as the first and the last child",
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
-         "category": "variants"
+         "category": "Variants"
      }
  ]
