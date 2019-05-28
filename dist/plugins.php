@@ -15,7 +15,7 @@
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
-	<?php include 'includes/nav.php';?>
+	<?php include 'includes/nav-plugins.php';?>
 
 	<!--header-->
 	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
