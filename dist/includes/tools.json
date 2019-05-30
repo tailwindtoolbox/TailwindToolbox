@@ -52,5 +52,23 @@
             "url_author":"https:\/\/github.com/jan-dh",
             "author":"Jan DH / @jan-dh",
             "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/github.com/awssat/tailwindo",
+            "url_image":"toolsutilities/tailwindo.png",
+            "title":"Tailwindo",
+            "description":"Convert Bootstrap CSS code to Tailwind CSS code (v0.7.x)",
+            "url_author":"https:\/\/github.com/awssat",
+            "author":"Awssat / @awssat",
+            "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/github.com/awssat/tailwind-shift",
+            "url_image":"toolsutilities/tailwind-shift.png",
+            "title":"Tailwind Shift",
+            "description":"Helper tool to upgrade your v0.7.x code to v1.0",
+            "url_author":"https:\/\/github.com/awssat",
+            "author":"Awssat / @awssat",
+            "category": "DESIGN"
         }
  ]
