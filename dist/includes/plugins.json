@@ -196,5 +196,14 @@
          "url_author":"https:\/\/github.com/benface",
          "author":"Benoît Rouleau \/ @benface",
          "category": "Variants"
+     },
+    {
+         "url":"https:\/\/github.com/ChanceArthur/tailwindcss-dark-mode",
+         "url_image":"placeholder.png",
+         "title":"Dark Mode",
+         "description":"Tailwind CSS plugin to create Dark Mode variants",
+         "url_author":"https:\/\/github.com/tailwindcss-dark-mode",
+         "author":"Chance Arthur \/ @ChanceArthur",
+         "category": "Variants"
      }
  ]
