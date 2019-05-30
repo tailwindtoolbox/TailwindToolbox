@@ -45,15 +45,6 @@
            "category": "CODE"
        },
        {
-            "url":"https:\/\/github.com/jan-dh/sketch-tailwind",
-            "url_image":"placeholder.png",
-            "title":"Sketch Tailwind",
-            "description":"Export aspects of a design made in Sketch into Tailwind CSS ready javascript files",
-            "url_author":"https:\/\/github.com/jan-dh",
-            "author":"Jan DH / @jan-dh",
-            "category": "DESIGN"
-        },
-        {
             "url":"https:\/\/github.com/awssat/tailwindo",
             "url_image":"toolsutilities/tailwindo.png",
             "title":"Tailwindo",
@@ -69,6 +60,33 @@
             "description":"Helper tool to upgrade your v0.7.x code to v1.0",
             "url_author":"https:\/\/github.com/awssat",
             "author":"Awssat / @awssat",
+            "category": "DESIGN"
+        },
+       {
+            "url":"https:\/\/github.com/jan-dh/sketch-tailwind",
+            "url_image":"toolsutilities/tailwind-sketch.png",
+            "title":"Sketch Tailwind",
+            "description":"Export aspects of a design made in Sketch into Tailwind CSS ready javascript files",
+            "url_author":"https:\/\/github.com/jan-dh",
+            "author":"Jan DH / @jan-dh",
+            "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/github.com/aleksandarbasara/tailwindcss-adobe-xd",
+            "url_image":"toolsutilities/tailwind-xd.png",
+            "title":"Adobe XD Tailwind",
+            "description":"TailwindCSS Styles for Adobe XD",
+            "url_author":"https:\/\/github.com/aleksandarbasara",
+            "author":"Aleksandar Basara / @aleksandarbasara",
+            "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/github.com/aleksandarbasara/tailwindcss-figma",
+            "url_image":"toolsutilities/tailwind-figma.png",
+            "title":"Figma Tailwind",
+            "description":"TailwindCSS Styles for Figma",
+            "url_author":"https:\/\/github.com/aleksandarbasara",
+            "author":"Aleksandar Basara / @aleksandarbasara",
             "category": "DESIGN"
         }
  ]
