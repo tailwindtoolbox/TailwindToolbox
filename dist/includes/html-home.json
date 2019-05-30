@@ -2,11 +2,13 @@
     {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/profile-card",
         "url_image":"templates/profile-card.png",
-        "title":"Profile Card [NEW!]",
+        "title":"Profile Card",
         "description":"Single page layout for use as a user profile / card (Includes ☀️/🌙 toggle)",
         "download":"https:\/\/github.com/tailwindtoolbox/profile-card/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Profile-Card",
-        "category": "Profile"
+        "category": "Profile",
+        "new":true,
+        "home":true
      },
     {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/landing-page",
@@ -15,16 +17,20 @@
         "description":"Bright landing page which can be used for many purposes",
         "download":"https:\/\/github.com/tailwindtoolbox/Landing-Page/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Landing-Page",
-        "category": "Homepage"
+        "category": "Homepage",
+        "new":false,
+        "home":true
     },
      {
-         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
-         "url_image":"templates/admin-template.png",
-         "title":"Admin Template",
-         "description":"Admin template to use for Admin theme, dashboard, or web application",
-         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
-         "source":"https://github.com/tailwindtoolbox/Admin-Template",
-         "category": "Admin"
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
+        "url_image":"templates/admin-template.png",
+        "title":"Admin Template",
+        "description":"Admin template to use for Admin theme, dashboard, or web application",
+        "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Admin-Template",
+        "category": "Admin",
+        "new":false,
+        "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-night",
@@ -33,7 +39,9 @@
         "description":"Night Mode Admin template for those who prefer to work at night",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Night/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Admin-Template-Night",
-         "category": "Admin"
+        "category": "Admin",
+        "new":false,
+        "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-day",
@@ -42,7 +50,9 @@
         "description":"Day Mode Admin template for those who prefer to work in the am",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Day/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Admin-Template-Day",
-         "category": "Admin"
+        "category": "Admin",
+        "new":false,
+        "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/help-article",
@@ -51,25 +61,31 @@
         "description":"Helpdesk / FAQ / knowledgebase article - clone of the <a href=\"https://www.weebly.com/app/help/topics/first-steps\">Weebly Support article</a>",
         "download":"https:\/\/github.com/tailwindtoolbox/Help-Article/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Help-Article",
-         "category": "Support"
+        "category": "Support",
+        "new":false,
+        "home":true
      },
      {
-         "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
-         "url_image":"templates/ghostwind-home.png",
-         "title":"Ghostwind Blog Homepage",
-         "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
-         "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
-         "source":"https://github.com/tailwindtoolbox/Ghostwind",
-         "category": "Blog, Homepage"
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
+        "url_image":"templates/ghostwind-home.png",
+        "title":"Ghostwind Homepage",
+        "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
+        "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Ghostwind",
+        "category": "Blog, Homepage",
+        "new":false,
+        "home":true
      },
      {
-         "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
-         "url_image":"templates/ghostwind.png",
-         "title":"Ghostwind",
-         "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
-         "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
-         "source":"https://github.com/tailwindtoolbox/Ghostwind",
-         "category": "Blog"
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
+        "url_image":"templates/ghostwind.png",
+        "title":"Ghostwind",
+        "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
+        "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/Ghostwind",
+        "category": "Blog",
+        "new":false,
+        "home":true
      }
  ]
 

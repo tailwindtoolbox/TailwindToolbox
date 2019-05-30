@@ -32,26 +32,15 @@
 	<?php include 'includes/nav.php';?>
 	
 	<!--Hero-->
-	<div class="container mx-auto flex flex-col md:flex-row items-center my-12" >
-		<!--Left Col-->
-		<div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-6 md:pb-12 px-3">
-			<div class="pt-6 md:pt-12">
-				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter Templates and Components for Tailwind CSS</span></span>
+	<div class="container mx-auto flex flex-col md:flex-row items-center mt-12 mb-6 md:mb-12">
+		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16 pb-0 md:pb-10 px-3">
+			<div class="pt-6">
+				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Tailwind CSS Templates, Components and Resources</span></span>
 			</div>
-
-			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source starter templates and components to help you get started building with <a href="https://www.tailwindcss.com">Tailwind CSS</a><br><br>Show me the:</p>
-			<div class="flex">
-				<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white md:text-xl border-none rounded font-bold p-4 mr-4">Templates</a>
-				<a href="https://www.tailwindtoolbox.com/starter-components" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white md:text-xl border-none rounded font-bold p-4 mr-4">Components</a>
-				<a href="https://www.tailwindtoolbox.com/tools" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white md:text-xl border-none rounded font-bold p-4">Tools</a>
-			</div>
+			<p class="max-w-3xl leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a <a href="https://www.tailwindtoolbox.com/plugins">plugins</a> directory and useful <a href="https://www.tailwindtoolbox.com/tools">tools/utilities</a> to kick start your Tailwind CSS project</p>
 		</div>
-		<!--Right Col-->
-		<div class="w-full lg:w-1/2 lg:py-6 text-center">
-			<img src="tw.svg" alt="Tailwind Toolbox :)">
-		</div>
-	
 	</div>
+
 	
 
 	<div class="diagonal-bg fixed h-full w-full top-0" style="z-index:-1;">

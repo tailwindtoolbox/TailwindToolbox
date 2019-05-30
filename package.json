@@ -18,7 +18,7 @@
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^1.2.0",
         "cssnano": "^4.1.10",
-        "tailwindcss": "^1.0.0-beta.8"
+        "tailwindcss": "^1.0.2"
     },
     "scripts": {
         "del:js": "rimraf tailwind.config.js",
