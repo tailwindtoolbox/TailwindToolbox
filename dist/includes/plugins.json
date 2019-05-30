@@ -205,5 +205,23 @@
          "url_author":"https:\/\/github.com/tailwindcss-dark-mode",
          "author":"Chance Arthur \/ @ChanceArthur",
          "category": "Variants"
-     }
+     },    
+    {
+         "url":"https:\/\/github.com/hacknug/tailwindcss-multi-column",
+         "url_image":"placeholder.png",
+         "title":"Multi Column",
+         "description":"Tailwind CSS plugin to generate multi column utilities",
+         "url_author":"https:\/\/github.com/hacknug",
+         "author":"Nestor Vera \/ @hacknug",
+         "category": "Utilities"
+    },
+    {
+         "url":"https:\/\/github.com/hacknug/tailwindcss-break",
+         "url_image":"placeholder.png",
+         "title":"Break",
+         "description":"Tailwind CSS plugin to generate break utilities",
+         "url_author":"https:\/\/github.com/hacknug",
+         "author":"Nestor Vera \/ @hacknug",
+         "category": "Utilities"
+    }
  ]
