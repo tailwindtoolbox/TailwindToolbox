@@ -34,9 +34,9 @@
 	<!--Hero-->
 	<div class="container mx-auto flex flex-col md:flex-row items-center mt-12 mb-6 md:mb-12">
 		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16 pb-0 md:pb-10 px-3">
-			<div class="pt-6">
+			<h1 class="pt-6">
 				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Tailwind CSS Templates, Components and Resources</span></span>
-			</div>
+			</h1>
 			<p class="max-w-3xl leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a <a href="https://www.tailwindtoolbox.com/plugins">plugins</a> directory and useful <a href="https://www.tailwindtoolbox.com/tools">tools/utilities</a> to kick start your Tailwind CSS project</p>
 		</div>
 	</div>
@@ -55,10 +55,6 @@
 			<div class="sticky pin-t" style="top:8em;">
 				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-				<div class="w-full p-6 text-center">
-					<p class="text-brand text-center font-bold mb-2">Find something useful?</p>
-					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" class="mx-auto"></a>
-				</div>
 			</div>
 
 			<div></div>
@@ -82,6 +78,12 @@
 					<p class="text-brand font-bold">What's New?</p>
 					<p class="text-grey-dark">21 May - Added new template - <a href="https://www.tailwindtoolbox.com/templates/profile-card">Profile Card</a></p>
 				</div>
+
+				<div class="p-6">
+					<p class="text-brand font-bold mb-2">Find something useful?</p>
+					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" class="mx-auto"></a>
+				</div>
+
 			</div>
 		
 	</div>
