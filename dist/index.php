@@ -81,7 +81,7 @@
 
 				<div class="p-6">
 					<p class="text-brand font-bold mb-2">Find something useful?</p>
-					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
+					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank" rel="noopener"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
 				</div>
 
 			</div>
