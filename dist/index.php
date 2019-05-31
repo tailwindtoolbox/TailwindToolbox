@@ -69,29 +69,20 @@
 
 	</div>
 
+	<?php include 'includes/footer.php';?>
+	<script>
 
-	<div class="container mx-auto pb-12">
-			
-			<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
+//Modifed version of : https://codepen.io/derekjp/pen/bpoRVK
+window.addEventListener('scroll', function() {
+		var scroll = window.pageYOffset;
+		document.querySelector(".diagonal-bg svg line").setAttribute("stroke-width",  ((30 + scroll/10)  + "%"));
+})
 
-				<div class="p-6">
-					<p class="text-brand font-bold">What's New?</p>
-					<p class="text-grey-dark">21 May - Added new template - <a href="https://www.tailwindtoolbox.com/templates/profile-card">Profile Card</a></p>
-				</div>
+function showMeThe(thing) {
+		var elmnt = document.getElementById(thing);
+		elmnt.scrollIntoView();
+}
 
-				<div class="p-6">
-					<p class="text-brand font-bold mb-2">Find something useful?</p>
-					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank" rel="noopener"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
-				</div>
-
-			</div>
-		
-	</div>
-
-
-	<?php include 'includes/footer-home.php';?>
-
-
-
+</script>
 </body>
 </html>
