@@ -32,26 +32,15 @@
 	<?php include 'includes/nav.php';?>
 	
 	<!--Hero-->
-	<div class="container mx-auto flex flex-col md:flex-row items-center my-12" >
-		<!--Left Col-->
-		<div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-6 md:pb-12 px-3">
-			<div class="pt-6 md:pt-12">
-				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter Templates and Components for Tailwind CSS</span></span>
-			</div>
-
-			<p class="leading-normal my-6 font-bold text-base lg:text-xl">Open source starter templates and components to help you get started building with <a href="https://www.tailwindcss.com">Tailwind CSS</a><br><br>Show me the:</p>
-			<div class="flex">
-				<a href="https://www.tailwindtoolbox.com/starter-templates" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white md:text-xl border-none rounded font-bold p-4 mr-4">Templates</a>
-				<a href="https://www.tailwindtoolbox.com/starter-components" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white md:text-xl border-none rounded font-bold p-4 mr-4">Components</a>
-				<a href="https://www.tailwindtoolbox.com/tools" class="bg-brand hover:bg-teal-dark no-underline text-white hover:text-white md:text-xl border-none rounded font-bold p-4">Tools</a>
-			</div>
+	<div class="container mx-auto flex flex-col md:flex-row items-center mt-12 mb-6 md:mb-12">
+		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16 pb-0 md:pb-10 px-3">
+			<h1 class="pt-6">
+				<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Tailwind CSS Templates, Components and Resources</span></span>
+			</h1>
+			<p class="max-w-3xl leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a <a href="https://www.tailwindtoolbox.com/plugins">plugins</a> directory and useful <a href="https://www.tailwindtoolbox.com/tools">tools/utilities</a> to kick start your Tailwind CSS project</p>
 		</div>
-		<!--Right Col-->
-		<div class="w-full lg:w-1/2 lg:py-6 text-center">
-			<img src="tw.svg" alt="Tailwind Toolbox :)">
-		</div>
-	
 	</div>
+
 	
 
 	<div class="diagonal-bg fixed h-full w-full top-0" style="z-index:-1;">
@@ -66,10 +55,6 @@
 			<div class="sticky pin-t" style="top:8em;">
 				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-				<div class="w-full p-6 text-center">
-					<p class="text-brand text-center font-bold mb-2">Find something useful?</p>
-					 <a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" class="mx-auto"></a>
-				</div>
 			</div>
 
 			<div></div>
@@ -84,23 +69,20 @@
 
 	</div>
 
+	<?php include 'includes/footer.php';?>
+	<script>
 
-	<div class="container mx-auto pb-12">
-			
-			<div class="w-full mb-2 md:mb-0 pb-3 sm:pb-0">
+//Modifed version of : https://codepen.io/derekjp/pen/bpoRVK
+window.addEventListener('scroll', function() {
+		var scroll = window.pageYOffset;
+		document.querySelector(".diagonal-bg svg line").setAttribute("stroke-width",  ((30 + scroll/10)  + "%"));
+})
 
-				<div class="p-6">
-					<p class="text-brand font-bold">What's New?</p>
-					<p class="text-grey-dark">21 May - Added new template - <a href="https://www.tailwindtoolbox.com/templates/profile-card">Profile Card</a></p>
-				</div>
-			</div>
-		
-	</div>
+function showMeThe(thing) {
+		var elmnt = document.getElementById(thing);
+		elmnt.scrollIntoView();
+}
 
-
-	<?php include 'includes/footer-home.php';?>
-
-
-
+</script>
 </body>
 </html>

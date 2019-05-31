@@ -19,7 +19,7 @@
 	<!--header-->
 	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Setting up Tailwind v1.0.0 (Beta 8)</span>
+			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Setting up Tailwind v1.0</span>
 		</div>
 	</div>
 
@@ -168,7 +168,7 @@
 							<p>(some npm messages)<br>
 							+ cssnano@4.1.10<br>
 							+ postcss-cli@6.1.2<br>
-							+ tailwindcss@1.0.0-beta.8<br>
+							+ tailwindcss@1.0.2<br>
 							+ autoprefixer@9.5.0<br>
 							+ @fullhuman/postcss-purgecss@1.1.0<br>
 							added 472 packages from 355 contributors and audited 4131 packages in 122.868s<br>
@@ -195,7 +195,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 create:js C:\project-name<br>
 							> tailwind init tailwind.config.js<br><br><br>
 							
-							tailwindcss <span class="text-teal-500">1.0.0-beta.8</span><br><br>
+							tailwindcss <span class="text-teal-500">1.0.2</span><br><br>
 
 							✅ Created Tailwind config file: <span class="text-pink-500">tailwind.config.js</span><br></p>
 						</div>
@@ -217,7 +217,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
-							tailwindcss <span class="text-teal-500">1.0.0-beta.8</span><br><br>
+							tailwindcss <span class="text-teal-500">1.0.2</span><br><br>
 
 							🚀 Building... <span class="text-pink-500">tailwind.config.css</span><br><br>
 
@@ -315,7 +315,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 
-							tailwindcss <span class="text-teal-500">1.0.0-beta.8</span><br><br>
+							tailwindcss <span class="text-teal-500">1.0.2</span><br><br>
 
 							🚀 Building... <span class="text-pink-500">tailwind.config.css</span><br><br>
 
