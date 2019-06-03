@@ -15,7 +15,7 @@
 	$pageGIT 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE);
 	$pageDL 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE).'/archive/master.zip';
 
-	$pageOFFSET = '200';
+	$pageOFFSET = '300';
 	$pageINTRO	= 'Centered Page<br>
 				   <p>*A div centered in the middle of the page</p>';
 
