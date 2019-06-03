@@ -1,7 +1,18 @@
-[{
+[
+    {
+        "url": "https:\/\/www.tailwindtoolbox.com/components/centered-page",
+        "url_image": "components/centered-page.png",
+        "title": "Centered Page",
+        "description": "A div centered in the middle of the page",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin"
+    },
+    {
         "url": "https:\/\/www.tailwindtoolbox.com/components/carousel",
         "url_image": "components/carousel.png",
-        "title": "Carousel (NEW!)",
+        "title": "Carousel",
         "description": "Simple CSS-only Carousel with indicators (requires clicks to toggle)",
         "download": "",
         "url_author": "https:\/\/www.tailwindtoolbox.com",
