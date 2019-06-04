@@ -88,5 +88,14 @@
             "url_author":"https:\/\/github.com/aleksandarbasara",
             "author":"Aleksandar Basara / @aleksandarbasara",
             "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/github.com/impulse/tailwindcss-figma",
+            "url_image":"toolsutilities/tailwind-figma.png",
+            "title":"Figma Kit for TailwindCSS",
+            "description":"Figma Kit for TailwindCSS",
+            "url_author":"https:\/\/github.com/impulse",
+            "author":"Impulse / @impulse",
+            "category": "DESIGN"
         }
  ]
