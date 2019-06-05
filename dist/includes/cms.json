@@ -70,6 +70,15 @@
       "url_author":"https:\/\/github.com/josephdyer",
       "author":"Joseph Dyer \/ @josephdyer",
       "category": "CMS"
+   },
+   {
+      "url":"https:\/\/git.drupalcode.org/project/tailwindcss",
+      "url_image":"templates/drupal.png",
+      "title":"Drupal Demo theme",
+      "description":"Starter kit/demo theme for using Tailwind CSS within Drupal",
+      "url_author":"https:\/\/www.drupal.org/u/opdavies",
+      "author":"Oliver Davies \/ @opdavies",
+      "category": "CMS"
    }
  ]
 
