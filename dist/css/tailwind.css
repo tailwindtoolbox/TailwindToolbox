@@ -716,18 +716,7 @@ video {
 }
 
 .card-description {
-  position: absolute;
-  top: 0;
-  background-color: #3b7977;
-  color: #fff;
-  font-weight: 700;
-  font-size: 0.875rem;
-  padding: 0.75rem;
-  transition: -webkit-transform .1s ease-in;
-  transition: -webkit-transform 1s ease-in;
-  transition: transform 1s ease-in;
-  transition: transform 1s ease-in, -webkit-transform 1s ease-in;
-  transition: transform 1s ease-in,-webkit-transform 1s ease-in;
+  display: none;
 }
 
 .card-author {
@@ -742,6 +731,22 @@ video {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .card-description {
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: #3b7977;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding: 0.75rem;
+    transition: -webkit-transform .1s ease-in;
+    transition: -webkit-transform 1s ease-in;
+    transition: transform 1s ease-in;
+    transition: transform 1s ease-in, -webkit-transform 1s ease-in;
+    transition: transform 1s ease-in,-webkit-transform 1s ease-in;
   }
 
   .card-author {

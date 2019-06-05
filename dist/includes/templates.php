@@ -1,14 +1,8 @@
-<!--section
-<div class="container mx-auto mb-16" id="html-templates">
-		<div class="w-full px-0">
-		
-			<div id="filterMsg" class="w-full mb-2 text-brand text-center font-bold cursor-pointer" onclick="javascript:filterTemplates('');" data-twfilter="all"></div>
-
-			<div class="flex flex-wrap items-stretch mb-2 md:-mx-2">-->
+<!--section-->
 
 
 <div class="container mx-auto mb-16 mt-0" id="html-templates">
-	<div class="w-full px-5 md:px-0">
+	<div class="w-full px-2 md:px-0">
 
 				
 		<div id="filterMsg" class="w-full mb-4 bg-teal-200 border-brand leading-loose text-brand text-center font-bold cursor-pointer" onclick="javascript:filterTemplates('');" data-twfilter="all"></div>

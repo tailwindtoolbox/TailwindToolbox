@@ -66,10 +66,7 @@
   }
 
   .card-description {
-    @apply absolute top-0 bg-brand text-white font-bold text-sm p-3;
-    transition: -webkit-transform .1s ease-in;
-    transition: transform 1s ease-in;
-    transition: transform 1s ease-in,-webkit-transform 1s ease-in;
+    @apply hidden;
   }
 
   .card-author {
@@ -82,6 +79,13 @@
 
     .card-title {
       @apply text-base my-2;
+    }
+
+    .card-description {
+      @apply block absolute top-0 bg-brand text-white font-bold text-sm p-3;
+      transition: -webkit-transform .1s ease-in;
+      transition: transform 1s ease-in;
+      transition: transform 1s ease-in,-webkit-transform 1s ease-in;
     }
 
     .card-author {
