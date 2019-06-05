@@ -79,6 +79,15 @@
       "url_author":"https:\/\/www.drupal.org/u/opdavies",
       "author":"Oliver Davies \/ @opdavies",
       "category": "CMS"
+   },
+   {
+      "url":"https:\/\/github.com/Freeshifter/wp-tailwind",
+      "url_image":"templates/wordpress-tailwind.png",
+      "title":"WP Tailwind",
+      "description":"A Wordpress starter project template using Tailwind CSS",
+      "url_author":"https:\/\/github.com/Freeshifter",
+      "author":"Freeshifter \/ @Freeshifter",
+      "category": "CMS"
    }
  ]
 
