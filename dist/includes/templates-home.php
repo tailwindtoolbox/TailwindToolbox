@@ -1,6 +1,6 @@
 <!--section-->
 <div class="container mx-auto mb-16 mt-6 md:-mt-12" id="html-templates">
-		<div class="w-full px-5 md:px-0">
+		<div class="w-full px-1 md:px-0">
 	
 			<h2 class="font-bold text-xl md:text-3xl text-brand text-center pb-4 md:pb-8">Popular Templates</h2>
 
@@ -27,7 +27,7 @@
 
 				$card ='
 				<!--{{title}} Template-->
-				<div class="w-1/2 lg:w-1/4 mb-4 md:mb-6 pb-3 sm:pb-0" data-twcat="{{category}}">
+				<div class="w-1/2 lg:w-1/4 mb-4 md:mb-6 pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
 						<div class="card">
 							<div class="relative">
