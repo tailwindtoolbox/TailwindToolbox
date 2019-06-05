@@ -18,10 +18,10 @@
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://www.tailwindtoolbox.com/">
-	<meta property="twitter:title" content="Tailwind Toolbox - Free Starter Templates for Tailwind CSS">
-	<meta property="twitter:description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<meta property="twitter:title" content="Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS">
+	<meta property="twitter:description" content="Free open source Tailwind CSS starter templates and components to get you started quickly to creating websites in Tailwind CSS!">
 	<meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png">
 
 	<!-- Stylesheets -->
-	<link href="css/tailwind.min.css?v=20190531" rel="stylesheet">
+	<link href="css/tailwind.min.css?v=20190605" rel="stylesheet">
 	<link href="css/carbon.min.css" rel="stylesheet">

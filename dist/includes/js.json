@@ -6,7 +6,9 @@
         "description":"Simple Webpack setup for using <br>Tailwind CSS",
         "url_author":"https:\/\/github.com/tailwindcss",
         "author":"Tailwind CSS \/ @tailwindcss",
-        "category": "Javascript"
+        "category": "Javascript",
+        "new":false,
+        "home":false
      },
     {
        "url":"https:\/\/github.com/sgraewe/nuxt-tailwind",
@@ -15,7 +17,9 @@
        "description":"A Nuxt.js starter project template using Tailwind CSS",
        "url_author":"https:\/\/github.com/sgraewe",
        "author":"Stefan Gräwe \/ @sgraewe",
-       "category": "Javascript"
+       "category": "Javascript",
+       "new":false,
+       "home":false
     },
     {
         "url":"https:\/\/github.com/Oddstronaut/gatsby-starter-tailwind",
@@ -24,7 +28,9 @@
         "description":"A Gatsby.js starter project template using Tailwind CSS",
         "url_author":"https:\/\/github.com/Oddstronaut",
         "author":"Taylor Bryant \/ @Oddstronaut",
-        "category": "Javascript"
+        "category": "Javascript",
+        "new":false,
+        "home":false
      },
      {
         "url":"https:\/\/github.com/Landish/react-tailwindcss-demo",
@@ -33,7 +39,9 @@
         "description":"A React starter project template using Tailwind CSS",
         "url_author":"https:\/\/github.com/Landish",
         "author":"Lado Lomidze \/ @Landish",
-        "category": "Javascript"
+        "category": "Javascript",
+        "new":false,
+        "home":false
      },
      {
       "url":"https:\/\/github.com/cossssmin/gridsome-starter-bleda",
@@ -42,7 +50,9 @@
       "description":"A Gridsome blog starter project using Tailwind CSS",
       "url_author":"https:\/\/github.com/cossssmin",
       "author":"Cosmin Popovici \/ @cossssmin",
-      "category": "Javascript"
+      "category": "Javascript",
+      "new":false,
+      "home":false
    }
  ]
 

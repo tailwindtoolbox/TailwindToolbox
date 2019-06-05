@@ -8,7 +8,7 @@
 				
 				<?php
 				// Store Card template
-				$card ='
+				/*$card ='
 				<!--{{title}} Template-->
 				<div class="w-1/2 lg:w-1/4 mb-4 md:mb-12 pb-3 sm:pb-0" data-twcat="{{category}}">
 					<a href="{{url}}" class="no-underline hover:no-underline">
@@ -23,13 +23,35 @@
 						</div>
 					</a>
 				</div>
+				';*/
+
+				$card ='
+				<!--{{title}} Template-->
+				<div class="w-1/2 lg:w-1/4 mb-4 md:mb-6 pb-3 sm:pb-0" data-twcat="{{category}}">
+					<a href="{{url}}" class="no-underline hover:no-underline">
+						<div class="card">
+							<div class="relative">
+								<img src="{{url_image}}">
+								{{new}}
+							</div>
+
+							<div class="card-title">
+								{{title}}
+							</div>
+							<p class="card-description">
+								{{description}}
+							</p>
+
+						</div>
+					</a>
+				</div>
 				';
 
 				// Store new indicator
-				$newBadge = '<span class="ml-2 bg-brand-alt text-white text-sm border-none rounded font-bold p-1 absolute top-0 right-0">NEW!</span>';
+				$newBadge = '<span class="new-badge">NEW!</span>';
 
 				// Read JSON file
-				$json = file_get_contents("includes/html-home.json");
+				$json = file_get_contents("includes/html.json");
 				//Decode JSON
 				$json_data = json_decode($json,true);
 

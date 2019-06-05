@@ -2,11 +2,15 @@
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/profile-card",
         "url_image":"templates/profile-card.png",
-        "title":"Profile Card [NEW!]",
+        "title":"Profile Card",
         "description":"Single page layout for use as a user profile / card (Includes ☀️/🌙 toggle)",
         "download":"https:\/\/github.com/tailwindtoolbox/profile-card/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Profile-Card",
-        "category": "Profile"
+        "url_author":"https://github.com/tailwindtoolbox/Profile-Card",
+        "author":"Tailwind Toolbox",
+        "category": "Profile",
+        "new":true,
+        "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/landing-page",
@@ -15,7 +19,11 @@
         "description":"Bright landing page which can be used for many purposes",
         "download":"https:\/\/github.com/tailwindtoolbox/Landing-Page/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Landing-Page",
-        "category": "Homepage"
+        "url_author":"https://github.com/tailwindtoolbox/Landing-Page",
+        "author":"Tailwind Toolbox",
+        "category": "Homepage",
+        "new":false,
+        "home":true
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template",
@@ -24,7 +32,11 @@
          "description":"Admin template to use for Admin theme, dashboard, or web application",
          "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Admin-Template",
-         "category": "Admin"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Admin",
+         "new":false,
+         "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-night",
@@ -33,7 +45,11 @@
         "description":"Night Mode Admin template for those who prefer to work at night",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Night/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Admin-Template-Night",
-         "category": "Admin"
+        "url_author":"https://github.com/tailwindtoolbox/",
+        "author":"Tailwind Toolbox",
+         "category": "Admin",
+         "new":false,
+         "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/admin-template-day",
@@ -42,34 +58,50 @@
         "description":"Day Mode Admin template for those who prefer to work in the am",
         "download":"https:\/\/github.com/tailwindtoolbox/Admin-Template-Day/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Admin-Template-Day",
-         "category": "Admin"
+        "url_author":"https://github.com/tailwindtoolbox/",
+        "author":"Tailwind Toolbox",
+         "category": "Admin",
+         "new":false,
+         "home":true
      },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/help-article",
         "url_image":"templates/help-article.png",
         "title":"Help Article",
-        "description":"Helpdesk / FAQ / knowledgebase article - clone of the <a href=\"https://www.weebly.com/app/help/topics/first-steps\">Weebly Support article</a>",
+        "description":"Helpdesk / FAQ / knowledgebase article - clone of the Weebly Support article",
         "download":"https:\/\/github.com/tailwindtoolbox/Help-Article/archive/master.zip",
         "source":"https://github.com/tailwindtoolbox/Help-Article",
-         "category": "Support"
+        "url_author":"https://github.com/tailwindtoolbox/",
+        "author":"Tailwind Toolbox",
+         "category": "Support",
+         "new":false,
+         "home":true
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
          "url_image":"templates/ghostwind-home.png",
          "title":"Ghostwind Blog Homepage",
-         "description":"Blog homepage in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
+         "description":"Blog homepage in style of the default Casper theme for Ghost",
          "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Ghostwind",
-         "category": "Blog, Homepage"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Blog, Homepage",
+         "new":false,
+         "home":true
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind",
          "url_image":"templates/ghostwind.png",
          "title":"Ghostwind",
-         "description":"Blog post template in style of the default <a href=\"https://github.com/TryGhost/Casper\">Casper theme for Ghost</a>",
+         "description":"Blog post template in style of the default Casper theme for Ghost",
          "download":"https:\/\/github.com/tailwindtoolbox/Ghostwind/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Ghostwind",
-         "category": "Blog"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Blog",
+         "new":false,
+         "home":true
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/minimal-blog",
@@ -78,7 +110,11 @@
          "description":"Minimal monochrome blog post template, with a splash of colour",
          "download":"https:\/\/github.com/tailwindtoolbox/Minimal-Blog/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Minimal-Blog",
-         "category": "Blog"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Blog",
+         "new":false,
+         "home":false
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
@@ -87,7 +123,11 @@
          "description":"Hero section - two columns for large screens and two rows for small screens",
          "download":"https:\/\/github.com/tailwindtoolbox/Hero-Product/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Hero-Product",
-         "category": "Homepage"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Homepage",
+         "new":false,
+         "home":false
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/sidebar-bottom",
@@ -96,7 +136,11 @@
          "description":"Barebones template with sidebar which becomes fixed bottom menu",
          "download":"https:\/\/github.com/tailwindtoolbox/Sidebar-Bottom/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Sidebar-Bottom",
-         "category": "Nav"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Nav",
+         "new":false,
+         "home":false
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/fixed-header",
@@ -105,7 +149,11 @@
          "description":"Barebones template with a fixed header which flows onto next row",
          "download":"https:\/\/github.com/tailwindtoolbox/Fixed-Header/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Fixed-Header",
-         "category": "Nav"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Nav",
+         "new":false,
+         "home":false
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/responsive-header",
@@ -114,7 +162,11 @@
          "description":"Barebones template with a toggle button responsive menu",
          "download":"https:\/\/github.com/tailwindtoolbox/Responsive-Header/archive/master.zip",
          "source":"https://github.com/tailwindtoolbox/Responsive-Header",
-         "category": "Nav"
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Nav",
+         "new":false,
+         "home":false
      }
  ]
 

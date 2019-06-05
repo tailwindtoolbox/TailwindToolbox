@@ -38,6 +38,61 @@
   * @import "components/forms";
   */
 
+  /*Card*/
+  
+  .card {
+    @apply bg-white rounded overflow-hidden shadow mx-2;
+    transition: -webkit-transform .1s ease-in;
+    transition: transform .1s ease-in;
+    transition: transform .1s ease-in,-webkit-transform .1s ease-in;
+  }
+
+  .card:hover {
+    @apply shadow-lg;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+
+  .card img {
+    @apply h-auto w-auto rounded-t shadow;
+  }
+
+  .new-badge {
+    @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 right-0;
+  }
+
+  .card-title {
+    @apply text-center font-bold text-sm pt-2 my-1;
+  }
+
+  .card-description {
+    @apply absolute top-0 bg-brand text-white font-bold text-sm p-3;
+    transition: -webkit-transform .1s ease-in;
+    transition: transform 1s ease-in;
+    transition: transform 1s ease-in,-webkit-transform 1s ease-in;
+  }
+
+  .card-author {
+    @apply text-center text-gray-200 text-xs mb-3;
+  }
+
+
+
+  @screen sm {
+
+    .card-title {
+      @apply text-base my-2;
+    }
+
+    .card-author {
+      @apply text-sm;
+    }
+
+  }
+
+
+
+
   /*Links*/
   .navlink {
 	  @apply mr-2 pb-1 px-2 border-l-2 border-b-0 border-transparent text-white text-base font-bold text-center no-underline;	  
@@ -98,13 +153,13 @@
     @apply bg-teal-400 no-underline;
   }
 
-  /*Card*/
+  /*Card
   .card {
     @apply bg-white rounded overflow-hidden shadow mx-2;
   }
   .card:hover {
     @apply shadow-lg;
-  }
+  }*/
   
   /*Tabs*/
 
