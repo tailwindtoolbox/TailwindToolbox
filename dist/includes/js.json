@@ -53,6 +53,17 @@
       "category": "Javascript",
       "new":false,
       "home":false
+   },
+     {
+      "url":"https:\/\/github.com/chrism/emberjs-tailwind-purgecss",
+      "url_image":"templates/emberjs-tailwind.png",
+      "title":"Ember.js Starter",
+      "description":"A starter project for Ember.js with Tailwind and PurgeCSS",
+      "url_author":"https:\/\/github.com/chrism",
+      "author":"Chris Masters \/ @chrism",
+      "category": "Javascript",
+      "new":true,
+      "home":false
    }
  ]
 
