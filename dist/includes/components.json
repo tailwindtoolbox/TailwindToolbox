@@ -11,7 +11,7 @@
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/carousel",
-        "url_image": "components/carousel.png",
+        "url_image": "components/carousel.gif",
         "title": "Carousel",
         "description": "Simple CSS-only Carousel with indicators (requires clicks to toggle)",
         "download": "",
@@ -21,7 +21,7 @@
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/modal",
-        "url_image": "components/modal.png",
+        "url_image": "components/modal.gif",
         "title": "Modal",
         "description": "Simple pop up modal with full screen overlay",
         "download": "",
@@ -31,7 +31,7 @@
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/accordion",
-        "url_image": "components/accordion.png",
+        "url_image": "components/accordion.gif",
         "title": "Accordion",
         "description": "Simple accordions - open multiple panels or just a single one",
         "download": "",
