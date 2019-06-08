@@ -1,4 +1,17 @@
 [
+    {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/app-landing-page",
+        "url_image":"templates/app-landing.png",
+        "title":"App Landing Page",
+        "description":"Barebones landing page layout for your app/play store app",
+        "download":"https:\/\/github.com/tailwindtoolbox/App-Landing-Page/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/App-Landing-Page",
+        "url_author":"https://github.com/tailwindtoolbox/Profile-Card",
+        "author":"Tailwind Toolbox",
+        "category": "Homepage",
+        "new":true,
+        "home":true
+     },
      {
         "url":"https:\/\/www.tailwindtoolbox.com/templates/profile-card",
         "url_image":"templates/profile-card.png",
@@ -9,7 +22,7 @@
         "url_author":"https://github.com/tailwindtoolbox/Profile-Card",
         "author":"Tailwind Toolbox",
         "category": "Profile",
-        "new":true,
+        "new":false,
         "home":true
      },
      {
@@ -101,7 +114,7 @@
          "author":"Tailwind Toolbox",
          "category": "Blog",
          "new":false,
-         "home":true
+         "home":false
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/minimal-blog",
