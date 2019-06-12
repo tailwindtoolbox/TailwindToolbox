@@ -1,5 +1,15 @@
 [
     {
+        "url": "https:\/\/www.tailwindtoolbox.com/components/responsive-table",
+        "url_image": "components/responsive-table.gif",
+        "title": "Responsive Table",
+        "description": "A responsive table using Datatables.net",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin"
+    },
+    {
         "url": "https:\/\/www.tailwindtoolbox.com/components/centered-page",
         "url_image": "components/centered-page.png",
         "title": "Centered Page",
