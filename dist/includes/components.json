@@ -60,6 +60,16 @@
         "category": "Admin"
     },
     {
+        "url": "https:\/\/codepen.io/PILO7980/pen/EBVxPE",
+        "url_image": "components/hover-menu.png",
+        "title": "Menu with hover dropdowns",
+        "description": "A menu bar with hover/dropdown items",
+        "download": "",
+        "url_author": "https:\/\/codepen.io/PILO7980/",
+        "author": "Antonio \/ @PILO7980",
+        "category": "Admin"
+    },
+    {
         "url": "https:\/\/www.github.com/tailwindcss/custom-forms",
         "url_image": "components/custom-forms.png",
         "title": "Custom Forms",
