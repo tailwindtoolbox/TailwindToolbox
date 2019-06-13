@@ -1,11 +1,22 @@
 [
-    {
+     {
         "url":"https:\/\/github.com/justalever/kickoff_tailwind",
         "url_image":"templates/ruby-tailwind.png",
         "title":"Rails Kickoff – Tailwind",
         "description":"A rapid Rails (6.0.0.rc1) application template (for personal use) bundled with Tailwind CSS",
         "url_author":"https:\/\/github.com/justalever",
         "author":"Andy Leverenz \/ @justalever",
+        "category": "WebApp",
+        "new":true,
+        "home":false
+     },
+     {
+        "url":"https:\/\/github.com/tlgreg/svelte-tailwindcss-example",
+        "url_image":"templates/svelte-tailwind.png",
+        "title":"Svelte App – Tailwind",
+        "description":"A project template for Svelte apps with Tailwind CSS",
+        "url_author":"https:\/\/github.com/tlgreg",
+        "author":"Gergely Tarján \/ @tlgreg",
         "category": "WebApp",
         "new":true,
         "home":false
