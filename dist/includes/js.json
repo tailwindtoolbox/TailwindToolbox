@@ -11,12 +11,12 @@
         "home":false
      },
      {
-        "url":"https:\/\/github.com/tlgreg/svelte-tailwindcss-example",
+        "url":"https:\/\/github.com/marcograhl/tailwindcss-svelte-starter",
         "url_image":"templates/svelte-tailwind.png",
-        "title":"Svelte App – Tailwind",
-        "description":"A project template for Svelte apps with Tailwind CSS",
-        "url_author":"https:\/\/github.com/tlgreg",
-        "author":"Gergely Tarján \/ @tlgreg",
+        "title":"Svelte – Tailwind",
+        "description":"A starter for building Svelte web apps with Tailwind CSS",
+        "url_author":"https:\/\/github.com/marcograhl",
+        "author":"marcograhl \/ @marcograhl",
         "category": "WebApp",
         "new":true,
         "home":false
