@@ -1,5 +1,16 @@
 [
     {
+        "url":"https:\/\/github.com/justalever/kickoff_tailwind",
+        "url_image":"templates/ruby-tailwind.png",
+        "title":"Rails Kickoff – Tailwind",
+        "description":"A rapid Rails (6.0.0.rc1) application template (for personal use) bundled with Tailwind CSS",
+        "url_author":"https:\/\/github.com/justalever",
+        "author":"Andy Leverenz \/ @justalever",
+        "category": "WebApp",
+        "new":true,
+        "home":false
+     },
+    {
         "url":"https:\/\/github.com/tailwindcss/webpack-starter",
         "url_image":"templates/tailwind-webpack-starter.png",
         "title":"Webpack Starter Template",
