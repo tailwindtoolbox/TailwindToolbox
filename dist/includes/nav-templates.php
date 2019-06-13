@@ -81,6 +81,9 @@
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Store');" data-twfilter="Store">Store</button>
 			</li>
 			<li class="mr-1">
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('WebApp');" data-twfilter="WebApp">Web App</button>
+			</li>
+			<li class="mr-1">
 				<button class="tab -mb-px" onclick="javascript:filterTemplates('Javascript');" data-twfilter="Javascript">Javascript</button>
 			</li>
 			<li class="mr-1">
