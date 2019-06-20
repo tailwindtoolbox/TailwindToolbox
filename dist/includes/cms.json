@@ -95,7 +95,7 @@
       "url_author":"https:\/\/www.drupal.org/u/opdavies",
       "author":"Oliver Davies \/ @opdavies",
       "category": "CMS",
-      "new":true,
+      "new":false,
       "home":false
    },
    {
@@ -105,6 +105,17 @@
       "description":"A Wordpress starter project template using Tailwind CSS",
       "url_author":"https:\/\/github.com/Freeshifter",
       "author":"Freeshifter \/ @Freeshifter",
+      "category": "CMS",
+      "new":false,
+      "home":false
+   },
+   {
+      "url":"https:\/\/github.com/chasegiunta/craft-vue-tailwind",
+      "url_image":"templates/craftcms-tailwind.png",
+      "title":"Craft Vue Tailwind",
+      "description":"Craft CMS project with Vue CLI and Tailwind CSS / Purgecss",
+      "url_author":"https:\/\/github.com/chasegiunta",
+      "author":"Chase Giunta \/ @chasegiunta",
       "category": "CMS",
       "new":true,
       "home":false
