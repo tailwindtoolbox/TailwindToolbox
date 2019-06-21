@@ -7,7 +7,7 @@
         "url_author":"https:\/\/github.com/justalever",
         "author":"Andy Leverenz \/ @justalever",
         "category": "WebApp",
-        "new":true,
+        "new":false,
         "home":false
      },
      {
@@ -17,6 +17,17 @@
         "description":"A starter for building Svelte web apps with Tailwind CSS",
         "url_author":"https:\/\/github.com/marcograhl",
         "author":"marcograhl \/ @marcograhl",
+        "category": "WebApp",
+        "new":false,
+        "home":false
+     },
+     {
+        "url":"https:\/\/github.com/dirkolbrich/hugo-theme-tailwindcss-starter",
+        "url_image":"templates/hugo-tailwind.png",
+        "title":"Hugo Starter – Tailwind",
+        "description":"A Hugo Starter Theme with Tailwind CSS",
+        "url_author":"https:\/\/github.com/dirkolbrich",
+        "author":"Dirk Olbrich \/ @dirkolbrich",
         "category": "WebApp",
         "new":true,
         "home":false
