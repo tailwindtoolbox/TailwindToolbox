@@ -30,7 +30,7 @@
          "url":"https:\/\/github.com/Alicannklc/intellij-tailwind-css",
          "url_image":"toolsutilities/tailwind-phpstorm.png",
          "title":"Tailwind IntelliJ Plugin",
-         "description":"Tailwind CSS class name completion for IntelliJ (WebStorm, PhpStorm, Android Studio etc)",
+         "description":"Tailwind CSS class name completion for IntelliJ",
          "url_author":"https:\/\/github.com/Alicannklc",
          "author":"Alican Kilic \/ @Alicannklc",
          "category": "IDE"
