@@ -1,5 +1,5 @@
 <!--section-->
-<div class="container mx-auto mb-16 mt-6 md:-mt-12" id="html-templates">
+<div class="container mx-auto mb-16 mt-6 md:-mt-12" id="home-components">
 		<div class="w-full px-1 md:px-0">
 	
 			<h2 class="font-bold text-xl md:text-3xl text-brand text-center pb-4 md:pb-8">Popular Components</h2>
@@ -14,7 +14,7 @@
 					<a href="{{url}}" class="no-underline hover:no-underline">
 						<div class="card">
 							<div class="relative">
-								<img src="{{url_image}}">
+								<img src="{{url_image}}" alt="{{title}}">
 								{{new}}
 							</div>
 
@@ -24,7 +24,7 @@
 							<p class="card-description">
 								{{description}}
 							</p>
-							
+
 						</div>
 					</a>
 				</div>
