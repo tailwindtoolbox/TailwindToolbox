@@ -16,7 +16,7 @@
 	$pageDL 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE).'/archive/master.zip';
 
 	$pageOFFSET = '500';
-	$pageINTRO	= 'Simple Modal<br>
+	$pageINTRO	= 'Full Screen Modal<br>
 				   <p>*Based on: <a href="https://jsfiddle.net/2qjvzh0m/5/">https://jsfiddle.net/2qjvzh0m/5/</a></p>';
 
 	$bulletCode = '<svg class="inline flex-none mb-1 mr-4 h-6 fill-current text-brand" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
