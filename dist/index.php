@@ -65,6 +65,8 @@
 
 		<div class="w-full md:w-4/5 px-0">
 			<?php include 'includes/templates-home.php';?>
+
+			<?php include 'includes/components-home.php';?>
 		</div>
 
 	</div>

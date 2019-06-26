@@ -9,7 +9,7 @@
         "author": "Tailwind Toolbox",
         "category": "Admin",
         "new":false,
-        "home":false
+        "home":true
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/fullscreen-modal",
@@ -20,8 +20,8 @@
         "url_author": "https:\/\/www.tailwindtoolbox.com",
         "author": "Tailwind Toolbox",
         "category": "Admin",
-        "new":true,
-        "home":false
+        "new":false,
+        "home":true
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/accordion",
@@ -33,7 +33,7 @@
         "author": "Tailwind Toolbox",
         "category": "Admin",
         "new":false,
-        "home":false
+        "home":true
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/responsive-table",
@@ -69,7 +69,7 @@
         "author": "Tailwind Toolbox",
         "category": "Admin",
         "new":false,
-        "home":false
+        "home":true
     },
     {
         "url": "https:\/\/www.tailwindtoolbox.com/components/searchy",
