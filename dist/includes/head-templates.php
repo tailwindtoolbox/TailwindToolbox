@@ -27,5 +27,3 @@
 	<meta property="twitter:description" content="Free open source Tailwind CSS starter Templates and Components to get you started quickly to creating websites in Tailwind CSS!">
 	<meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png">
 
-
-	<link href="../css/carbon.min.css" rel="stylesheet">
