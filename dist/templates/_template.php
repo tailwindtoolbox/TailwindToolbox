@@ -60,7 +60,7 @@
 
 					<div class="flex flex-wrap">
 
-						<div class="w-full lg:w-3/5 xl:w-3/4 text-gray-darker leading-normal text-sm lg:text-base ">
+						<div class="w-full lg:w-3/5 xl:w-3/4 text-gray-darker leading-normal text-base ">
 
 							<div class="flex flex-wrap">
 								<div class="w-full">
