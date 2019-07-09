@@ -24,3 +24,4 @@
 
 	<!-- Stylesheets -->
 	<link href="css/tailwind.min.css?v=20190709" rel="stylesheet">
+	<link href="css/carbon.min.css?v=20190709" rel="stylesheet">
