@@ -15,7 +15,7 @@
 	$pageGIT 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE);
 	$pageDL 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE).'/archive/master.zip';
 
-	$pageOFFSET = '0';
+	$pageOFFSET = '500';
 	$pageINTRO	= 'Pure CSS Mega Menu<br>
 				   <p>*Includes two versions - "click" or "hover" to show the mega menu
 				   <p>*Design inspiration: <a href="https://sproutsocial.com/">https://sproutsocial.com/</a></p>
