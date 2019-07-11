@@ -29,7 +29,7 @@
         "url_author":"https:\/\/github.com/dirkolbrich",
         "author":"Dirk Olbrich \/ @dirkolbrich",
         "category": "WebApp",
-        "new":true,
+        "new":false,
         "home":false
      },
     {
@@ -66,6 +66,17 @@
         "home":false
      },
      {
+        "url":"https:\/\/github.com/impulse/cra-tailwind-starter",
+        "url_image":"templates/react-tailwind.png",
+        "title":"Create React App Tailwind starter",
+        "description":"Tailwind starter project based on create-react-app",
+        "url_author":"https:\/\/github.com/impulse",
+        "author":"impulse \/ @impulse",
+        "category": "Javascript",
+        "new":true,
+        "home":false
+     },
+     {
         "url":"https:\/\/github.com/Landish/react-tailwindcss-demo",
         "url_image":"templates/react-tailwind.png",
         "title":"React and Tailwind CSS",
@@ -95,7 +106,7 @@
       "url_author":"https:\/\/github.com/chrism",
       "author":"Chris Masters \/ @chrism",
       "category": "Javascript",
-      "new":true,
+      "new":false,
       "home":false
    },
     {
@@ -106,7 +117,7 @@
         "url_author":"https:\/\/github.com/Oddstronaut",
         "author":"Taylor Bryant \/ @Oddstronaut",
         "category": "Javascript",
-        "new":true,
+        "new":false,
         "home":false
      }
  ]
