@@ -36,6 +36,18 @@
         "home":true
     },
     {
+        "url": "https:\/\/www.tailwindtoolbox.com/components/megamenu",
+        "url_image": "components/cmegamenu.png",
+        "title": "Mega Menu",
+        "description": "A click or hover driven mega menu",
+        "download": "",
+        "url_author": "https:\/\/www.tailwindtoolbox.com",
+        "author": "Tailwind Toolbox",
+        "category": "Admin",
+        "new":true,
+        "home":true
+    },
+    {
         "url": "https:\/\/www.tailwindtoolbox.com/components/alerts",
         "url_image": "components/alerts.png",
         "title": "Alerts",
@@ -44,7 +56,7 @@
         "url_author": "https:\/\/www.tailwindtoolbox.com",
         "author": "Tailwind Toolbox",
         "category": "Admin",
-        "new":true,
+        "new":false,
         "home":true
     },
     {
@@ -93,7 +105,7 @@
         "author": "Tailwind Toolbox",
         "category": "Admin",
         "new":false,
-        "home":true
+        "home":false
     },
     {
         "url": "https:\/\/codepen.io/PILO7980/pen/EBVxPE",
