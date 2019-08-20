@@ -1,3 +1,2 @@
-
-	<script async src="https://cdn.simpleanalytics.io/hello.js"></script> 
-	<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>	
+	<script async defer src="https://api.tailwindtoolbox.com/app.js"></script> 
+	<noscript><img src="https://api.tailwindtoolbox.com/image.gif" alt=""></noscript>
