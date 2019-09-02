@@ -139,7 +139,7 @@
          "url_author":"https://github.com/tailwindtoolbox/",
          "author":"Tailwind Toolbox",
          "category": "Blog",
-         "new":false,
+         "new":true,
          "home":true
      },
      {
