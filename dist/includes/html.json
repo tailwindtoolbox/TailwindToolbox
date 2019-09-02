@@ -88,7 +88,7 @@
         "author":"Tailwind Toolbox",
          "category": "Support",
          "new":false,
-         "home":true
+         "home":false
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
@@ -128,6 +128,19 @@
          "category": "Blog",
          "new":false,
          "home":false
+     },
+     {
+         "url":"https:\/\/www.tailwindtoolbox.com/templates/minimalist-blog",
+         "url_image":"templates/minimalist-blog.png",
+         "title":"Minimalist Blog",
+         "description":"Minimal monochrome blog post template, based on minimalist-writer-ii",
+         "download":"https:\/\/github.com/tailwindtoolbox/Minimalist-Blog/archive/master.zip",
+         "source":"https://github.com/tailwindtoolbox/Minimalist-Blog",
+         "url_author":"https://github.com/tailwindtoolbox/",
+         "author":"Tailwind Toolbox",
+         "category": "Blog",
+         "new":false,
+         "home":true
      },
      {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/hero-product",
