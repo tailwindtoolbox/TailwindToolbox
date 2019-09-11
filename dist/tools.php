@@ -15,7 +15,7 @@
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
-	<?php include 'includes/nav.php';?>
+	<?php include 'includes/nav-tools.php';?>
 
 	<!--header-->
 	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
@@ -31,7 +31,7 @@
 
 			<div class="bg-white rounded overflow-hidden shadow mx-1">
 				<div class="flex flex-wrap p-3 sm:p-6 text-grey-darker leading-normal text-base md:text-xl">
-						<p class="my-2 font-bold">Some useful development tools and utilities to help you setup your IDE environment and become more familiar with Tailwind CSS</p>
+						<p class="my-2 font-bold">Some useful tools and utilities to help you setup your development environment and become more familiar with Tailwind CSS</p>
 				</div>
 			</div>
 		</div>

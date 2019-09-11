@@ -42,7 +42,7 @@
           "description":"Cheat sheet to search the Tailwind CSS utility classes and CSS properties",
           "url_author":"https:\/\/github.com/nerdcave",
           "author":"Jay Elaraj \/ @nerdcafe",
-          "category": "DOCS"
+          "category": "Help"
       },
       {
            "url":"https:\/\/github.com/urbantrout/refactor-css",
@@ -51,7 +51,7 @@
            "description":"Helps you identify reoccurring CSS class name combinations in your markup",
            "url_author":"https:\/\/github.com/urbantrout",
            "author":"Harald Atteneder \/ @urbantrout",
-           "category": "CODE"
+           "category": "Help"
        },
        {
             "url":"https:\/\/github.com/awssat/tailwindo",
@@ -60,7 +60,7 @@
             "description":"Convert Bootstrap CSS code to Tailwind CSS code (v0.7.x)",
             "url_author":"https:\/\/github.com/awssat",
             "author":"Awssat / @awssat",
-            "category": "DESIGN"
+            "category": "Design"
         },
         {
             "url":"https:\/\/github.com/awssat/tailwind-shift",
@@ -69,7 +69,7 @@
             "description":"Helper tool to upgrade your v0.7.x code to v1.0",
             "url_author":"https:\/\/github.com/awssat",
             "author":"Awssat / @awssat",
-            "category": "DESIGN"
+            "category": "Design"
         },
        {
             "url":"https:\/\/github.com/jan-dh/sketch-tailwind",
@@ -78,7 +78,7 @@
             "description":"Export aspects of a design made in Sketch into Tailwind CSS ready javascript files",
             "url_author":"https:\/\/github.com/jan-dh",
             "author":"Jan DH / @jan-dh",
-            "category": "DESIGN"
+            "category": "Design"
         },
         {
             "url":"https:\/\/github.com/aleksandarbasara/tailwindcss-adobe-xd",
@@ -87,7 +87,7 @@
             "description":"TailwindCSS Styles for Adobe XD",
             "url_author":"https:\/\/github.com/aleksandarbasara",
             "author":"Aleksandar Basara / @aleksandarbasara",
-            "category": "DESIGN"
+            "category": "Design"
         },
         {
             "url":"https:\/\/github.com/aleksandarbasara/tailwindcss-figma",
@@ -96,7 +96,7 @@
             "description":"TailwindCSS Styles for Figma",
             "url_author":"https:\/\/github.com/aleksandarbasara",
             "author":"Aleksandar Basara / @aleksandarbasara",
-            "category": "DESIGN"
+            "category": "Design"
         },
         {
             "url":"https:\/\/github.com/impulse/tailwindcss-figma",
@@ -105,7 +105,7 @@
             "description":"Figma Kit for TailwindCSS",
             "url_author":"https:\/\/github.com/impulse",
             "author":"Impulse / @impulse",
-            "category": "DESIGN"
+            "category": "Design"
         },
         {
             "url":"https:\/\/https://github.com/iandinwoodie/github-markdown-tailwindcss",
@@ -114,7 +114,7 @@
             "description":"Github flavoured Markdown for TailwindCSS",
             "url_author":"https:\/\/github.com/iandinwoodie",
             "author":"Ian Dinwoodie / @iandinwoodie",
-            "category": "DESIGN"
+            "category": "Design"
         },
         {
             "url":"https:\/\/https://tailwindgrids.com",
@@ -123,6 +123,6 @@
             "description":"Generate responsive grids using the TailwindCSS defaults",
             "url_author":"https:\/\/twitter.com/tailwindgrids/",
             "author":"Pete Medina / @tailwindgrids",
-            "category": "DESIGN"
+            "category": "Generator"
         }
  ]
