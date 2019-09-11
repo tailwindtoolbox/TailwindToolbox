@@ -106,5 +106,23 @@
             "url_author":"https:\/\/github.com/impulse",
             "author":"Impulse / @impulse",
             "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/https://github.com/iandinwoodie/github-markdown-tailwindcss",
+            "url_image":"placeholder.png",
+            "title":"GFM TailwindCSS",
+            "description":"Github flavoured Markdown for TailwindCSS",
+            "url_author":"https:\/\/github.com/iandinwoodie",
+            "author":"Ian Dinwoodie / @iandinwoodie",
+            "category": "DESIGN"
+        },
+        {
+            "url":"https:\/\/https://tailwindgrids.com",
+            "url_image":"toolsutilities/tailwindgrids.png",
+            "title":"Grid Generator",
+            "description":"Generate responsive grids using the TailwindCSS defaults",
+            "url_author":"https:\/\/twitter.com/tailwindgrids/",
+            "author":"Pete Medina / @tailwindgrids",
+            "category": "DESIGN"
         }
  ]

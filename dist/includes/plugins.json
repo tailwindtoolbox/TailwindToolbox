@@ -216,12 +216,22 @@
          "category": "Utilities"
     },
     {
-         "url":"https:\/\/github.com/hacknug/tailwindcss-break",
+         "url":"https:\/\/github.com/ky-is/tailwindcss-plugin-width-height",
          "url_image":"placeholder.png",
-         "title":"Break",
-         "description":"Tailwind CSS plugin to generate break utilities",
-         "url_author":"https:\/\/github.com/hacknug",
-         "author":"Nestor Vera \/ @hacknug",
+         "title":"Width Height",
+         "description":"Square aspect ratio size utility classes",
+         "url_author":"https:\/\/github.com/ky-is",
+         "author":"Kyle \/ @ky-is",
          "category": "Utilities"
-    }
+    },
+    {
+          "url":"https:\/\/github.com/log1x/tailwindcss-border-styles",
+          "url_image":"placeholder.png",
+          "title":"Border Styles",
+          "description":"Tailwind CSS plugin to generate individual border side style classes",
+          "url_author":"https:\/\/github.com/log1x",
+          "author":"Brandon \/ @log1x",
+          "category": "Utilities"
+     }
+
  ]
