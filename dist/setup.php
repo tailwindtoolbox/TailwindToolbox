@@ -167,10 +167,13 @@
 							<p class="text-gray-600">&gt;>npm update</p>
 							<p>(some npm messages)<br>
 							+ cssnano@4.1.10<br>
-							+ postcss-cli@6.1.2<br>
-							+ tailwindcss@1.0.2<br>
-							+ autoprefixer@9.5.0<br>
+							+ postcss-cli@6.1.3<br>
+							+ tailwindcss@1.1.2<br>
+							+ autoprefixer@9.6.1<br>
 							+ @fullhuman/postcss-purgecss@1.1.0<br>
+							+ rimraf@2.7.1<br>
+							+ watch@1.0.2<br>
+							+ @glidejs/glide@3.3.0<br>
 							added 472 packages from 355 contributors and audited 4131 packages in 122.868s<br>
 							found 0 vulnerabilities</p>
 						</div>
@@ -195,7 +198,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 create:js C:\project-name<br>
 							> tailwind init tailwind.config.js<br><br><br>
 							
-							tailwindcss <span class="text-teal-500">1.0.2</span><br><br>
+							tailwindcss <span class="text-teal-500">1.1.2</span><br><br>
 
 							✅ Created Tailwind config file: <span class="text-pink-500">tailwind.config.js</span><br></p>
 						</div>
@@ -217,7 +220,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 							
-							tailwindcss <span class="text-teal-500">1.0.2</span><br><br>
+							tailwindcss <span class="text-teal-500">1.1.2</span><br><br>
 
 							🚀 Building... <span class="text-pink-500">tailwind.config.css</span><br><br>
 
@@ -315,7 +318,7 @@
 							<p>> TailwindStarterTemplate@1.0.0 dev:css C:\project-name<br>
 							> tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css<br><br><br>
 
-							tailwindcss <span class="text-teal-500">1.0.2</span><br><br>
+							tailwindcss <span class="text-teal-500">1.1.2</span><br><br>
 
 							🚀 Building... <span class="text-pink-500">tailwind.config.css</span><br><br>
 
