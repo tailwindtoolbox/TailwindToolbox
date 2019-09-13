@@ -121,7 +121,7 @@
         <section class="w-full lg:w-4/5">
 
             <!--Title-->
-            <h1 class="flex items-center font-sans font-bold break-normal text-gray-700 px-2 text-xl mt-12 md:mt-0 md:text-2xl">
+            <h1 class="flex items-center font-sans font-bold break-normal text-gray-700 px-2 text-xl mt-12 lg:mt-0 md:text-2xl">
 				Multi Section Form with Scrollspy
 			</h1>
 
