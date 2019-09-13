@@ -91,6 +91,19 @@
          "home":false
      },
      {
+        "url":"https:\/\/www.tailwindtoolbox.com/templates/multi-section-form",
+        "url_image":"templates/multi-section-form.png",
+        "title":"Multi Section Form",
+        "description":"Multi section form with scrollspy.  Useful for settings page.",
+        "download":"https:\/\/github.com/tailwindtoolbox/Multi-Section-Form/archive/master.zip",
+        "source":"https://github.com/tailwindtoolbox/multi-section-form",
+        "url_author":"https://github.com/tailwindtoolbox/",
+        "author":"Tailwind Toolbox",
+         "category": "Support",
+         "new":true,
+         "home":false
+     },
+     {
          "url":"https:\/\/www.tailwindtoolbox.com/templates/ghostwind-home",
          "url_image":"templates/ghostwind-home.png",
          "title":"Ghostwind Blog Homepage",
