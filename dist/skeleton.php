@@ -53,22 +53,27 @@
   &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
 
   &lt;!-- Font Awesome if you need it
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.3.1/css/all.css&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.10.2/css/all.css&quot;&gt;
   --&gt;
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css&quot;&gt; 
+  &lt;link href=&quot;https://unpkg.com/tailwindcss/dist/tailwind.min.css&quot; rel=&quot;stylesheet&quot;&gt;
   &lt;!--Replace with your tailwind.css once created--&gt;
+  &lt;link href=&quot;https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms--&gt;
 
 &lt;/head&gt;
 
-&lt;body class=&quot;bg-grey-lightest font-sans leading-normal tracking-normal&quot;&gt;
+&lt;body class=&quot;bg-grey-100 font-sans leading-normal tracking-normal&quot;&gt;
 
   &lt;div class=&quot;container mx-auto&quot;&gt;
-    &lt;h1&gt;Hello World&lt;/h1&gt;
+    &lt;h1 class=&quot;text-2xl font-bold text-indigo-500&quot;&gt;Hello World&lt;/h1&gt;
   &lt;/div&gt;
 
 
   &lt;!-- jQuery if you need it
-  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script
+  src=&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot;
+  integrity=&quot;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=&quot;
+  crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
   --&gt;
 
 &lt;/body&gt;
