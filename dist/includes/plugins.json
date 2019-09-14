@@ -232,6 +232,15 @@
           "url_author":"https:\/\/github.com/log1x",
           "author":"Brandon \/ @log1x",
           "category": "Utilities"
-     }
+     },
+     {
+           "url":"https:\/\/github.com/adfdev/tailwindcss-bg-alpha",
+           "url_image":"placeholder.png",
+           "title":"Background Alpha",
+           "description":"Tailwind CSS plugin to add alpha support for background color",
+           "url_author":"https:\/\/github.com/adfdev",
+           "author":"Alain Di Fabio \/ @adfdev",
+           "category": "Utilities"
+      }
 
  ]
