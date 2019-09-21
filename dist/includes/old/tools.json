@@ -1,128 +1,170 @@
 [
-    {
+    		{
+		  "site_section":"Tool",
          "url":"https:\/\/github.com/vinkla/autocomplete-tailwind",
          "url_image":"toolsutilities/atom-autocomplete.png",
          "title":"Atom Auto Complete",
          "description":"Tailwind CSS Autocompletion provider for Atom",
          "url_author":"https:\/\/github.com/vinkla",
          "author":"Vincent Klaiber \/ @vinkla",
-         "category": "IDE"
-     },
-    {
+         "category": "IDE",
+     		 "new":false,
+	"home":false
+},
+    		{
+		  "site_section":"Tool",
          "url":"https:\/\/marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
          "url_image":"toolsutilities/vsc-autocomplete.png",
          "title":"Tailwind CSS IntelliSense",
          "description":"Tailwind CSS class name completion for VS Code",
          "url_author":"https:\/\/github.com/bradlc",
          "author":"Brad Cornes \/ @bradlc",
-         "category": "IDE"
-    },
-    {
+         "category": "IDE",
+    		 "new":false,
+	"home":false
+},
+    		{
+		  "site_section":"Tool",
          "url":"https:\/\/packagecontrol.io/packages/TailwindCSSAutocomplete",
          "url_image":"toolsutilities/sublime-autocomplete.png",
          "title":"Tailwind CSS Autocomplete",
          "description":"Tailwind CSS class name completion for Sublime Text",
          "url_author":"https:\/\/github.com/bradlc",
          "author":"Brad Cornes \/ @bradlc",
-         "category": "IDE"
-     },
-     {
+         "category": "IDE",
+     		 "new":false,
+	"home":false
+},
+     		{
+		  "site_section":"Tool",
          "url":"https:\/\/github.com/Alicannklc/intellij-tailwind-css",
          "url_image":"toolsutilities/tailwind-phpstorm.png",
          "title":"Tailwind IntelliJ Plugin",
          "description":"Tailwind CSS class name completion for IntelliJ",
          "url_author":"https:\/\/github.com/Alicannklc",
          "author":"Alican Kilic \/ @Alicannklc",
-         "category": "IDE"
-     },
-     {
+         "category": "IDE",
+     		 "new":false,
+	"home":false
+},
+     		{
+		  "site_section":"Tool",
           "url":"https:\/\/nerdcave.com/tailwind-cheat-sheet",
           "url_image":"toolsutilities/tailwind-cheat-sheet.png",
           "title":"Tailwind CSS Cheatsheet",
           "description":"Cheat sheet to search the Tailwind CSS utility classes and CSS properties",
           "url_author":"https:\/\/github.com/nerdcave",
           "author":"Jay Elaraj \/ @nerdcafe",
-          "category": "Help"
-      },
-      {
+          "category": "Help",
+      		 "new":false,
+	"home":false
+},
+      		{
+		  "site_section":"Tool",
            "url":"https:\/\/github.com/urbantrout/refactor-css",
            "url_image":"toolsutilities/refactor-tailwind.png",
            "title":"Refactor CSS",
            "description":"Helps you identify reoccurring CSS class name combinations in your markup",
            "url_author":"https:\/\/github.com/urbantrout",
            "author":"Harald Atteneder \/ @urbantrout",
-           "category": "Help"
-       },
-       {
+           "category": "Help",
+       		 "new":false,
+	"home":false
+},
+       		{
+		  "site_section":"Tool",
             "url":"https:\/\/github.com/awssat/tailwindo",
             "url_image":"toolsutilities/tailwindo.png",
             "title":"Tailwindo",
             "description":"Convert Bootstrap CSS code to Tailwind CSS code (v0.7.x)",
             "url_author":"https:\/\/github.com/awssat",
             "author":"Awssat / @awssat",
-            "category": "Design"
-        },
-        {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+        		{
+		  "site_section":"Tool",
             "url":"https:\/\/github.com/awssat/tailwind-shift",
             "url_image":"toolsutilities/tailwind-shift.png",
             "title":"Tailwind Shift",
             "description":"Helper tool to upgrade your v0.7.x code to v1.0",
             "url_author":"https:\/\/github.com/awssat",
             "author":"Awssat / @awssat",
-            "category": "Design"
-        },
-       {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+       		{
+		  "site_section":"Tool",
             "url":"https:\/\/github.com/jan-dh/sketch-tailwind",
             "url_image":"toolsutilities/tailwind-sketch.png",
             "title":"Sketch Tailwind",
             "description":"Export aspects of a design made in Sketch into Tailwind CSS ready javascript files",
             "url_author":"https:\/\/github.com/jan-dh",
             "author":"Jan DH / @jan-dh",
-            "category": "Design"
-        },
-        {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+        		{
+		  "site_section":"Tool",
             "url":"https:\/\/github.com/aleksandarbasara/tailwindcss-adobe-xd",
             "url_image":"toolsutilities/tailwind-xd.png",
             "title":"Adobe XD Tailwind",
             "description":"TailwindCSS Styles for Adobe XD",
             "url_author":"https:\/\/github.com/aleksandarbasara",
             "author":"Aleksandar Basara / @aleksandarbasara",
-            "category": "Design"
-        },
-        {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+        		{
+		  "site_section":"Tool",
             "url":"https:\/\/github.com/aleksandarbasara/tailwindcss-figma",
             "url_image":"toolsutilities/tailwind-figma.png",
             "title":"Figma Tailwind",
             "description":"TailwindCSS Styles for Figma",
             "url_author":"https:\/\/github.com/aleksandarbasara",
             "author":"Aleksandar Basara / @aleksandarbasara",
-            "category": "Design"
-        },
-        {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+        		{
+		  "site_section":"Tool",
             "url":"https:\/\/github.com/impulse/tailwindcss-figma",
             "url_image":"toolsutilities/tailwind-figma.png",
             "title":"Figma Kit for TailwindCSS",
             "description":"Figma Kit for TailwindCSS",
             "url_author":"https:\/\/github.com/impulse",
             "author":"Impulse / @impulse",
-            "category": "Design"
-        },
-        {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+        		{
+		  "site_section":"Tool",
             "url":"https:\/\/https://github.com/iandinwoodie/github-markdown-tailwindcss",
             "url_image":"placeholder.png",
             "title":"GFM TailwindCSS",
             "description":"Github flavoured Markdown for TailwindCSS",
             "url_author":"https:\/\/github.com/iandinwoodie",
             "author":"Ian Dinwoodie / @iandinwoodie",
-            "category": "Design"
-        },
-        {
+            "category": "Design",
+        		 "new":false,
+	"home":false
+},
+        		{
+		  "site_section":"Tool",
             "url":"https:\/\/https://tailwindgrids.com",
             "url_image":"toolsutilities/tailwindgrids.png",
             "title":"Grid Generator",
             "description":"Generate responsive grids using the TailwindCSS defaults",
             "url_author":"https:\/\/twitter.com/tailwindgrids/",
             "author":"Pete Medina / @tailwindgrids",
-            "category": "Generator"
+            "category": "Generator",
+            "new":false,
+            "home":false
         }
  ]

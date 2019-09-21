@@ -40,7 +40,6 @@
 			<p class="max-w-3xl leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a <a href="https://www.tailwindtoolbox.com/plugins">plugins</a> directory and useful <a href="https://www.tailwindtoolbox.com/tools">tools/utilities</a> to kick start your Tailwind CSS project</p>
 		</div>
 	</div>
-
 	
 
 	<div class="diagonal-bg fixed h-full w-full top-0" style="z-index:-1;">
@@ -64,9 +63,25 @@
 		</div>
 
 		<div class="w-full md:w-4/5 px-0">
-			<?php include 'includes/templates-home.php';?>
 
-			<?php include 'includes/components-home.php';?>
+
+			<?php 
+				$show_section = "Template";
+				$show_home = true;
+				include 'includes/render-home.php';
+			?>
+
+			<?php 
+				$show_section = "Component";
+				$show_home = true;
+				include 'includes/render-home.php';
+			?>
+						
+
+
+
+
+
 		</div>
 
 	</div>

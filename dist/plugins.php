@@ -1,15 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Useful Plugins for Tailwind CSS</title>
-	<meta name="description" content="Useful Plugins for Tailwind CSS to help you setup for your next project">
-	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,plugins">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tailwind Toolbox - Free Starter Templates</title>
+	<meta name="description" content="Free open source Tailwind CSS starter templates to quickly start your next project">
+	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
 	<?php include 'includes/head.php';?>
-	
 	<?php include 'includes/analytics.php';?>
 		
 </head>
@@ -20,136 +18,51 @@
 	<!--header-->
 	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Plugins</span>
+			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">
+				Tailwind Plugins
+			</span>
 		</div>
 	</div>
 
 
-
 	<div class="container mx-auto mb-8" id="post-content">
 		<div class="w-full -mt-12 md:-mt-32 px-0">
-
 			<div class="bg-white rounded overflow-hidden shadow mx-1">
 				<div class="flex flex-wrap p-3 sm:p-6 text-grey-darker leading-normal text-base md:text-xl">
-						<p class="my-2 font-bold">Some useful plugins for extending Tailwind CSS.  Find out more about writing your own plugin <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://tailwindcss.com/docs/plugins" target="_blank" rel="noopener">here</a></p>
+					<p class="my-2 font-bold">Some useful plugins for extending Tailwind CSS.  Find out more about writing your own plugin <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://tailwindcss.com/docs/plugins" target="_blank" rel="noopener">here</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 
 
-		<div class="container mx-auto mb-8 flex inline-block flex-wrap">
+	<div class="container mx-auto mb-8 flex inline-block flex-wrap">
 
-
-			<div class="w-full md:w-1/5">
-				<div class="sticky pin-t" style="top:8em;">
-					<p class="text-brand text-center font-bold mb-2">Advertisment</p>
-					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+		<div class="w-full pb-6 md:w-1/5">
+			<div class="sticky pin-t" style="top:9em;">
+				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
+				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 			</div>
-				<div></div>
-	
-					
-		
-			</div>
+			<div></div>
+		</div>
 
-			<div class="w-full md:w-4/5 px-0">
+		<div class="w-full md:w-4/5 px-0">
+			<?php 
+				$show_section = "Plugin";
+				$show_home = false;
+				include 'includes/render-data.php';
+			?>
 
-				<?php include 'includes/plugins.php';?>
-						
-				<p class="my-8 p-6 w-full container mx-auto text-center text-gray-dark">If you have any useful plugins which will make your Tailwind CSS experience better, please drop us a tweet: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.twitter.com/tailwindtoolbox" target="_blank" rel="noopener">@TailwindToolbox</a></p>	
-					
-			</div>
+			<p class="my-8 p-6 w-full container mx-auto text-center text-gray-dark">If you have any useful plugins which will make your Tailwind CSS experience better, please drop us a tweet: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.twitter.com/tailwindtoolbox" target="_blank" rel="noopener">@TailwindToolbox</a></p>	
 
 		</div>
 
-
-			
+	</div>
 
 	<?php include 'includes/footer.php';?>
 
-
 <script>
-
-
-
-	/*Toggle dropdown list*/
-	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
-
-	var navMenuDiv = document.getElementById("nav-content");
-	var navMenu = document.getElementById("nav-toggle");
-	
-	document.onclick = check;
-
-	function check(e){
-	  var target = (e && e.target) || (event && event.srcElement);
-
-	  //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-		// click NOT on the menu
-		if (checkParent(target, navMenu)) {
-		  // click on the link
-		  if (navMenuDiv.classList.contains("hidden")) {
-			navMenuDiv.classList.remove("hidden");
-		  } else {navMenuDiv.classList.add("hidden");}
-		} else {
-		  // click both outside link and outside menu, hide menu
-		  navMenuDiv.classList.add("hidden");
-		}
-	  }
-	  
-	}
-
-	function checkParent(t, elm) {
-	  while(t.parentNode) {
-		if( t == elm ) {return true;}
-		t = t.parentNode;
-	  }
-	  return false;
-	}
-
-
-
-function filterTemplates(filterVal) {
-	//Get all the templates
-	var divs = document.querySelectorAll("[data-twcat]");
-
-	//Loop through and show (block) all which match the criteira and hide (none) the rest
-	for (var i = 0; i < divs.length; ++i) {
-		if (divs[i].dataset.twcat.indexOf(filterVal) >= 0) { //includes(filterVal)) {
-			divs[i].style.display='block';
-		} else {
-			divs[i].style.display='none';
-		}
-	}
-	
-	//Reset the all filter to be "all" instead of ""
-	if (filterVal == '') filterVal = "all";
-	
-
-
-	//Get all the filter buttons
-	var btns = document.querySelectorAll("[data-twfilter]");
-	var filterMsg = document.getElementById('filterMsg');
-
-	//Loop through and set the criteria filter button to active
-	for (var i = 0; i < btns.length; ++i) {
-		if (btns[i].dataset.twfilter == filterVal) {
-			btns[i].classList.add('active-tab');
-		} else {
-			btns[i].classList.remove('active-tab');
-		}
-	}
-	
-	//Hide message if showing all
-	if (filterVal == "all") {
-		filterMsg.classList.add('invisible');
-	} else {
-		filterMsg.classList.remove('invisible');
-		filterMsg.innerHTML = 'Showing: ' + filterVal + " plugins - Click here to show all plugins!";
-	}
-
-}
-
+<?php include 'includes/js.php';?>
 </script>
 
 </body>

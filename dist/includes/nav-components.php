@@ -1,5 +1,5 @@
 
-<nav id="header" class="bg-brand fixed w-full z-10 pin-t shadow ">
+<nav id="header" class="bg-brand fixed w-full z-10 top-0 shadow ">
 	
 	<div class="w-full container mx-auto flex flex-wrap items-center mt-0 py-3">
 			
@@ -58,25 +58,13 @@
 				<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Home');" data-twfilter="Home">Homepage</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('HTML');" data-twfilter="HTML">HTML</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Blog');" data-twfilter="Blog">Blog</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Vue');" data-twfilter="Vue">Vue</button>
 			</li>
 			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Nav');" data-twfilter="Nav">Nav</button>
-			</li>
-			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Admin');" data-twfilter="Admin">Admin</button>
-			</li>
-			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Store');" data-twfilter="Store">Store</button>
-			</li>
-			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('Javascript');" data-twfilter="Javascript">Javascript</button>
-			</li>
-			<li class="mr-1">
-				<button class="tab -mb-px" onclick="javascript:filterTemplates('CMS');" data-twfilter="CMS">CMS</button>
+				<button class="tab -mb-px" onclick="javascript:filterTemplates('Angular');" data-twfilter="Angular">Angular</button>
 			</li>
 		</ul>
 	</div>

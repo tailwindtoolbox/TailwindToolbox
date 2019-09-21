@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,6 @@
 	<meta name="description" content="Free open source Tailwind CSS starter templates to quickly start your next project">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
 	<?php include 'includes/head.php';?>
-	
 	<?php include 'includes/analytics.php';?>
 		
 </head>
@@ -25,10 +23,8 @@
 	</div>
 
 
-
 	<div class="container mx-auto mb-8" id="post-content">
 		<div class="w-full -mt-12 md:-mt-32 px-0">
-
 			<div class="bg-white rounded overflow-hidden shadow mx-1">
 				<div class="flex flex-wrap p-3 sm:p-6 text-grey-darker leading-normal text-base md:text-xl">
 						<p class="my-2 font-bold">These templates are all open source and built using the standard Tailwind CSS configuration. Feel free to use them for any purpose, even commercially!</p>
@@ -38,114 +34,30 @@
 	</div>
 
 
-		<div class="container mx-auto mb-8 flex inline-block flex-wrap">
+	<div class="container mx-auto mb-8 flex inline-block flex-wrap">
 
-
-			<div class="w-full pb-6 md:w-1/5">
-				<div class="sticky pin-t" style="top:9em;">
-					<p class="text-brand text-center font-bold mb-2">Advertisment</p>
-					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+		<div class="w-full pb-6 md:w-1/5">
+			<div class="sticky pin-t" style="top:9em;">
+				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
+				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 			</div>
-				<div></div>
-	
-					
-		
-			</div>
-
-			<div class="w-full md:w-4/5 px-0">
-				<?php include 'includes/templates.php';?>
-			</div>
-
+			<div></div>
 		</div>
 
+		<div class="w-full md:w-4/5 px-0">
+			<?php 
+				$show_section = "Template";
+				$show_home = false;
+				include 'includes/render-data.php';
+			?>
+		</div>
 
-			
+	</div>
 
 	<?php include 'includes/footer.php';?>
 
-
 <script>
-
-
-
-	/*Toggle dropdown list*/
-	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
-
-	var navMenuDiv = document.getElementById("nav-content");
-	var navMenu = document.getElementById("nav-toggle");
-	
-	document.onclick = check;
-
-	function check(e){
-	  var target = (e && e.target) || (event && event.srcElement);
-
-	  //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-		// click NOT on the menu
-		if (checkParent(target, navMenu)) {
-		  // click on the link
-		  if (navMenuDiv.classList.contains("hidden")) {
-			navMenuDiv.classList.remove("hidden");
-		  } else {navMenuDiv.classList.add("hidden");}
-		} else {
-		  // click both outside link and outside menu, hide menu
-		  navMenuDiv.classList.add("hidden");
-		}
-	  }
-	  
-	}
-
-	function checkParent(t, elm) {
-	  while(t.parentNode) {
-		if( t == elm ) {return true;}
-		t = t.parentNode;
-	  }
-	  return false;
-	}
-
-
-
-function filterTemplates(filterVal) {
-	//Get all the templates
-	var divs = document.querySelectorAll("[data-twcat]");
-
-	//Loop through and show (block) all which match the criteira and hide (none) the rest
-	for (var i = 0; i < divs.length; ++i) {
-		if (divs[i].dataset.twcat.indexOf(filterVal) >= 0) { //includes(filterVal)) {
-			divs[i].style.display='block';
-		} else {
-			divs[i].style.display='none';
-		}
-	}
-	
-	//Reset the all filter to be "all" instead of ""
-	if (filterVal == '') filterVal = "all";
-	
-
-
-	//Get all the filter buttons
-	var btns = document.querySelectorAll("[data-twfilter]");
-	var filterMsg = document.getElementById('filterMsg');
-
-	//Loop through and set the criteria filter button to active
-	for (var i = 0; i < btns.length; ++i) {
-		if (btns[i].dataset.twfilter == filterVal) {
-			btns[i].classList.add('active-tab');
-		} else {
-			btns[i].classList.remove('active-tab');
-		}
-	}
-	
-	//Hide message if showing all
-	if (filterVal == "all") {
-		filterMsg.classList.add('invisible');
-	} else {
-		filterMsg.classList.remove('invisible');
-		filterMsg.innerHTML = 'Showing: ' + filterVal + " templates - Click here to show all templates!";
-	}
-
-}
-
+<?php include 'includes/js.php';?>
 </script>
 
 </body>
