@@ -1,5 +1,5 @@
 	<!--section-->
-	<div class="container mx-auto mb-16 mt-6 md:-mt-12" id="home-<?= strtolower($show_section);?>s">
+	<div class="container mx-auto mb-16 mt-6 md:mt-12" id="home-<?= strtolower($show_section);?>s">
 		<div class="w-full px-1 md:px-0">
 	
 			<h2 class="font-bold text-xl md:text-3xl text-brand text-center pb-4 md:pb-8">Popular <?=$show_section?>s</h2>
