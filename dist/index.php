@@ -50,17 +50,17 @@
 						<svg class="h-4 w-4 fill-current text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
 					</div>
 					<input id="search-toggle" type="search" placeholder="Enter search term ('/' to focus)" class="block w-full bg-gray-200 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg pl-12 pr-4 py-3" onkeyup="updateSearchResults(this.value);">
-					<div id="search-content" class="hidden z-50 w-full mt-1 text text-gray-600 rounded-lg overflow-y-auto" style="max-height: 500px;">
-						
-						<div id="searchresults"></div>
+					<div class="mt-1">	
+					<div id="search-content" class="hidden z-50 w-full  text text-gray-600 rounded-lg overflow-y-auto" style="max-height: 500px;">
+							<div id="searchresults"></div>
 
-						<!-- No search results message-->
-						<div id="nosearchresults" class="hidden flex pb-6 px-6 bg-white">
-							<svg class="fill-current text-indigo-600 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
-							<span class="ml-4 font-bold"> Oops, no search results!!!1</span>
+							<!-- No search results message-->
+							<div id="nosearchresults" class="hidden flex pb-6 px-6 bg-white">
+								<svg class="fill-current text-indigo-600 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+								<span class="ml-4 font-bold"> Oops, no search results!!!1</span>
+							</div>
+							<!-- / No search results -->
 						</div>
-						<!-- / No search results -->
-							
 					</div>
 				</div>
 				<!--Wave-->
