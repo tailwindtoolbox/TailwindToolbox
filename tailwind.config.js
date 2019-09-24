@@ -23,6 +23,8 @@ module.exports = {
   },
   variants: {
     // Some useful comment
+      backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
+      borderColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   plugins: [
     // Some useful comment

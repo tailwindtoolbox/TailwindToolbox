@@ -67,7 +67,13 @@
 
   .card-description {
     @apply hidden;
+    opacity:0;
   }
+
+  .card:hover .card-description {
+    opacity:1;
+  }
+
 
   .card-author {
     @apply text-center text-gray-200 text-xs mb-3;
@@ -226,7 +232,13 @@ header {
   transform: skewY(-6deg);
   transform-origin: top left;
 }
-	
+  
+
+/*Search*/
+
+#searchresults a {
+  @apply no-underline;
+}
 
 /**
   * This injects all of Tailwind's utility classes, generated based on your
