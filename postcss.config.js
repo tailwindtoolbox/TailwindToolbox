@@ -27,7 +27,12 @@ module.exports = {
             preset: 'default',
         }),
         purgecss({
-            content: ['dist/**/*.html','dist/**/*.php'],
+            content: ['dist/*.html',
+                      'dist/*.php',
+                      'dist/includes/*.php',
+                      'dist/templates/_template.php',
+                      'dist/components/_template.php'
+            ],
             extractors: [{
                 extractor: TailwindExtractor,
                 extensions: ["html", "js", "php", "vue"]
