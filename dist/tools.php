@@ -10,6 +10,15 @@
 	<?php include 'includes/head.php';?>
 	<?php include 'includes/analytics.php';?>
 		
+	<style>
+    .modal {
+      transition: opacity 0.25s ease;
+    }
+    body.modal-active {
+      overflow-x: hidden;
+      overflow-y: visible !important;
+    }
+  </style>
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
@@ -40,6 +49,31 @@
 
 		<div class="w-full pb-6 md:w-1/5">
 			<div class="sticky pin-t" style="top:9em;">
+
+			<!--Filters-->
+			<div class="w-full bg-brand-white scroll sticky pin-t" style="top:9em;">
+				<ul class="container mx-auto list-reset flex flex-row md:flex-col border-b pb-2 text-sm md:text-base">
+
+
+					<li class="mr-1">
+						<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
+					</li>
+					<li class="mr-1">
+						<button class="tab -mb-px" onclick="javascript:filterTemplates('IDE');" data-twfilter="IDE">IDE</button>
+					</li>
+					<li class="mr-1">
+						<button class="tab -mb-px" onclick="javascript:filterTemplates('Generator');" data-twfilter="Generator">Generator</button>
+					</li>
+					<li class="mr-1">
+						<button class="tab -mb-px" onclick="javascript:filterTemplates('Design');" data-twfilter="Design">Design</button>
+					</li>
+					<li class="mr-1">
+						<button class="tab -mb-px" onclick="javascript:filterTemplates('Help');" data-twfilter="Help">Help</button>
+					</li>		
+				</ul>
+			</div>
+			<!--/filters-->
+
 				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 			</div>
@@ -47,6 +81,8 @@
 		</div>
 
 		<div class="w-full md:w-4/5 px-0">
+
+
 			<?php 
 				$show_section = "Tool";
 				$show_home = false;
@@ -59,9 +95,8 @@
 
 	<?php include 'includes/footer.php';?>
 
-<script>
-<?php include 'includes/js.php';?>
-</script>
+	<?php include 'includes/js.php';?>
+
 
 </body>
 </html>
