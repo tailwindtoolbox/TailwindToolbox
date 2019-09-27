@@ -4,18 +4,25 @@
 	
 
 		<!--Logo-->
-		<div class="w-full md:w-1/2 pl-4 lg:pl-0 pb-3 md:pb-0">
-			<a class="font-extrabold text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
-				<svg class="inline fill-current text-white h-4 md:h-6 mb-2 md:mb-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 3H2v14h5V3zm2 0v14h9V3H9zM0 3c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm3 1h3v2H3V4zm0 3h3v2H3V7zm0 3h3v2H3v-2z"></path></svg> 
-				<span class="text-xl lg:text-2xl xl:text-3xl pl-2">Tailwind Toolbox</span>
-			</a>
+		<div class="w-full md:w-1/2 pl-4 lg:pl-0 flex items-center justify-between">
+				<a class="font-extrabold text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
+					<svg class="inline fill-current text-white h-4 md:h-6 mb-2 md:mb-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 3H2v14h5V3zm2 0v14h9V3H9zM0 3c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm3 1h3v2H3V4zm0 3h3v2H3V7zm0 3h3v2H3v-2z"></path></svg> 
+					<span class="text-xl lg:text-2xl xl:text-3xl pl-2">Tailwind Toolbox</span>
+				</a>
+				<div class="flex justify-end pr-4 block md:hidden">
+					<input type="checkbox" onclick="toggleHamburger();" class="openSidebarMenu" id="nav-toggle">
+					<label for="nav-toggle">
+						<svg class="h-4 w-4 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+					</label>
+				</div>
+		
 		</div>
 		<!--/Logo-->
 
 	
 		
 		<!--Search-->
-		<div class="w-full md:w-1/2 max-w-md mx-auto md:ml-auto order-3">
+		<div id="search-container" class="hidden pt-3 md:pt-0 md:block w-full md:w-1/2 max-w-md mx-auto md:ml-auto order-3">
 			
 			<div class="relative max-w-3xl mx-auto px-6">
 				<div class="absolute h-10 mt-1 left-0 top-0 flex items-center pl-10">

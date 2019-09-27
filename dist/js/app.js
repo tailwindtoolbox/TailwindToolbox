@@ -39,6 +39,7 @@ var options = {
 var navMenuDiv = document.getElementById("nav-content");
 var navMenu = document.getElementById("nav-toggle");
 
+var searchContainer = document.getElementById("search-container");
 var searchMenuDiv = document.getElementById("search-content");
 var searchField = document.getElementById("search-toggle");
 let resultdiv = document.getElementById('searchresults');
@@ -62,19 +63,6 @@ function check(e) {
         }
     }
 
-    //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-      // click NOT on the menu
-      if (checkParent(target, navMenu)) {
-        // click on the link
-        if (navMenuDiv.classList.contains("hidden")) {
-        navMenuDiv.classList.remove("hidden");
-        } else {navMenuDiv.classList.add("hidden");}
-      } else {
-        // click both outside link and outside menu, hide menu
-        navMenuDiv.classList.add("hidden");
-      }
-      }
 
 
 }
@@ -92,10 +80,11 @@ function checkParent(t, elm) {
 
 function toggleHamburger() {
 
-  if (navMenuDiv.classList.contains("hidden") && !navMenu.checked) {
-    navMenuDiv.classList.remove("hidden");
+  if (searchContainer.classList.contains("hidden") && navMenu.checked) {
+    searchContainer.classList.remove("hidden");
+    searchField.focus()
   } else {
-    navMenuDiv.classList.add("hidden");
+    searchContainer.classList.add("hidden");
   }
 
 }
