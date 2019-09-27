@@ -80,7 +80,7 @@ function checkParent(t, elm) {
 
 function toggleHamburger() {
 
-  if (searchContainer.classList.contains("hidden") && navMenu.checked) {
+  if (searchContainer.classList.contains("hidden")) {
     searchContainer.classList.remove("hidden");
     searchField.focus()
   } else {
