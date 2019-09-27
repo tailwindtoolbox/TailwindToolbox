@@ -173,14 +173,14 @@
   
   /*Tabs*/
 
-  .tab {
+  a.tab {
     @apply text-gray-700 no-underline inline-block py-2 px-4 font-semibold
   }
-  .tab:hover { 
-    @apply text-brand border-b-4 border-brand
+  a.tab:hover { 
+    @apply text-brand no-underline border-b-4 border-brand
   }
   .active-tab { 
-    @apply text-brand border-b-4 border-brand
+    @apply text-brand no-underline border-b-4 border-brand
 
   }
 

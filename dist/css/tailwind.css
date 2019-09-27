@@ -913,7 +913,7 @@ a:hover {
 
 /*Tabs*/
 
-.tab {
+a.tab {
   color: #4a5568;
   text-decoration: none;
   display: inline-block;
@@ -924,14 +924,16 @@ a:hover {
   font-weight: 600
 }
 
-.tab:hover {
+a.tab:hover {
   color: #3b7977;
+  text-decoration: none;
   border-bottom-width: 4px;
   border-color: #3b7977
 }
 
 .active-tab {
   color: #3b7977;
+  text-decoration: none;
   border-bottom-width: 4px;
   border-color: #3b7977
 }

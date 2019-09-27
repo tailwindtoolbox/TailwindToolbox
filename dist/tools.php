@@ -9,16 +9,6 @@
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
 	<?php include 'includes/head.php';?>
 	<?php include 'includes/analytics.php';?>
-		
-	<style>
-    .modal {
-      transition: opacity 0.25s ease;
-    }
-    body.modal-active {
-      overflow-x: hidden;
-      overflow-y: visible !important;
-    }
-  </style>
 </head>
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
@@ -48,36 +38,38 @@
 	<div class="container mx-auto mb-8 flex inline-block flex-wrap">
 
 		<div class="w-full pb-6 md:w-1/5">
-			<div class="sticky pin-t" style="top:9em;">
+			<div class="sticky pin-t flex flex-col" style="top:9em;">
 
-			<!--Filters-->
-			<div class="w-full bg-brand-white scroll sticky pin-t" style="top:9em;">
-				<ul class="container mx-auto list-reset flex flex-row md:flex-col border-b pb-2 text-sm md:text-base">
+				<!--Filters-->
+				<div class="w-full bg-brand-white scroll order-2 md:order-1">
+					<p class="hidden md:block text-brand text-center font-bold mb-2">Filters</p>
+					<ul class="container mx-auto list-reset flex flex-row md:flex-col border-b pb-2 text-sm md:text-base">
 
 
-					<li class="mr-1">
-						<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
-					</li>
-					<li class="mr-1">
-						<button class="tab -mb-px" onclick="javascript:filterTemplates('IDE');" data-twfilter="IDE">IDE</button>
-					</li>
-					<li class="mr-1">
-						<button class="tab -mb-px" onclick="javascript:filterTemplates('Generator');" data-twfilter="Generator">Generator</button>
-					</li>
-					<li class="mr-1">
-						<button class="tab -mb-px" onclick="javascript:filterTemplates('Design');" data-twfilter="Design">Design</button>
-					</li>
-					<li class="mr-1">
-						<button class="tab -mb-px" onclick="javascript:filterTemplates('Help');" data-twfilter="Help">Help</button>
-					</li>		
-				</ul>
+						<li class="mr-1">
+							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
+						</li>
+						<li class="mr-1">
+							<button class="tab -mb-px" onclick="javascript:filterTemplates('IDE');" data-twfilter="IDE">IDE</button>
+						</li>
+						<li class="mr-1">
+							<button class="tab -mb-px" onclick="javascript:filterTemplates('Generator');" data-twfilter="Generator">Generator</button>
+						</li>
+						<li class="mr-1">
+							<button class="tab -mb-px" onclick="javascript:filterTemplates('Design');" data-twfilter="Design">Design</button>
+						</li>
+						<li class="mr-1">
+							<button class="tab -mb-px" onclick="javascript:filterTemplates('Help');" data-twfilter="Help">Help</button>
+						</li>		
+					</ul>
+				</div>
+				<!--/filters-->
+				<div class="order-1 md:order-2">
+					<p class="text-brand text-center font-bold mb-2">Advertisment</p>
+					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+				</div>
 			</div>
-			<!--/filters-->
-
-				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
-				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-			</div>
-			<div></div>
+		
 		</div>
 
 		<div class="w-full md:w-4/5 px-0">
