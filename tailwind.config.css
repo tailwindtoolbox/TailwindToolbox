@@ -173,15 +173,48 @@
   
   /*Tabs*/
 
+  .tab:focus, .active-tab:focus {
+    @apply outline-none
+  }
   a.tab {
-    @apply text-gray-700 no-underline inline-block py-2 px-4 font-semibold
+    @apply text-gray-700 no-underline border-b-4 border-transparent inline-block py-3 px-4 font-semibold -mb-px
   }
   a.tab:hover { 
     @apply text-brand no-underline border-b-4 border-brand
   }
-  .active-tab { 
-    @apply text-brand no-underline border-b-4 border-brand
+  a.active-tab { 
+    @apply text-brand no-underline border-b-4 border-brand inline-block py-3 px-4 font-semibold -mb-px
+  }
+  a.active-tab:hover { 
+    @apply text-gray-700 no-underline border-b-4 border-gray-700
+  }
 
+  button.tab {
+    @apply text-gray-700 no-underline border-b-4 border-transparent w-full text-left block py-3 px-4 font-semibold
+  }
+  button.tab:hover { 
+    @apply text-brand bg-transparent  no-underline border-b-4 border-brand
+  }
+  button.active-tab { 
+    @apply text-brand no-underline border-b-4 border-brand w-full text-left block py-3 px-4 font-semibold
+  }
+  button.active-tab:hover { 
+    @apply text-gray-700 no-underline border-b-4 border-gray-700
+  }
+
+  @screen md {
+    button.tab {
+      @apply border-l-4 border-b-0
+    }
+    button.tab:hover { 
+      @apply text-brand-white bg-brand-alt border-l-4 border-b-0
+    }
+    button.active-tab { 
+      @apply border-l-4 border-b-0
+    }
+    button.active-tab:hover { 
+      @apply border-l-4 border-b-0
+    }
   }
 
 	.nunito {

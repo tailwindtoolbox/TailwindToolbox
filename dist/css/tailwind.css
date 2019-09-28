@@ -913,15 +913,22 @@ a:hover {
 
 /*Tabs*/
 
+.tab:focus, .active-tab:focus {
+  outline: 0
+}
+
 a.tab {
   color: #4a5568;
   text-decoration: none;
+  border-bottom-width: 4px;
+  border-color: transparent;
   display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  font-weight: 600
+  font-weight: 600;
+  margin-bottom: -1px
 }
 
 a.tab:hover {
@@ -931,11 +938,94 @@ a.tab:hover {
   border-color: #3b7977
 }
 
-.active-tab {
+a.active-tab {
   color: #3b7977;
   text-decoration: none;
   border-bottom-width: 4px;
+  border-color: #3b7977;
+  display: inline-block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600;
+  margin-bottom: -1px
+}
+
+a.active-tab:hover {
+  color: #4a5568;
+  text-decoration: none;
+  border-bottom-width: 4px;
+  border-color: #4a5568
+}
+
+button.tab {
+  color: #4a5568;
+  text-decoration: none;
+  border-bottom-width: 4px;
+  border-color: transparent;
+  width: 100%;
+  text-align: left;
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600
+}
+
+button.tab:hover {
+  color: #3b7977;
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom-width: 4px;
   border-color: #3b7977
+}
+
+button.active-tab {
+  color: #3b7977;
+  text-decoration: none;
+  border-bottom-width: 4px;
+  border-color: #3b7977;
+  width: 100%;
+  text-align: left;
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600
+}
+
+button.active-tab:hover {
+  color: #4a5568;
+  text-decoration: none;
+  border-bottom-width: 4px;
+  border-color: #4a5568
+}
+
+@media (min-width: 768px) {
+  button.tab {
+    border-left-width: 4px;
+    border-bottom-width: 0
+  }
+
+  button.tab:hover {
+    color: #ecf4f3;
+    background-color: #57a99a;
+    border-left-width: 4px;
+    border-bottom-width: 0
+  }
+
+  button.active-tab {
+    border-left-width: 4px;
+    border-bottom-width: 0
+  }
+
+  button.active-tab:hover {
+    border-left-width: 4px;
+    border-bottom-width: 0
+  }
 }
 
 .nunito {
