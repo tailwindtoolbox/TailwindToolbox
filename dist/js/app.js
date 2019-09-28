@@ -239,9 +239,9 @@ function filterTemplates(filterVal) {
 	
 	//Hide message if showing all
 	if (filterVal == "all") {
-		filterMsg.classList.add('invisible');
+		filterMsg.classList.add('hidden');
 	} else {
-		filterMsg.classList.remove('invisible');
+		filterMsg.classList.remove('hidden');
 		filterMsg.innerHTML = 'Showing: ' + filterVal + " templates - Click here to show all templates!";
 	}
 
