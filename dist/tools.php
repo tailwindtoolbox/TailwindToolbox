@@ -38,8 +38,8 @@
 			<div class="sticky pin-t flex flex-col" style="top:9em;">
 
 				<!--Filters-->
-				<div class="w-full bg-brand-white scroll order-2 md:order-1">
-					<p class="hidden md:block text-brand text-center font-bold mb-2">Filters</p>
+				<div class="w-full bg-brand-white pt-6 md:pt-0 scroll order-2 md:order-1">
+					<p class="text-brand text-center font-bold mb-2">Filters</p>
 					<ul class="container mx-auto list-reset flex flex-row md:flex-col border-b pb-2 text-sm md:text-base">
 						<li class="mr-1">
 							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
