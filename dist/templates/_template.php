@@ -53,7 +53,7 @@
 		<div class="header__bg"></div>
 	</header>
 
-	<div class="relative container mx-auto mb-8 pt-20" id="post-content">
+	<div class="relative container mx-auto mb-8 pt-24 lg:pt-32" id="post-content">
 		<div class="w-full -mt-64 px-0">
 			<div class="bg-white rounded overflow-hidden shadow mx-1">
 				<div class="p-3 sm:p-6 lg:p-8 text-gray-darker leading-normal text-base md:text-xl">
@@ -186,7 +186,7 @@
 	</div>
 
 
-	<?php include '../includes/footer-templates.php';?>
+	<?php include '../includes/footer.php';?>
 
 <script>
 	function calcIframeHeight(offset) {

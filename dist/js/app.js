@@ -72,7 +72,7 @@ function checkParent(t, elm) {
 }
 
 
-function toggleHamburger() {
+function toggleSearch() {
 
   if (searchContainer.classList.contains("hidden")) {
     searchContainer.classList.remove("hidden");
