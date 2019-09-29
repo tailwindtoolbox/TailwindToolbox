@@ -43,23 +43,23 @@
 			<div class="w-full flex-grow flex items-center lg:w-1/2 mt-2 lg:mt-0 bg-brand z-20 scroll bounce-in-right" id="nav-content">
 				<ul class="list-reset flex flex-1 items-center text-center lg:justify-end px-2 lg:px-0">
 					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/setup" class="flex-1 md:flex-none navlink text-sm md:text-base xl:text-xl">
+						<a href="https://www.tailwindtoolbox.com/setup" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 						<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0 L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2 L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475 4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4 18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288 17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20 2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10 L6,12 L6,4 Z"></path></svg> Setup</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/starter-templates" class="flex-1 md:flex-none navlink text-sm md:text-base xl:text-xl">
+						<a href="https://www.tailwindtoolbox.com/starter-templates" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 						<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M6 6V2c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h4zm2 0h4a2 2 0 0 1 2 2v4h4V2H8v4zM2 8v10h10V8H2z"></path></svg> Templates</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/starter-components" class="flex-1 md:flex-none navlink text-sm md:text-base xl:text-xl">
+						<a href="https://www.tailwindtoolbox.com/starter-components" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 						<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.94 6.5L2.22 3.64l1.42-1.42L6.5 3.94c.52-.3 1.1-.54 1.7-.7L9 0h2l.8 3.24c.6.16 1.18.4 1.7.7l2.86-1.72 1.42 1.42-1.72 2.86c.3.52.54 1.1.7 1.7L20 9v2l-3.24.8c-.16.6-.4 1.18-.7 1.7l1.72 2.86-1.42 1.42-2.86-1.72c-.52.3-1.1.54-1.7.7L11 20H9l-.8-3.24c-.6-.16-1.18-.4-1.7-.7l-2.86 1.72-1.42-1.42 1.72-2.86c-.3-.52-.54-1.1-.7-1.7L0 11V9l3.24-.8c.16-.6.4-1.18.7-1.7zM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path></svg> Components</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/plugins" class="flex-1 md:flex-none navlink text-sm md:text-base xl:text-xl">
+						<a href="https://www.tailwindtoolbox.com/plugins" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 						<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM7.88 7.88l-3.54 7.78 7.78-3.54 3.54-7.78-7.78 3.54zM10 11a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg> Plugins</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0 text-center">
-						<a href="https://www.tailwindtoolbox.com/tools" class="flex-1 md:flex-none navlink text-sm md:text-base xl:text-xl">
+						<a href="https://www.tailwindtoolbox.com/tools" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 						<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M6.47 9.8A5 5 0 0 1 .2 3.22l3.95 3.95 2.82-2.83L3.03.41a5 5 0 0 1 6.4 6.68l10 10-2.83 2.83L6.47 9.8z"></path></svg> Tools</a>
 					</li>
 				</ul>
