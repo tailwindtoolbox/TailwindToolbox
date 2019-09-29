@@ -256,7 +256,7 @@
 	  "url_author": "https://github.com/dirkolbrich",
 	  "author": "Dirk Olbrich / @dirkolbrich",
 	  "category": "WebApp",
-	  "new": true,
+	  "new": false,
 	  "home": false
 	},
 	{
@@ -328,7 +328,7 @@
 	  "url_author": "https://github.com/chrism",
 	  "author": "Chris Masters / @chrism",
 	  "category": "Javascript",
-	  "new": true,
+	  "new": false,
 	  "home": false
 	},
 	{
@@ -340,7 +340,7 @@
 	  "url_author": "https://github.com/Oddstronaut",
 	  "author": "Taylor Bryant / @Oddstronaut",
 	  "category": "Javascript",
-	  "new": true,
+	  "new": false,
 	  "home": false
 	},
 	{
@@ -472,8 +472,20 @@
 	  "url_author": "https://github.com/chasegiunta",
 	  "author": "Chase Giunta / @chasegiunta",
 	  "category": "CMS",
-	  "new": true,
+	  "new": false,
 	  "home": false
+	},
+	{
+		"site_section": "Template",
+		"url": "https://github.com/saberland/saber-theme-tailsaw",
+		"url_image": "templates/sabre-tailwind.png",
+		"title": "Tailsaw: Saber Blog",
+		"description": "Sabre blog starter template",
+		"url_author": "https://github.com/saberland",
+		"author": "Sabre / @saberland",
+		"category": "Javascript",
+		"new": true,
+		"home": false
 	},
 	{
 	  "site_section": "Component",
@@ -962,6 +974,18 @@
 	},
 	{
 	  "site_section": "Plugin",
+	  "url": "https://github.com/benface/tailwindcss-animations",
+	  "url_image": "placeholder.png",
+	  "title": "Animation",
+	  "description": "Tailwind CSS plugin to generate animation utilities",
+	  "url_author": "https://github.com/benface",
+	  "author": "Benoît Rouleau / @benface",
+	  "category": "Utilities",
+	  "new": true,
+	  "home": false
+	},
+	{
+	  "site_section": "Plugin",
 	  "url": "https://github.com/ChanceArthur/tailwindcss-dark-mode",
 	  "url_image": "placeholder.png",
 	  "title": "Dark Mode",
@@ -1019,6 +1043,18 @@
 	  "category": "Utilities",
 	  "new": false,
 	  "home": false
+	},
+	{
+		"site_section": "Plugin",
+		"url": "https://github.com/chrisrowe/tailwindcss-grid",
+		"url_image": "placeholder.png",
+		"title": "Grid",
+		"description": "Tailwind CSS plugin to add grid support",
+		"url_author": "https://github.com/chrisrowe",
+		"author": "Chris Rowe / @chrisrowe",
+		"category": "Utilities",
+		"new": false,
+		"home": false
 	},
 	{
 	  "site_section": "Tool",

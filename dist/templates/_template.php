@@ -115,7 +115,7 @@
 						<div class="w-full lg:w-2/5 xl:w-1/4 p-8 my-8 lg:my-0 bg-gray-200 rounded">
 
 							<div class="flex flex-col pb-6 text-center">
-								<a href="<?=$pageDL;?>" class="no-underline hover:no-underline" target="_blank" rel="noopener"><button class="w-full max-w-sm mx-auto flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold py-3 px-5 rounded shadow"><svg class="inline fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"></path></svg> Download</button></a>
+								<a href="<?=$pageDL;?>" class="no-underline hover:no-underline" target="_blank" rel="noopener" download><button class="w-full max-w-sm mx-auto flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold py-3 px-5 rounded shadow"><svg class="inline fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"></path></svg> Download</button></a>
 
 								<a href="<?=$pageGIT;?>" target="_blank" rel="noopener" class="w-full text-sm text-gray-darkest hover:font-bold no-underline hover:underline mt-3">View on GitHub</a>
 							</div>
