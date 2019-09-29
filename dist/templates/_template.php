@@ -120,6 +120,7 @@
 								<a href="<?=$pageGIT;?>" target="_blank" rel="noopener" class="w-full text-sm text-gray-darkest hover:font-bold no-underline hover:underline mt-3">View on GitHub</a>
 							</div>
 
+							<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 
 						</div>

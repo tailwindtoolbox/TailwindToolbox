@@ -105,16 +105,16 @@
 
 							<p><?=str_replace('*', $bulletCode, $pageINTRO);?></p>
 
-
-						</div>
-
-						<div class="w-full lg:w-2/5 xl:w-1/4 p-8 my-8 lg:my-0 rounded">
-
 							<div class="text-center">
 								<p class="text-sm font-bold mt-3 mr-2">If this component helped you, why not </p>
 								<a href="https://www.buymeacoffee.com/tailwindtoolbox" target="_blank"><img class="mx-auto" src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 							</div>
 
+						</div>
+
+						<div class="w-full lg:w-2/5 xl:w-1/4 p-8 my-8 lg:my-0 rounded">
+
+							<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 
 						</div>
