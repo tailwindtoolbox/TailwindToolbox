@@ -146,7 +146,7 @@
 							</div>
 						</div>
 
-						<iframe id="iframecontent" src="<?=$pageSRC;?>" style="width:100%;" onLoad="calcIframeHeight(<?=$pageOFFSET;?>);window.scroll(0,0);"></iframe>
+						<iframe id="iframecontent" src="https://tailwindtoolbox.github.io/Help-Article/" style="width:100%; height:600px;"></iframe>
 
 					</div>
 

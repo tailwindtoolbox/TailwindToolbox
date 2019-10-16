@@ -36,7 +36,8 @@ module.exports = {
             extractors: [{
                 extractor: TailwindExtractor,
                 extensions: ["html", "js", "php", "vue"]
-            }]
+            }],
+            whitelist: ['w-1/3', 'w-2/3', 'w-full']
         }),
         autoprefixer
     ]
