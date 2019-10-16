@@ -33,7 +33,7 @@
 	<nav id="header" class="bg-brand fixed w-full z-10 top-0 shadow ">
 		<div class="w-full container mx-auto flex flex-wrap items-center mt-0 pt-3 pb-0 lg:py-3">
 
-			<div class="flex-1 pl-4 lg:pl-0">
+			<div class="flex-1 pl-4 xl:pl-0">
 				<a class="font-extrabold text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
 					<svg class="inline fill-current text-white h-4 md:h-6 mb-2 md:mb-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 3H2v14h5V3zm2 0v14h9V3H9zM0 3c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm3 1h3v2H3V4zm0 3h3v2H3V7zm0 3h3v2H3v-2z"></path></svg> 
 					<span class="text-xl lg:text-2xl xl:text-3xl pl-2">Tailwind Toolbox</span>
