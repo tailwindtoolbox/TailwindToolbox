@@ -206,7 +206,7 @@
         {
         "url": "https:\/\/tailwindcss-counter.brendan-c.now.sh/s",
         "url_image": "components/tailwind-counter.png",
-        "title": "Color Shades Generator",
+        "title": "TailwindCSS Counter",
         "description": "A custom number input styled with TailwindCSS",
         "download": "",
         "url_author": "https:\/\/github.com/brendan-c",
