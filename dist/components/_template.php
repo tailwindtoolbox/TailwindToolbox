@@ -184,6 +184,7 @@ echo htmlentities($code_snippet);
 	<?php include '../includes/footer.php';?>
 
 	<?php include '../includes/js-templates.php';?>
+	<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
