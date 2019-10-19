@@ -9,14 +9,14 @@
     },
     "main": "postcss.config.js",
     "dependencies": {
-        "@glidejs/glide": "^3.3.0",
+        "@glidejs/glide": "^3.4.1",
         "autoprefixer": "^9.6.0",
         "postcss-cli": "^6.1.2",
         "rimraf": "^2.6.3",
         "watch": "^1.0.2"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^1.2.0",
+        "@fullhuman/postcss-purgecss": "^1.3.0",
         "cssnano": "^4.1.10",
         "tailwindcss": "^1.1.2"
     },
@@ -27,6 +27,7 @@
         "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css",
         "startwatch": "watch 'npm run build:css' ./dist",
         "sitemap": "sitemap-generator https://www.tailwindtoolbox.com -f dist/sitemap.xml",
-        "webp": "./dist/components/img-webp -l"
+        "webp": "./dist/components/img-webp -l",
+        "minify:js": "uglifyjs 'dist/js/app.js' -o 'dist/js/app.min.js'"
     }
 }
