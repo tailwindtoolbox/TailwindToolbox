@@ -709,6 +709,19 @@
 	  "home": false
 	},
 	{
+		"site_section": "Component",
+		"url": "https:\/\/tailwindcss-counter.brendan-c.now.sh/s",
+		"url_image": "components/tailwind-counter.png",
+		"title": "TailwindCSS Counter",
+		"description": "A custom number input styled with TailwindCSS",
+		"download": "",
+		"url_author": "https:\/\/github.com/brendan-c",
+		"author": "Brendan C",
+		"category": "Various",
+		"new":true,
+		"home":false
+    },
+	{
 	  "site_section": "Plugin",
 	  "url": "https://github.com/benface/tailwindcss-transitions",
 	  "url_image": "placeholder.png",
