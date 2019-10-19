@@ -26,4 +26,4 @@ fetch('./includes/data.json')
 .then(data => obj = data)
 .then(() => fuse = new Fuse(obj, options))
 </script>
-<script src="js/app.min.js"></script>
+<script src="js/app.min.js?v=20191019"></script>
