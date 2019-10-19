@@ -89,8 +89,8 @@
 					</div>
 					<input id="search-toggle" type="search" placeholder="Enter search term ('/' to focus)" class="block w-full bg-gray-100 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg pl-12 pr-4 py-3" onkeyup="updateSearchResults(this.value);">
 					<div class="mt-1">	
-					<div id="search-content" class="z-50 w-full  text text-gray-600 rounded-lg overflow-y-auto" style="max-height: 500px;">
-							<div id="searchresults"></div>
+					<div id="search-content" class="z-50 w-full text text-gray-600 rounded-lg overflow-y-auto" style="max-height: 500px;">
+					<div id="searchresults" class="h-auto max-w-3xl mx-auto"></div>
 
 							<!-- No search results message-->
 							<div id="nosearchresults" class="hidden flex pb-6 px-6 bg-white">

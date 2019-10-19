@@ -39,6 +39,7 @@
 	<!-- Stylesheets -->
 	<link href="../css/tailwind.min.css?v=20190709" rel="stylesheet">
 	<link href="../css/carbon.min.css?v=20190709" rel="stylesheet">
+	<link href="../css/atom-one-dark.css" rel="stylesheet">
 
 	<?php include '../includes/analytics.php';?>
 
@@ -158,22 +159,21 @@ echo '
 	
 </div>
 
-<div class="w-full lg:w-4/5 py-4 mx-auto">
-	<div id="code" class="p-3 overflow-x-auto bg-gray-lightest text-xs w-full border rounded shadow px-5 mb-5">
-	<pre>';
+<div class="w-full py-4 mx-auto">
+	<div id="code" class="overflow-x-auto text-xs md:text-sm w-full border rounded shadow mb-5">
+	<pre><code class="html" style="padding:1rem;">';
 
 $code_snippet = file_get_contents($pageCODE);
 echo htmlentities($code_snippet);
 
-	echo '</pre>
-
+	echo '</code></pre>
 	</div>
 </div>';
 }
 ?>
 
 
-					<p class="my-16 p-6 w-full container mx-auto bg-teal-lightest text-center text-gray-dark">Find more templates at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.tailwindtoolbox.com/starter-templates" target="_blank" rel="noopener">www.TailwindToolbox.com/starter-templates</a></p>
+					<p class="my-16 p-6 w-full container mx-auto bg-teal-lightest text-center text-gray-dark">Find more components at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.tailwindtoolbox.com/starter-components" target="_blank" rel="noopener">www.tailwindtoolbox.com/starter-components</a></p>
 
 				</div>
 			</div>
@@ -184,6 +184,6 @@ echo htmlentities($code_snippet);
 	<?php include '../includes/footer.php';?>
 
 	<?php include '../includes/js-templates.php';?>
-
+	<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

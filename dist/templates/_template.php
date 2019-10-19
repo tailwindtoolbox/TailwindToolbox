@@ -146,7 +146,7 @@
 							</div>
 						</div>
 
-						<iframe id="iframecontent" src="https://tailwindtoolbox.github.io/Help-Article/" style="width:100%; height:600px;"></iframe>
+						<iframe id="iframecontent" src="<?=$pageSRC;?>" style="width:100%; height:600px;"></iframe>
 
 					</div>
 
