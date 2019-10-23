@@ -1049,10 +1049,10 @@
 	  "site_section": "Plugin",
 	  "url": "https://github.com/adfdev/tailwindcss-bg-alpha",
 	  "url_image": "placeholder.png",
-	  "title": "Background Alpha",
-	  "description": "Tailwind CSS plugin to add alpha support for background color",
+	  "title":"Alpha Support",
+          "description":"Tailwind CSS plugin to add alpha support for background color, text and borders",
 	  "url_author": "https://github.com/adfdev",
-	  "author": "Alain Di Fabio / @adfdev",
+	  "author": "adfdev / @adfdev",
 	  "category": "Utilities",
 	  "new": false,
 	  "home": false
