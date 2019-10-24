@@ -85,6 +85,20 @@
 	},
 	{
 	  "site_section": "Template",
+	  "url": "https://www.tailwindtoolbox.com/templates/minimal-admin-template",
+	  "url_image": "templates/minimal-admin-template.png",
+	  "title": "Minimal Admin Template",
+	  "description": "Minimal Admin template to use for Admin theme, dashboard, or web application",
+	  "download": "https://github.com/tailwindtoolbox/Minimal-Admin-Template/archive/master.zip",
+	  "source": "https://github.com/tailwindtoolbox/Minimal-Admin-Template",
+	  "url_author": "https://github.com/tailwindtoolbox/",
+	  "author": "Tailwind Toolbox",
+	  "category": "Admin",
+	  "new": true,
+	  "home": true
+	},
+	{
+	  "site_section": "Template",
 	  "url": "https://www.tailwindtoolbox.com/templates/help-article",
 	  "url_image": "templates/help-article.png",
 	  "title": "Help Article",
@@ -108,7 +122,7 @@
 	  "url_author": "https://github.com/tailwindtoolbox/",
 	  "author": "Tailwind Toolbox",
 	  "category": "Support",
-	  "new": true,
+	  "new": false,
 	  "home": false
 	},
 	{
@@ -164,8 +178,8 @@
 	  "url_author": "https://github.com/tailwindtoolbox/",
 	  "author": "Tailwind Toolbox",
 	  "category": "Blog",
-	  "new": true,
-	  "home": true
+	  "new": false,
+	  "home": false
 	},
 	{
 	  "site_section": "Template",
