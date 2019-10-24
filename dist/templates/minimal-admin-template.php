@@ -19,7 +19,7 @@
 	$pageINTRO	= 'This starter template contains:<br>
                    <p>*Expanding sidebar menu (on hover)</p>
                    <p>*Three columns for dashboard elements, which all collapse into a single column on mobile.</p>
-                   <p>*Based on <a href="https://dribbble.com/gregoirevella" target="_blank" rel="noopener">Gregoire Vella</a>''s dribble shot - <a href="https://dribbble.com/shots/6531694-Marketing-Dashboard" target="_blank" rel="noopener">Marketing Dashboard</a></p>
+                   <p>*Based on a dribble shot - <a href="https://dribbble.com/shots/6531694-Marketing-Dashboard" target="_blank" rel="noopener">Marketing Dashboard</a> by <a href="https://dribbble.com/gregoirevella" target="_blank" rel="noopener">Gregoire Vella</a></p>
                    <p>*Placeholder graphs using <a href="https://gionkunz.github.io/chartist-js/" target="_blank" rel="noopener">Chartist.js</a></p>';
 
 
