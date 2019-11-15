@@ -1072,16 +1072,28 @@
 	  "home": false
 	},
 	{
-		"site_section": "Plugin",
-		"url": "https://github.com/chrisrowe/tailwindcss-grid",
-		"url_image": "placeholder.png",
-		"title": "Grid",
-		"description": "Tailwind CSS plugin to add grid support",
-		"url_author": "https://github.com/chrisrowe",
-		"author": "Chris Rowe / @chrisrowe",
-		"category": "Utilities",
-		"new": false,
-		"home": false
+	  "site_section": "Plugin",
+	  "url": "https://github.com/chrisrowe/tailwindcss-grid",
+	  "url_image": "placeholder.png",
+	  "title": "Grid",
+	  "description": "Tailwind CSS plugin to add grid support",
+	  "url_author": "https://github.com/chrisrowe",
+	  "author": "Chris Rowe / @chrisrowe",
+	  "category": "Utilities",
+	   "new": false,
+	  "home": false
+	},
+	{
+	  "site_section": "Plugin",
+	  "url": "https://github.com/hawezo/tailwindcss-theming",
+	  "url_image": "placeholder.png",
+	  "title": "Theming",
+	  "description": "Tailwind CSS plugin to support multiple themes in an application",
+	  "url_author": "https://github.com/hawezo",
+	  "author": "Haew / @hawezo",
+	  "category": "Utilities",
+	  "new": false,
+	  "home": false
 	},
 	{
 	  "site_section": "Tool",
