@@ -1096,6 +1096,18 @@
 	  "home": false
 	},
 	{
+	  "site_section": "Plugin",
+	  "url": "https://github.com/jorenvanhee/tailwindcss-debug-screens",
+	  "url_image": "placeholder.png",
+	  "title": "Debug Screens",
+	  "description": "A Tailwind CSS component that shows the currently active screen (responsive breakpoint)",
+	  "url_author": "https://github.com/jorenvanhee",
+	  "author": "Joren Van Hee / @jorenvanhee",
+	  "category": "Utilities",
+	  "new": true
+	  "home": false
+	},
+	{
 	  "site_section": "Tool",
 	  "url": "https://github.com/vinkla/autocomplete-tailwind",
 	  "url_image": "toolsutilities/atom-autocomplete.png",
@@ -1241,7 +1253,7 @@
 	},
 	{
 	  "site_section": "Tool",
-	  "url": "https://https://github.com/iandinwoodie/github-markdown-tailwindcss",
+	  "url": "https://github.com/iandinwoodie/github-markdown-tailwindcss",
 	  "url_image": "placeholder.png",
 	  "title": "GFM TailwindCSS",
 	  "description": "Github flavoured Markdown for TailwindCSS",
@@ -1253,14 +1265,26 @@
 	},
 	{
 	  "site_section": "Tool",
-	  "url": "https://https://tailwindgrids.com",
+	  "url": "https://tailwindgrids.com",
 	  "url_image": "toolsutilities/tailwindgrids.png",
 	  "title": "Grid Generator",
 	  "description": "Generate responsive grids using the TailwindCSS defaults",
-	  "url_author": "https://twitter.com/tailwindgrids/",
+	  "url_author": "https://twitter.com/tailwindgrids",
 	  "author": "Pete Medina / @tailwindgrids",
 	  "category": "Generator",
 	  "new": false,
+	  "home": false
+	},
+	{
+	  "site_section": "Tool",
+	  "url": "https://github.com/heybourn/headwind",
+	  "url_image": "toolsutilities/headwind.png",
+	  "title": "Headwind",
+	  "description": "Opinionated TailwindCSS class sorter for Visual Studio Code (Enforces consistent ordering of classes by reprinting class tags to follow a given order)",
+	  "url_author": "https://github.com/heybourn",
+	  "author": "Ryan Heybourn / @heybourn",
+	  "category": "IDE",
+	  "new": true,
 	  "home": false
 	}
   ]
