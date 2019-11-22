@@ -292,7 +292,7 @@
 	  "title": "NUXT Starter",
 	  "description": "A Nuxt.js starter with TailwindCSS + nuxt-purgecss + modern css ",
 	  "url_author": "https://github.com/nuxt-community",
-	  "author": "NUXT Community / @nuxt-community",
+	  "author": "NUXT / @nuxt-community",
 	  "category": "Javascript",
 	  "new": true,
 	  "home": false
