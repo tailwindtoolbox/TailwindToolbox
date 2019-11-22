@@ -287,6 +287,18 @@
 	},
 	{
 	  "site_section": "Template",
+	  "url": "https://github.com/nuxt-community/nuxt-tailwindcss",
+	  "url_image": "templates/nuxt-tailwind.png",
+	  "title": "NUXT Starter",
+	  "description": "A Nuxt.js starter with TailwindCSS + nuxt-purgecss + modern css ",
+	  "url_author": "https://github.com/nuxt-community",
+	  "author": "NUXT Community / @nuxt-community",
+	  "category": "Javascript",
+	  "new": true,
+	  "home": false
+	},
+	{
+	  "site_section": "Template",
 	  "url": "https://github.com/sgraewe/nuxt-tailwind",
 	  "url_image": "templates/nuxt-tailwind.png",
 	  "title": "NUXT Tailwind",
@@ -323,14 +335,26 @@
 	},
 	{
 	  "site_section": "Template",
-	  "url": "https://github.com/cossssmin/gridsome-starter-bleda",
+	  "url": "https://github.com/gridsomehq/gridsome-tailwind-minimal",
 	  "url_image": "templates/gridsome-tailwind.png",
-	  "title": "Gridsome Blog Starter",
+	  "title": "Gridsome Minimal Boilterplate",
 	  "description": "A Gridsome blog starter project using Tailwind CSS",
 	  "url_author": "https://github.com/cossssmin",
 	  "author": "Cosmin Popovici / @cossssmin",
 	  "category": "Javascript",
 	  "new": false,
+	  "home": false
+	},
+	{
+	  "site_section": "Template",
+	  "url": "https://github.com/cossssmin/gridsome-starter-bleda",
+	  "url_image": "templates/gridsome-tailwind.png",
+	  "title": "Gridsome Blog Starter",
+	  "description": "Minimal boilerplate for starting a Tailwind project with Gridsome",
+	  "url_author": "https://github.com/gridsomehq",
+	  "author": "Gridsome HQ / @gridsomehq",
+	  "category": "Javascript",
+	  "new": true,
 	  "home": false
 	},
 	{
