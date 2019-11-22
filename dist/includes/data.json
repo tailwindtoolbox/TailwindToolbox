@@ -338,11 +338,11 @@
 	  "url": "https://github.com/gridsomehq/gridsome-tailwind-minimal",
 	  "url_image": "templates/gridsome-tailwind.png",
 	  "title": "Gridsome Minimal Boilterplate",
-	  "description": "A Gridsome blog starter project using Tailwind CSS",
-	  "url_author": "https://github.com/cossssmin",
-	  "author": "Cosmin Popovici / @cossssmin",
+	  "description": "Minimal boilerplate for starting a Tailwind project with Gridsome",
+	  "url_author": "https://github.com/gridsomehq",
+	  "author": "Gridsome HQ / @gridsomehq",
 	  "category": "Javascript",
-	  "new": false,
+	  "new": true,
 	  "home": false
 	},
 	{
@@ -350,11 +350,11 @@
 	  "url": "https://github.com/cossssmin/gridsome-starter-bleda",
 	  "url_image": "templates/gridsome-tailwind.png",
 	  "title": "Gridsome Blog Starter",
-	  "description": "Minimal boilerplate for starting a Tailwind project with Gridsome",
-	  "url_author": "https://github.com/gridsomehq",
-	  "author": "Gridsome HQ / @gridsomehq",
+	  "description": "A Gridsome blog starter project using Tailwind CSS",
+	  "url_author": "https://github.com/cossssmin",
+	  "author": "Cosmin Popovici / @cossssmin",
 	  "category": "Javascript",
-	  "new": true,
+	  "new": false,
 	  "home": false
 	},
 	{
