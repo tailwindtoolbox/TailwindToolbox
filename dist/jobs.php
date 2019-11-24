@@ -151,10 +151,10 @@
 								</div>
 							</div>
 							<div class="w-full md:w-1/2">
-								<div class="flex items-center text-gray-500 justify-end my-2">
+								<div class="flex items-center text-gray-500 justify-center md:justify-end my-2">
 									<svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> United Kingdom or Remote
 								</div>
-								<div class="flex flex-wrap items-center justify-end mt-2">
+								<div class="flex flex-wrap items-center justify-center md:justify-end mt-2">
 									<button class="bg-transparent hover:bg-brand text-brand text-xs font-bold hover:text-white py-1 px-2 border border-brand hover:border-transparent rounded m-1">Javascript</button>
 									<button class="bg-transparent hover:bg-brand text-brand text-xs font-bold hover:text-white py-1 px-2 border border-brand hover:border-transparent rounded m-1">Vue.js</button>
 									<button class="bg-transparent hover:bg-brand text-brand text-xs font-bold hover:text-white py-1 px-2 border border-brand hover:border-transparent rounded m-1">Front End</button>
@@ -163,7 +163,7 @@
 							</div>
 						</div>
 					</label>
-					<div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-brand leading-normal">
+					<div class="tab-content overflow-auto border-l-2 bg-gray-100 border-brand leading-normal">
 						
 						<div class="flex flex-wrap">
 
