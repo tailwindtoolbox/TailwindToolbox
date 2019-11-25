@@ -89,7 +89,7 @@
 
 
 				</form>
-				<div id="status" class="py-3"></div>
+				<div id="status" class="py-3 font-bold"></div>
 			</div>
 
 			<div class="mx-auto w-1/2 md:w-1/5">
@@ -174,7 +174,7 @@ function postStuff(){
 	document.getElementById("status").innerHTML = "processing...";
 	return false;
  } else {
-	 document.getElementById("status").innerHTML = '<span class="py-3 text-red-500">Please ensure all fields are completed!</span>';
+	 document.getElementById("status").innerHTML = '<p style="color:red;">🚫 Please ensure all fields are completed!</p>';
 	 return false;
  }
 

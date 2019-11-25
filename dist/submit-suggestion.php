@@ -31,10 +31,10 @@
 
     if($emailSent)
     {
-        echo '<center>Success! We will review your submission and add it to the site shortly</center>';
+        echo '<p style="color:#3b7977;">🙌 Thank you!!! We will review your submission and add it to the site shortly</p>';
 
     }
     else
     {
-        echo '<center>Oops! Something went wrong! Tweet us instead? @tailwindtoolbox</center>';
+        echo '<p style="color:red;">😓 Oops! Something went wrong! Tweet us instead? @tailwindtoolbox</p>';
     }
