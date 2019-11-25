@@ -4,8 +4,6 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     // Some useful comment
-    
-
     extend: {
       colors: {
         'brand': '#3b7977',
@@ -20,6 +18,27 @@ module.exports = {
       },
     },
 
+
+    customForms: theme => ({
+      default: {
+        'input, textarea, multiselect, select': {
+          borderRadius: theme('borderRadius.lg'),
+          paddingTop: theme('spacing.3'),
+          paddingBottom: theme('spacing.3'),
+          boxShadow: theme('boxShadow.none'),
+          backgroundColor: theme('colors.gray.700'),
+          backgroundColor: theme('colors.white'),
+          '&:focus, &:hover': {
+            backgroundColor: theme('colors.white'),
+            boxShadow: theme('boxShadow.default'),
+          }
+        },
+
+
+      },
+    })
+
+
   },
   variants: {
     // Some useful comment
@@ -28,5 +47,6 @@ module.exports = {
   },
   plugins: [
     // Some useful comment
+    require('@tailwindcss/custom-forms'),
   ]
 }

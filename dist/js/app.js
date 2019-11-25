@@ -11,6 +11,11 @@ var searchMenuDiv = document.getElementById("search-content");
 var searchField = document.getElementById("search-toggle");
 let resultdiv = document.getElementById('searchresults');
 let noresultdiv = document.getElementById('nosearchresults');
+
+var srcTitle = document.getElementById("srcTitle");
+var srcDesc = document.getElementById("srcDesc");
+var srcUrl = document.getElementById("srcUrl");
+var srcAuthor = document.getElementById("srcAuthor");
     
 document.onclick = check;
 
@@ -75,6 +80,8 @@ function togglePanel() {
 document.onkeydown = function(evt) {
   evt = evt || window.event
 //		  searchField = document.getElementById("search-toggle")
+  var target = evt.target || evt.srcElement;
+
   var isSlash = false
   var isEscape = false
   var isTab = false
@@ -89,11 +96,12 @@ document.onkeydown = function(evt) {
     isTab = (evt.keyCode === 9)
   }
 
+
   /* Pressing / to select the text field */
-  if (isSlash && searchField != document.activeElement) {
-    evt.preventDefault()
-    searchField.focus()
-    togglePanel()
+  if (isSlash && searchField != document.activeElement && srcTitle != document.activeElement && srcDesc != document.activeElement && srcUrl != document.activeElement && srcAuthor != document.activeElement) {
+      evt.preventDefault()
+      searchField.focus()
+      togglePanel()
   }
   
   /* Pressing Esc to close and clear the field */
