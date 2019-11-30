@@ -116,7 +116,7 @@
 
 					<div>
 					<?php
-						include('../includes/parsedown.php');
+						include('../includes/Parsedown.php');
 						$html = file_get_contents($pageSRC);
 						$Parsedown = new Parsedown();
 						echo $Parsedown->text($html);
