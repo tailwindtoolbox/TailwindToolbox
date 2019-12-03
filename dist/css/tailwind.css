@@ -5596,6 +5596,14 @@ header {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-nunito {
+  font-family: nunito, sans-serif;
+}
+
+.font-MyFont {
+  font-family: "My Font", serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -17478,6 +17486,14 @@ header {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-nunito {
+    font-family: nunito, sans-serif;
+  }
+
+  .sm\:font-MyFont {
+    font-family: "My Font", serif;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -29344,6 +29360,14 @@ header {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-nunito {
+    font-family: nunito, sans-serif;
+  }
+
+  .md\:font-MyFont {
+    font-family: "My Font", serif;
   }
 
   .md\:font-hairline {
@@ -41214,6 +41238,14 @@ header {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-nunito {
+    font-family: nunito, sans-serif;
+  }
+
+  .lg\:font-MyFont {
+    font-family: "My Font", serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -53080,6 +53112,14 @@ header {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-nunito {
+    font-family: nunito, sans-serif;
+  }
+
+  .xl\:font-MyFont {
+    font-family: "My Font", serif;
   }
 
   .xl\:font-hairline {

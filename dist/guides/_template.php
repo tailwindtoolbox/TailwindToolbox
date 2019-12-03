@@ -14,23 +14,23 @@
 	<meta name="theme-color" content="#3b7977">
 
 	<!-- Primary Meta Tags -->
-	<title>Tailwind Toolbox - Tailwind CSS <?=$pageTITLE;?> starter template"</title>
-	<meta name="title" content="<?=$pageDESC;?>">
-	<meta name="description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<title>Tailwind Toolbox - Tailwind CSS Guides - <?=$pageTITLE;?></title>
+	<meta name="title" content="Tailwind Toolbox - Tailwind CSS Guides - <?=$pageTITLE;?>">
+	<meta name="description" content="<?=$pageDESC;?>">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,help,faq,guides,knowledge base">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.tailwindtoolbox.com/">
-	<meta property="og:title" content="<?=$pageDESC;?>">
-	<meta property="og:description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<meta property="og:title" content="Tailwind Toolbox - Tailwind CSS Guides - <?=$pageTITLE;?>">
+	<meta property="og:description" content="<?=$pageDESC;?>">
 	<meta property="og:image" content="<?=$pageImage;?>">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://www.tailwindtoolbox.com/">
-	<meta property="twitter:title" content="<?=$pageDESC;?>">
-	<meta property="twitter:description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+	<meta property="twitter:title" content="Tailwind Toolbox - Tailwind CSS Guides - <?=$pageTITLE;?>">
+	<meta property="twitter:description" content="<?=$pageDESC;?>">
 	<meta property="twitter:image" content="<?=$pageImage;?>">
 
 	<!-- Stylesheets -->
@@ -59,13 +59,13 @@
 
 					<div class="flex flex-wrap">
 
-						<div class="w-full lg:w-3/5 xl:w-3/4 text-gray-darker leading-normal text-base ">
+						<div class="w-full lg:w-3/4 text-gray-800 leading-normal ">
 
 							<div class="flex flex-wrap">
 								<div class="w-full">
 									<h1><span class="bg-brand font-bold text-white text-3xl md:text-5xl px-3" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><?=$pageTITLE;?></span></h1>
 								</div>
-								<div class="py-6">
+								<div class="pt-6 pb-4">
 									<ul class="list-reset flex flex-wrap items-center">
 										<li class="mr-2 pr-1">
 											<span class="text-sm font-bold pb-3">Share:</span>
@@ -99,13 +99,26 @@
 									</ul>
 								</div>
 
-							</div>
+								<div class="w-full pb-2 md:pb-6">
+									<p class="font-bold text-xl"><?php echo $pageINTRO; ?></p>
+								</div>
 
-		
+							</div>
 
 						</div>
 
-						<div class="w-full lg:w-2/5 xl:w-1/4 p-8 my-8 lg:my-0 ">
+						<div class="w-full lg:w-3/4 order-2 lg:order-1">
+						<?php
+							include('../includes/Parsedown.php');
+							$html = file_get_contents($pageSRC);
+							$Parsedown = new Parsedown();
+							echo $Parsedown->text($html);
+						?>
+
+						<p class="text-base">Something wrong with the guide? Or any suggestions to make it better? <a href="<?php echo $pageGIT; ?>">Suggest an Edit</a>.</p>
+						</div>
+
+						<div class="w-full lg:w-1/4 my-3 lg:my-0 order-1 lg:order-2">
 
 							<p class="text-brand text-center font-bold mb-2">Advertisment</p>
 							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
@@ -114,14 +127,7 @@
 
 					</div>
 
-					<div>
-					<?php
-						include('../includes/Parsedown.php');
-						$html = file_get_contents($pageSRC);
-						$Parsedown = new Parsedown();
-						echo $Parsedown->text($html);
-					?>
-					</div>
+
 
 					<div class="text-center pt-8">
 						<p class="text-sm font-bold mt-3 mr-2">If this guide helped you, why not </p>

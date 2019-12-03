@@ -304,7 +304,7 @@
     "url": "https://github.com/nuxt-community/nuxt-tailwindcss",
     "url_image": "templates/nuxt-tailwind.png",
     "title": "NUXT Starter",
-    "description": "A Nuxt.js starter with TailwindCSS + nuxt-purgecss + modern css ",
+    "description": "A Nuxt.js starter with TailwindCSS and nuxt-purgecss",
     "url_author": "https://github.com/nuxt-community",
     "author": "NUXT / @nuxt-community",
     "category": "Javascript",
@@ -1335,6 +1335,19 @@
     "author": "Austen Cameron / @austenc",
     "category": "IDE",
     "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Guide",
+    "url": "https://www.tailwindtoolbox.com/guides/adding-fonts-to-tailwind-css",
+    "url_image": "placeholder.png",
+    "title": "Adding Fonts to Tailwind CSS",
+    "description": "A beginner guide to help you add your own font utilities to your project",
+    "download": "",
+    "url_author": "https://www.tailwindtoolbox.com",
+    "author": "Tailwind Toolbox",
+    "category": "Beginner",
+    "new": false,
     "home": false
   }
 ]

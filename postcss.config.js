@@ -31,7 +31,8 @@ module.exports = {
                       'dist/*.php',
                       'dist/includes/*.php',
                       'dist/templates/_template.php',
-                      'dist/components/_template.php'
+                      'dist/components/_template.php',
+                      'dist/guides/_template.php'
             ],
             extractors: [{
                 extractor: TailwindExtractor,
