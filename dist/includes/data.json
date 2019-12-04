@@ -1338,6 +1338,18 @@
     "home": false
   },
   {
+    "site_section": "Tool",
+    "url": "https://www.tailwindshades.com/",
+    "url_image": "toolsutilities/tailwindshades.png",
+    "title": "Tailwind Shades",
+    "description": "A tool to help generate color shades for Tailwind CSS",
+    "url_author": "https://github.com/anheric/tailwindshades",
+    "author": "Leonidas Stratigakis / @anheric",
+    "category": "Generator",
+    "new": true,
+    "home": false
+  },
+  {
     "site_section": "Guide",
     "url": "https://www.tailwindtoolbox.com/guides/adding-fonts-to-tailwind-css",
     "url_image": "placeholder.png",
