@@ -1350,6 +1350,18 @@
     "home": false
   },
   {
+    "site_section": "Tool",
+    "url": "https://flaviocopes.com/tailwind-cheat-sheet",
+    "url_image": "toolsutilities/flaviocopes-tailwind-cheatsheet.png",
+    "title": "Flavio Copes' Tailwind CSS Cheatsheet",
+    "description": "Reference list of common CSS properties in Tailwind and their relative classes",
+    "url_author": "https://flaviocopes.com",
+    "author": "Flavio Copes / @flaviocopes",
+    "category": "Help",
+    "new": true,
+    "home": false
+  },
+  {
     "site_section": "Guide",
     "url": "https://www.tailwindtoolbox.com/guides/adding-fonts-to-tailwind-css",
     "url_image": "placeholder.png",
