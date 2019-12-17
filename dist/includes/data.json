@@ -1387,5 +1387,18 @@
     "category": "Beginner",
     "new": false,
     "home": false
+  },
+  {
+    "site_section": "Guide",
+    "url": "https://www.tailwindtoolbox.com/guides/adding-fonts-to-tailwind-css",
+    "url_image": "placeholder.png",
+    "title": "Adding Fonts to Tailwind CSS",
+    "description": "A beginner guide to help you add your own font utilities to your project",
+    "download": "",
+    "url_author": "https://www.tailwindtoolbox.com",
+    "author": "Tailwind Toolbox",
+    "category": "Beginner",
+    "new": false,
+    "home": false
   }
 ]
