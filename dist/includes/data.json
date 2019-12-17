@@ -85,6 +85,20 @@
   },
   {
     "site_section": "Template",
+    "url": "https://www.tailwindtoolbox.com/templates/nordic-store",
+    "url_image": "templates/nordic-store.png",
+    "title": "Nordic Store",
+    "description": "Nordic inspired e-commerce product listing template to kick start your store",
+    "download": "https://github.com/tailwindtoolbox/Nordic-Store/archive/master.zip",
+    "source": "https://github.com/tailwindtoolbox/Nordic-Store",
+    "url_author": "https://github.com/tailwindtoolbox/",
+    "author": "Tailwind Toolbox",
+    "category": "Store",
+    "new": true,
+    "home": true
+  },
+  {
+    "site_section": "Template",
     "url": "https://www.tailwindtoolbox.com/templates/minimal-admin-template",
     "url_image": "templates/minimal-admin-template.png",
     "title": "Minimal Admin Template",
@@ -94,8 +108,8 @@
     "url_author": "https://github.com/tailwindtoolbox/",
     "author": "Tailwind Toolbox",
     "category": "Admin",
-    "new": true,
-    "home": true
+    "new": false,
+    "home": false
   },
   {
     "site_section": "Template",
@@ -259,7 +273,7 @@
     "description": "A rapid Rails (6.0.0.rc1) application template (for personal use) bundled with Tailwind CSS",
     "url_author": "https://github.com/justalever",
     "author": "Andy Leverenz / @justalever",
-    "category": "WebApp",
+    "category": "Javascript",
     "new": false,
     "home": false
   },
@@ -271,7 +285,7 @@
     "description": "A starter for building Svelte web apps with Tailwind CSS",
     "url_author": "https://github.com/marcograhl",
     "author": "marcograhl / @marcograhl",
-    "category": "WebApp",
+    "category": "Javascript",
     "new": false,
     "home": false
   },
@@ -283,7 +297,7 @@
     "description": "A Hugo Starter Theme with Tailwind CSS",
     "url_author": "https://github.com/dirkolbrich",
     "author": "Dirk Olbrich / @dirkolbrich",
-    "category": "WebApp",
+    "category": "Javascript",
     "new": false,
     "home": false
   },
@@ -308,7 +322,7 @@
     "url_author": "https://github.com/nuxt-community",
     "author": "NUXT / @nuxt-community",
     "category": "Javascript",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -351,12 +365,12 @@
     "site_section": "Template",
     "url": "https://github.com/gridsomehq/gridsome-tailwind-minimal",
     "url_image": "templates/gridsome-tailwind.png",
-    "title": "Gridsome Minimal Boilterplate",
+    "title": "Gridsome Minimal Boilerplate",
     "description": "Minimal boilerplate for starting a Tailwind project with Gridsome",
     "url_author": "https://github.com/gridsomehq",
     "author": "Gridsome HQ / @gridsomehq",
     "category": "Javascript",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -536,7 +550,7 @@
     "url_author": "https://github.com/saberland",
     "author": "Sabre / @saberland",
     "category": "Javascript",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -588,7 +602,7 @@
     "url_author": "https://www.tailwindtoolbox.com",
     "author": "Tailwind Toolbox",
     "category": "HTML",
-    "new": true,
+    "new": false,
     "home": true
   },
   {
@@ -770,7 +784,7 @@
     "url_author": "https://github.com/brendan-c",
     "author": "Brendan C",
     "category": "Various",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1046,7 +1060,7 @@
     "url_author": "https://github.com/benface",
     "author": "Benoît Rouleau / @benface",
     "category": "Utilities, benface",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1142,7 +1156,7 @@
     "url_author": "https://github.com/jorenvanhee",
     "author": "Joren Van Hee / @jorenvanhee",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
