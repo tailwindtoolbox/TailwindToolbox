@@ -1156,7 +1156,7 @@
     "url_author": "https://github.com/hawezo",
     "author": "Haew / @hawezo",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1169,6 +1169,18 @@
     "author": "Joren Van Hee / @jorenvanhee",
     "category": "Utilities",
     "new": false,
+    "home": false
+  },
+    {
+    "site_section": "Plugin",
+    "url": "https://github.com/crumb1e/tailwind-nord",
+    "url_image": "placeholder.png",
+    "title": "Tailwind Nord",
+    "description": "A super tiny tailwind plugin that enables the use of the Nord colour palette",
+    "url_author": "https://github.com/crumb1e",
+    "author": "Daniel Crewdson / @crumb1e",
+    "category": "Utilities",
+    "new": true,
     "home": false
   },
   {
