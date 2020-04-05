@@ -10,7 +10,7 @@
     "main": "postcss.config.js",
     "dependencies": {
         "@glidejs/glide": "^3.4.1",
-        "autoprefixer": "^9.7.4",
+        "autoprefixer": "^9.7.5",
         "postcss-cli": "^6.1.2",
         "rimraf": "^2.6.3",
         "watch": "^1.0.2"
