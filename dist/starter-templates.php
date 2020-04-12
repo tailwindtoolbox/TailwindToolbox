@@ -39,7 +39,7 @@
 							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 						</li>	
 						<?php 
-							$filters = array('Admin', 'Home', 'Blog', 'Store', 'Support', 'Profile', 'Nav', 'Javascript', 'CMS');
+							$filters = array('Admin', 'Home', 'Blog', 'Store', 'Support', 'Profile', 'Nav', 'Login', 'Starter');
 							foreach($filters as $filter) {
 								echo "\t\t\t\t\t\t<li class=\"mr-1\">";
 								echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
