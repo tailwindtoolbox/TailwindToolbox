@@ -1461,5 +1461,29 @@
     "category": "Beginner",
     "new": false,
     "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/20lives/tailwindcss-rtl",
+    "url_image": "placeholder.png",
+    "title": "RTL (Right to Left)",
+    "description": "Add support for multilingual bidirectional layouts",
+    "url_author": "https://github.com/20lives",
+    "author": "20lives",
+    "category": "Utilities",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/manishrc/tailwindcss-typography-js",
+    "url_image": "placeholder.png",
+    "title": "Typography.js",
+    "description": "Tailwind CSS plugin to inject Typography.js styles",
+    "url_author": "https://github.com/manishrc/",
+    "author": "Manish Chiniwalar",
+    "category": "Utilities",
+    "new": true,
+    "home": false
   }
 ]
