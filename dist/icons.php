@@ -5,9 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Heroicons Viewer</title>
-	<meta name="description" content="Steve Schoger's Heriocons viewer - set the size and colour for your icon and copy the code">
-	<meta name="keywords" content="tailwind,tailwindcss,heroicons, heroicons viewer">
+	<title>Tailwind Toolbox - Icon Generator for Tailwind CSS</title>
+	<meta name="description" content="Steve Schoger's Heriocons and Paweł Kuna's Tabler Icons viewer - set the size and colour for your icon and copy the code">
+	<meta name="keywords" content="tailwind,tailwindcss,heroicons, heroicons viewer,tabler, tabler viewer">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
@@ -170,11 +170,10 @@
 
 
 
-
 	<script>
 		function loadIcons() {
 			return {
-				pack: 'Heroicons - Outline',
+				pack: 'all',
 				icons: icondata.icons,
 				classSize: 'h-8 w-8',
 				classColor: 'text-red-',
