@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Tailwind Toolbox - Beginner Guides for Tailwind CSS</title>
 	<meta name="description" content="Beginner guides for getting started with Tailwind CSS">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,beginner guides, getting started with tailwind css, tldr">
-	<?php include '../includes/head-guides.php';?>
-	<?php include '../includes/analytics.php';?>
+	<?php include '../includes/head-guides.php'; ?>
+	<?php include '../includes/analytics.php'; ?>
 </head>
+
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
-	<?php include '../includes/nav.php';?>
+	<?php include '../includes/nav.php'; ?>
 
 	<!--header-->
-	<div class="z-20 mt-24 pb-6 mb-6 flex items-center text-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
+	<div class="z-20 mt-24 pb-6 mb-6 flex items-center text-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
 		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16">
 			<div class="px-3">
 				<h1 class="pt-6">
-					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Tailwind Beginner Guides</span></span>
+					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Tailwind CSS Guides</span></span>
 				</h1>
-				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Some useful tools and utilities to help you setup your development environment and become more familiar with Tailwind CSS</p>
+				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Getting started guides, how-to's and tutorials for beginners who are just getting started with Tailwind CSS</p>
 			</div>
 		</div>
 	</div>
@@ -36,14 +38,14 @@
 						<li class="mr-1">
 							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 						</li>
-						<?php 
-							$filters = array('IDE', 'Generator', 'Design', 'Help');
-							foreach($filters as $filter) {
-								echo "\t\t\t\t\t\t<li class=\"mr-1\">\n";
-								echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
-								echo "\t\t\t\t\t\t</li>\n";
-							}
-						?>		
+						<?php
+						$filters = array('Setup', 'Configuration');
+						foreach ($filters as $filter) {
+							echo "\t\t\t\t\t\t<li class=\"mr-1\">\n";
+							echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
+							echo "\t\t\t\t\t\t</li>\n";
+						}
+						?>
 					</ul>
 				</div>
 				<!--/filters-->
@@ -52,23 +54,24 @@
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 				</div>
 			</div>
-		
+
 		</div>
 
 		<div class="w-full md:w-4/5 px-0">
-			<?php 
-				$show_section = "Guide";
-				$show_home = false;
-				include '../includes/render-guides.php';
+			<?php
+			$show_section = "Guide";
+			$show_home = false;
+			include '../includes/render-guides.php';
 			?>
 		</div>
 
 	</div>
 
-	<?php include '../includes/footer-templates.php';?>
+	<?php include '../includes/footer-templates.php'; ?>
 
-	<?php include '../includes/js.php';?>
+	<?php include '../includes/js-templates.php'; ?>
 
 
 </body>
+
 </html>
