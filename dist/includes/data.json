@@ -267,6 +267,18 @@
   },
   {
     "site_section": "Template",
+    "url": "https://davidgrzyb.com/tailwind-admin-dashboard-template",
+    "url_image": "templates/dg_admin.png",
+    "title": "Admin Template",
+    "description": "Admin dashboard template built with Tailwind and Alpine.js.",
+    "url_author": "https://davidgrzyb.com",
+    "author": "David Grzyb / @davidgrzyb",
+    "category": "Admin",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://github.com/davidgrzyb/tailwind-blog-template",
     "url_image": "templates/dg_blog.png",
     "title": "Simple Blog Template",
