@@ -1234,6 +1234,18 @@
   },
   {
     "site_section": "Tool",
+    "url": "https://www.tailwindtoolbox.com/icons",
+    "url_image": "toolsutilities/icons.png",
+    "title": "SVG Icon Viewer",
+    "description": "Icon Viwer to style and copy/paste code for Tailwind CSS",
+    "url_author": "https://www.tailwindtoolbox.com",
+    "author": "Tailwind Toolbox",
+    "category": "Design",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
     "url": "https://github.com/vinkla/autocomplete-tailwind",
     "url_image": "toolsutilities/atom-autocomplete.png",
     "title": "Atom Auto Complete",
@@ -1445,6 +1457,19 @@
     "url_author": "https://flaviocopes.com",
     "author": "Flavio Copes / @flaviocopes",
     "category": "Help",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Guide",
+    "url": "https://www.tailwindtoolbox.com/skeleton",
+    "url_image": "../skeleton.png",
+    "title": "Skeleton Template",
+    "description": "A skeleton HTMl template to get started",
+    "download": "",
+    "url_author": "https://www.tailwindtoolbox.com",
+    "author": "Tailwind Toolbox",
+    "category": "Setup",
     "new": false,
     "home": false
   },
