@@ -1497,5 +1497,29 @@
     "category": "Utilities",
     "new": true,
     "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://github.com/optimizasean/TailwindAccessibilityConfig",
+    "url_image": "toolsutilities/acolours.png",
+    "title": "Accessibility Colours",
+    "description": "Tailwind colors replaced (in Tailwind style) by the USG standards for accesibility colors",
+    "url_author": "https://github.com/optimizasean/",
+    "author": "Sean Harding",
+    "category": "Design",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/Naoray/tailwind-caret-color",
+    "url_image": "placeholder.png",
+    "title": "Caret Color",
+    "description": "Tailwind CSS plugin to generates classes for coloring carets",
+    "url_author": "https://github.com/Naoray/",
+    "author": "Krishan König",
+    "category": "Utilities",
+    "new": true,
+    "home": false
   }
 ]
