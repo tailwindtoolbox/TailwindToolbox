@@ -6,15 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Tailwind Toolbox - Icon Generator for Tailwind CSS</title>
-	<meta name="description" content="Steve Schoger's Heriocons and Paweł Kuna's Tabler Icons viewer - set the size and colour for your icon and copy the code">
-	<meta name="keywords" content="tailwind,tailwindcss,heroicons, heroicons viewer,tabler, tabler viewer">
+	<meta name="description" content="Icon Viewer for Heroicons, Tabler and Feather Icons - set the size and colour for your icon and copy the code for your Tailwind CSS project">
+	<meta name="keywords" content="tailwind,tailwindcss,heroicons, heroicons viewer,tabler, tabler viewer, feather icons, feather viewer">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 	<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
-	<script src="heroicons.json"></script>
-
+	<script src="icons.json"></script>
 </head>
 
 <body class="bg-brand-white leading-normal tracking-normal nunito">
@@ -28,15 +27,15 @@
 				<h1 class="pt-6">
 					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Icons for Tailwind CSS</span></span>
 				</h1>
-				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">A simple viewer for <a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>'s <a class="text-brand" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> and <a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>'s <a class="text-brand" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow"> Tabler</a> icons.</p>
+				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">A simple viewer for some Open Source icon packs to customise and copy/paste into your Tailwind CSS project.<br>
 			</div>
 		</div>
 	</div>
-	<div class="container mx-auto mb-8 flex flex-wrap pb-48" x-data="loadIcons()">
+	<div class="container mx-auto mb-8 flex flex-wrap pb-16" x-data="loadIcons()">
 
 		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky top-0 bg-brand-white z-50" style="top:8em;">
 
-			<div class=" flex items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG"></div>
+			<div class="flex flex-grow-0 items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG"></div>
 
 			<div class="w-full flex flex-wrap justify-center">
 
@@ -135,25 +134,42 @@
 
 		</div>
 
-		<div class="px-4 w-full md:w-3/5 flex flex-wrap items-stretch mb-2 md:px-3">
-			<div class="w-full mb-8">
-				<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
-				<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Outline'" :class="{ 'active-tab' : pack === 'Heroicons - Outline' }">Heroicons (Outline)</a>
-				<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Solid'" :class="{ 'active-tab' : pack === 'Heroicons - Solid' }">Heroicons (Solid)</a>
-				<a class="tab" href="#" @click.prevent="pack = 'Tabler'" :class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
+		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
+			<div class="w-full pt-4 mb-8 sticky top-0 bg-brand-white z-10" style="top:7.9em;">
+
+				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
+
+				<div class="mt-2">
+					<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Outline'" :class="{ 'active-tab' : pack === 'Heroicons - Outline' }">Heroicons (Outline)</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Solid'" :class="{ 'active-tab' : pack === 'Heroicons - Solid' }">Heroicons (Solid)</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Tabler'" :class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Feather'" :class="{ 'active-tab' : pack === 'Feather' }">Feather</a>
+				</div>
+
 			</div>
-			<template x-for="icon in icons" :key="icon.filename">
-				<div x-show="pack === icon.pack || pack === 'all'" class="flex p-2 hover:bg-white hover:shadow hover:rounded transition duration-150 ease-in-out transform hover:scale-125 ">
-					<div class="mx-auto h-8 w-8 overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
+			<div class="flex flex-wrap">
+
+				<template x-for="icon in filteredIcons" :key="icon.filename">
+					<div x-show="pack === icon.pack || pack === 'all'" class="flex flex-grow-0 p-2 hover:bg-white hover:shadow hover:rounded transition duration-150 ease-in-out transform hover:scale-125 ">
+						<div class="mx-auto h-8 w-8 overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
 					
 														$refs.code.value =  needsWeight(classColor) ? 
 															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + icon.svg : 
 															'<svg class=&quot' + classSize + ' ' + classColor +  '&quot ' + icon.svg;
 				
 														$refs.code1.innerHTML  = $refs.code.value;">
+						</div>
 					</div>
-				</div>
-			</template>
+				</template>
+
+
+			</div>
+
+			<p class="pt-8 font-bold">Icon Credits:</p>
+			<a class="text-brand font-bold" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> (<a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>)
+			<a class="text-brand font-bold" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow">Tabler</a> (<a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>) and
+			<a class="text-brand font-bold" href="https://github.com/feathericons/feather" target="_blank" rel="nofollow">Feather</a> (<a class="text-brand" href="https://twitter.com/colebemis" target="_blank" rel="nofollow">Cole Bemis'</a>)
 
 		</div>
 
@@ -173,6 +189,7 @@
 	<script>
 		function loadIcons() {
 			return {
+				search: '',
 				pack: 'all',
 				icons: icondata.icons,
 				classSize: 'h-8 w-8',
@@ -181,8 +198,18 @@
 				myClasses: ' text-red-800',
 				previewClasses: 'h-8 w-8 fill-stroke text-gray-800 hover:text-blue-500',
 				currentSVG: '',
+				get filteredIcons() {
+					if (this.search === '') {
+						return this.icons
+					}
+
+					return this.icons.filter(item => {
+						return item.filename.toLowerCase().includes(this.search.toLowerCase())
+					})
+				}
 			}
 		}
+
 
 
 		function needsWeight(color) {
