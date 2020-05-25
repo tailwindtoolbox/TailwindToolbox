@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Toolbox - Free Starter Components</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tailwind Toolbox - Free Starter Components</title>
 	<meta name="description" content="Free open source Tailwind CSS starter templates to quickly start your next project">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
-	<?php include 'includes/head.php';?>
-	<?php include 'includes/analytics.php';?>
-		
+	<?php include 'includes/head.php'; ?>
+	<?php include 'includes/analytics.php'; ?>
+
 </head>
 
 <body class="bg-brand-white leading-normal tracking-normal nunito">
 
-	<?php include 'includes/nav.php';?>
+	<?php include 'includes/nav.php'; ?>
 
 	<!--header-->
-	<div class="z-20 mt-24 pb-6 mb-6 flex items-center text-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
+	<div class="z-20 mt-24 pb-6 mb-6 flex items-center text-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
 		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16">
 			<div class="px-3">
 				<h1 class="pt-6">
@@ -37,39 +38,51 @@
 					<ul class="container scroll mx-auto list-reset flex flex-row md:flex-col border-b md:pb-4 text-sm md:text-base bounce-in-right">
 						<li class="mr-1">
 							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
-						</li>	
-						<?php 
-							$filters = array('HTML', 'Vue', 'Angular');
-							foreach($filters as $filter) {
-								echo "\t\t\t\t\t\t<li class=\"mr-1\">";
-								echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
-								echo "\t\t\t\t\t\t</li>";
-							}
+						</li>
+						<?php
+						$filters = array('HTML', 'Vue', 'Angular');
+						foreach ($filters as $filter) {
+							echo "\t\t\t\t\t\t<li class=\"mr-1\">";
+							echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
+							echo "\t\t\t\t\t\t</li>";
+						}
 						?>
 					</ul>
 				</div>
 				<!--/filters-->
 				<div class="order-1 md:order-2">
-					<p class="text-brand text-center font-bold mb-2 md:pt-3">Advertisment</p>
+					<p class="text-brand text-center font-bold mb-2 md:pt-3">Ads/Supporters</p>
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+					<div class="supporter bg-white border rounded-lg mx-auto mt-4 flex flex-wrap">
+						<div class="w-1/2 md:w-full">
+							<a href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">
+								<img src="polypane.png" alt="Polypane" border="0" width="180" height="100">
+							</a>
+						</div>
+						<div class="w-1/2 md:w-full md:text-center text-sm py-2 px-2">
+							<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">Polypane is the ultimate browser for Tailwind developers</a>
+						</div>
+						<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">SITE SUPPORTER</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="w-full md:w-4/5 px-0">
-			<?php 
-				$show_section = "Component";
-				$show_home = false;
-				include 'includes/render-data.php';
+			<?php
+			$show_section = "Component";
+			$show_home = false;
+			include 'includes/render-data.php';
 			?>
 		</div>
 
 	</div>
 
-	<?php include 'includes/footer.php';?>
+	<?php include 'includes/footer.php'; ?>
 
-	<?php include 'includes/js.php';?>
+	<?php include 'includes/js.php'; ?>
 
 
 </body>
+
 </html>

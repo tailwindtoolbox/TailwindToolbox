@@ -116,6 +116,7 @@
 						</div>
 					</div>
 				</div>
+
 				<!--Wave-->
 				<svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -148,8 +149,21 @@
 
 		<div class="w-full pb-6 mt-6 md:mt-12 md:w-1/5">
 			<div class="sticky pin-t" style="top:8em;">
-				<p class="text-brand text-center font-bold mb-2">Advertisment</p>
+				<p class="text-brand text-center font-bold mb-2">Ads/Supporters</p>
 				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+
+				<div class="supporter bg-white border rounded-lg mx-auto mt-4 flex flex-wrap">
+					<div class="w-1/2 md:w-full">
+						<a href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">
+							<img src="polypane.png" alt="Polypane" border="0" width="180" height="100">
+						</a>
+					</div>
+					<div class="w-1/2 md:w-full md:text-center text-sm py-2 px-2">
+						<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">Polypane is the ultimate browser for Tailwind developers</a>
+					</div>
+					<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">SITE SUPPORTER</div>
+				</div>
+
 			</div>
 
 			<div></div>

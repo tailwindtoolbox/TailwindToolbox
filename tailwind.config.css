@@ -38,215 +38,208 @@
   * @import "components/forms";
   */
 
-  /*Card*/
-  
-  .card {
-    @apply bg-white rounded overflow-hidden shadow mx-2;
-    transition: -webkit-transform .1s ease-in;
-    transition: transform .1s ease-in;
-    transition: transform .1s ease-in,-webkit-transform .1s ease-in;
-  }
+/*Card*/
 
-  .card:hover {
-    @apply shadow-lg;
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
-  }
+.card {
+  @apply bg-white rounded overflow-hidden shadow mx-2;
+  transition: -webkit-transform 0.1s ease-in;
+  transition: transform 0.1s ease-in;
+  transition: transform 0.1s ease-in, -webkit-transform 0.1s ease-in;
+}
 
-  .card img {
-    @apply h-auto w-auto rounded-t shadow;
-  }
+.card:hover {
+  @apply shadow-lg;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
 
-  .new-badge {
-    @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 right-0;
-  }
+.card img {
+  @apply h-auto w-auto rounded-t shadow;
+}
 
+.new-badge {
+  @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 right-0;
+}
+
+.card-title {
+  @apply text-center font-bold text-sm pt-2 my-1;
+}
+
+.card-description {
+  @apply hidden;
+  opacity: 0;
+}
+
+.card:hover .card-description {
+  opacity: 1;
+}
+
+.card-author {
+  @apply text-center text-gray-200 text-xs mb-3;
+}
+
+@screen sm {
   .card-title {
-    @apply text-center font-bold text-sm pt-2 my-1;
+    @apply text-base my-2;
   }
 
   .card-description {
-    @apply hidden;
-    opacity:0;
+    @apply block absolute top-0 bg-brand text-white font-bold text-sm p-3;
+    transition: -webkit-transform 0.1s ease-in;
+    transition: transform 1s ease-in;
+    transition: transform 1s ease-in, -webkit-transform 1s ease-in;
   }
-
-  .card:hover .card-description {
-    opacity:1;
-  }
-
 
   .card-author {
-    @apply text-center text-gray-200 text-xs mb-3;
+    @apply text-sm;
   }
+}
 
+/*Links*/
+.navlink {
+  @apply mr-2 pb-1 px-2 border-l-2 border-b-0 border-transparent text-white text-base font-bold text-center no-underline;
+}
 
+.navlink:hover {
+  @apply text-teal-200 border-teal-100 no-underline;
+}
 
-  @screen sm {
-
-    .card-title {
-      @apply text-base my-2;
-    }
-
-    .card-description {
-      @apply block absolute top-0 bg-brand text-white font-bold text-sm p-3;
-      transition: -webkit-transform .1s ease-in;
-      transition: transform 1s ease-in;
-      transition: transform 1s ease-in,-webkit-transform 1s ease-in;
-    }
-
-    .card-author {
-      @apply text-sm;
-    }
-
-  }
-
-
-
-
-  /*Links*/
+@screen sm {
   .navlink {
-	  @apply mr-2 pb-1 px-2 border-l-2 border-b-0 border-transparent text-white text-base font-bold text-center no-underline;	  
+    @apply mr-2 pb-1 px-2 border-l-0 border-b-2;
   }
-  
-  .navlink:hover {
-	  @apply text-teal-200 border-teal-100 no-underline;	  
-  }
-  
-  @screen sm {
-    .navlink {
-      @apply mr-2 pb-1 px-2 border-l-0 border-b-2;	   
-    }
-  }
+}
 
-  .footerlink {
-	  @apply text-brand-ondark font-bold no-underline;	  
-  }
-  
-  .footerlink:hover {
-	  @apply text-brand-alt font-bold no-underline;	  
-  }
-   
-  a {
-	@apply text-brand underline;
-  }
-  a:hover {
-	@apply text-teal-700 underline;
-  }
+.footerlink {
+  @apply text-brand-ondark font-bold no-underline;
+}
 
-  /*Code syntax*/
-  pre code {
-	@apply my-4 p-4 overflow-x-auto text-xs w-full border rounded shadow;
-  }
-  
+.footerlink:hover {
+  @apply text-brand-alt font-bold no-underline;
+}
+
+a {
+  @apply text-brand underline;
+}
+a:hover {
+  @apply text-teal-700 underline;
+}
+
+/*Code syntax*/
+pre code {
+  @apply my-4 p-4 overflow-x-auto text-xs w-full border rounded shadow;
+}
+
+code {
+  @apply text-brand text-xs bg-gray-100 p-1;
+}
+
+@screen md {
+  pre code,
   code {
-    @apply text-brand text-xs bg-gray-100 p-1;
+    @apply text-sm;
   }
+}
 
-  @screen md {
-    pre code,code {
-      @apply text-sm;	   
-    }
-  }
+/*Faux cmd window */
+.window-nav {
+  @apply rounded-t border-t border-l border-r border-teal-400 bg-teal-400 px-4 py-2;
+}
+.window-nav-dot {
+  @apply inline-block rounded-full bg-gray-100 h-3 w-3 mr-1;
+}
+.window-bg {
+  @apply relative bg-black text-white text-sm font-mono tracking-wide break-normal p-4;
+}
 
-  /*Faux cmd window */
-  .window-nav {
-	@apply rounded-t border-t border-l border-r border-teal-400 bg-teal-400 px-4 py-2;
-  }
-  .window-nav-dot {
-	  @apply inline-block rounded-full bg-gray-100 h-3 w-3 mr-1;
-  }
-  .window-bg {
-	  @apply relative bg-black text-white text-sm font-mono tracking-wide break-normal p-4;
-  }
-  
-  /*Button*/
-  .btn {
-	  @apply bg-brand text-white no-underline text-sm border-none rounded font-bold p-3 mt-2;
-  }
-  .btn:hover {
-	  @apply bg-teal-700 text-white no-underline shadow;
-  }
-  .template-btn {
-    @apply block w-full bg-brand text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative inset-x-0 bottom-0;
-  }
-  .template-btn:hover {
-    @apply bg-teal-400 no-underline;
-  }
+/*Button*/
+.btn {
+  @apply bg-brand text-white no-underline text-sm border-none rounded font-bold p-3 mt-2;
+}
+.btn:hover {
+  @apply bg-teal-700 text-white no-underline shadow;
+}
+.template-btn {
+  @apply block w-full bg-brand text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative inset-x-0 bottom-0;
+}
+.template-btn:hover {
+  @apply bg-teal-400 no-underline;
+}
 
-  /*Card
+/*Card
   .card {
     @apply bg-white rounded overflow-hidden shadow mx-2;
   }
   .card:hover {
     @apply shadow-lg;
   }*/
-  
-  /*Tabs*/
 
-  .tab:focus, .active-tab:focus {
-    @apply outline-none
-  }
-  a.tab {
-    @apply text-gray-700 no-underline border-b-4 border-transparent inline-block py-3 px-4 font-semibold -mb-px
-  }
-  a.tab:hover { 
-    @apply text-brand no-underline border-b-4 border-brand
-  }
-  a.active-tab { 
-    @apply text-brand no-underline border-b-4 border-brand inline-block py-3 px-4 font-semibold -mb-px
-  }
-  a.active-tab:hover { 
-    @apply text-gray-700 no-underline border-b-4 border-gray-700
-  }
+/*Tabs*/
 
+.tab:focus,
+.active-tab:focus {
+  @apply outline-none;
+}
+a.tab {
+  @apply text-gray-700 no-underline border-b-4 border-transparent inline-block py-3 px-4 font-semibold -mb-px;
+}
+a.tab:hover {
+  @apply text-brand no-underline border-b-4 border-brand;
+}
+a.active-tab {
+  @apply text-brand no-underline border-b-4 border-brand inline-block py-3 px-4 font-semibold -mb-px;
+}
+a.active-tab:hover {
+  @apply text-gray-700 no-underline border-b-4 border-gray-700;
+}
+
+button.tab {
+  @apply text-gray-700 no-underline border-b-4 border-transparent w-full text-left block py-3 px-4 font-semibold;
+}
+button.tab:hover {
+  @apply text-brand bg-transparent  no-underline border-b-4 border-brand;
+}
+button.active-tab {
+  @apply text-brand no-underline border-b-4 border-brand w-full text-left block py-3 px-4 font-semibold;
+}
+button.active-tab:hover {
+  @apply text-gray-700 no-underline border-b-4 border-gray-700;
+}
+
+@screen md {
   button.tab {
-    @apply text-gray-700 no-underline border-b-4 border-transparent w-full text-left block py-3 px-4 font-semibold
+    @apply border-l-4 border-b-0;
   }
-  button.tab:hover { 
-    @apply text-brand bg-transparent  no-underline border-b-4 border-brand
+  button.tab:hover {
+    @apply text-brand border-l-4 border-b-0;
   }
-  button.active-tab { 
-    @apply text-brand no-underline border-b-4 border-brand w-full text-left block py-3 px-4 font-semibold
+  button.active-tab {
+    @apply text-brand border-l-4 border-b-0;
   }
-  button.active-tab:hover { 
-    @apply text-gray-700 no-underline border-b-4 border-gray-700
+  button.active-tab:hover {
+    @apply text-gray-700 border-l-4 border-b-0;
   }
+}
 
-  @screen md {
-    button.tab {
-      @apply border-l-4 border-b-0
-    }
-    button.tab:hover { 
-      @apply text-brand border-l-4 border-b-0
-    }
-    button.active-tab { 
-      @apply text-brand border-l-4 border-b-0
-    }
-    button.active-tab:hover { 
-      @apply text-gray-700 border-l-4 border-b-0
-    }
-  }
+.nunito {
+  font-family: "Nunito", Tahoma;
+}
 
-	.nunito {
-		font-family: 'Nunito', Tahoma;
-	}
-  
-  #post-content p {
-		padding-top: 0.7em;
-  }
-  
+#post-content p {
+  padding-top: 0.7em;
+}
 
-  /*Horizontal Scrolling*/
-  .scroll {
-    white-space: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-   }
-  
-  .scroll::-webkit-scrollbar {
-    display: none; }
+/*Horizontal Scrolling*/
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 
+.scroll::-webkit-scrollbar {
+  display: none;
+}
 
 .hidescrollbar {
   -webkit-overflow-scrolling: touch;
@@ -254,8 +247,8 @@
 }
 
 .hidescrollbar::-webkit-scrollbar {
-  display: none; }
-
+  display: none;
+}
 
 header {
   position: relative;
@@ -274,24 +267,32 @@ header {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   transform-origin: top left;
 }
-  
 
 /*Search*/
 
 #searchresults a {
   @apply no-underline;
 }
+/* Supporter Ad */
 
+.supporter {
+  max-width: 330px;
+}
 
+@screen md {
+  .supporter {
+    max-width: 180px;
+  }
+}
 /*Animation*/
 .bounce-in-right {
   -webkit-animation: bounce-in-right 0.8s both;
-          animation: bounce-in-right 0.8s both;
+  animation: bounce-in-right 0.8s both;
 }
 @screen md {
   .bounce-in-right {
     -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
 }
 
@@ -307,111 +308,110 @@ header {
  * animation bounce-in-right
  * ----------------------------------------
  */
- @-webkit-keyframes bounce-in-right {
+@-webkit-keyframes bounce-in-right {
   0% {
     -webkit-transform: translateX(600px);
-            transform: translateX(600px);
+    transform: translateX(600px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   38% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
     opacity: 1;
   }
   55% {
     -webkit-transform: translateX(68px);
-            transform: translateX(68px);
+    transform: translateX(68px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   72% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   81% {
     -webkit-transform: translateX(32px);
-            transform: translateX(32px);
+    transform: translateX(32px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   90% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   95% {
     -webkit-transform: translateX(8px);
-            transform: translateX(8px);
+    transform: translateX(8px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
 @keyframes bounce-in-right {
   0% {
     -webkit-transform: translateX(600px);
-            transform: translateX(600px);
+    transform: translateX(600px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   38% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
     opacity: 1;
   }
   55% {
     -webkit-transform: translateX(68px);
-            transform: translateX(68px);
+    transform: translateX(68px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   72% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   81% {
     -webkit-transform: translateX(32px);
-            transform: translateX(32px);
+    transform: translateX(32px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   90% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   95% {
     -webkit-transform: translateX(8px);
-            transform: translateX(8px);
+    transform: translateX(8px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
-
 
 /*Markdown - https://github.com/iandinwoodie/github-markdown-tailwindcss*/
 
@@ -477,7 +477,6 @@ header {
   @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
 }
 
-
 .markdown ul {
   @apply text-base pl-8 list-disc;
 }
@@ -501,10 +500,6 @@ header {
 .markdown td {
   @apply border py-1 px-3;
 }
-
-
-
-
 
 /**
   * This injects all of Tailwind's utility classes, generated based on your
@@ -531,4 +526,3 @@ header {
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
-  
