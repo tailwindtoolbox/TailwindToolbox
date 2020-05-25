@@ -825,7 +825,7 @@
   },
   {
     "site_section": "Component",
-    "url": "https://tailwindcss-counter.brendan-c.now.sh/s",
+    "url": "https://github.com/brendan-c/Tailwindcss-Counter",
     "url_image": "components/tailwind-counter.png",
     "title": "TailwindCSS Counter",
     "description": "A custom number input styled with TailwindCSS",
