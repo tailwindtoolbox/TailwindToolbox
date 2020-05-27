@@ -10,7 +10,7 @@
     "main": "postcss.config.js",
     "dependencies": {
         "@glidejs/glide": "^3.4.1",
-        "autoprefixer": "^9.7.6",
+        "autoprefixer": "^9.8.0",
         "postcss-cli": "^6.1.2",
         "rimraf": "^2.6.3",
         "watch": "^1.0.2"
@@ -19,7 +19,7 @@
         "@fullhuman/postcss-purgecss": "^1.3.0",
         "@tailwindcss/custom-forms": "^0.2.1",
         "cssnano": "^4.1.10",
-        "tailwindcss": "^1.3.5"
+        "tailwindcss": "^1.4.6"
     },
     "scripts": {
         "del:js": "rimraf tailwind.config.js",

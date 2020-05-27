@@ -1546,5 +1546,17 @@
     "category": "Utilities",
     "new": true,
     "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://mertjf.github.io/tailblocks/",
+    "url_image": "toolsutilities/tailblocks.png",
+    "title": "Tailblocks - UI Blocks",
+    "description": " 60 different ready to use Tailwind UI blocks",
+    "url_author": "https://github.com/mertJF",
+    "author": "Mert Cukuren",
+    "category": "Generator",
+    "new": true,
+    "home": false
   }
 ]
