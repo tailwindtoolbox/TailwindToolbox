@@ -1508,7 +1508,7 @@
     "url_author": "https://github.com/20lives",
     "author": "20lives",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1520,7 +1520,7 @@
     "url_author": "https://github.com/manishrc/",
     "author": "Manish Chiniwalar",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1532,7 +1532,7 @@
     "url_author": "https://github.com/optimizasean/",
     "author": "Sean Harding",
     "category": "Design",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1544,7 +1544,7 @@
     "url_author": "https://github.com/Naoray/",
     "author": "Krishan König",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1556,6 +1556,30 @@
     "url_author": "https://github.com/mertJF",
     "author": "Mert Cukuren",
     "category": "Generator",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/jnhartshorne1994/tailwind-underline-utilities",
+    "url_image": "placeholder.png",
+    "title": "Underline",
+    "description": "Underline utilities are gaining better support. This plugin adds custom underline utilities, such as colour, offset, style, etc.",
+    "url_author": "https://github.com/jnhartshorne1994",
+    "author": "Josh Hartshorne",
+    "category": "Utilities",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://marketplace.visualstudio.com/items?itemName=bourhaouta.tailwindshades",
+    "url_image": "toolsutilities/shades.png",
+    "title": "Tailwind Shades",
+    "description": "Tailwind CSS color palette generator.",
+    "url_author": "tbc",
+    "author": "Omar Bourhaouta",
+    "category": "Generator, IDE",
     "new": true,
     "home": false
   }
