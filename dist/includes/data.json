@@ -274,7 +274,7 @@
     "url_author": "https://davidgrzyb.com",
     "author": "David Grzyb / @davidgrzyb",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -286,7 +286,7 @@
     "url_author": "https://github.com/davidgrzyb",
     "author": "David Grzyb / @davidgrzyb",
     "category": "Blog",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -298,10 +298,21 @@
     "url_author": "https://github.com/davidgrzyb",
     "author": "David Grzyb / @davidgrzyb",
     "category": "Login",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/ttntm/hugo-landing-page",
+    "url_image": "templates/hugo-landing.png",
+    "title": "Hugo Landing Page",
+    "description": "A simple landing page built with Hugo and Tailwind CSS",
+    "url_author": "https://github.com/ttntm",
+    "author": "Tom Doe / @ttntm",
+    "category": "Landing",
     "new": true,
     "home": false
   },
-
   {
     "site_section": "Template",
     "url": "https://github.com/justalever/kickoff_tailwind",
@@ -1568,7 +1579,7 @@
     "url_author": "https://github.com/jnhartshorne1994",
     "author": "Josh Hartshorne",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1580,7 +1591,19 @@
     "url_author": "tbc",
     "author": "Omar Bourhaouta",
     "category": "Generator, IDE",
-    "new": true,
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/ixartz/Eleventy-Starter-Boilerplate/",
+    "url_image": "templates/11ty-tailwind.png",
+    "title": "Eleventy Starter Boilerplate",
+    "description": "🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for quickly starting a blog. ⚡️ Built with Eleventy, ESLint, Prettier, Webpack, PostCSS, Tailwind CSS.",
+    "url_author": "https://github.com/ixartz",
+    "author": "Ixartz",
+    "category": "tbc",
+    "new": false,
     "home": false
   }
 ]
