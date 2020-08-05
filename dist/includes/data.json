@@ -1605,5 +1605,53 @@
     "category": "tbc",
     "new": false,
     "home": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://codepen.io/oidre/full/jOqNpKQ",
+    "url_image": "components/andre_badges.png",
+    "title": "Badge",
+    "description": "Tailwind CSS Badge and Badge with dot",
+    "url_author": "https://codepen.io/oidre",
+    "author": "Andre Prilly Kurniawan",
+    "category": "tbc",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://codepen.io/oidre/full/vYGBaVZ",
+    "url_image": "components/andre_alerts.png",
+    "title": "Alert",
+    "description": "A collection of different alerts",
+    "url_author": "https://codepen.io/oidre",
+    "author": "Andre Prilly Kurniawan",
+    "category": "tbc",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://codepen.io/oidre/full/ExPaaEJ",
+    "url_image": "components/andre_avatars.png",
+    "title": "Circular Avatar",
+    "description": "Circular Avatar with Top Notification Tailwind CSS",
+    "url_author": "https://codepen.io/oidre",
+    "author": "Andre Prilly Kurniawan",
+    "category": "tbc",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://codepen.io/oidre/full/BaKBOqg",
+    "url_image": "components/andre_progress.png",
+    "title": "Progress Bar + Shimmer",
+    "description": "Tailwind Progress Bar Shimmer Animation",
+    "url_author": "https://codepen.io/oidre",
+    "author": "Andre Prilly Kurniawan",
+    "category": "tbc",
+    "new": true,
+    "home": false
   }
 ]
