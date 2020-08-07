@@ -315,6 +315,18 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/estevanmaito/windmill-dashboard",
+    "url_image": "templates/windmill.png",
+    "title": "Windmill Dashboard HTML",
+    "description": "A multi theme, completely accessible, ready for production dashboard.",
+    "url_author": "https://github.com/estevanmaito",
+    "author": "Estevan Maito",
+    "category": "Admin",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://github.com/justalever/kickoff_tailwind",
     "url_image": "templates/ruby-tailwind.png",
     "title": "Rails Kickoff – Tailwind",
@@ -358,7 +370,7 @@
     "url_author": "https://github.com/ttntm/hugo-tailwind-boilerplate",
     "author": "Tom Doe / @ttntm",
     "category": "Starter",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
