@@ -121,17 +121,6 @@
 			</button>
 			<div class="w-full mt-4 text-brand font-bold text-center" id="clipboardMessage"></div>
 
-
-
-
-
-
-			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
-			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-
-
-
-
 		</div>
 
 		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
@@ -170,6 +159,8 @@
 			<a class="text-brand font-bold" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow">Tabler</a> (<a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>) and
 			<a class="text-brand font-bold" href="https://github.com/feathericons/feather" target="_blank" rel="nofollow">Feather</a> (<a class="text-brand" href="https://twitter.com/colebemis" target="_blank" rel="nofollow">Cole Bemis'</a>)
 
+			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
+			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 		</div>
 
 	</div>
