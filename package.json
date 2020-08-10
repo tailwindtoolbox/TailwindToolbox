@@ -29,6 +29,7 @@
     "startwatch": "watch 'npm run build:css' ./dist",
     "sitemap": "sitemap-generator https://www.tailwindtoolbox.com -f dist/sitemap.xml",
     "webp": "./dist/components/img-webp -l",
+    "minify:json": "uglifyjs 'dist/icons.json' -o 'dist/icons.min.json'",
     "minify:js": "uglifyjs 'dist/js/app.js' -o 'dist/js/app.min.js'",
     "getSVG": "getsvg.js"
   }

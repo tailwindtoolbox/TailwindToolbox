@@ -13,7 +13,7 @@
 	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 	<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
-	<script src="icons.json"></script>
+	<script src="icons.min.json"></script>
 </head>
 
 <body class="bg-brand-white leading-normal tracking-normal nunito">
@@ -141,8 +141,7 @@
 
 				<div class="mt-2">
 					<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
-					<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Outline'" :class="{ 'active-tab' : pack === 'Heroicons - Outline' }">Heroicons (Outline)</a>
-					<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Solid'" :class="{ 'active-tab' : pack === 'Heroicons - Solid' }">Heroicons (Solid)</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Heroicons'" :class="{ 'active-tab' : pack === 'Heroicons' }">Heroicons</a>
 					<a class="tab" href="#" @click.prevent="pack = 'Tabler'" :class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
 					<a class="tab" href="#" @click.prevent="pack = 'Feather'" :class="{ 'active-tab' : pack === 'Feather' }">Feather</a>
 				</div>
@@ -191,7 +190,7 @@
 			return {
 				search: '',
 				pack: 'all',
-				icons: icondata.icons,
+				icons: icondata,
 				classSize: 'h-8 w-8',
 				classColor: 'text-red-',
 				classColorWeight: '500',
