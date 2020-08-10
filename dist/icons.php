@@ -33,7 +33,48 @@
 	</div>
 	<div class="container mx-auto mb-8 flex flex-wrap pb-16" x-data="loadIcons()">
 
-		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky top-0 bg-brand-white z-50" style="top:8em;">
+
+
+		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
+			<div class="w-full mb-8 -mt-2 sticky top-icon bg-brand-white z-10">
+
+				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
+
+				<div class="mt-2">
+					<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Heroicons'" :class="{ 'active-tab' : pack === 'Heroicons' }">Heroicons</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Tabler'" :class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
+					<a class="tab" href="#" @click.prevent="pack = 'Feather'" :class="{ 'active-tab' : pack === 'Feather' }">Feather</a>
+				</div>
+
+			</div>
+			<div class="flex flex-wrap">
+
+				<template x-for="icon in filteredIcons" :key="icon.filename">
+					<div x-show="pack === icon.pack || pack === 'all'" class="flex flex-grow-0 p-2 hover:bg-white hover:shadow hover:rounded transition duration-150 ease-in-out transform hover:scale-125 ">
+						<div class="mx-auto h-8 w-8 overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
+					
+														$refs.code.value =  needsWeight(classColor) ? 
+															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + icon.svg : 
+															'<svg class=&quot' + classSize + ' ' + classColor +  '&quot ' + icon.svg;
+				
+														$refs.code1.innerHTML  = $refs.code.value;">
+						</div>
+					</div>
+				</template>
+
+
+			</div>
+
+			<p class="pt-8 font-bold">Icon Credits:</p>
+			<a class="text-brand font-bold" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> (<a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>)
+			<a class="text-brand font-bold" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow">Tabler</a> (<a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>) and
+			<a class="text-brand font-bold" href="https://github.com/feathericons/feather" target="_blank" rel="nofollow">Feather</a> (<a class="text-brand" href="https://twitter.com/colebemis" target="_blank" rel="nofollow">Cole Bemis'</a>)
+
+			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
+			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+		</div>
+		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky bottom-0 md:top-icon bg-brand-white z-50">
 
 			<div class="flex flex-grow-0 items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG"></div>
 
@@ -122,47 +163,6 @@
 			<div class="w-full mt-4 text-brand font-bold text-center" id="clipboardMessage"></div>
 
 		</div>
-
-		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
-			<div class="w-full pt-4 mb-8 sticky top-0 bg-brand-white z-10" style="top:7.9em;">
-
-				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
-
-				<div class="mt-2">
-					<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
-					<a class="tab" href="#" @click.prevent="pack = 'Heroicons'" :class="{ 'active-tab' : pack === 'Heroicons' }">Heroicons</a>
-					<a class="tab" href="#" @click.prevent="pack = 'Tabler'" :class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
-					<a class="tab" href="#" @click.prevent="pack = 'Feather'" :class="{ 'active-tab' : pack === 'Feather' }">Feather</a>
-				</div>
-
-			</div>
-			<div class="flex flex-wrap">
-
-				<template x-for="icon in filteredIcons" :key="icon.filename">
-					<div x-show="pack === icon.pack || pack === 'all'" class="flex flex-grow-0 p-2 hover:bg-white hover:shadow hover:rounded transition duration-150 ease-in-out transform hover:scale-125 ">
-						<div class="mx-auto h-8 w-8 overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
-					
-														$refs.code.value =  needsWeight(classColor) ? 
-															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + icon.svg : 
-															'<svg class=&quot' + classSize + ' ' + classColor +  '&quot ' + icon.svg;
-				
-														$refs.code1.innerHTML  = $refs.code.value;">
-						</div>
-					</div>
-				</template>
-
-
-			</div>
-
-			<p class="pt-8 font-bold">Icon Credits:</p>
-			<a class="text-brand font-bold" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> (<a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>)
-			<a class="text-brand font-bold" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow">Tabler</a> (<a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>) and
-			<a class="text-brand font-bold" href="https://github.com/feathericons/feather" target="_blank" rel="nofollow">Feather</a> (<a class="text-brand" href="https://twitter.com/colebemis" target="_blank" rel="nofollow">Cole Bemis'</a>)
-
-			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
-			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-		</div>
-
 	</div>
 
 
