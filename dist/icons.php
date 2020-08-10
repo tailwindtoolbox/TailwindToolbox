@@ -36,7 +36,7 @@
 
 
 		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
-			<div class="w-full mb-8 -mt-2 sticky top-icon bg-brand-white z-10">
+			<div class="w-full mb-8 mt-6 sticky top-icon bg-brand-white z-10">
 
 				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
 
@@ -74,7 +74,16 @@
 			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
 			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 		</div>
-		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky bottom-0 md:top-icon bg-brand-white z-50">
+		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky bottom-0 md:top-icon bg-brand-white z-50" x-show="currentSVG != ''">
+
+			<button type="button" class="md:hidden float-right" x-on:click="currentSVG = ''">
+
+				<svg class="h-8 w-8 inline text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<circle cx="12" cy="12" r="10" />
+					<line x1="15" y1="9" x2="9" y2="15" />
+					<line x1="9" y1="9" x2="15" y2="15" /></svg>
+
+			</button>
 
 			<div class="flex flex-grow-0 items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG"></div>
 
@@ -154,7 +163,7 @@
 
 			<textarea rows="6" readonly class="hidden md:block w-full p-4 border shadow rounded" id="codeSrc" x-ref="code"></textarea>
 
-			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc" class="mx-auto mt-6 w-full max-w-xs flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold py-3 px-5 rounded shadow">
+			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc" class="mx-auto mt-0 md:mt-6 w-full max-w-xs flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold py-3 px-5 rounded shadow">
 				<svg class="inline fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
 					<path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z" />
 					<path d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z" /></svg>
