@@ -85,7 +85,9 @@
 
 			</button>
 
-			<div class="flex flex-grow-0 items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG"></div>
+			<div class="flex flex-grow-0 items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="needsWeight(classColor) ? 
+																'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG : 
+																'<svg class=&quot' + classSize + ' ' + classColor + '&quot ' + currentSVG "></div>
 
 			<div class="w-full flex flex-wrap justify-center">
 
