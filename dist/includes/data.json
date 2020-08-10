@@ -327,6 +327,18 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/PlanFlowDev/Simplicity-Itself-Gatsby-Tailwind-Starter-Theme",
+    "url_image": "templates/simplicity-gatsby-theme.png",
+    "title": "Simplicity Itself",
+    "description": "A Simple, Free Gatsby/TailwindCSS Starter Theme For Business Websites",
+    "url_author": "https://github.com/PlanFlowDev",
+    "author": "PlanFlowDev",
+    "category": "Landing",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://github.com/justalever/kickoff_tailwind",
     "url_image": "templates/ruby-tailwind.png",
     "title": "Rails Kickoff – Tailwind",
@@ -1663,6 +1675,18 @@
     "url_author": "https://codepen.io/oidre",
     "author": "Andre Prilly Kurniawan",
     "category": "tbc",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://tailwindpalette.jurs.me/",
+    "url_image": "toolsutilities/palette-generator.png",
+    "title": "Tailwind Palette Generator",
+    "description": "Create and finetune a palette from a single color.<br />Lighten, Darken, hue twist, desaturate. Make it your own.",
+    "url_author": "https://jurs.me/",
+    "author": "Rasmus Jürs",
+    "category": "Generator",
     "new": true,
     "home": false
   }

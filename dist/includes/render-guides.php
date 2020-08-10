@@ -62,7 +62,7 @@
 				$url_image = $template['url_image'];
 				$title = $template['title'];
 				$description = $template['description'];
-				$download = $template['download'];
+				$download =	'' //$template['download'];
 				$url_Author = $template['url_author'];
 				$author = $template['author'];
 				$category = $template['category'];
