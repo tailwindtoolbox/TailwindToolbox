@@ -310,7 +310,7 @@
     "url_author": "https://github.com/ttntm",
     "author": "Tom Doe / @ttntm",
     "category": "Landing",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -322,7 +322,7 @@
     "url_author": "https://github.com/estevanmaito",
     "author": "Estevan Maito",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -334,7 +334,7 @@
     "url_author": "https://github.com/PlanFlowDev",
     "author": "PlanFlowDev",
     "category": "Landing",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1639,7 +1639,7 @@
     "url_author": "https://codepen.io/oidre",
     "author": "Andre Prilly Kurniawan",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1651,7 +1651,7 @@
     "url_author": "https://codepen.io/oidre",
     "author": "Andre Prilly Kurniawan",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1663,7 +1663,7 @@
     "url_author": "https://codepen.io/oidre",
     "author": "Andre Prilly Kurniawan",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1675,7 +1675,7 @@
     "url_author": "https://codepen.io/oidre",
     "author": "Andre Prilly Kurniawan",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1687,6 +1687,30 @@
     "url_author": "https://jurs.me/",
     "author": "Rasmus Jürs",
     "category": "Generator",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://github.com/rogden/tailwind-config-viewer",
+    "url_image": "toolsutilities/config-viewer.png",
+    "title": "Tailwind Config Viewer",
+    "description": "A local UI tool for visualizing your Tailwind CSS configuration file.",
+    "url_author": "https://github.com/rogden",
+    "author": "Ryan Ogden",
+    "category": "Generator",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/ixartz/Next-js-Blog-Boilerplate",
+    "url_image": "templates/nextjs-tailwind.png",
+    "title": "Nextjs Starter for Blog",
+    "description": "Next.js Blog Starter - made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS. Components are built on React.",
+    "url_author": "https://github.com/ixartz",
+    "author": "Rem W",
+    "category": "Starter, Blog",
     "new": true,
     "home": false
   }
