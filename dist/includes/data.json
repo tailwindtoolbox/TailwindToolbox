@@ -339,6 +339,18 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/sorxrob/v-dashboard",
+    "url_image": "templates/v-dashboard.png",
+    "title": "Vue Dashboard Template",
+    "description": "Dashboard starter template built with Vue 3 and Tailwind CSS. TypeScript ready.",
+    "url_author": "https://github.com/sorxrob",
+    "author": "Robert Soriano",
+    "category": "Admin",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://github.com/justalever/kickoff_tailwind",
     "url_image": "templates/ruby-tailwind.png",
     "title": "Rails Kickoff – Tailwind",
