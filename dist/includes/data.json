@@ -793,7 +793,19 @@
     "home": false
   },
   {
-    "site_section": "Component",
+    "site_section": "Generator",
+    "url": "https://www.tailwindtoolbox.com/icons",
+    "url_image": "toolsutilities/icons.png",
+    "title": "Icon Configurator",
+    "description": "Icon Configurator to style and copy/paste code for Tailwind CSS",
+    "url_author": "https://www.tailwindtoolbox.com",
+    "author": "Tailwind Toolbox",
+    "category": "Icons",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Generator",
     "url": "https://stitches.hyperyolo.com",
     "url_image": "components/stitches.png",
     "title": "Stitches",
@@ -832,7 +844,7 @@
     "home": false
   },
   {
-    "site_section": "Component",
+    "site_section": "Generator",
     "url": "https://github.com/huphtur/Tailwind-Theme-Switcher",
     "url_image": "components/switcher.png",
     "title": "Tailwind Theme Switcher",
@@ -840,7 +852,7 @@
     "download": "",
     "url_author": "https://github.com/huphtur",
     "author": "M. Appelman",
-    "category": "Generator",
+    "category": "color, colour",
     "new": false,
     "home": false
   },
@@ -858,7 +870,7 @@
     "home": false
   },
   {
-    "site_section": "Component",
+    "site_section": "Generator",
     "url": "https://javisperez.github.io/tailwindcolorshades",
     "url_image": "components/tailwind-color-generator.png",
     "title": "Color Shades Generator",
@@ -866,7 +878,7 @@
     "download": "",
     "url_author": "https://github.com/javisperez",
     "author": "Javis V. Pérez",
-    "category": "Generator",
+    "category": "Color, Colour",
     "new": false,
     "home": false
   },
@@ -1024,6 +1036,18 @@
     "url_author": "https://github.com/SirNavith",
     "author": "Navith / @SirNavith",
     "category": "Utilities",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/JakeNavith/tailwindcss-theme-variants",
+    "url_image": "placeholder.png",
+    "title": "Theme Variants",
+    "description": "Tailwind CSS plugin for variants for theming beyond just light and dark modes without needing custom properties",
+    "url_author": "https://github.com/JakeNavith",
+    "author": "Jake Navith",
+    "category": "Variants",
     "new": false,
     "home": false
   },
@@ -1281,18 +1305,6 @@
   },
   {
     "site_section": "Tool",
-    "url": "https://www.tailwindtoolbox.com/icons",
-    "url_image": "toolsutilities/icons.png",
-    "title": "SVG Icon Viewer",
-    "description": "Icon Viwer to style and copy/paste code for Tailwind CSS",
-    "url_author": "https://www.tailwindtoolbox.com",
-    "author": "Tailwind Toolbox",
-    "category": "Design",
-    "new": false,
-    "home": false
-  },
-  {
-    "site_section": "Tool",
     "url": "https://github.com/vinkla/autocomplete-tailwind",
     "url_image": "toolsutilities/atom-autocomplete.png",
     "title": "Atom Auto Complete",
@@ -1448,7 +1460,7 @@
     "home": false
   },
   {
-    "site_section": "Tool",
+    "site_section": "Generator",
     "url": "https://tailwindgrids.com",
     "url_image": "toolsutilities/tailwindgrids.png",
     "title": "Grid Generator",
@@ -1484,14 +1496,14 @@
     "home": false
   },
   {
-    "site_section": "Tool",
+    "site_section": "Generator",
     "url": "https://www.tailwindshades.com/",
     "url_image": "toolsutilities/tailwindshades.png",
     "title": "Tailwind Shades",
     "description": "A tool to help generate color shades for Tailwind CSS",
     "url_author": "https://github.com/anheric/tailwindshades",
     "author": "Leonidas Stratigakis / @anheric",
-    "category": "Generator",
+    "category": "Color, Colour",
     "new": false,
     "home": false
   },
@@ -1595,7 +1607,7 @@
     "home": false
   },
   {
-    "site_section": "Tool",
+    "site_section": "Generator",
     "url": "https://mertjf.github.io/tailblocks/",
     "url_image": "toolsutilities/tailblocks.png",
     "title": "Tailblocks - UI Blocks",
@@ -1619,14 +1631,14 @@
     "home": false
   },
   {
-    "site_section": "Tool",
+    "site_section": "Generator",
     "url": "https://marketplace.visualstudio.com/items?itemName=bourhaouta.tailwindshades",
     "url_image": "toolsutilities/shades.png",
     "title": "Tailwind Shades",
     "description": "Tailwind CSS color palette generator.",
     "url_author": "tbc",
     "author": "Omar Bourhaouta",
-    "category": "Generator, IDE",
+    "category": "Color, Colour",
     "new": false,
     "home": false
   },
@@ -1691,21 +1703,21 @@
     "home": false
   },
   {
-    "site_section": "Tool",
+    "site_section": "Generator",
     "url": "https://tailwindpalette.jurs.me/",
     "url_image": "toolsutilities/palette-generator.png",
     "title": "Tailwind Palette Generator",
     "description": "Create and finetune a palette from a single color.<br />Lighten, Darken, hue twist, desaturate. Make it your own.",
     "url_author": "https://jurs.me/",
     "author": "Rasmus Jürs",
-    "category": "Generator",
+    "category": "Color, Colour",
     "new": false,
     "home": false
   },
   {
-    "site_section": "Tool",
+    "site_section": "Generator",
     "url": "https://github.com/rogden/tailwind-config-viewer",
-    "url_image": "toolsutilities/config-viewer.png",
+    "url_image": "toolsutilities/config-generator.png",
     "title": "Tailwind Config Viewer",
     "description": "A local UI tool for visualizing your Tailwind CSS configuration file.",
     "url_author": "https://github.com/rogden",
@@ -1723,6 +1735,30 @@
     "url_author": "https://github.com/ixartz",
     "author": "Rem W",
     "category": "Starter, Blog",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://github.com/SimeonGriggs/tailwind-css-palette-generator",
+    "url_image": "toolsutilities/palette-generator-hsl.png",
+    "title": "Tailwind Palette Generator",
+    "description": "A Tailwind CSS pallette Generator with HSL Tweakifier",
+    "url_author": "tailwind.simeongriggs.dev",
+    "author": "Simeon Griggs",
+    "category": "Color, Colour",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/stevecochrane/tailwindcss-logical",
+    "url_image": "placeholder.png",
+    "title": "Logical",
+    "description": "Tailwind CSS plugin to add logical properties for working with non-LTR (left-to-right) languages",
+    "url_author": "https://github.com/stevecochrane/tailwindcss-logical",
+    "author": "Steve Cochrane / @stevecochrane",
+    "category": "Utilities",
     "new": true,
     "home": false
   }

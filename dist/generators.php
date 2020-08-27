@@ -5,9 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Useful Tools and Utilities for Tailwind CSS</title>
-	<meta name="description" content="Useful Tools and Utilities for Tailwind CSS to help you setup for your next project">
-	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
+	<title>Tailwind Toolbox - Useful Generators for Tailwind CSS</title>
+	<meta name="description" content="Useful generators for Tailwind CSS to help you setup your icons, colours, fonts and much more!">
+	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,tailwind example,generator,color,colour,fonts,buttons,icons">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 </head>
@@ -21,9 +21,9 @@
 		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16">
 			<div class="px-3">
 				<h1 class="pt-6">
-					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Tailwind Tools and Utilities</span></span>
+					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Tailwind Generators</span></span>
 				</h1>
-				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Some useful tools and utilities to help you setup your development environment and become more familiar with Tailwind CSS</p>
+				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Some useful generators to help you setup your Tailwind CSS configuration</p>
 			</div>
 		</div>
 	</div>
@@ -39,7 +39,7 @@
 							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 						</li>
 						<?php
-						$filters = array('IDE', 'Design', 'Help');
+						$filters = array('Color', 'Icons', 'Generator');
 						foreach ($filters as $filter)
 						{
 							echo "\t\t\t\t\t\t<li class=\"mr-1\">\n";
@@ -72,7 +72,7 @@
 
 		<div class="w-full md:w-4/5 px-0">
 			<?php
-			$show_section = "Tool";
+			$show_section = "Generator";
 			$show_home = false;
 			include 'includes/render-data.php';
 			?>
