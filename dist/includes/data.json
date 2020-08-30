@@ -303,6 +303,18 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/davidgrzyb/tailwind-login-template",
+    "url_image": "templates/login-dg.png",
+    "title": "Login Page Template",
+    "description": "A simple login page template built with TailwindCSS.",
+    "url_author": "https://github.com/davidgrzyb",
+    "author": "David Grzyb / @davidgrzyb",
+    "category": "Login",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://github.com/ttntm/hugo-landing-page",
     "url_image": "templates/hugo-landing.png",
     "title": "Hugo Landing Page",
