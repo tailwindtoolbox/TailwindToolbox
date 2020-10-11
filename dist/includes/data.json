@@ -310,7 +310,7 @@
     "url_author": "https://github.com/davidgrzyb",
     "author": "David Grzyb / @davidgrzyb",
     "category": "Login",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -358,7 +358,7 @@
     "url_author": "https://github.com/sorxrob",
     "author": "Robert Soriano",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1735,7 +1735,7 @@
     "url_author": "https://github.com/rogden",
     "author": "Ryan Ogden",
     "category": "Generator",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1747,7 +1747,7 @@
     "url_author": "https://github.com/ixartz",
     "author": "Rem W",
     "category": "Starter, Blog",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1759,7 +1759,7 @@
     "url_author": "tailwind.simeongriggs.dev",
     "author": "Simeon Griggs",
     "category": "Color, Colour",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1771,6 +1771,54 @@
     "url_author": "https://github.com/stevecochrane/tailwindcss-logical",
     "author": "Steve Cochrane / @stevecochrane",
     "category": "Utilities",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/Kamona-WD/tailwindcss-directions#tailwindcss-directions",
+    "url_image": "placeholder.png",
+    "title": "Directions [rtl,ltr]",
+    "description": "Simple plugin to add directions variants to tailwindcss",
+    "url_author": "https://github.com/Kamona-WD",
+    "author": "Ahmed Kamel",
+    "category": "Variants",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://tailwind.ink/",
+    "url_image": "toolsutilities/tailwindink.png",
+    "title": "Tailwind Ink",
+    "description": "A tool for creating new color shades based on a neural network and trained with the Tailwindcss palette.",
+    "url_author": "https://github.com/dmarman",
+    "author": "dmarman",
+    "category": "Color, Colour",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://github.com/KevinBatdorf/tailwind-custom-cdn",
+    "url_image": "placeholder.png",
+    "title": "Tailwind Custom CDN",
+    "description": "An automated tool for creating custom Tailwind CSS builds for CDN access",
+    "url_author": "https://github.com/KevinBatdorf",
+    "author": "Kevin Batdorf",
+    "category": "Color, Colour",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "hhttps://github.com/OwenMelbz/chrome-media-query-inspector",
+    "url_image": "toolsutilities/mediaq.png",
+    "title": "Media Query Inspector",
+    "description": "Easily see which breakpoint you are currently in without cluttering up your UI (Available for Chrome and Firefox)",
+    "url_author": "https://github.com/OwenMelbz",
+    "author": "Owen Melbourne",
+    "category": "Browser",
     "new": true,
     "home": false
   }
