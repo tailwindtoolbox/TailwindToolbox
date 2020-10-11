@@ -1815,7 +1815,7 @@
     "url": "hhttps://github.com/OwenMelbz/chrome-media-query-inspector",
     "url_image": "toolsutilities/mediaq.png",
     "title": "Media Query Inspector",
-    "description": "Easily see which breakpoint you are currently in without cluttering up your UI (Available for Chrome and Firefox)",
+    "description": "Easily see which breakpoint you are currently in without cluttering up your UI (Browser Extension for Chrome and Firefox)",
     "url_author": "https://github.com/OwenMelbz",
     "author": "Owen Melbourne",
     "category": "Browser",
