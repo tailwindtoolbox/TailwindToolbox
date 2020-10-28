@@ -272,7 +272,7 @@
     "title": "Admin Template",
     "description": "Admin dashboard template built with Tailwind and Alpine.js.",
     "url_author": "https://davidgrzyb.com",
-    "author": "David Grzyb / @davidgrzyb",
+    "author": "David Grzyb",
     "category": "Admin",
     "new": false,
     "home": false
@@ -284,7 +284,7 @@
     "title": "Simple Blog Template",
     "description": "A simple blog ",
     "url_author": "https://github.com/davidgrzyb",
-    "author": "David Grzyb / @davidgrzyb",
+    "author": "David Grzyb",
     "category": "Blog",
     "new": false,
     "home": false
@@ -296,7 +296,7 @@
     "title": "Tailwind Login ",
     "description": "Login and register page templates built with Tailwind. ",
     "url_author": "https://github.com/davidgrzyb",
-    "author": "David Grzyb / @davidgrzyb",
+    "author": "David Grzyb",
     "category": "Login",
     "new": false,
     "home": false
@@ -308,7 +308,7 @@
     "title": "Login Page Template",
     "description": "A simple login page template built with TailwindCSS.",
     "url_author": "https://github.com/davidgrzyb",
-    "author": "David Grzyb / @davidgrzyb",
+    "author": "David Grzyb",
     "category": "Login",
     "new": false,
     "home": false
@@ -320,7 +320,7 @@
     "title": "Hugo Landing Page",
     "description": "A simple landing page built with Hugo and Tailwind CSS",
     "url_author": "https://github.com/ttntm",
-    "author": "Tom Doe / @ttntm",
+    "author": "Tom Doe",
     "category": "Landing",
     "new": false,
     "home": false
@@ -368,7 +368,7 @@
     "title": "Rails Kickoff – Tailwind",
     "description": "A rapid Rails (6.0.0.rc1) application template (for personal use) bundled with Tailwind CSS",
     "url_author": "https://github.com/justalever",
-    "author": "Andy Leverenz / @justalever",
+    "author": "Andy Leverenz",
     "category": "Starter",
     "new": false,
     "home": false
@@ -380,7 +380,7 @@
     "title": "Svelte – Tailwind",
     "description": "A starter for building Svelte web apps with Tailwind CSS",
     "url_author": "https://github.com/marcograhl",
-    "author": "marcograhl / @marcograhl",
+    "author": "marcograhl",
     "category": "Starter",
     "new": false,
     "home": false
@@ -392,7 +392,7 @@
     "title": "Hugo Starter – Tailwind",
     "description": "A Hugo Starter Theme with Tailwind CSS",
     "url_author": "https://github.com/dirkolbrich",
-    "author": "Dirk Olbrich / @dirkolbrich",
+    "author": "Dirk Olbrich",
     "category": "Starter",
     "new": false,
     "home": false
@@ -404,7 +404,7 @@
     "title": "Hugo Starter – Tailwind",
     "description": "A very simple boilerplate for Hugo sites based on TailwindCSS",
     "url_author": "https://github.com/ttntm/hugo-tailwind-boilerplate",
-    "author": "Tom Doe / @ttntm",
+    "author": "Tom Doe",
     "category": "Starter",
     "new": false,
     "home": false
@@ -416,7 +416,7 @@
     "title": "Webpack Starter Template",
     "description": "Simple Webpack setup for using <br>Tailwind CSS",
     "url_author": "https://github.com/tailwindcss",
-    "author": "Tailwind CSS / @tailwindcss",
+    "author": "Tailwind CSS",
     "category": "Starter",
     "new": false,
     "home": false
@@ -428,7 +428,7 @@
     "title": "NUXT Starter",
     "description": "A Nuxt.js starter with TailwindCSS and nuxt-purgecss",
     "url_author": "https://github.com/nuxt-community",
-    "author": "NUXT / @nuxt-community",
+    "author": "NUXT",
     "category": "Starter",
     "new": false,
     "home": false
@@ -440,7 +440,7 @@
     "title": "NUXT Tailwind",
     "description": "A Nuxt.js starter project template using Tailwind CSS",
     "url_author": "https://github.com/sgraewe",
-    "author": "Stefan Gräwe / @sgraewe",
+    "author": "Stefan Gräwe",
     "category": "Starter",
     "new": false,
     "home": false
@@ -452,7 +452,7 @@
     "title": "Gatsby Starter Template",
     "description": "A Gatsby.js starter project template using Tailwind CSS",
     "url_author": "https://github.com/Oddstronaut",
-    "author": "Taylor Bryant / @Oddstronaut",
+    "author": "Taylor Bryan",
     "category": "Starter",
     "new": false,
     "home": false
@@ -464,7 +464,7 @@
     "title": "React and Tailwind CSS",
     "description": "A React starter project template using Tailwind CSS",
     "url_author": "https://github.com/Landish",
-    "author": "Lado Lomidze / @Landish",
+    "author": "Lado Lomidze",
     "category": "Starter",
     "new": false,
     "home": false
@@ -476,7 +476,7 @@
     "title": "Gridsome Minimal Boilerplate",
     "description": "Minimal boilerplate for starting a Tailwind project with Gridsome",
     "url_author": "https://github.com/gridsomehq",
-    "author": "Gridsome HQ / @gridsomehq",
+    "author": "Gridsome HQ",
     "category": "Starter",
     "new": false,
     "home": false
@@ -488,7 +488,7 @@
     "title": "Gridsome Blog Starter",
     "description": "A Gridsome blog starter project using Tailwind CSS",
     "url_author": "https://github.com/cossssmin",
-    "author": "Cosmin Popovici / @cossssmin",
+    "author": "Cosmin Popovici",
     "category": "Starter",
     "new": false,
     "home": false
@@ -500,7 +500,7 @@
     "title": "Ember.js Starter",
     "description": "A starter project for Ember.js with Tailwind and PurgeCSS",
     "url_author": "https://github.com/chrism",
-    "author": "Chris Masters / @chrism",
+    "author": "Chris Masters",
     "category": "Starter",
     "new": false,
     "home": false
@@ -512,7 +512,7 @@
     "title": "Next.js Starter Template",
     "description": "A Next.js starter template using Tailwind CSS",
     "url_author": "https://github.com/Oddstronaut",
-    "author": "Taylor Bryant / @Oddstronaut",
+    "author": "Taylor Bryant",
     "category": "Starter",
     "new": false,
     "home": false
@@ -524,7 +524,7 @@
     "title": "Wordpress Starter Template",
     "description": "A Wordpress starter project template using Tailwind CSS",
     "url_author": "https://github.com/thelilmercoder",
-    "author": "Rose Sherwood / @thelilmercoder",
+    "author": "Rose Sherwood",
     "category": "Starter",
     "new": false,
     "home": false
@@ -536,7 +536,7 @@
     "title": "Vuepress Starter Theme",
     "description": "A Vuepress starter project template using Tailwind CSS",
     "url_author": "https://github.com/m2de",
-    "author": "Marco Mark / @m2de",
+    "author": "Marco Mark",
     "category": "Starter",
     "new": false,
     "home": false
@@ -548,7 +548,7 @@
     "title": "Jekyll Starter Template",
     "description": "A Jekyll starter project template using Tailwind CSS",
     "url_author": "https://github.com/Oddstronaut",
-    "author": "Taylor Bryant / @Oddstronaut",
+    "author": "Taylor Bryant",
     "category": "Starter",
     "new": false,
     "home": false
@@ -560,7 +560,7 @@
     "title": "Jekyll Starter Template",
     "description": "Starter project for using Jekyll with Tailwind CSS",
     "url_author": "https://github.com/mhanberg",
-    "author": "Mitchell Hanberg / @mhanberg",
+    "author": "Mitchell Hanberg",
     "category": "Starter",
     "new": false,
     "home": false
@@ -572,7 +572,7 @@
     "title": "Jigsaw Starter Kit",
     "description": "A starter kit for using the Jigsaw static site generator with Tailwind CSS",
     "url_author": "https://github.com/cossssmin",
-    "author": "Cosmin Popovici / @cossssmin",
+    "author": "Cosmin Popovici",
     "category": "Starter",
     "new": false,
     "home": false
@@ -584,7 +584,7 @@
     "title": "Statamic Preset",
     "description": "Statamic 3.0.0+ front-end scaffolding preset for Tailwind CSS",
     "url_author": "https://github.com/statamic",
-    "author": "Statamic / @statamic",
+    "author": "Statamic",
     "category": "Starter",
     "new": false,
     "home": false
@@ -596,7 +596,7 @@
     "title": "Joomla! Starter Template",
     "description": "Tailwind CSS template for Joomla! (includes Gulp build system using joomla-gulp)",
     "url_author": "https://github.com/phproberto",
-    "author": "Roberto Segura / @phproberto",
+    "author": "Roberto Segura",
     "category": "Starter",
     "new": false,
     "home": false
@@ -608,7 +608,7 @@
     "title": "Skeleventy (Eleventy)",
     "description": "A skeleton boilerplate built with Eleventy and Tailwind CSS.",
     "url_author": "https://github.com/josephdyer",
-    "author": "Joseph Dyer / @josephdyer",
+    "author": "Joseph Dyer",
     "category": "Starter",
     "new": false,
     "home": false
@@ -620,7 +620,7 @@
     "title": "Drupal Demo theme",
     "description": "Starter kit/demo theme for using Tailwind CSS within Drupal",
     "url_author": "https://www.drupal.org/u/opdavies",
-    "author": "Oliver Davies / @opdavies",
+    "author": "Oliver Davies",
     "category": "Starter",
     "new": false,
     "home": false
@@ -632,7 +632,7 @@
     "title": "WP Tailwind",
     "description": "A Wordpress starter project template using Tailwind CSS",
     "url_author": "https://github.com/Freeshifter",
-    "author": "Freeshifter / @Freeshifter",
+    "author": "Freeshifter",
     "category": "Starter",
     "new": false,
     "home": false
@@ -644,7 +644,7 @@
     "title": "Craft Vue Tailwind",
     "description": "Craft CMS project with Vue CLI and Tailwind CSS / Purgecss",
     "url_author": "https://github.com/chasegiunta",
-    "author": "Chase Giunta / @chasegiunta",
+    "author": "Chase Giunta",
     "category": "Starter",
     "new": false,
     "home": false
@@ -656,7 +656,7 @@
     "title": "Tailsaw: Saber Blog",
     "description": "Sabre blog starter template",
     "url_author": "https://github.com/saberland",
-    "author": "Sabre / @saberland",
+    "author": "Sabre",
     "category": "Starter",
     "new": false,
     "home": false
@@ -792,14 +792,14 @@
     "home": false
   },
   {
-    "site_section": "Component",
-    "url": "https://www.github.com/tailwindcss/custom-forms",
-    "url_image": "components/custom-forms.png",
-    "title": "Custom Forms",
+    "site_section": "Plugin",
+    "url": "https://www.github.com/tailwindlabs/custom-forms",
+    "url_image": "placeholder.png",
+    "title": "Custom Forms [Official]",
     "description": "A better base for styling form elements with Tailwind CSS",
     "download": "",
-    "url_author": "https://www.github.com/tailwindcss/custom-forms",
-    "author": "Adam Wathan",
+    "url_author": "https://www.github.com/tailwindlabs/custom-forms",
+    "author": "Tailwind Labs",
     "category": "Admin",
     "new": false,
     "home": false
@@ -1783,7 +1783,7 @@
     "url_author": "https://github.com/Kamona-WD",
     "author": "Ahmed Kamel",
     "category": "Variants",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1795,7 +1795,7 @@
     "url_author": "https://github.com/dmarman",
     "author": "dmarman",
     "category": "Color, Colour",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1807,19 +1807,104 @@
     "url_author": "https://github.com/KevinBatdorf",
     "author": "Kevin Batdorf",
     "category": "Color, Colour",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
     "site_section": "Tool",
-    "url": "hhttps://github.com/OwenMelbz/chrome-media-query-inspector",
+    "url": "https://github.com/OwenMelbz/chrome-media-query-inspector",
     "url_image": "toolsutilities/mediaq.png",
     "title": "Media Query Inspector",
     "description": "Easily see which breakpoint you are currently in without cluttering up your UI (Browser Extension for Chrome and Firefox)",
     "url_author": "https://github.com/OwenMelbz",
     "author": "Owen Melbourne",
     "category": "Browser",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://github.com/timack/tailwind-typography-playground",
+    "url_image": "toolsutilities/typography.png",
+    "title": "Typography Playground",
+    "description": "Try different Google fonts with the Tailwind Typography plugin for Tailwind CSS",
+    "url_author": "https://github.com/timack",
+    "author": "Tim Ackroyd",
+    "category": "Text",
     "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/philhawksworth/eleventail",
+    "url_image": "templates/eleventail.png",
+    "title": "Eleventail",
+    "description": "A project scaffold for quickly starting a site build with: Eleventy, Tailwind CSS, PurgeCSS, UglifyJS and Netlify CLI",
+    "url_author": "https://github.com/philhawksworth",
+    "author": "Phil Hawksworth",
+    "category": "Starter, Blog",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://tailwind-match.netlify.app/",
+    "url_image": "toolsutilities/matcher.png",
+    "title": "Tailwind CSS Matcher",
+    "description": "Find the nearest value to your design 🎨",
+    "url_author": "https://twitter.com/SolaimanKmail",
+    "author": "Solaiman Kmail",
+    "category": "Design",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://codepen.io/muratbenli/pen/yLOYmgj",
+    "url_image": "components/loading-shimmer.png",
+    "title": "Skeleton Loading",
+    "description": "Skeleton Loading (Shimmer Loading) Cards with Tailwind CSS - animate-pulse",
+    "download": "",
+    "url_author": "https://codepen.io/muratbenli",
+    "author": "Murat Benli",
+    "category": "Admin",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/MathGeniusJodie/tailwindcss-leading-trim",
+    "url_image": "placeholder.png",
+    "title": "Leading Trim",
+    "description": "Leading trim utility classes and polyfill for Tailwind CSS",
+    "url_author": "https://github.com/MathGeniusJodie",
+    "author": "MathGeniusJodie",
+    "category": "Utilities",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/stevecochrane/tailwindcss-logical",
+    "url_image": "placeholder.png",
+    "title": "Logical Properties",
+    "description": "Utility classes for CSS Logical Properties and Values (for easier development when working with non-LTR (left-to-right) languages)",
+    "url_author": "https://github.com/stevecochrane/",
+    "author": "Steve Cochrane",
+    "category": "Utilities",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/tailwindlabs/tailwindcss-typography",
+    "url_image": "placeholder.png",
+    "title": "Typography [Official]",
+    "description": "A plugin that provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don't control (like HTML rendered from Markdown, or pulled from a CMS).",
+    "url_author": "https://github.com/tailwindlabs/",
+    "author": "Tailwind Labs",
+    "category": "Utilities",
+    "new": false,
     "home": false
   }
 ]
