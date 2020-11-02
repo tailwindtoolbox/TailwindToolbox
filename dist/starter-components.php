@@ -41,7 +41,8 @@
 						</li>
 						<?php
 						$filters = array('HTML', 'Vue', 'Angular');
-						foreach ($filters as $filter) {
+						foreach ($filters as $filter)
+						{
 							echo "\t\t\t\t\t\t<li class=\"mr-1\">";
 							echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
 							echo "\t\t\t\t\t\t</li>";
@@ -74,9 +75,16 @@
 			$show_home = false;
 			include 'includes/render-data.php';
 			?>
+
+
 		</div>
 
+
+
+
 	</div>
+
+	<p class="my-8 p-6 w-full container mx-auto bg-teal-lightest text-center text-gray-dark">Find more components at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.alpinetoolbox.com/examples" target="_blank" rel="noopener">www.AlpineToolbox.com/examples</a></p>
 
 	<?php include 'includes/footer.php'; ?>
 
