@@ -43,6 +43,20 @@
   },
   {
     "site_section": "Template",
+    "url": "https://www.tailwindtoolbox.com/templates/rainblur-landing-page",
+    "url_image": "templates/rainblur-landing-page.png",
+    "title": "Rainblur Landing Page",
+    "description": "Dark mode with gradients landing / coming soon page layout for your app/play store app",
+    "download": "https://github.com/tailwindtoolbox/Rainblur-Landing-Page/archive/main.zip",
+    "source": "https://github.com/tailwindtoolbox/Rainblur-Landing-Page/",
+    "url_author": "https://github.com/tailwindtoolbox/Rainblur-Landing-Page/",
+    "author": "Tailwind Toolbox",
+    "category": "Homepage",
+    "new": true,
+    "home": true
+  },
+  {
+    "site_section": "Template",
     "url": "https://www.tailwindtoolbox.com/templates/profile-card",
     "url_image": "templates/profile-card.png",
     "title": "Profile Card",
@@ -109,7 +123,7 @@
     "author": "Tailwind Toolbox",
     "category": "Admin",
     "new": false,
-    "home": false
+    "home": true
   },
   {
     "site_section": "Template",
@@ -179,7 +193,7 @@
     "author": "Tailwind Toolbox",
     "category": "Blog",
     "new": false,
-    "home": false
+    "home": true
   },
   {
     "site_section": "Template",
@@ -193,7 +207,7 @@
     "author": "Tailwind Toolbox",
     "category": "Blog",
     "new": false,
-    "home": false
+    "home": true
   },
   {
     "site_section": "Template",
