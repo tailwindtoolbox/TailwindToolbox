@@ -19,6 +19,7 @@
     "@fullhuman/postcss-purgecss": "^1.3.0",
     "@tailwindcss/custom-forms": "^0.2.1",
     "cssnano": "^4.1.10",
+    "plop": "^2.7.4",
     "tailwindcss": "^1.9.6"
   },
   "scripts": {
@@ -31,6 +32,7 @@
     "webp": "./dist/components/img-webp -l",
     "minify:json": "uglifyjs 'dist/icons.json' -o 'dist/icons.min.json'",
     "minify:js": "uglifyjs 'dist/js/app.js' -o 'dist/js/app.min.js'",
-    "getSVG": "getsvg.js"
+    "getSVG": "getsvg.js",
+    "plop": "plop"
   }
 }
