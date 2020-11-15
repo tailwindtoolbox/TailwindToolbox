@@ -1,6 +1,8 @@
 module.exports = function (plop) {
   // Guide generator
-  plop.setPartial("guide-action-data", "<h1>{{titleCase guide-action}}</h1>");
+  plop.setPartial("guide-name-data", "{{dashCase guide-name}}");
+  plop.setPartial("guide-title-data", "{{titleCase guide-title}}");
+  plop.setPartial("guide-action-data", "{{guide-action}}");
   plop.setGenerator("guide", {
     description: "TailwindToolbox guide generator",
     prompts: [
@@ -8,6 +10,11 @@ module.exports = function (plop) {
         type: "input",
         name: "guide-name",
         message: "What guide shall I make?",
+      },
+      {
+        type: "input",
+        name: "guide-title",
+        message: "What title to use in JSON?",
       },
       {
         type: "input",
@@ -26,6 +33,12 @@ module.exports = function (plop) {
         type: "add",
         path: "dist/guides/{{dashCase guide-name}}.php",
         templateFile: "plop_templates/guide-template.php.hbs",
+      },
+      {
+        type: "modify",
+        path: "dist/includes/data copy.json",
+        pattern: /]/g,
+        templateFile: "plop_templates/guide-json.hbs",
       },
     ],
   });
