@@ -1,35 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Starter Template - Minimal Blog: Tailwind Toolbox</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tailwind Starter Template - Minimal Blog: Tailwind Toolbox</title>
 	<meta name="description" content="Free open source Tailwind CSS Minimalistic monochrome blog template">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,blog template, blog layout, minimal, monochrome, minimalistic, theme">
-	<?php include '../includes/head-templates.php';?>
+	<?php include '../includes/head-templates.php'; ?>
 
-	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
+	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<!--Replace with your tailwind.css once created-->
 
 </head>
+
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
 
-<nav id="header" class="fixed w-full z-10 top-0">
-	
-	<div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+	<nav id="header" class="fixed w-full z-10 top-0">
+
+		<div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
 
 		<div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
-				
+
 			<div class="pl-4">
-				<a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl"  href="#"> 
+				<a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="#">
 					Minimal Blog
 				</a>
-            </div>
+			</div>
 
 			<div class="block lg:hidden pr-4">
-				<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-teal-500 appearance-none focus:outline-none">
-					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+				<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-green-500 appearance-none focus:outline-none">
+					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<title>Menu</title>
+						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+					</svg>
 				</button>
 			</div>
 
@@ -51,27 +56,27 @@
 
 	<!--Container-->
 	<div class="container w-full md:max-w-3xl mx-auto pt-20">
-		
+
 		<div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
-			
+
 			<!--Title-->
 			<div class="font-sans">
-				<span class="text-base md:text-sm text-teal-500 font-bold">&lt;<span> <a href="#" class="text-base md:text-sm text-teal-500 font-bold no-underline hover:underline">BACK TO BLOG</a></p>
-				<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Welcome to Minimal Blog</h1>
-				<p class="text-sm md:text-base font-normal text-gray-600">Published 19 February 2019</p>
+				<span class="text-base md:text-sm text-green-500 font-bold">&lt;<span> <a href="#" class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline">BACK TO BLOG</a></p>
+						<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Welcome to Minimal Blog</h1>
+						<p class="text-sm md:text-base font-normal text-gray-600">Published 19 February 2019</p>
 			</div>
-		
-			
+
+
 			<!--Post Content-->
-			
+
 
 			<!--Lead Para-->
 			<p class="py-6">
-				👋 Welcome fellow <a class="text-teal-500 no-underline hover:underline" href="https://www.tailwindcss.com">Tailwind CSS</a> and miminal monochrome blog fan.  This starter template provides a starting point to create your own minimal monochrome blog using Tailwind CSS and vanilla Javascript.
+				👋 Welcome fellow <a class="text-green-500 no-underline hover:underline" href="https://www.tailwindcss.com">Tailwind CSS</a> and miminal monochrome blog fan. This starter template provides a starting point to create your own minimal monochrome blog using Tailwind CSS and vanilla Javascript.
 			</p>
 
-			<p class="py-6">The basic blog page layout is available and all using the default Tailwind CSS classes (although there are a few hardcoded style tags). If you are going to use this in your project, you will want to convert the classes into components.</p>				
-		
+			<p class="py-6">The basic blog page layout is available and all using the default Tailwind CSS classes (although there are a few hardcoded style tags). If you are going to use this in your project, you will want to convert the classes into components.</p>
+
 
 			<h1 class="py-2 font-sans">Heading 1</h1>
 			<h2 class="py-2 font-sans">Heading 2</h2>
@@ -88,7 +93,7 @@
 				<li class="py-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vitae pretium elit. Cras leo mauris, tristique in risus ac, tristique rutrum velit. Mauris accumsan tempor felis vitae gravida. Cras egestas convallis malesuada. Etiam ac ante id tortor vulputate pretium. Maecenas vel sapien suscipit, elementum odio et, consequat tellus.</li>
 			</ol>
 
-			<blockquote class="border-l-4 border-teal-500 italic my-8 pl-8 md:pl-12">Example of blockquote - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</blockquote>
+			<blockquote class="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12">Example of blockquote - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</blockquote>
 
 			<p class="py-6">Example code block:</p>
 			<pre class="bg-gray-900 rounded text-white font-mono text-base p-2 md:p-4">
@@ -101,74 +106,74 @@
 				</code>
 			</pre>
 
-											
+
 			<!--/ Post Content-->
-					
+
 		</div>
-		
+
 		<!--Tags -->
 		<div class="text-base md:text-sm text-gray-500 px-4 py-6">
-			Tags: <a href="#" class="text-base md:text-sm text-teal-500 no-underline hover:underline">Link</a> . <a href="#" class="text-base md:text-sm text-teal-500 no-underline hover:underline">Link</a>
+			Tags: <a href="#" class="text-base md:text-sm text-green-500 no-underline hover:underline">Link</a> . <a href="#" class="text-base md:text-sm text-green-500 no-underline hover:underline">Link</a>
 		</div>
-		
+
 		<!--Divider-->
 		<hr class="border-b-2 border-gray-400 mb-8 mx-4">
-		
-		
-		<!--Subscribe-->	
+
+
+		<!--Subscribe-->
 		<div class="container px-4">
-			<div class="font-sans bg-white rounded-lg shadow-md p-4 text-center">
+			<div class="font-sans bg-gradient-to-b from-green-100 to-gray-100 rounded-lg shadow-xl p-4 text-center">
 				<h2 class="font-bold break-normal text-xl md:text-3xl">Subscribe to my Newsletter</h2>
-				<h3 class="font-bold break-normal font-normal text-gray-600 text-sm md:text-base">Get the latest posts delivered right to your inbox</h3>
+				<h3 class="font-bold break-normal text-gray-600 text-sm md:text-base">Get the latest posts delivered right to your inbox</h3>
 				<div class="w-full text-center pt-4">
 					<form action="#">
 						<div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
 							<input type="email" placeholder="youremail@example.com" class="flex-1 mt-4 appearance-none border border-gray-400 rounded shadow-md p-3 text-gray-600 mr-2 focus:outline-none">
-							<button type="submit" class="flex-1 mt-4 block md:inline-block appearance-none bg-teal-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-teal-400">Subscribe</button>
+							<button type="submit" class="flex-1 mt-4 block md:inline-block appearance-none bg-green-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-green-400">Subscribe</button>
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 		<!-- /Subscribe-->
-	
-		
+
+
 
 		<!--Author-->
 		<div class="flex w-full items-center font-sans px-4 py-12">
 			<img class="w-10 h-10 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author">
 			<div class="flex-1 px-2">
 				<p class="text-base font-bold text-base md:text-xl leading-none mb-2">Jo Bloggerson</p>
-				<p class="text-gray-600 text-xs md:text-base">Minimal Blog Tailwind CSS template by <a class="text-teal-500 no-underline hover:underline" href="https://www.tailwindtoolbox.com">TailwindToolbox.com</a></p>
+				<p class="text-gray-600 text-xs md:text-base">Minimal Blog Tailwind CSS template by <a class="text-green-500 no-underline hover:underline" href="https://www.tailwindtoolbox.com">TailwindToolbox.com</a></p>
 			</div>
 			<div class="justify-end">
-				<button class="bg-transparent border border-gray-500 hover:border-teal-500 text-xs text-gray-500 hover:text-teal-500 font-bold py-2 px-4 rounded-full">Read More</button>
+				<button class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full">Read More</button>
 			</div>
 		</div>
 		<!--/Author-->
-		
+
 		<!--Divider-->
 		<hr class="border-b-2 border-gray-400 mb-8 mx-4">
-		
+
 		<!--Next & Prev Links-->
 		<div class="font-sans flex justify-between content-center px-4 pb-12">
 			<div class="text-left">
 				<span class="text-xs md:text-sm font-normal text-gray-600">&lt; Previous Post</span><br>
-				<p><a href="#" class="break-normal text-base md:text-sm text-teal-500 font-bold no-underline hover:underline">Blog title</a></p>
+				<p><a href="#" class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Blog title</a></p>
 			</div>
 			<div class="text-right">
 				<span class="text-xs md:text-sm font-normal text-gray-600">Next Post &gt;</span><br>
-				<p><a href="#" class="break-normal text-base md:text-sm text-teal-500 font-bold no-underline hover:underline">Blog title</a></p>
+				<p><a href="#" class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Blog title</a></p>
 			</div>
 		</div>
-		
-		
+
+
 		<!--/Next & Prev Links-->
 
-	</div> 
+	</div>
 	<!--/container-->
-	
-	<footer class="bg-white border-t border-gray-400 shadow">	
+
+	<footer class="bg-white border-t border-gray-400 shadow">
 		<div class="container max-w-4xl mx-auto flex py-8">
 
 			<div class="w-full mx-auto flex flex-wrap">
@@ -176,80 +181,78 @@
 					<div class="px-8">
 						<h3 class="font-bold text-gray-900">About</h3>
 						<p class="py-4 text-gray-600 text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
 						</p>
 					</div>
 				</div>
-				
+
 				<div class="flex w-full md:w-1/2">
 					<div class="px-8">
-					<h3 class="font-bold text-gray-900">Social</h3>
+						<h3 class="font-bold text-gray-900">Social</h3>
 						<ul class="list-reset items-center text-sm pt-3">
-						  <li>
-							<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
-						  </li>
-						  <li>
-							<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
-						  </li>
 							<li>
-							<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
-						  </li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-        
 
-		
+
+
 		</div>
 	</footer>
 
-<script>
-	/* Progress bar */
-	//Source: https://alligator.io/js/progress-bar-javascript-css-variables/
-	var h = document.documentElement,
-		  b = document.body,
-		  st = 'scrollTop',
-		  sh = 'scrollHeight',
-		  progress = document.querySelector('#progress'),
-		  scroll;
-	var scrollpos = window.scrollY;
-	var header = document.getElementById("header");
-	var navcontent = document.getElementById("nav-content");
+	<script>
+		/* Progress bar */
+		//Source: https://alligator.io/js/progress-bar-javascript-css-variables/
+		var h = document.documentElement,
+			b = document.body,
+			st = 'scrollTop',
+			sh = 'scrollHeight',
+			progress = document.querySelector('#progress'),
+			scroll;
+		var scrollpos = window.scrollY;
+		var header = document.getElementById("header");
+		var navcontent = document.getElementById("nav-content");
 
-	document.addEventListener('scroll', function() {
+		document.addEventListener('scroll', function() {
 
-	/*Refresh scroll % width*/
-	scroll = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
-	progress.style.setProperty('--scroll', scroll + '%');
+			/*Refresh scroll % width*/
+			scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+			progress.style.setProperty('--scroll', scroll + '%');
 
-	/*Apply classes for slide in bar*/
-	scrollpos = window.scrollY;
+			/*Apply classes for slide in bar*/
+			scrollpos = window.scrollY;
 
-    if(scrollpos > 10){
-      header.classList.add("bg-white");
-	  header.classList.add("shadow");
-	  navcontent.classList.remove("bg-gray-100");
-	  navcontent.classList.add("bg-white");
-    }
-    else {
-	  header.classList.remove("bg-white");
-	  header.classList.remove("shadow");
-	  navcontent.classList.remove("bg-white");
-	  navcontent.classList.add("bg-gray-100");
-	  
-    }
+			if (scrollpos > 10) {
+				header.classList.add("bg-white");
+				header.classList.add("shadow");
+				navcontent.classList.remove("bg-gray-100");
+				navcontent.classList.add("bg-white");
+			} else {
+				header.classList.remove("bg-white");
+				header.classList.remove("shadow");
+				navcontent.classList.remove("bg-white");
+				navcontent.classList.add("bg-gray-100");
 
-	});
+			}
+
+		});
 
 
-	//Javascript to toggle the menu
-	document.getElementById('nav-toggle').onclick = function(){
-		document.getElementById("nav-content").classList.toggle("hidden");
-	}
-	
-	
-</script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function() {
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
 
 </body>
+
 </html>

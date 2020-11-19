@@ -8,20 +8,22 @@
     <title>Tailwind Admin Starter Template : Tailwind Toolbox</title>
     <meta name="description" content="Tailwind CSS Starter template - Admin theme, dashboard, or web application UI!">
     <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,fixed header, admin starter template, admin template, admin console, example">
-	<?php include '../includes/head-templates.php';?>
+    <?php include '../includes/head-templates.php'; ?>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> <!--Totally optional :) -->
+    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!--Totally optional :) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js" integrity="sha256-XF29CBwU1MWLaGEnsELogU6Y6rcc5nCkhhx89nFMIDQ=" crossorigin="anonymous"></script>
 
 </head>
 
 
-<body class="bg-gray-900 font-sans leading-normal tracking-normal mt-12">
+<body class="bg-gray-800 font-sans leading-normal tracking-normal mt-12">
 
     <!--Nav-->
-    <nav class="bg-gray-900 pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto fixed w-full z-20 top-0">
+    <nav class="bg-gray-800 pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto fixed w-full z-20 top-0">
 
         <div class="flex flex-wrap items-center">
             <div class="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
@@ -32,27 +34,28 @@
 
             <div class="flex flex-1 md:w-1/3 justify-center md:justify-start text-white px-2">
                 <span class="relative w-full">
-                    <input type="search" placeholder="Search" class="w-full bg-gray-800 text-sm text-white transition border border-transparent focus:outline-none focus:border-gray-700 rounded py-1 px-2 pl-10 appearance-none leading-normal">
-                    <div class="absolute search-icon" style="top: .5rem; left: .8rem;">
+                    <input type="search" placeholder="Search" class="w-full bg-gray-900 text-white transition border border-transparent focus:outline-none focus:border-gray-400 rounded py-3 px-2 pl-10 appearance-none leading-normal">
+                    <div class="absolute search-icon" style="top: 1rem; left: .8rem;">
                         <svg class="fill-current pointer-events-none text-white w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
                         </svg>
                     </div>
                 </span>
-			</div>
-			
-			<div class="flex w-full pt-2 content-center justify-between md:w-1/3 md:justify-end">
-				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
-				    <li class="flex-1 md:flex-none md:mr-3">
-					    <a class="inline-block py-2 px-4 text-white no-underline" href="#">Active</a>
-				    </li>
-				    <li class="flex-1 md:flex-none md:mr-3">
-					    <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
-				    </li>
-				    <li class="flex-1 md:flex-none md:mr-3">
-						<div class="relative inline-block">
-							<button onclick="toggleDD('myDropdown')" class="drop-button text-white focus:outline-none"> <span class="pr-2"><i class="em em-robot_face"></i></span> Hi, User <svg class="h-3 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></button>
-                            <div id="myDropdown" class="dropdownlist absolute bg-gray-900 text-white right-0 mt-3 p-3 overflow-auto z-30 invisible">
+            </div>
+
+            <div class="flex w-full pt-2 content-center justify-between md:w-1/3 md:justify-end">
+                <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+                    <li class="flex-1 md:flex-none md:mr-3">
+                        <a class="inline-block py-2 px-4 text-white no-underline" href="#">Active</a>
+                    </li>
+                    <li class="flex-1 md:flex-none md:mr-3">
+                        <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
+                    </li>
+                    <li class="flex-1 md:flex-none md:mr-3">
+                        <div class="relative inline-block">
+                            <button onclick="toggleDD('myDropdown')" class="drop-button text-white focus:outline-none"> <span class="pr-2"><i class="em em-robot_face"></i></span> Hi, User <svg class="h-3 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg></button>
+                            <div id="myDropdown" class="dropdownlist absolute bg-gray-800 text-white right-0 mt-3 p-3 overflow-auto z-30 invisible">
                                 <input type="text" class="drop-search p-2 text-gray-600" placeholder="Search.." id="myInput" onkeyup="filterDD('myDropdown','myInput')">
                                 <a href="#" class="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"><i class="fa fa-user fa-fw"></i> Profile</a>
                                 <a href="#" class="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"><i class="fa fa-cog fa-fw"></i> Settings</a>
@@ -70,7 +73,7 @@
 
     <div class="flex flex-col md:flex-row">
 
-        <div class="bg-gray-900 shadow-lg h-16 fixed bottom-0 mt-12 md:relative md:h-screen z-10 w-full md:w-48">
+        <div class="bg-gray-800 shadow-xl h-16 fixed bottom-0 mt-12 md:relative md:h-screen z-10 w-full md:w-48">
 
             <div class="md:mt-12 md:w-48 md:fixed md:left-0 md:top-0 content-center md:content-start text-left justify-between">
                 <ul class="list-reset flex flex-row md:flex-col py-0 md:py-3 px-1 md:px-2 text-center md:text-left">
@@ -102,14 +105,16 @@
 
         <div class="main-content flex-1 bg-gray-100 mt-12 md:mt-2 pb-24 md:pb-5">
 
-            <div class="bg-blue-800 p-2 shadow text-xl text-white">
-                <h3 class="font-bold pl-2">Analytics</h3>
+            <div class="bg-gray-800 pt-3">
+                <div class="rounded-tl-3xl bg-gradient-to-r from-blue-900 to-gray-800 p-4 shadow text-2xl text-white">
+                    <h3 class="font-bold pl-2">Analytics</h3>
+                </div>
             </div>
 
             <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Metric Card-->
-                    <div class="bg-green-100 border-b-4 border-green-600 rounded-lg shadow-lg p-5">
+                    <div class="bg-gradient-to-b from-green-200 to-green-100 border-b-4 border-green-600 rounded-lg shadow-xl p-5">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
                                 <div class="rounded-full p-5 bg-green-600"><i class="fa fa-wallet fa-2x fa-inverse"></i></div>
@@ -122,24 +127,24 @@
                     </div>
                     <!--/Metric Card-->
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Metric Card-->
-                    <div class="bg-orange-100 border-b-4 border-orange-500 rounded-lg shadow-lg p-5">
+                    <div class="bg-gradient-to-b from-pink-200 to-pink-100 border-b-4 border-pink-500 rounded-lg shadow-xl p-5">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
-                                <div class="rounded-full p-5 bg-orange-600"><i class="fas fa-users fa-2x fa-inverse"></i></div>
+                                <div class="rounded-full p-5 bg-pink-600"><i class="fas fa-users fa-2x fa-inverse"></i></div>
                             </div>
                             <div class="flex-1 text-right md:text-center">
                                 <h5 class="font-bold uppercase text-gray-600">Total Users</h5>
-                                <h3 class="font-bold text-3xl">249 <span class="text-orange-500"><i class="fas fa-exchange-alt"></i></span></h3>
+                                <h3 class="font-bold text-3xl">249 <span class="text-pink-500"><i class="fas fa-exchange-alt"></i></span></h3>
                             </div>
                         </div>
                     </div>
                     <!--/Metric Card-->
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Metric Card-->
-                    <div class="bg-yellow-100 border-b-4 border-yellow-600 rounded-lg shadow-lg p-5">
+                    <div class="bg-gradient-to-b from-yellow-200 to-yellow-100 border-b-4 border-yellow-600 rounded-lg shadow-xl p-5">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
                                 <div class="rounded-full p-5 bg-yellow-600"><i class="fas fa-user-plus fa-2x fa-inverse"></i></div>
@@ -152,9 +157,9 @@
                     </div>
                     <!--/Metric Card-->
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Metric Card-->
-                    <div class="bg-blue-100 border-b-4 border-blue-500 rounded-lg shadow-lg p-5">
+                    <div class="bg-gradient-to-b from-blue-200 to-blue-100 border-b-4 border-blue-500 rounded-lg shadow-xl p-5">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
                                 <div class="rounded-full p-5 bg-blue-600"><i class="fas fa-server fa-2x fa-inverse"></i></div>
@@ -167,9 +172,9 @@
                     </div>
                     <!--/Metric Card-->
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Metric Card-->
-                    <div class="bg-indigo-100 border-b-4 border-indigo-500 rounded-lg shadow-lg p-5">
+                    <div class="bg-gradient-to-b from-indigo-200 to-indigo-100 border-b-4 border-indigo-500 rounded-lg shadow-xl p-5">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
                                 <div class="rounded-full p-5 bg-indigo-600"><i class="fas fa-tasks fa-2x fa-inverse"></i></div>
@@ -182,9 +187,9 @@
                     </div>
                     <!--/Metric Card-->
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Metric Card-->
-                    <div class="bg-red-100 border-b-4 border-red-500 rounded-lg shadow-lg p-5">
+                    <div class="bg-gradient-to-b from-red-200 to-red-100 border-b-4 border-red-500 rounded-lg shadow-xl p-5">
                         <div class="flex flex-row items-center">
                             <div class="flex-shrink pr-4">
                                 <div class="rounded-full p-5 bg-red-600"><i class="fas fa-inbox fa-2x fa-inverse"></i></div>
@@ -202,10 +207,10 @@
 
             <div class="flex flex-row flex-wrap flex-grow mt-2">
 
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Graph Card-->
-                    <div class="bg-white border-transparent rounded-lg shadow-lg">
-                        <div class="bg-gray-400 uppercase text-gray-800 border-b-2 border-gray-500 rounded-tl-lg rounded-tr-lg p-2">
+                    <div class="bg-white border-transparent rounded-lg shadow-xl">
+                        <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
                             <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
@@ -244,10 +249,10 @@
                     <!--/Graph Card-->
                 </div>
 
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Graph Card-->
-                    <div class="bg-white border-transparent rounded-lg shadow-lg">
-                        <div class="bg-gray-400 border-b-2 border-gray-500 rounded-tl-lg rounded-tr-lg p-2">
+                    <div class="bg-white border-transparent rounded-lg shadow-xl">
+                        <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
                             <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
@@ -273,10 +278,10 @@
                     <!--/Graph Card-->
                 </div>
 
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Graph Card-->
-                    <div class="bg-white border-transparent rounded-lg shadow-lg">
-                        <div class="bg-gray-400 border-b-2 border-gray-500 rounded-tl-lg rounded-tr-lg p-2">
+                    <div class="bg-white border-transparent rounded-lg shadow-xl">
+                        <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
                             <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
@@ -311,10 +316,10 @@
                     <!--/Graph Card-->
                 </div>
 
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Graph Card-->
-                    <div class="bg-white border-transparent rounded-lg shadow-lg">
-                        <div class="bg-gray-400 border-b-2 border-gray-500 rounded-tl-lg rounded-tr-lg p-2">
+                    <div class="bg-white border-transparent rounded-lg shadow-xl">
+                        <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
                             <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5"><canvas id="chartjs-4" class="chartjs" width="undefined" height="undefined"></canvas>
@@ -336,11 +341,11 @@
                     <!--/Graph Card-->
                 </div>
 
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Table Card-->
-                    <div class="bg-white border-transparent rounded-lg shadow-lg">
-                        <div class="bg-gray-400 border-b-2 border-gray-500 rounded-tl-lg rounded-tr-lg p-2">
-                            <h5 class="font-bold uppercase text-gray-600">Table</h5>
+                    <div class="bg-white border-transparent rounded-lg shadow-xl">
+                        <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
+                            <h5 class="font-bold uppercase text-gray-600">Graph</h5>
                         </div>
                         <div class="p-5">
                             <table class="w-full p-5 text-gray-700">
@@ -367,7 +372,7 @@
                                         <td>Darth Vader</td>
                                         <td>Dark</td>
                                         <td>Sith</td>
-                                    </tr>                                   
+                                    </tr>
                                 </tbody>
                             </table>
 
@@ -378,17 +383,17 @@
                     <!--/table Card-->
                 </div>
 
-                <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                <div class="w-full md:w-1/2 xl:w-1/3 p-6">
                     <!--Advert Card-->
-                    <div class="bg-white border-transparent rounded-lg shadow-lg">
-                        <div class="bg-grey-light border-b-2 border-grey rounded-tl-lg rounded-tr-lg p-2">
-                            <h5 class="uppercase text-grey-dark">Advert</h5>
+                    <div class="bg-white border-transparent rounded-lg shadow-xl">
+                        <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
+                            <h5 class="font-bold uppercase text-gray-600">Advert</h5>
                         </div>
                         <div class="p-5 text-center">
-                            
-							
-							<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
-							
+
+
+                            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+
 
                         </div>
                     </div>
