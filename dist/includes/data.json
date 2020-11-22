@@ -1933,5 +1933,17 @@
     "category": "Configuration",
     "new": false,
     "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://tailwindcolorgenerator.com/",
+    "url_image": "toolsutilities/tailwindcolorgenerator.png",
+    "title": "Tailwind Color Generator",
+    "description": "Generate color shades for your Tailwind CSS config file.",
+    "url_author": "https://twitter.com/JDilleen",
+    "author": "James Dilleen",
+    "category": "Color, Colour",
+    "new": true,
+    "home": false
   }
 ]
