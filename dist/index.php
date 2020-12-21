@@ -64,10 +64,11 @@
 							</svg> Components</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/plugins" class="flex-1 md:flex-none navlink text-base xl:text-xl">
+						<a href="https://www.tailwindtoolbox.com/generators" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-								<path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM7.88 7.88l-3.54 7.78 7.78-3.54 3.54-7.78-7.78 3.54zM10 11a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
-							</svg> Plugins</a>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+							</svg>
+							Generators</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0 text-center">
 						<a href="https://www.tailwindtoolbox.com/tools" class="flex-1 md:flex-none navlink text-base xl:text-xl">
@@ -149,19 +150,19 @@
 
 		<div class="w-full pb-6 mt-6 md:mt-12 md:w-1/5">
 			<div class="sticky pin-t" style="top:8em;">
-				<p class="text-brand text-center font-bold mb-2">Ads/Supporters</p>
+				<p class="text-brand text-center font-bold mb-2">Ads/Affiliates</p>
 				<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 
 				<div class="supporter bg-white border rounded-lg mx-auto mt-4 flex flex-wrap">
 					<div class="w-1/2 md:w-full">
-						<a href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">
+						<a href="https://a.paddle.com/v2/click/39438/124350?link=3113" target="_blank" rel="noopener">
 							<img src="polypane.png" alt="Polypane" border="0" width="180" height="100">
 						</a>
 					</div>
 					<div class="w-1/2 md:w-full md:text-center text-sm py-2 px-2">
-						<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">Polypane is the ultimate browser for Tailwind developers</a>
+						<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://a.paddle.com/v2/click/39438/124350?link=3113" target="_blank" rel="noopener">Polypane is the ultimate browser for Tailwind developers</a>
 					</div>
-					<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">SITE SUPPORTER</div>
+					<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">AFFILIATE SCHEME</div>
 				</div>
 
 			</div>

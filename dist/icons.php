@@ -74,7 +74,7 @@
 			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
 			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 		</div>
-		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky bottom-0 md:top-icon bg-brand-white z-50" x-show.transition="currentSVG != ''">
+		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky bottom-0 bg-brand-white z-50" x-show.transition="currentSVG != ''">
 
 			<button type="button" class="md:hidden float-right" x-on:click="currentSVG = ''">
 

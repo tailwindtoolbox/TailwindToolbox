@@ -41,7 +41,8 @@
 						</li>
 						<?php
 						$filters = array('Utilities', 'Variants');
-						foreach ($filters as $filter) {
+						foreach ($filters as $filter)
+						{
 							echo "\t\t\t\t\t\t<li class=\"mr-1\">\n";
 							echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\">" . $filter . "</button>\n";
 							echo "\t\t\t\t\t\t</li>\n";
@@ -50,7 +51,8 @@
 
 						<?php
 						$filters = array('benface', 'hacknug');
-						foreach ($filters as $filter) {
+						foreach ($filters as $filter)
+						{
 							echo "\t\t\t\t\t\t<li class=\"mr-1\">\n";
 							echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\"><svg class=\"inline h-3 pr-2 fill-current text-teal\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z\"></path></svg>" . $filter . "</button>\n";
 							echo "\t\t\t\t\t\t</li>\n";
@@ -60,18 +62,18 @@
 				</div>
 				<!--/filters-->
 				<div class="order-1 md:order-2">
-					<p class="text-brand text-center font-bold mb-2 md:pt-3">Ads/Supporters</p>
+					<p class="text-brand text-center font-bold mb-2 md:pt-3">Ads/Affiliates</p>
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 					<div class="supporter bg-white border rounded-lg mx-auto mt-4 flex flex-wrap">
 						<div class="w-1/2 md:w-full">
-							<a href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">
+							<a href="https://a.paddle.com/v2/click/39438/124350?link=3113" target="_blank" rel="noopener">
 								<img src="polypane.png" alt="Polypane" border="0" width="180" height="100">
 							</a>
 						</div>
 						<div class="w-1/2 md:w-full md:text-center text-sm py-2 px-2">
-							<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://polypane.app/tailwind/?ref=tailwindtoolbox" target="_blank" rel="noopener">Polypane is the ultimate browser for Tailwind developers</a>
+							<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://a.paddle.com/v2/click/39438/124350?link=3113" target="_blank" rel="noopener">Polypane is the ultimate browser for Tailwind developers</a>
 						</div>
-						<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">SITE SUPPORTER</div>
+						<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">AFFILIATE SCHEME</div>
 					</div>
 				</div>
 			</div>
