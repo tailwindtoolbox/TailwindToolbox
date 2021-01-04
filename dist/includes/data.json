@@ -2010,7 +2010,7 @@
   {
     "site_section": "Tool",
     "url": "https://colour-a11y.vercel.app/",
-    "url_image": "toolsutilities/colortest.png",
+    "url_image": "toolsutilities/colortest.jpg",
     "title": "Colour Accessibility Test",
     "description": "Test colors using the WCAG accessibility ratings on both a white and black background",
     "url_author": "https://github.com/samrobbins85",
