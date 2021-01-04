@@ -1994,5 +1994,29 @@
     "category": "UI Kit",
     "new": false,
     "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://hypercolor.dev",
+    "url_image": "toolsutilities/hypercolour.png",
+    "title": "Hypercolor",
+    "description": "A curated collection of beautiful premade gradients using default colors from the Tailwind palette",
+    "url_author": "https://twitter.com/consolelogjordi",
+    "author": "Jordi Hales / Mark Mead",
+    "category": "Color",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://colour-a11y.vercel.app/",
+    "url_image": "toolsutilities/colortest.png",
+    "title": "Colour Accessibility Test",
+    "description": "Test colors using the WCAG accessibility ratings on both a white and black background",
+    "url_author": "https://github.com/samrobbins85",
+    "author": "Sam Robbins",
+    "category": "Color",
+    "new": true,
+    "home": false
   }
 ]
