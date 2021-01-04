@@ -11,7 +11,8 @@
 			<div class="flex justify-end block md:hidden">
 				<button class="p-2 outline:none" onclick="toggleSearch();" id="nav-toggle">
 					<svg class="h-6 w-6 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-						<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" /></svg>
+						<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+					</svg>
 				</button>
 			</div>
 		</div>
@@ -22,7 +23,8 @@
 			<div class="relative max-w-3xl mx-auto px-6">
 				<div class="absolute h-10 mt-1 left-0 top-0 flex items-center pl-10">
 					<svg class="h-4 w-4 fill-current text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-						<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" /></svg>
+						<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+					</svg>
 				</div>
 				<input id="search-toggle" type="search" placeholder="Enter search term ('/' to focus)" class="block w-full bg-brand-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg pl-12 pr-4 py-3" onkeyup="updateSearchResults(this.value);">
 			</div>
@@ -33,13 +35,6 @@
 	<!--Main Nav-->
 	<div class="w-full bg-brand-white shadow-md scroll">
 		<ul class="container mx-auto list-reset flex border-b text-base bounce-in-right">
-			<li class="mr-1">
-				<a href="https://www.tailwindtoolbox.com/guides" class="tab">
-					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-						<path d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0 L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2 L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475 4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4 18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288 17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20 2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10 L6,12 L6,4 Z"></path>
-					</svg>
-					Guides</a>
-			</li>
 			<li class="mr-1">
 				<a href="https://www.tailwindtoolbox.com/starter-templates" class="tab">
 					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -55,7 +50,19 @@
 					Components</a>
 			</li>
 			<li class="mr-1">
-				<a href="https://www.tailwindtoolbox.com/generators" class="tab">
+				<a href="https://www.tailwindtoolbox.com/kits" class="tab">
+					<svg class="inline text-teal-lightest h-5 pr-2 md:pr-3" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" />
+						<rect x="4" y="4" width="16" height="4" rx="1" />
+						<rect x="4" y="12" width="6" height="8" rx="1" />
+						<line x1="14" y1="12" x2="20" y2="12" />
+						<line x1="14" y1="16" x2="20" y2="16" />
+						<line x1="14" y1="20" x2="20" y2="20" />
+					</svg>
+					Kits</a>
+			</li>
+			<li class="mr-1">
+				<a href="https://www.tailwindtoolbox.com/generators" class="tab flex">
 					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
 					</svg>
@@ -75,11 +82,18 @@
 					</svg>
 					Plugins</a>
 			</li>
-
+			<li class="mr-1">
+				<a href="https://www.tailwindtoolbox.com/guides" class="tab">
+					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+						<path d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0 L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2 L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475 4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4 18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288 17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20 2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10 L6,12 L6,4 Z"></path>
+					</svg>
+					Guides</a>
+			</li>
 			<li class="flex flex-1 justify-end">
 				<a href="https://www.tailwindtoolbox.com/submit" class="tab">
 					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z" /></svg>
+						<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z" />
+					</svg>
 					Suggest a resource</a>
 			</li>
 		</ul>
@@ -92,7 +106,8 @@
 		<!-- No search results message-->
 		<div id="nosearchresults" class="hidden flex px-6 bg-white">
 			<svg class="fill-current text-indigo-600 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-				<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" /></svg>
+				<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+			</svg>
 			<span class="ml-4 font-bold"> Oops, no search results!!!1</span>
 		</div>
 		<!-- / No search results -->

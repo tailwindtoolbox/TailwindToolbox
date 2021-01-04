@@ -46,12 +46,6 @@
 			<div class="w-full flex-grow flex items-center lg:w-1/2 mt-2 lg:mt-0 bg-brand z-20 scroll bounce-in-right" id="nav-content">
 				<ul class="list-reset flex flex-1 items-center text-center lg:justify-end px-2 lg:px-0">
 					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/guides" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-								<path d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0 L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2 L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475 4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4 18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288 17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20 2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10 L6,12 L6,4 Z"></path>
-							</svg> Guides</a>
-					</li>
-					<li class="flex md:mr-4 my-3 xl:my-0">
 						<a href="https://www.tailwindtoolbox.com/starter-templates" class="flex-1 md:flex-none navlink text-base xl:text-xl">
 							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 								<path d="M6 6V2c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h4zm2 0h4a2 2 0 0 1 2 2v4h4V2H8v4zM2 8v10h10V8H2z"></path>
@@ -62,6 +56,17 @@
 							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 								<path d="M3.94 6.5L2.22 3.64l1.42-1.42L6.5 3.94c.52-.3 1.1-.54 1.7-.7L9 0h2l.8 3.24c.6.16 1.18.4 1.7.7l2.86-1.72 1.42 1.42-1.72 2.86c.3.52.54 1.1.7 1.7L20 9v2l-3.24.8c-.16.6-.4 1.18-.7 1.7l1.72 2.86-1.42 1.42-2.86-1.72c-.52.3-1.1.54-1.7.7L11 20H9l-.8-3.24c-.6-.16-1.18-.4-1.7-.7l-2.86 1.72-1.42-1.42 1.72-2.86c-.3-.52-.54-1.1-.7-1.7L0 11V9l3.24-.8c.16-.6.4-1.18.7-1.7zM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
 							</svg> Components</a>
+					</li>
+					<li class="flex md:mr-4 my-3 xl:my-0">
+						<a href="https://www.tailwindtoolbox.com/kits" class="flex-1 md:flex-none navlink text-base xl:text-xl">
+							<svg class="inline text-teal-lightest h-5 pr-2 md:pr-3" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" />
+								<rect x="4" y="4" width="16" height="4" rx="1" />
+								<rect x="4" y="12" width="6" height="8" rx="1" />
+								<line x1="14" y1="12" x2="20" y2="12" />
+								<line x1="14" y1="16" x2="20" y2="16" />
+								<line x1="14" y1="20" x2="20" y2="20" />
+							</svg> Kits</a>
 					</li>
 					<li class="flex md:mr-4 my-3 xl:my-0">
 						<a href="https://www.tailwindtoolbox.com/generators" class="flex-1 md:flex-none navlink text-base xl:text-xl">
@@ -90,7 +95,7 @@
 				<h1 class="pt-6">
 					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Tailwind CSS Templates, Components and Resources</span></span>
 				</h1>
-				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a list of handy <a href="https://www.tailwindtoolbox.com/generators">generators</a> directory and useful <a href="https://www.tailwindtoolbox.com/tools">tools/utilities</a> to kick start your Tailwind CSS project</p>
+				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a directory of handy <a href="https://www.tailwindtoolbox.com/kits">building kits</a>, <a href="https://www.tailwindtoolbox.com/generators">generators</a>, <a href="https://www.tailwindtoolbox.com/plugins">plugins</a> and useful <a href="https://www.tailwindtoolbox.com/tools">tools</a> to kick start your Tailwind CSS project</p>
 			</div>
 
 			<!--Search-->
@@ -100,7 +105,8 @@
 				<div class="relative max-w-3xl mx-auto px-6">
 					<div class="absolute h-10 mt-1 left-0 top-0 flex items-center pl-10">
 						<svg class="h-4 w-4 fill-current text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-							<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" /></svg>
+							<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+						</svg>
 					</div>
 					<input id="search-toggle" type="search" placeholder="Enter search term ('/' to focus)" class="block w-full bg-gray-100 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg pl-12 pr-4 py-3" onkeyup="updateSearchResults(this.value);">
 					<div class="mt-1">
@@ -110,7 +116,8 @@
 							<!-- No search results message-->
 							<div id="nosearchresults" class="hidden flex pb-6 px-6 bg-white">
 								<svg class="fill-current text-indigo-600 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-									<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" /></svg>
+									<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+								</svg>
 								<span class="ml-4 font-bold"> Oops, no search results!!!1</span>
 							</div>
 							<!-- / No search results -->
@@ -193,7 +200,8 @@
 
 	<span class="hidden p-4 border-b flex justify-between items-center group hover:bg-teal-100"><a class="block flex-1 no-underline" href="#">
 			<p class="font-bold text-sm text-indigo-600 hover:text-indigo-500"><span class="mr-2 text-teal-500">#</span><span class="text-indigo-300 font-normal"> by author <svg class="inline-block pl-2  h-4 fill-current text-brand" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-						<path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z" /></svg></span></p>
+						<path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z" />
+					</svg></span></p>
 			<p class="hidden md:block text-xs text-teal-600">result</p>
 			<p class="text-sm py-1">description</p>
 		</a><a href="#"><img class="hidden md:block h-16 border-none" src="https://www.tailwindtoolbox.com/"></a></span>

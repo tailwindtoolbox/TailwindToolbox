@@ -832,6 +832,19 @@
   },
   {
     "site_section": "Kit",
+    "url": "https://tailwindui.com",
+    "url_image": "components/tailwindui.png",
+    "title": "Tailwind UI [$]",
+    "description": "Beautiful UI components, crafted by the creators of Tailwind CSS.",
+    "download": "",
+    "url_author": "https://tailwindui.com",
+    "author": "Tailwind Labs",
+    "category": "UI Components",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
     "url": "https://stitches.hyperyolo.com",
     "url_image": "components/stitches.png",
     "title": "Stitches",
@@ -1955,7 +1968,7 @@
     "url_author": "https://twitter.com/tailwindtools",
     "author": "Tailwind Tools",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1967,7 +1980,7 @@
     "url_author": "https://github.com/Charlie85270/fastUI",
     "author": "Charlie85270",
     "category": "Component Kit",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1979,7 +1992,7 @@
     "url_author": "https://github.com/AlphaSquadTech",
     "author": "AlphaSquadTech",
     "category": "Component Kit",
-    "new": true,
+    "new": false,
     "home": false
   }
 ]
