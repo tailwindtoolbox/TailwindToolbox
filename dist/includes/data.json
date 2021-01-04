@@ -831,7 +831,7 @@
     "home": false
   },
   {
-    "site_section": "Generator",
+    "site_section": "Kit",
     "url": "https://stitches.hyperyolo.com",
     "url_image": "components/stitches.png",
     "title": "Stitches",
@@ -839,7 +839,7 @@
     "download": "",
     "url_author": "https://github.com/amiechen/stitches-template-generator",
     "author": "Amie Chen",
-    "category": "Generator",
+    "category": "Page Builder",
     "new": false,
     "home": false
   },
@@ -883,7 +883,7 @@
     "home": false
   },
   {
-    "site_section": "Component",
+    "site_section": "Kit",
     "url": "https://vue-tailwind.com",
     "url_image": "components/vue-tailwind.png",
     "title": "Vue Tailwind",
@@ -891,7 +891,7 @@
     "download": "",
     "url_author": "https://github.com/alfonsobries",
     "author": "Alfonso Bribiesca",
-    "category": "Vue",
+    "category": "Component Kit",
     "new": false,
     "home": false
   },
@@ -1633,14 +1633,14 @@
     "home": false
   },
   {
-    "site_section": "Generator",
+    "site_section": "Kit",
     "url": "https://mertjf.github.io/tailblocks/",
     "url_image": "toolsutilities/tailblocks.png",
     "title": "Tailblocks - UI Blocks",
     "description": " 60 different ready to use Tailwind UI blocks",
     "url_author": "https://github.com/mertJF",
     "author": "Mert Cukuren",
-    "category": "Generator",
+    "category": "Component Kit",
     "new": false,
     "home": false
   },
@@ -1943,6 +1943,42 @@
     "url_author": "https://twitter.com/JDilleen",
     "author": "James Dilleen",
     "category": "Color, Colour",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://tailwind-tools.com",
+    "url_image": "toolsutilities/tailwindtools.png",
+    "title": "Tailwind Tools",
+    "description": "Quickly generate Tailwind CSS grid, flexbox, table, and typography components with no code.",
+    "url_author": "https://twitter.com/tailwindtools",
+    "author": "Tailwind Tools",
+    "category": "tbc",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://www.tailwind-kit.com/",
+    "url_image": "components/tailwind-kit.png",
+    "title": "Tailwind-Kit",
+    "description": "Tailwind-kit is a free and open source components kit fully coded with Tailwind css 2.0.",
+    "url_author": "https://github.com/Charlie85270/fastUI",
+    "author": "Charlie85270",
+    "category": "Component Kit",
+    "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://tailwinduikit.com/components",
+    "url_image": "components/tuk.png",
+    "title": "Tailwind UI Kit [$]",
+    "description": "TUK is a user interface kit for building accessible, responsive and beautiful websites and applications",
+    "url_author": "https://github.com/AlphaSquadTech",
+    "author": "AlphaSquadTech",
+    "category": "Component Kit",
     "new": true,
     "home": false
   }
