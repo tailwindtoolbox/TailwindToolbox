@@ -1962,7 +1962,7 @@
   {
     "site_section": "Generator",
     "url": "https://tailwind-tools.com",
-    "url_image": "toolsutilities/tailwindtools.png",
+    "url_image": "toolsutilities/tailwindtools.jpg",
     "title": "Tailwind Tools",
     "description": "Quickly generate Tailwind CSS grid, flexbox, table, and typography components with no code.",
     "url_author": "https://twitter.com/tailwindtools",
@@ -1998,7 +1998,7 @@
   {
     "site_section": "Generator",
     "url": "https://hypercolor.dev",
-    "url_image": "toolsutilities/hypercolour.png",
+    "url_image": "toolsutilities/hypercolour.jpg",
     "title": "Hypercolor",
     "description": "A curated collection of beautiful premade gradients using default colors from the Tailwind palette",
     "url_author": "https://twitter.com/consolelogjordi",
