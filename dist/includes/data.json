@@ -2018,5 +2018,17 @@
     "category": "Color",
     "new": true,
     "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://blocks.wickedtemplates.com/",
+    "url_image": "components/wickedblocks.png",
+    "title": "Wicked Blocks",
+    "description": "Collection of layout blocks and components built with Tailwind CSS V2 ready to copy paste on your Tailwind project",
+    "url_author": "https://github.com/michael-andreuzza",
+    "author": "Michael Andreuzza",
+    "category": "UI Kit",
+    "new": true,
+    "home": false
   }
 ]
