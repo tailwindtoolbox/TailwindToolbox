@@ -267,11 +267,10 @@
 		}
 
 		function postStuff() {
-			// Create our XMLHttpRequest object
 			var hr = new XMLHttpRequest();
-			// Create some variables we need to send to our PHP file
 			var url = "submit-suggestion.php";
-			var section = document.querySelectorAll("input[name=section]:checked")[0].id;
+			var radios = document.querySelectorAll('input[name=section]:checked');
+			var section = radios.length > 0 ? radios[0].id : null;
 			var srcTitle = document.getElementById("srcTitle").value;
 			var srcDesc = document.getElementById("srcDesc").value;
 			var srcUrl = document.getElementById("srcUrl").value;
@@ -291,15 +290,13 @@
 						document.getElementById("formreset").classList.remove("hidden");
 					}
 				}
-				// Send the data to PHP now... and wait for response to update the status div
-				hr.send(vars); // Actually execute the request
+				hr.send(vars);
 				document.getElementById("status").innerHTML = "processing...";
 				return false;
 			} else {
 				document.getElementById("status").innerHTML = '<p style="color:red;">🚫 Please ensure all fields are completed!</p>';
 				return false;
 			}
-
 
 		}
 	</script>
