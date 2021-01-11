@@ -65,6 +65,17 @@
 						</div>
 						<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">AFFILIATE SCHEME</div>
 					</div>
+					<div class="supporter bg-white border rounded-lg mx-auto mt-4 flex flex-wrap">
+						<div class="w-1/2 md:w-full">
+							<a href="https://a.paddle.com/v2/click/37973/124350?link=3167" target="_blank" rel="noopener">
+								<img src="tails.png" alt="Tails" border="0" width="180" height="100">
+							</a>
+						</div>
+						<div class="w-1/2 md:w-full md:text-center text-sm py-2 px-2">
+							<a class=" text-black no-underline hover:text-black hover:no-underline" href="https://a.paddle.com/v2/click/37973/124350?link=3167" target="_blank" rel="noopener">Tails is the ultimate drag'n drop page creator built for TailwindCSS</a>
+						</div>
+						<div class="w-full py-1 tracking-wider text-gray-800 text-center font-bold" style="font-size:7pt;background:repeating-linear-gradient(-45deg,transparent,transparent 5px,hsla(0,0%,0%,.025) 5px,hsla(0,0%,0%,.025) 10px) hsla(203,11%,95%,.4);">AFFILIATE SCHEME</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -84,7 +95,6 @@
 
 	</div>
 
-	<p class="my-8 p-6 w-full container mx-auto bg-teal-lightest text-center text-gray-dark">Find more components at: <a class="font-extrabold text-teal-dark hover:text-teal-darkest" href="https://www.alpinetoolbox.com/examples" target="_blank" rel="noopener">www.AlpineToolbox.com/examples</a></p>
 
 	<?php include 'includes/footer.php'; ?>
 
