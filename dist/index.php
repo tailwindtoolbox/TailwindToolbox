@@ -93,7 +93,7 @@
 		<div class="flex flex-col w-full justify-center items-center pt-6 sm:pt-16">
 			<div class="px-3 max-w-3xl lg:max-w-full mx-auto">
 				<h1 class="pt-6">
-					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Tailwind CSS Templates, Components and Resources</span></span>
+					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16 rounded-lg" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Tailwind CSS Templates, Components and Resources</span></span>
 				</h1>
 				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">Open source starter <a href="https://www.tailwindtoolbox.com/starter-templates">templates</a> and <a href="https://www.tailwindtoolbox.com/starter-components">components</a>, a directory of handy <a href="https://www.tailwindtoolbox.com/kits">building kits</a>, <a href="https://www.tailwindtoolbox.com/generators">generators</a>, <a href="https://www.tailwindtoolbox.com/plugins">plugins</a> and useful <a href="https://www.tailwindtoolbox.com/tools">tools</a> to kick start your Tailwind CSS project</p>
 			</div>
