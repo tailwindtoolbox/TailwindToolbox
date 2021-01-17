@@ -19,7 +19,7 @@
 		}
 
 		:checked+label {
-			background: #c6efe7;
+			background: #fff;
 			border-color: #57a99a;
 			/* bg-purple-200*/
 		}
