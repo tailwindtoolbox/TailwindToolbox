@@ -2030,5 +2030,17 @@
     "category": "UI Kit",
     "new": true,
     "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://creativedesignsguru.com",
+    "url_image": "components/indigo.png",
+    "title": "React/Nextjs Templates [$]",
+    "description": "A list of reusable React UI component and blocks for your landing pages styled with Tailwind CSS. It includes 17 components and 10 design blocks.",
+    "url_author": "https://github.com/ixartz/",
+    "author": "Ixartz",
+    "category": "tbc",
+    "new": true,
+    "home": false
   }
 ]
