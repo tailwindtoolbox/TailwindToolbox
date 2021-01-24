@@ -52,7 +52,7 @@
     "url_author": "https://github.com/tailwindtoolbox/Rainblur-Landing-Page/",
     "author": "Tailwind Toolbox",
     "category": "Homepage",
-    "new": true,
+    "new": false,
     "home": true
   },
   {
@@ -1647,8 +1647,8 @@
   },
   {
     "site_section": "Kit",
-    "url": "https://mertjf.github.io/tailblocks/",
-    "url_image": "toolsutilities/tailblocks.png",
+    "url": "https://tailblocks.cc/",
+    "url_image": "components/tailblocks.png",
     "title": "Tailblocks - UI Blocks",
     "description": " 60 different ready to use Tailwind UI blocks",
     "url_author": "https://github.com/mertJF",
@@ -1858,7 +1858,7 @@
     "url_author": "https://github.com/timack",
     "author": "Tim Ackroyd",
     "category": "Text",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1870,7 +1870,7 @@
     "url_author": "https://github.com/philhawksworth",
     "author": "Phil Hawksworth",
     "category": "Starter, Blog",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1882,7 +1882,7 @@
     "url_author": "https://twitter.com/SolaimanKmail",
     "author": "Solaiman Kmail",
     "category": "Design",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1895,7 +1895,7 @@
     "url_author": "https://codepen.io/muratbenli",
     "author": "Murat Benli",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1907,7 +1907,7 @@
     "url_author": "https://github.com/MathGeniusJodie",
     "author": "MathGeniusJodie",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1919,7 +1919,7 @@
     "url_author": "https://github.com/stevecochrane/",
     "author": "Steve Cochrane",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -1956,7 +1956,7 @@
     "url_author": "https://twitter.com/JDilleen",
     "author": "James Dilleen",
     "category": "Color, Colour",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2004,7 +2004,7 @@
     "url_author": "https://twitter.com/consolelogjordi",
     "author": "Jordi Hales / Mark Mead",
     "category": "Color",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2016,7 +2016,7 @@
     "url_author": "https://github.com/samrobbins85",
     "author": "Sam Robbins",
     "category": "Color",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2028,7 +2028,7 @@
     "url_author": "https://github.com/michael-andreuzza",
     "author": "Michael Andreuzza",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2040,7 +2040,7 @@
     "url_author": "https://github.com/ixartz/",
     "author": "Ixartz",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2065,7 +2065,7 @@
     "url_author": "https://www.redevtools.com",
     "author": "ReDevTools",
     "category": "Browser",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2077,7 +2077,7 @@
     "url_author": "https://github.com/saadeghi",
     "author": "Pouya Saadeghi",
     "category": "IDE",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2089,7 +2089,7 @@
     "url_author": "https://github.com/saadeghi/daisyui",
     "author": "Pouya Saadeghi",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false
   },
   {
@@ -2149,9 +2149,130 @@
     "title": "Custom Properties",
     "description": "A Tailwind CSS plugin that exports theme colors as css custom properties.",
     "url_author": "https://github.com/marcreichel",
-    "author": "marcreichel",
+    "author": "Marc Reichel",
     "category": "Utilities",
     "new": true,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "  https://github.com/octoper/tailwindcss-shadow-outline-colors",
+    "url_image": "placeholder.png",
+    "title": "Shadow Outline",
+    "description": "A Tailwind CSS plugin that exports theme colors for shadow colours",
+    "url_author": "https://github.com/octoper",
+    "author": "Vaggelis Yfantis",
+    "category": "Utilities",
+    "new": false,
+    "home": false
+  },
+
+  {
+    "site_section": "Kit",
+    "url": "https://www.free-website-resources.com/blocks/tailwindcss",
+    "url_image": "components/fwr.png",
+    "title": "FWR Blocks",
+    "description": "A collection of Tailwind blocks to copy and paste into your project",
+    "url_author": "https://codepen.io/rhythm19",
+    "author": "Rhythm Ruparelia",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://merakiui.com/",
+    "url_image": "components/meraki.png",
+    "title": "Meraki UI",
+    "description": "Components that support RTL languages & fully responsive based on Flexbox & CSS Grid",
+    "url_author": "https://github.com/bakateam/merakiui",
+    "author": "Mosab Ibrahim / Khatab Wedaa",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://github.com/praveenjuge/kutty",
+    "url_image": "components/kutty.png",
+    "title": "Kutty",
+    "description": "Tailwind plugin with a set of accessible and reusable components that are commonly used in web applications",
+    "url_author": "https://github.com/praveenjuge",
+    "author": "Praveen Juge",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://github.com/praveenjuge/windstrap",
+    "url_image": "components/windstrap.png",
+    "title": "Windstrap",
+    "description": "Tailwind plugin to use Tailwind CSS with Bootstrap JS",
+    "url_author": "https://github.com/praveenjuge",
+    "author": "Praveen Juge",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://tailwindow.com",
+    "url_image": "components/tailwindow.png",
+    "title": "Tailwindow",
+    "description": "Tailwindow is a component viewer and collection of Tailwind CSS components",
+    "url_author": "https://github.com/tailwindow/component",
+    "author": "Martien Dermawan Tanama",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://lofiui.co",
+    "url_image": "components/lofi.png",
+    "title": "LoFi UI",
+    "description": "Re-usable and re-workable components designed to be hacked at",
+    "url_author": "https://robstinson.co/lofi-ui/",
+    "author": "Rob Stinson",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://www.gustui.com",
+    "url_image": "components/gustui.png",
+    "title": "Gust UI",
+    "description": "Responsive HTML & React components for your next web application",
+    "url_author": "https://www.twitter.com/devindoesdev",
+    "author": "Devin",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://treact.owaiskhan.me/",
+    "url_image": "components/treact.png",
+    "title": "Treact",
+    "description": "Easily customizable modern React UI Templates and Components",
+    "url_author": "https://owaiskhan.me/",
+    "author": "Owais Khan",
+    "category": "UI Kit",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://kitwind.io/products/kometa",
+    "url_image": "components/kometaui.png",
+    "title": "Kometa UI Kit",
+    "description": "Ready-to-use HTML sections... also available for Vue and React",
+    "url_author": "https://kitwind.io",
+    "author": "Kitwind",
+    "category": "UI Kit",
+    "new": false,
     "home": false
   }
 ]
