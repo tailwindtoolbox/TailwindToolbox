@@ -2139,6 +2139,18 @@
     "url_author": "https://github.com/GavinJoyce",
     "author": "Gavin Joyce",
     "category": "Help",
+    "new": false,
+    "home": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/marcreichel/tailwindcss-css-properties",
+    "url_image": "placeholder.png",
+    "title": "Custom Properties",
+    "description": "A Tailwind CSS plugin that exports theme colors as css custom properties.",
+    "url_author": "https://github.com/marcreichel",
+    "author": "marcreichel",
+    "category": "Utilities",
     "new": true,
     "home": false
   }
