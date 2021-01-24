@@ -61,6 +61,11 @@
   @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 right-0;
 }
 
+.sticky-badge {
+  @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 left-0;
+}
+
+
 .card-title {
   @apply text-center font-bold text-sm pt-2 my-1;
 }
