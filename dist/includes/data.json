@@ -405,6 +405,19 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/Kamona-WD/kwd-dashboard",
+    "url_image": "templates/kwd-dark.png",
+    "title": "K-WD Dashboard",
+    "description": "Dashboard with dark theme",
+    "url_author": "https://github.com/Kamona-WD",
+    "author": "Kamona-WD",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://github.com/justalever/kickoff_tailwind",
     "url_image": "templates/ruby-tailwind.png",
     "title": "Rails Kickoff – Tailwind",
