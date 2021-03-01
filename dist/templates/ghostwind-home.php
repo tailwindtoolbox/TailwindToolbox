@@ -12,8 +12,8 @@
 
 	$pageCODE 	= ''; //$pageID.'-code.php';
 	$pageSRC 	= $pageID.'-demo.php';
-	$pageGIT 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE);
-	$pageDL 	= 'https://github.com/tailwindtoolbox/'.str_replace(" ","-",$pageTITLE).'/archive/master.zip';
+	$pageGIT 	= 'https://github.com/tailwindtoolbox/ghostwind';
+	$pageDL 	= 'https://github.com/tailwindtoolbox/ghostwind/archive/master.zip';
 
 	$pageOFFSET = '-1500';
 	$pageINTRO	= 'This starter template contains:<br>
