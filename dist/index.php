@@ -8,6 +8,7 @@
 	<title>Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS</title>
 	<meta name="description" content="Free open source Tailwind CSS starter templates and components to get you started quickly to creating websites in Tailwind CSS!">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free templates,admin templates, admin template, admin dashboard, admin console, free tailwind css templates, tailwind example, tailwind skeleton">
+	<meta name="google-site-verification" content="9RGTznjgMPYBXPe1D2mq2CTQ8Ad5zK6dqXWkaxYUzBU" />
 	<?php include 'includes/head.php'; ?>
 
 	<script type="application/ld+json">
