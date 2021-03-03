@@ -412,7 +412,7 @@
     "url_author": "https://github.com/Kamona-WD",
     "author": "Kamona-WD",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false
   },
@@ -2337,7 +2337,7 @@
     "url_author": "https://github.com/marcreichel",
     "author": "Marc Reichel",
     "category": "Utilities",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false
   },
@@ -2469,6 +2469,19 @@
     "author": "Kitwind",
     "category": "UI Kit",
     "new": false,
+    "home": false,
+    "sticky": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/jjranalli/nightwind",
+    "url_image": "placeholder.png",
+    "title": "Nightwind",
+    "description": "Tailwind CSS plugin to generate an automatic, customisable, overridable dark mode",
+    "url_author": "https://github.com/jjranalli",
+    "author": "Jacopo Ranalli",
+    "category": "tbc",
+    "new": true,
     "home": false,
     "sticky": false
   }
