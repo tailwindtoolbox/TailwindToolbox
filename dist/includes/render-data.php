@@ -17,6 +17,7 @@
 								<img src="{{url_image}}" alt="{{title}}">
 								{{new}}
 								{{sticky}}
+								{{affiliate}}
 							</div>
 
 							<div class="card-title">
@@ -37,7 +38,7 @@
 			// Store new indicator
 			$newBadge = '<span class="new-badge">NEW!</span>';
 			$stickyBadge = '<span class="sticky-badge"><svg class="h-6 w-6 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 11v 8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" /></svg></span>';
-
+			$affiliateBadge = '<span class="absolute bottom-0 w-full py-1 tracking-wider text-gray-800 text-center text-xs font-bold" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);opacity:0.75;">AFFILIATE SCHEME</span>';
 			// Read JSON file
 			$json = file_get_contents("includes/data.json");
 			//Decode JSON
@@ -75,6 +76,7 @@
 				$isHome = $template['home'];
 				$isNew = $template['new'];
 				$isSticky = $template['sticky'];
+				$isAffiliate = $template['affiliate'];
 
 				$site_section = $template['site_section'];
 				$url = $template['url'];
@@ -98,8 +100,8 @@
 					else
 					{
 						$cardOutput = str_replace(
-							array('{{url}}', '{{url_image}}', '{{title}}', '{{description}}', '{{download}}', '{{url_author}}', '{{author}}', '{{category}}', '{{new}}', '{{sticky}}'),
-							array($url, $url_image, $title, $description, $download, $url_Author, $author, $category, ($isNew) ? $newBadge : '', ($isSticky) ? $stickyBadge : ''),
+							array('{{url}}', '{{url_image}}', '{{title}}', '{{description}}', '{{download}}', '{{url_author}}', '{{author}}', '{{category}}', '{{new}}', '{{sticky}}', '{{affiliate}}'),
+							array($url, $url_image, $title, $description, $download, $url_Author, $author, $category, ($isNew) ? $newBadge : '', ($isSticky) ? $stickyBadge : '', ($isAffiliate) ? $affiliateBadge : ''),
 							$card
 						);
 

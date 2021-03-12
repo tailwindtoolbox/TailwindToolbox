@@ -12,7 +12,8 @@
     "category": "Homepage",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -27,7 +28,8 @@
     "category": "Admin",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -42,7 +44,8 @@
     "category": "Homepage",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -57,7 +60,8 @@
     "category": "Homepage",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -72,7 +76,8 @@
     "category": "Profile",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -87,7 +92,8 @@
     "category": "Admin",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -102,7 +108,8 @@
     "category": "Admin",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -117,7 +124,8 @@
     "category": "Store",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -132,7 +140,8 @@
     "category": "Admin",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -147,7 +156,8 @@
     "category": "Homepage",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -162,7 +172,8 @@
     "category": "Support",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -177,7 +188,8 @@
     "category": "Support",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -192,7 +204,8 @@
     "category": "Blog, Homepage",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -207,7 +220,8 @@
     "category": "Blog",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -222,7 +236,8 @@
     "category": "Blog",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -237,7 +252,8 @@
     "category": "Blog",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -252,7 +268,8 @@
     "category": "Homepage",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -267,7 +284,8 @@
     "category": "Nav",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -282,7 +300,8 @@
     "category": "Nav",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -297,7 +316,8 @@
     "category": "Nav",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -310,7 +330,8 @@
     "category": "Admin",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -323,7 +344,8 @@
     "category": "Blog",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -336,7 +358,8 @@
     "category": "Login",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -349,7 +372,8 @@
     "category": "Login",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -362,7 +386,8 @@
     "category": "Landing",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -375,7 +400,8 @@
     "category": "Admin",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -388,7 +414,8 @@
     "category": "Landing",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -401,7 +428,8 @@
     "category": "Admin",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -414,7 +442,8 @@
     "category": "Admin",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -427,7 +456,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -440,7 +470,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -453,7 +484,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -466,7 +498,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -479,7 +512,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -492,7 +526,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -505,7 +540,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -518,7 +554,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -531,7 +568,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -544,7 +582,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -557,7 +596,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -570,7 +610,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -583,7 +624,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -596,7 +638,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -609,7 +652,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -622,7 +666,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -635,7 +680,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -648,7 +694,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -661,7 +708,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -674,7 +722,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -687,7 +736,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -700,7 +750,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -713,7 +764,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -726,7 +778,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -739,7 +792,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -753,7 +807,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -767,7 +822,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -781,7 +837,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -795,7 +852,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -809,7 +867,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -823,7 +882,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -837,7 +897,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -851,7 +912,8 @@
     "category": "HTML",
     "new": false,
     "home": true,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -865,7 +927,8 @@
     "category": "HTML",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -879,7 +942,8 @@
     "category": "HTML",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -893,7 +957,8 @@
     "category": "Admin",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -906,7 +971,8 @@
     "category": "Icons",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -920,7 +986,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -934,7 +1001,8 @@
     "category": "Page Builder",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -948,7 +1016,8 @@
     "category": "Angular",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -962,7 +1031,8 @@
     "category": "HTML",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -976,7 +1046,8 @@
     "category": "color, colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -990,7 +1061,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1004,7 +1076,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -1018,7 +1091,8 @@
     "category": "Various",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1031,7 +1105,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1044,7 +1119,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1057,7 +1133,8 @@
     "category": "Utilities, hacknug",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1070,7 +1147,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1083,7 +1161,8 @@
     "category": "Utilities, hacknug",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1096,7 +1175,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1109,7 +1189,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1122,7 +1203,8 @@
     "category": "Utilities, hacknug",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1135,7 +1217,8 @@
     "category": "Variants",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1148,7 +1231,8 @@
     "category": "Variants",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1161,7 +1245,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1174,7 +1259,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1187,7 +1273,8 @@
     "category": "Variants",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1200,7 +1287,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1213,7 +1301,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1226,7 +1315,8 @@
     "category": "Variants",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1239,7 +1329,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1252,7 +1343,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1265,7 +1357,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1278,7 +1371,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1291,7 +1385,8 @@
     "category": "Variants, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1304,7 +1399,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1317,7 +1413,8 @@
     "category": "Variants, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1330,7 +1427,8 @@
     "category": "Utilities, benface",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1343,7 +1441,8 @@
     "category": "Variants",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1356,7 +1455,8 @@
     "category": "Utilities, hacknug",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1369,7 +1469,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1382,7 +1483,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1395,7 +1497,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1408,7 +1511,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1421,7 +1525,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1434,7 +1539,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1447,7 +1553,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1460,7 +1567,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1473,7 +1581,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1486,7 +1595,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1499,7 +1609,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1512,7 +1623,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1525,7 +1637,8 @@
     "category": "Help",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1538,7 +1651,8 @@
     "category": "Help",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1551,7 +1665,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1564,7 +1679,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1577,7 +1693,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1590,7 +1707,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1603,7 +1721,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1616,7 +1735,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1629,7 +1749,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1642,7 +1763,8 @@
     "category": "Generator",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1655,7 +1777,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1668,7 +1791,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1681,7 +1805,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1694,7 +1819,8 @@
     "category": "Help",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Guide",
@@ -1708,7 +1834,8 @@
     "category": "Setup",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Guide",
@@ -1722,7 +1849,8 @@
     "category": "Setup",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Guide",
@@ -1736,7 +1864,8 @@
     "category": "Configuration",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1749,7 +1878,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1762,7 +1892,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -1775,7 +1906,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1788,7 +1920,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -1801,7 +1934,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1814,7 +1948,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1827,7 +1962,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -1840,7 +1976,8 @@
     "category": "Starter",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -1853,7 +1990,8 @@
     "category": "tbc",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -1866,7 +2004,8 @@
     "category": "tbc",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -1879,7 +2018,8 @@
     "category": "tbc",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -1892,7 +2032,8 @@
     "category": "tbc",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1905,7 +2046,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1918,7 +2060,8 @@
     "category": "Generator",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -1931,7 +2074,8 @@
     "category": "Starter, Blog",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1944,7 +2088,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1957,7 +2102,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -1970,7 +2116,8 @@
     "category": "Variants",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1983,7 +2130,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -1996,7 +2144,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -2009,7 +2158,8 @@
     "category": "Browser",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -2022,7 +2172,8 @@
     "category": "Text",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Template",
@@ -2035,7 +2186,8 @@
     "category": "Starter, Blog",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -2048,7 +2200,8 @@
     "category": "Design",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Component",
@@ -2062,7 +2215,8 @@
     "category": "Admin",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2075,7 +2229,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2088,7 +2243,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2101,7 +2257,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Guide",
@@ -2115,7 +2272,8 @@
     "category": "Configuration",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -2128,7 +2286,8 @@
     "category": "Color, Colour",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -2141,7 +2300,8 @@
     "category": "tbc",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2154,7 +2314,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2167,7 +2328,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Generator",
@@ -2180,7 +2342,8 @@
     "category": "Color",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -2193,7 +2356,8 @@
     "category": "Color",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2206,7 +2370,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2219,7 +2384,8 @@
     "category": "tbc",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2233,7 +2399,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -2246,7 +2413,8 @@
     "category": "Browser",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -2259,7 +2427,8 @@
     "category": "IDE",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2272,7 +2441,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2286,7 +2456,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2300,7 +2471,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2313,7 +2485,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Tool",
@@ -2326,7 +2499,8 @@
     "category": "Help",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2339,7 +2513,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2352,7 +2527,8 @@
     "category": "Utilities",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
 
   {
@@ -2366,7 +2542,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2379,7 +2556,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2392,7 +2570,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2405,7 +2584,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2418,7 +2598,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2431,7 +2612,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2444,7 +2626,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2457,7 +2640,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -2470,7 +2654,8 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Plugin",
@@ -2483,19 +2668,21 @@
     "category": "tbc",
     "new": true,
     "home": false,
-    "sticky": false
+    "sticky": false,
+    "affiliate": false
   },
   {
     "site_section": "Kit",
     "url": "https://gumroad.com/a/84153459",
     "url_image": "templates/windyblocks.png",
-    "title": "Windyblocks [$] (Affiliate)",
-    "description": "Windyblocks, the prototyping kit for Tailwind CSS, with more than 150 handcrafted components [[ Affiliate Link ]]",
+    "title": "Windyblocks [$]",
+    "description": "Windyblocks, the prototyping kit for Tailwind CSS, with more than 150 handcrafted components (Affiliate Link)",
     "url_author": "https://www.themes.dev",
     "author": "Themes.dev",
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": true
+    "sticky": true,
+    "affiliate": true
   }
 ]
