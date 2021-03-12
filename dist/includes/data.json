@@ -2484,5 +2484,18 @@
     "new": true,
     "home": false,
     "sticky": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://gumroad.com/a/84153459",
+    "url_image": "templates/windyblocks.png",
+    "title": "Windyblocks [$] (Affiliate)",
+    "description": "Windyblocks, the prototyping kit for Tailwind CSS, with more than 150 handcrafted components [[ Affiliate Link ]]",
+    "url_author": "https://www.themes.dev",
+    "author": "Themes.dev",
+    "category": "UI Kit",
+    "new": false,
+    "home": false,
+    "sticky": true
   }
 ]
