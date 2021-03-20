@@ -2757,5 +2757,35 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Guide",
+    "url": "https://www.getrevue.co/profile/tailwind-weekly",
+    "url_image": "tailwindweekly.png",
+    "title": "Tailwind Weekly 📰",
+    "description": "Weekly newsletter about all things Tailwind CSS. New issue every Saturday.",
+    "download": "",
+    "url_author": "https://tailwindmade.com",
+    "author": "Vivian Guillen",
+    "category": "Newsletter",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Guide",
+    "url": "https://www.getrevue.co/profile/themes_dev/",
+    "url_image": "themesdev.png",
+    "title": "Themes Dev 📰",
+    "description": "Tailwind CSS tips, news, updates, snippets and all the best freebies, all yours, every month!",
+    "download": "",
+    "url_author": "https://themes.dev",
+    "author": "Themes.dev",
+    "category": "Newsletter",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
