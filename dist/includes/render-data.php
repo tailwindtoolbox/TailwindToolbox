@@ -49,6 +49,11 @@
 				//Sort Alpha
 				usort($json_data, function ($a, $b)
 				{
+
+					if ($a['sticky'] != $b['sticky'])
+					{
+						return $b['sticky'] <=> $a['sticky'];
+					}
 					return strnatcasecmp($a['title'], $b['title']);
 				});
 			}
