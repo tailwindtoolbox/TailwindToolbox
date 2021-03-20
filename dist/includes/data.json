@@ -321,6 +321,20 @@
   },
   {
     "site_section": "Template",
+    "url": "https://www.creative-tim.com/product/notus-js/?partner=145458 ",
+    "url_image": "templates/notus.png",
+    "title": "Notus JS",
+    "description": "Speed up your web development with a beautiful and bright UI Kit/Admin Template (Affiliate Link)",
+    "url_author": "https://www.creative-tim.com",
+    "author": "Creative Tim",
+    "category": "Admin",
+    "new": false,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Template",
     "url": "https://davidgrzyb.com/tailwind-admin-dashboard-template",
     "url_image": "templates/dg_admin.png",
     "title": "Admin Template",
