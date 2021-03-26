@@ -335,6 +335,20 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/rosstopping/impulse-netlify ",
+    "url_image": "templates/impulse.png",
+    "title": "Impulse",
+    "description": "Built using Netlify CMS, Eleventy, Alphine JS & Tailwind CSS. Perfect for blogging websites",
+    "url_author": "https://novolio.dev",
+    "author": "Novolio",
+    "category": "Blog",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://davidgrzyb.com/tailwind-admin-dashboard-template",
     "url_image": "templates/dg_admin.png",
     "title": "Admin Template",
