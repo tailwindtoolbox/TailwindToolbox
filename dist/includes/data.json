@@ -2749,7 +2749,7 @@
     "url": "https://gumroad.com/a/84153459",
     "url_image": "templates/windyblocks.png",
     "title": "Windyblocks [$]",
-    "description": "Windyblocks, the prototyping kit for Tailwind CSS, with more than 150 handcrafted components (Affiliate Link)",
+    "description": "Windyblocks, the prototyping kit for Tailwind CSS, with more than 225 handcrafted components (Affiliate Link)",
     "url_author": "https://www.themes.dev",
     "author": "Themes.dev",
     "category": "UI Kit",
@@ -2801,5 +2801,35 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://a.paddle.com/v2/click/37973/124350?link=3167",
+    "url_image": "templates/tails.jpg",
+    "title": "Tails [$]",
+    "description": "Tails is the ultimate drag'n drop page creator built for Tailwind CSS (Affiliate Link)",
+    "download": "",
+    "url_author": "https://a.paddle.com/v2/click/37973/124350?link=3167",
+    "author": "Dev Dojo",
+    "category": "UI Kit",
+    "new": false,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://a.paddle.com/v2/click/39438/124350?link=3113",
+    "url_image": "toolsutilities/polypane.png",
+    "title": "Polypane",
+    "description": "Polypane is the ultimate browser for Tailwind developers (Affiliate Link)",
+    "download": "",
+    "url_author": "https://a.paddle.com/v2/click/39438/124350?link=3113",
+    "author": "Polypane",
+    "category": "IDE",
+    "new": false,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
   }
 ]
