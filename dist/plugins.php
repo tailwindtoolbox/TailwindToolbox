@@ -54,6 +54,22 @@
 				<div class="order-1 md:order-2">
 					<p class="text-brand text-center font-bold mb-2 md:pt-3">Advertisment</p>
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+					<script src="//m.servedby-buysellads.com/monetization.custom.js" type="text/javascript"></script>
+					<div id="native-card-js" class="mx-auto mt-4"></div>
+					<script>
+						_bsa.init('custom', 'CESDV27N', 'placement:tailwindtoolboxcom', {
+							target: '#native-card-js',
+							template: `
+  <a href="##statlink##" class="native-card" style="background: ##backgroundColor##; color: ##textColor##;">
+    <img class="native-logo" src="##logo##">
+    <div class="native-tagline"> ##tagline##</div>
+    <div class="native-desc"> ##description##</div>
+    <div class="native-cta" style="background-color: ##ctaBackgroundColor##; color: ##ctaTextColor##">##callToAction##</div>
+    <div style="background-color: ##textColor##; color: ##backgroundColor##" class="native-sponsored">Sponsored</div>
+  </a>
+    `
+						});
+					</script>
 				</div>
 			</div>
 
