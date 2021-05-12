@@ -109,6 +109,7 @@ If you want to retain the existing font stack and just want to put your font int
 
 ```
 /* In your tailwind.config.js */
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
