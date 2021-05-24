@@ -2889,5 +2889,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
-  }
+  },
+    {
+      "site_section": "Kit",
+      "url": "https://gumroad.com/a/576918643/uUMQe",
+      "url_image": "hyperui.png",
+      "title": "HyperUI [$]",
+      "description": "80+ beautiful UI components for the modern web with new components added every week (Affiliate Link)",
+      "download": "",
+      "url_author": "https://gumroad.com/a/576918643/uUMQe",
+      "author": "Mark Mead",
+      "category": "UI Kit",
+      "new": false,
+      "home": false,
+      "sticky": true,
+      "affiliate": true
+    }
 ]
