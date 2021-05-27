@@ -2904,5 +2904,20 @@
       "home": false,
       "sticky": true,
       "affiliate": true
-    }
+    },
+  {
+    "site_section": "Kit",
+    "url": "https://www.figma.com/community/file/973638860086718856",
+    "url_image": "templates/tailwindfigma.jpg",
+    "title": "Tailwind Figma Design Kit",
+    "description": "Figma design kit built for integration with Tailwind CSS featuring UI components, an admin dashboard layout, mobile responsive screens, and a style guideline based on the Tailwind CSS utility-classes built by Themesberg.",
+    "download": "",
+    "url_author": "https://tailwind-figma.com/",
+    "author": "Themesberg",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  }
 ]
