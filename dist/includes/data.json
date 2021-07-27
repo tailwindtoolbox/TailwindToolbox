@@ -2919,5 +2919,20 @@
     "home": false,
     "sticky": true,
     "affiliate": true
-  }
+  },
+  {
+    "site_section": "Template",
+    "url": "https://cruip.com/?ref=tailwindtoolbox",
+    "url_image": "cruip.png",
+    "title": "Cruip [$]",
+    "description": "Beautifully designed landing page templates and dashboards built on top of Tailwind CSS, React, and Vue (Affiliate Link)",
+    "download": "",
+    "url_author": "https://cruip.com/?ref=tailwindtoolbox",
+    "author": "Cruip",
+    "category": "Admin",
+    "new": false,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
+  },
 ]
