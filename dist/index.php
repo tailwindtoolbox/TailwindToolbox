@@ -44,43 +44,45 @@
 				</a>
 			</div>
 
-			<div class="w-full flex-grow flex items-center lg:w-1/2 mt-2 lg:mt-0 bg-brand z-20 scroll bounce-in-right" id="nav-content">
-				<ul class="list-reset flex flex-1 items-center text-center lg:justify-end px-2 lg:px-0">
-					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/starter-templates" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-								<path d="M6 6V2c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h4zm2 0h4a2 2 0 0 1 2 2v4h4V2H8v4zM2 8v10h10V8H2z"></path>
-							</svg> Templates</a>
+			<div class="w-full flex-grow flex items-center lg:justify-end  lg:w-1/2 mt-2 lg:mt-0 bg-brand z-20 scroll bounce-in-right" id="nav-content">
+
+				<ul class="list-reset flex text-base xl:text-xl bounce-in-right">
+					<li class="mr-1">
+						<a href="https://www.tailwindtoolbox.com/starter-templates" class="my-2 py-2 no-underline hover:no-underline text-gray-100 hover:text-white flex items-center justify-center bg-transparent hover:bg-teal-500 focus:border-teal-900 font-bold px-5 rounded">
+							<svg class="h-6 w-6 fill-stroke" fill="none" viewBox=" 0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+							</svg>
+							<span class="pl-2">Templates</span></a>
 					</li>
-					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/starter-components" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-								<path d="M3.94 6.5L2.22 3.64l1.42-1.42L6.5 3.94c.52-.3 1.1-.54 1.7-.7L9 0h2l.8 3.24c.6.16 1.18.4 1.7.7l2.86-1.72 1.42 1.42-1.72 2.86c.3.52.54 1.1.7 1.7L20 9v2l-3.24.8c-.16.6-.4 1.18-.7 1.7l1.72 2.86-1.42 1.42-2.86-1.72c-.52.3-1.1.54-1.7.7L11 20H9l-.8-3.24c-.6-.16-1.18-.4-1.7-.7l-2.86 1.72-1.42-1.42 1.72-2.86c-.3-.52-.54-1.1-.7-1.7L0 11V9l3.24-.8c.16-.6.4-1.18.7-1.7zM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-							</svg> Components</a>
+					<li class="mr-1">
+						<a href="https://www.tailwindtoolbox.com/starter-components" class="my-2 py-2 no-underline hover:no-underline text-gray-100 hover:text-white flex items-center justify-center bg-transparent hover:bg-teal-500 focus:border-teal-900 font-bold px-5 rounded">
+							<svg class="h-6 w-6 fill-stroke" fill="none" viewBox=" 0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+							</svg>
+							<span class="pl-2">Components</span></a>
 					</li>
-					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/kits" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-							<svg class="inline text-teal-lightest h-5 pr-2 md:pr-3" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" />
-								<rect x="4" y="4" width="16" height="4" rx="1" />
-								<rect x="4" y="12" width="6" height="8" rx="1" />
-								<line x1="14" y1="12" x2="20" y2="12" />
-								<line x1="14" y1="16" x2="20" y2="16" />
-								<line x1="14" y1="20" x2="20" y2="20" />
-							</svg> Kits</a>
+					<li class="mr-1">
+						<a href="https://www.tailwindtoolbox.com/kits" class="my-2 py-2 no-underline hover:no-underline text-gray-100 hover:text-white flex items-center justify-center bg-transparent hover:bg-teal-500 focus:border-teal-900 font-bold px-5 rounded">
+							<svg class="h-6 w-6 fill-stroke" fill="none" viewBox=" 0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+							</svg>
+							<span class="pl-2">Kits</span></a>
 					</li>
-					<li class="flex md:mr-4 my-3 xl:my-0">
-						<a href="https://www.tailwindtoolbox.com/generators" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+					<li class="mr-1">
+						<a href="https://www.tailwindtoolbox.com/generators" class="my-2 py-2 no-underline hover:no-underline text-gray-100 hover:text-white flex items-center justify-center bg-transparent hover:bg-teal-500 focus:border-teal-900 font-bold px-5 rounded">
+							<svg class="h-6 w-6 fill-stroke" fill="none" viewBox=" 0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
 							</svg>
-							Generators</a>
+							<span class="pl-2">Generators</span></a>
 					</li>
-					<li class="flex md:mr-4 my-3 xl:my-0 text-center">
-						<a href="https://www.tailwindtoolbox.com/tools" class="flex-1 md:flex-none navlink text-base xl:text-xl">
-							<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-								<path d="M6.47 9.8A5 5 0 0 1 .2 3.22l3.95 3.95 2.82-2.83L3.03.41a5 5 0 0 1 6.4 6.68l10 10-2.83 2.83L6.47 9.8z"></path>
-							</svg> Tools</a>
+					<li class="mr-1">
+						<a href="https://www.tailwindtoolbox.com/marketplace" class="my-2 py-2 no-underline hover:no-underline text-gray-100 hover:text-white flex items-center justify-center bg-transparent hover:bg-teal-500 focus:border-teal-900 font-bold px-5 rounded">
+							<svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="9" cy="21" r="1" />
+								<circle cx="20" cy="21" r="1" />
+								<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+							</svg>
+							<span class="pl-2">Marketplace</span></a>
 					</li>
 				</ul>
 			</div>

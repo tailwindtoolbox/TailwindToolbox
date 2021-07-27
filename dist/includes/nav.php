@@ -64,6 +64,15 @@
 					<span class="pl-2">Generators</span></a>
 			</li>
 			<li class="mr-1">
+				<a href="https://www.tailwindtoolbox.com/marketplace" class="my-2 py-2 no-underline hover:no-underline text-gray-700 hover:text-white flex items-center justify-center bg-transparent hover:bg-brand focus:border-teal-900 font-bold px-5 rounded">
+					<svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<circle cx="9" cy="21" r="1" />
+						<circle cx="20" cy="21" r="1" />
+						<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+					</svg>
+					<span class="pl-2">Marketplace</span></a>
+			</li>
+			<li class="mr-1">
 				<a href="https://www.tailwindtoolbox.com/tools" class="my-2 py-2 no-underline hover:no-underline text-gray-700 hover:text-white flex items-center justify-center bg-transparent hover:bg-brand focus:border-teal-900 font-bold px-5 rounded">
 					<svg class="h-6 w-6 fill-stroke" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 						<path stroke="none" d="M0 0h24v24H0z" />
@@ -85,13 +94,6 @@
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
 					</svg>
 					<span class="pl-2">Guides</span></a>
-			</li>
-			<li class="flex flex-1 justify-end">
-				<a href="https://www.tailwindtoolbox.com/submit" class="my-2 py-2 no-underline hover:no-underline hover:text-white flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold px-5 rounded shadow">
-					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z" />
-					</svg>
-					Suggest a resource</a>
 			</li>
 		</ul>
 	</div>

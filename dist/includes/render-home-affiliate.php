@@ -71,7 +71,7 @@
 					$category = $template['category'];
 
 					//Only output if it's the required section
-					if ($isAffiliate)
+					if ($isAffiliate && $isHome)
 					{
 
 						$cardOutput = str_replace(

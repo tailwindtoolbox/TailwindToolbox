@@ -15,7 +15,14 @@
 			<div class="w-full md:w-1/3 text-center md:text-left px-3 sm:px-1 mb-2 md:mb-0 pb-3 sm:pb-0">
 				<p class="text-white font-bold text-xl my-3">About Tailwind Toolbox</p>
 
-				<p><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Tailwind Toolbox</a> is a project created by and maintained by <a class="footerlink" href="https://twitter.com/amritnagi">Amrit Nagi</a></p>
+				<p><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Tailwind Toolbox</a> is a project created by and maintained by <a class="footerlink" href="https://twitter.com/amritnagi">Amrit Nagi</a>. Not affiliated with Tailwind Labs, just a huge fan.</p>
+
+				<a href="https://www.tailwindtoolbox.com/submit" class="my-2 py-2 no-underline hover:no-underline hover:text-white flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold px-5 rounded shadow">
+					<svg class="inline fill-current text-teal-lightest h-4 pr-2 md:pr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z" />
+					</svg>
+					Suggest a resource</a>
+
 
 				<p class="pt-6 flex items-center">
 					<a class="footerlink pr-3" href="https://simpleanalytics.io/tailwindtoolbox.com" target="_blank" rel="noopener"><svg class="inline fill-current text-brand-ondark w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

@@ -53,6 +53,7 @@
 
 					$isHome = $template['home'];
 					$isNew = $template['new'];
+					$isAffiliate = $template['affiliate'];
 
 					$site_section = $template['site_section'];
 					$url = $template['url'];
@@ -65,7 +66,7 @@
 					$category = $template['category'];
 
 					//Only output if it's the required section
-					if ($site_section === $show_section) {
+					if ($site_section === $show_section && !$isAffiliate) {
 
 						//If we are showing on home page, ignore if we don't want it on home
 						if ($show_home && !$isHome) {
