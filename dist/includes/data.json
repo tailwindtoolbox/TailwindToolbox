@@ -3274,7 +3274,22 @@
     "home": false,
     "sticky": false,
     "affiliate": true
-  }
+  },
+    {
+      "site_section": "Marketplace",
+      "url": "https://gumroad.com/a/334402675/FbINx",
+      "url_image": "products/saasblocks.jpg",
+      "title": "Saas Blocks [$]",
+      "description": "SaaS Blocks is a Tailwind CSS theme that also comes with Figma variation files. Use it to extend your Tailwind components or create an entire website with perfectly stackable sections (Affiliate Link)",
+      "download": "$67+",
+      "url_author": "https://www.saasblocks.app/",
+      "author": "SaaS Blocks",
+      "category": "UI Kit",
+      "new": false,
+      "home": true,
+      "sticky": true,
+      "affiliate": true
+    }
 ]
 
 
