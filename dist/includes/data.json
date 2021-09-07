@@ -3304,6 +3304,21 @@
       "home": true,
       "sticky": true,
       "affiliate": true
+    },
+    {
+      "site_section": "Marketplace",
+      "url": "https://gumroad.com/a/959943795/WlcWY",
+      "url_image": "products/dashwind.png",
+      "title": "Dashwind [$]",
+      "description": "Dashwind — is a Tailwind CSS based design system boilerplate and a UI kit for building robust Dashboard designs. (Affiliate Link)",
+      "download": "$49",
+      "url_author": "https://www.dashwind.design",
+      "author": "Elegant Goodies",
+      "category": "UI Kit",
+      "new": true,
+      "home": false,
+      "sticky": false,
+      "affiliate": true
     }
 ]
 
