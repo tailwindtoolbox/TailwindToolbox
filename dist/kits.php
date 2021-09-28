@@ -40,7 +40,7 @@
 							<button class="tab -mb-px active-tab" onclick="javascript:filterTemplates('');" data-twfilter="all">All</button>
 						</li>
 						<?php
-						$filters = array('UI Kit', 'Page Builder');
+						$filters = array('Boilerplate', 'UI Kit', 'Page Builder');
 						foreach ($filters as $filter)
 						{
 							echo "\t\t\t\t\t\t<li class=\"mr-1\">";
