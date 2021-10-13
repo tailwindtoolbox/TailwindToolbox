@@ -3329,7 +3329,7 @@
       "url_author": "https://github.com/msaaddev",
       "author": "Saad Irfan",
       "category": "tbc",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3343,7 +3343,7 @@
       "url_author": "https://katiekodes.com",
       "author": "Katie Kodes",
       "category": "Starter",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3357,7 +3357,7 @@
       "url_author": "https://gum.co/HJDDn",
       "author": "Halit Güvenilir",
       "category": "tbc",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3371,7 +3371,7 @@
       "url_author": "https://github.com/iamnyasha",
       "author": "iamnyasha",
       "category": "Browser",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3385,7 +3385,7 @@
       "url_author": "https://github.com/Kamona-WD",
       "author": "Kamona-WD",
       "category": "Utilities",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3399,7 +3399,7 @@
       "url_author": "https://github.com/elliotreborn",
       "author": "Elliot Reborn",
       "category": "Design",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3413,7 +3413,7 @@
       "url_author": "https://github.com/vikdiesel",
       "author": "Viktor Kuzhelny",
       "category": "Admin",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3427,7 +3427,7 @@
       "url_author": "https://davidhellmann.com/",
       "author": "David Hellmann",
       "category": "Utilities",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3441,7 +3441,7 @@
       "url_author": "https://github.com/ShiftLimits",
       "author": "ShiftLimits",
       "category": "Color",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3455,7 +3455,7 @@
       "url_author": "https://creativedesignsguru.com",
       "author": "ixartz",
       "category": "tbc",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3469,7 +3469,7 @@
       "url_author": "https://nextlessjs.com",
       "author": "Ixartz",
       "category": "Boilerplate",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3483,7 +3483,7 @@
       "url_author": "https://www.emmanuelgautier.com/",
       "author": "Emmanuel Gautier",
       "category": "Starter",
-      "new": true,
+      "new": false,
       "home": false,
       "sticky": false,
       "affiliate": false
@@ -3497,11 +3497,53 @@
       "url_author": "https://www.getgust.com/",
       "author": "Gust",
       "category": "Starter",
+      "new": false,
+      "home": false,
+      "sticky": false,
+      "affiliate": false
+    },
+    {
+      "site_section": "Component",
+      "url": "https://halitguvenilir.gumroad.com/l/CDuaV",
+      "url_image": "components/hgpricing.jpg",
+      "title": "Pricing Box [$]",
+      "description": "Pricing Box component made with Tailwind CSS",
+      "url_author": "https://halitguvenilir.gumroad.com/l/CDuaV",
+      "author": "Halit Güvenilir",
+      "category": "tbc",
       "new": true,
       "home": false,
       "sticky": false,
       "affiliate": false
-    }
+    },
+    {
+      "site_section": "Component",
+      "url": "https://halitguvenilir.gumroad.com/l/mJqOn",
+      "url_image": "components/hgbuttons.jpg",
+      "title": "Button Components [$]",
+      "description": "Button components made with Tailwind CSS",
+      "url_author": "https://halitguvenilir.gumroad.com/l/mJqOn",
+      "author": "Halit Güvenilir",
+      "category": "tbc",
+      "new": true,
+      "home": false,
+      "sticky": false,
+      "affiliate": false
+    },
+        {
+          "site_section": "Kit",
+          "url": "https://halitguvenilir.gumroad.com/l/YlPcv",
+          "url_image": "products/hgui.jpg",
+          "title": "HG UI",
+          "description": "165 premium components and will be updated weekly to reach over 400 components by the end of the year",
+      "url_author": "https://halitguvenilir.gumroad.com/l/mJqOn",
+      "author": "Halit Güvenilir",
+          "category": "UI Kit",
+          "new": true,
+          "home": false,
+          "sticky": false,
+          "affiliate": false
+        }
 ]
 
 
