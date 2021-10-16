@@ -2611,7 +2611,7 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": false,
+    "sticky": true,
     "affiliate": false
   },
   {
@@ -3037,18 +3037,18 @@
   },
     {
       "site_section": "Kit",
-      "url": "https://gumroad.com/a/576918643/uUMQe",
+      "url": "https://hyperui.dev",
       "url_image": "hyperui.png",
-      "title": "HyperUI [$]",
-      "description": "80+ beautiful UI components for the modern web with new components added every week (Affiliate Link)",
-      "download": "$29",
+      "title": "HyperUI",
+      "description": "80+ beautiful UI components for the modern web",
+      "download": "",
       "url_author": "https://hyperui.dev",
       "author": "Mark Mead",
       "category": "UI Kit, Page Builder",
       "new": false,
-      "home": true,
+      "home": false,
       "sticky": true,
-      "affiliate": true
+      "affiliate": false
     },
   {
     "site_section": "Kit",
@@ -3532,17 +3532,17 @@
     },
         {
           "site_section": "Kit",
-          "url": "https://halitguvenilir.gumroad.com/l/YlPcv",
+          "url": "https://gumroad.com/a/611161203/YlPcv",
           "url_image": "products/hgui.jpg",
-          "title": "HG UI",
+          "title": "HG UI [$]",
           "description": "165 premium components and will be updated weekly to reach over 400 components by the end of the year",
-      "url_author": "https://halitguvenilir.gumroad.com/l/mJqOn",
+      "url_author": "https://gumroad.com/a/611161203/YlPcv",
       "author": "Halit Güvenilir",
           "category": "UI Kit",
           "new": true,
-          "home": false,
-          "sticky": false,
-          "affiliate": false
+          "home": true,
+          "sticky": true,
+          "affiliate": true
         }
 ]
 
