@@ -3065,7 +3065,7 @@
     "affiliate": true
   },
   {
-    "site_section": "Template",
+    "site_section": "Marketplace",
     "url": "https://cruip.com/?ref=tailwindtoolbox",
     "url_image": "cruip.png",
     "title": "Cruip Template Pack [$]",
@@ -3290,7 +3290,7 @@
     "affiliate": true
   },
   {
-    "site_section": "Template",
+    "site_section": "Marketplace",
     "url": "https://gumroad.com/a/642815091",
     "url_image": "wicked.png",
     "title": "Wicked Templates [$]",
@@ -3588,5 +3588,65 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/979784819/SPIUh",
+    "url_image": "products/elyssi.jpg",
+    "title": "Elyssi (e-commerce) [$]",
+    "description": "Elyssi is an e-commerce HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others and based on a vibrant and creative design.",
+    "download": "$39",
+    "url_author": "https://redpixelthemes.com/",
+    "author": "Red Pixel Themes",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/979784819/mUFhR",
+    "url_image": "products/thompson.jpg",
+    "title": "Thompson (Business) [$]",
+    "description": "Thompson is an business/legal HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others and based on a vibrant and creative design.",
+    "download": "$39",
+    "url_author": "https://redpixelthemes.com/",
+    "author": "Red Pixel Themes",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/979784819/MbHNG",
+    "url_image": "products/atlas.jpg",
+    "title": "Atlas (Blog) [$]",
+    "description": "Atlas is an personal/blog HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others and based on a vibrant and creative design.",
+    "download": "$39",
+    "url_author": "https://redpixelthemes.com/",
+    "author": "Red Pixel Themes",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/979784819/kmkUW",
+    "url_image": "products/masterclass.jpg",
+    "title": "Masterclass (Online Course) [$]",
+    "description": "Atlas is an online course HTML Template made with the latest technologies like TailwindCSS, Alpine.JS, among others and based on a vibrant and creative design.",
+    "download": "$39",
+    "url_author": "https://redpixelthemes.com/",
+    "author": "Red Pixel Themes",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": true
   }
 ]
