@@ -321,6 +321,21 @@
   },
   {
     "site_section": "Template",
+    "url": "https://github.com/themesberg/windster-tailwind-css-dashboard",
+    "url_image": "templates/windster.jpg",
+    "title": "Windster",
+    "description": "Windster is a free and open-source Tailwind CSS admin dashboard layout featuring Tailwind CSS components based on the Flowbite component library such as buttons, dropdowns, navbars, modals, date pickers, and more.",
+    "url_author": "https://demo.themesberg.com/windster/",
+    "author": "Themesberg",
+    "download": "",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": false
+  },
+  {
+    "site_section": "Template",
     "url": "https://www.creative-tim.com/product/notus-js/",
     "url_image": "templates/notus.png",
     "title": "Notus JS",
@@ -3619,21 +3634,7 @@
     "sticky": true,
     "affiliate": true
   },
-  {
-    "site_section": "Template",
-    "url": "https://github.com/themesberg/windster-tailwind-css-dashboard",
-    "url_image": "templates/windster.jpg",
-    "title": "Windster",
-    "description": "Windster is a free and open-source Tailwind CSS admin dashboard layout featuring Tailwind CSS components based on the Flowbite component library such as buttons, dropdowns, navbars, modals, date pickers, and more.",
-    "url_author": "https://demo.themesberg.com/windster/",
-    "author": "Themesberg",
-    "download": "",
-    "category": "Admin",
-    "new": true,
-    "home": false,
-    "sticky": true,
-    "affiliate": false
-  },
+  
     {
       "site_section": "Component",
       "url": "https://www.pagesection.com/templates/tailwindcss",
