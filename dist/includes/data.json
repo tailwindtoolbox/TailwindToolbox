@@ -1160,36 +1160,6 @@
     "affiliate": false
   },
   {
-    "site_section": "Component",
-    "url": "https://angulartailwind.com",
-    "url_image": "components/angular-tailwind.png",
-    "title": "Angular Tailwind",
-    "description": "Reusable and customisable components built with Angular and Tailwind CSS",
-    "download": "",
-    "url_author": "https://twitter.com/angulartailwind",
-    "author": "Angular Tailwind",
-    "category": "Angular",
-    "new": false,
-    "home": false,
-    "sticky": false,
-    "affiliate": false
-  },
-  {
-    "site_section": "Component",
-    "url": "https://codepen.io/steveschoger/pen/YbQXGq",
-    "url_image": "components/card-ss.png",
-    "title": "Steve Schoger's Card",
-    "description": "Steve Schoger's popular card from Refactoring UI Design Tips",
-    "download": "",
-    "url_author": "https://codepen.io/steveschoger/pen/YbQXGq",
-    "author": "Steve Schoger",
-    "category": "HTML",
-    "new": false,
-    "home": false,
-    "sticky": false,
-    "affiliate": false
-  },
-  {
     "site_section": "Generator",
     "url": "https://github.com/huphtur/Tailwind-Theme-Switcher",
     "url_image": "components/switcher.png",
@@ -3524,7 +3494,7 @@
     "url_author": "https://halitguvenilir.gumroad.com/l/CDuaV",
     "author": "Halit Güvenilir",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3539,7 +3509,7 @@
     "url_author": "https://halitguvenilir.gumroad.com/l/mJqOn",
     "author": "Halit Güvenilir",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3554,7 +3524,7 @@
     "url_author": "https://gumroad.com/a/611161203/YlPcv",
     "author": "Halit Güvenilir",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": true,
     "sticky": true,
     "affiliate": true
@@ -3569,7 +3539,7 @@
     "url_author": "https://redpixelthemes.com/",
     "author": "Red Pixel Themes",
     "category": "Portfolio",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3584,7 +3554,7 @@
     "url_author": "https://www.inspectflow.io",
     "author": "Inpsect Flow",
     "category": "Browser",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3599,7 +3569,7 @@
     "url_author": "https://redpixelthemes.com/",
     "author": "Red Pixel Themes",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": true
@@ -3614,7 +3584,7 @@
     "url_author": "https://redpixelthemes.com/",
     "author": "Red Pixel Themes",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": true
@@ -3629,7 +3599,7 @@
     "url_author": "https://redpixelthemes.com/",
     "author": "Red Pixel Themes",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": true
@@ -3644,9 +3614,39 @@
     "url_author": "https://redpixelthemes.com/",
     "author": "Red Pixel Themes",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": true
-  }
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/themesberg/windster-tailwind-css-dashboard",
+    "url_image": "templates/windster.jpg",
+    "title": "Windster",
+    "description": "Windster is a free and open-source Tailwind CSS admin dashboard layout featuring Tailwind CSS components based on the Flowbite component library such as buttons, dropdowns, navbars, modals, date pickers, and more.",
+    "url_author": "https://demo.themesberg.com/windster/",
+    "author": "Themesberg",
+    "download": "",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": false
+  },
+    {
+      "site_section": "Component",
+      "url": "https://www.pagesection.com/templates/tailwindcss",
+      "url_image": "toolsutilities/pagesection.jpg",
+      "title": "Page Section",
+      "description": "A collection of Editable HTML templates/snippets - Edit or customize with the HTML Editor before download",
+      "download": "",
+      "url_author": "https://www.pagesection.com/",
+      "author": "Page Section",
+      "category": "HTML",
+      "new": true,
+      "home": false,
+      "sticky": false,
+      "affiliate": false
+    }
 ]
