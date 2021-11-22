@@ -3649,5 +3649,38 @@
       "home": false,
       "sticky": false,
       "affiliate": false
-    }
+    },
+      {
+        "site_section": "Marketplace",
+        "url": "https://a.paddle.com/v2/click/113942/124350?link=3522",
+        "url_image": "products/windsterpro.jpg",
+        "title": "Windster Pro",
+        "description": "Windster Pro is a premium Tailwind CSS dashboard template featuring over 21 application pages, advanced charts, a kanban board, an expandable sidebar layout, SVG maps, authentication pages, and many more.",
+        "url_author": "https://demo.themesberg.com/windster/",
+        "author": "Themesberg",
+        "download": "$89",
+        "category": "Admin",
+        "new": true,
+        "home": false,
+        "sticky": true,
+        "affiliate": true
+      },
+{
+  "site_section": "Template",
+  "url": "https://tomve.gumroad.com/l/startuptemplate",
+  "url_image": "templates/tomve_startup.jpg",
+  "title": "Startup Landing page",
+  "description": "A free HTML landing page created with TailwindCSS.",
+  "url_author": "https://twitter.com/heytomve",
+  "author": "Tomve",
+  "download":"",
+  "category": "Landing",
+  "new": true,
+  "home": false,
+  "sticky": false,
+  "affiliate": false
+}
+
+
+      
 ]
