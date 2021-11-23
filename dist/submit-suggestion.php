@@ -24,9 +24,12 @@ $emailHTML = '
 	  "description": "' . $description . '",<br>
 	  "url_author": "' . $authorLink . '",<br>
 	  "author": "' . $author . '",<br>
+	  "download": "",<br>
 	  "category": "tbc",<br>
 	  "new": false,<br>
-	  "home": false<br>
+	  "home": false,<br>
+      "sticky": false,<br>
+      "affiliate": false<br>
 	  },<br><br>
 	';
 
