@@ -10,7 +10,7 @@
 	<meta name="keywords" content="tailwind,tailwindcss,heroicons, heroicons viewer">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
-	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet">
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
 	<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 	<script src="heroicons.json"></script>
@@ -117,7 +117,8 @@
 			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc" class="mx-auto mt-6 w-full max-w-xs flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold py-3 px-5 rounded shadow">
 				<svg class="inline fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
 					<path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z" />
-					<path d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z" /></svg>
+					<path d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z" />
+				</svg>
 				Copy to clipboard
 			</button>
 			<div class="w-full mt-4 text-brand font-bold text-center" id="clipboardMessage"></div>

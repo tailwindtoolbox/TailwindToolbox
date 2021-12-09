@@ -10,7 +10,7 @@
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,blog template, blog layout, minimal, monochrome, minimalistic, theme">
 	<?php include '../includes/head-templates.php'; ?>
 
-	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet">
 	<!--Replace with your tailwind.css once created-->
 
 </head>

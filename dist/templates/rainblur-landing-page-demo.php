@@ -9,9 +9,9 @@
   <meta name="description" content="Free open source Tailwind CSS starter template (Hero Product) to use with node.js/npm, postcss+purgecss!">
   <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,hero, dark, gradient">
   <?php include '../includes/head-templates.php'; ?>
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
   <!--Replace with your tailwind.css once created-->
-  <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
+  <link href=" https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
 
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");

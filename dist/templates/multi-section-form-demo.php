@@ -9,7 +9,7 @@
     <meta name="description" content="Free open source Tailwind CSS multi section form with scrollspy (useful for settings)">
     <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,settings,form,custom forms, multi-section, scrollspy">
     <?php include '../includes/head-templates.php'; ?>
-    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet">
     <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet">
     <!--Replace with your tailwind.css once created-->
     <style>

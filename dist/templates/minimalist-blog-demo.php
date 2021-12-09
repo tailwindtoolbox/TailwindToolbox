@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tailwind Starter Template - Minimalist Blog: Tailwind Toolbox</title>
-	<meta name="description" content="Free open source Tailwind CSS Minimalistic monochrome blog template">
-	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,blog template, blog layout, minimal, monochrome, minimalistic, theme">
-	<?php include '../includes/head-templates.php';?>
+    <meta name="description" content="Free open source Tailwind CSS Minimalistic monochrome blog template">
+    <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,blog template, blog layout, minimal, monochrome, minimalistic, theme">
+    <?php include '../includes/head-templates.php'; ?>
 
-	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet">
+    <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
 
     <style>
         .nunito {
             font-family: 'Nunito', sans-serif;
         }
-        
+
         ::selection {
             background: #E9D8FD;
             /* WebKit/Blink Browsers */
         }
-        
+
         ::-moz-selection {
             background: #E9D8FD;
             /* Gecko Browsers */
         }
-        
+
         a:not(.nav) {
             font-weight: bold;
             text-decoration: none;
@@ -41,7 +43,7 @@
             -o-transition: all 150ms ease-in-out;
             transition: all 150ms ease-in-out;
         }
-        
+
         a:hover {
             color: #B794F4;
             font-weight: bold;
@@ -57,7 +59,7 @@
             -o-transition: color 150ms ease-in-out;
             transition: color 150ms ease-in-out;
         }
-        
+
         a:focus {
             outline: none;
             background: #E9D8FD;
