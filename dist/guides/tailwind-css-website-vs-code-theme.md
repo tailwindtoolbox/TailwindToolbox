@@ -1,8 +1,6 @@
 Lots of people (myself included) have been blown away by how good the syntax highlighting theme looks on the new [Tailwind CSS Docs Page](https://tailwindcss.com) - great job to all of the Tailwind Labs crew!
 
-Until Tailwind Labs release an official theme (fingers crossed it won't be too long!!) - Here is a way to replicate the theme until the official one arrives!
-
-[![Adam Tweet about releasing theme](theme-tweet.jpg)](https://twitter.com/adamwathan/status/1469018263610875907)
+Until Tailwind Labs release an official theme ([fingers crossed it won't be too long!!](https://twitter.com/adamwathan/status/1469018263610875907)) - Here is a way to replicate the theme until the official one arrives!
 
 <br><br>
 
