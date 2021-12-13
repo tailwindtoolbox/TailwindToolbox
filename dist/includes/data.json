@@ -3723,5 +3723,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Guide",
+    "url": "https://www.tailwindtoolbox.com/guides/tailwind-css-website-vs-code-theme",
+    "url_image": "/guides/theme.jpg",
+    "title": "Tailwind CSS Website Syntax Highlighting",
+    "description": "A guide to replicate the syntax highlighting theme from the Tailwind CSS website",
+    "download": "",
+    "url_author": "https://www.tailwindtoolbox.com",
+    "author": "Tailwind Toolbox",
+    "category": "Setup",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
