@@ -3738,5 +3738,35 @@
     "home": true,
     "sticky": true,
     "affiliate": true
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/rebelchris/astro-tailwind",
+    "url_image": "templates/astro.jpg",
+    "title": "Astro – Tailwind",
+    "description": "A starter for building sites in Astro with Tailwind CSS",
+    "download": "",
+    "url_author": "https://github.com/rebelchris",
+    "author": "Chris Bongers",
+    "category": "Starter",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Template",
+    "url": "  https://github.com/posva/vite-tailwind-starter",
+    "url_image": "templates/vite.jpg",
+    "title": "Vite – Tailwind",
+    "description": "A starter for building sites with Vite (includes Tailwind UI sample page)",
+    "download": "",
+    "url_author": "https://github.com/posva",
+    "author": "Eduardo San Martin Morote",
+    "category": "Starter",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
