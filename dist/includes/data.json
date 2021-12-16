@@ -3540,7 +3540,7 @@
     "author": "Halit Güvenilir",
     "category": "UI Kit",
     "new": false,
-    "home": true,
+    "home": false,
     "sticky": true,
     "affiliate": true
   },
@@ -3554,21 +3554,6 @@
     "url_author": "https://redpixelthemes.com/",
     "author": "Red Pixel Themes",
     "category": "Portfolio",
-    "new": false,
-    "home": false,
-    "sticky": false,
-    "affiliate": false
-  },
-  {
-    "site_section": "Tool",
-    "url": "https://www.inspectflow.io",
-    "url_image": "toolsutilities/inspectflow.jpg",
-    "title": "Inspect Flow",
-    "description": "The complete developer tool for Tailwind CSS",
-    "download": "",
-    "url_author": "https://www.inspectflow.io",
-    "author": "Inpsect Flow",
-    "category": "Browser",
     "new": false,
     "home": false,
     "sticky": false,
@@ -3738,5 +3723,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://www.inspectflow.io?lmref=v1hDoA",
+    "url_image": "toolsutilities/inspectflow.jpg",
+    "title": "Inspect Flow [$]",
+    "description": "The complete developer tool for Tailwind CSS! Increase your productivity and build websites faster. (Affiliate Link)",
+    "download": "$39.99",
+    "url_author": "https://www.inspectflow.io",
+    "author": "Inspectflow.io",
+    "category": "Brower",
+    "new": false,
+    "home": true,
+    "sticky": true,
+    "affiliate": true
   }
 ]
