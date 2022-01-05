@@ -3768,5 +3768,35 @@
     "home": false,
     "sticky": false,
     "affiliate": false
-  }
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/ejulfaey/dashboard-atom",
+    "url_image": "templates/atomdashboard.jpg",
+    "title": "Dashboard Atom",
+    "description": "Single page for admin build by Tailwind CSS and Alpine JS",
+    "url_author": "https://github.com/ejulfaey",
+    "author": "Ejul Faey",
+    "download": "",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+    },
+    {
+      "site_section": "Kit",
+      "url": "https://pazly.dev/",
+      "url_image": "products/pazly.jpg",
+      "title": "Pazly",
+      "description": "Great landing pages for your products. Build fast without coding. Own what you build. Drag and drop editable components and build beautiful responsive websites.",
+      "url_author": "https://twitter.com/cd_bara",
+      "author": "Cris",
+      "download": "",
+      "category": "Page Builder",
+      "new": true,
+      "home": false,
+      "sticky": false,
+      "affiliate": false
+    }
 ]
