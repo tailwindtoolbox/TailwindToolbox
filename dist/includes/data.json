@@ -3541,7 +3541,7 @@
     "category": "UI Kit",
     "new": false,
     "home": false,
-    "sticky": true,
+    "sticky": false,
     "affiliate": true
   },
   {
@@ -3571,7 +3571,7 @@
     "category": "Template",
     "new": false,
     "home": false,
-    "sticky": true,
+    "sticky": false,
     "affiliate": true
   },
   {
@@ -3586,7 +3586,7 @@
     "category": "Template",
     "new": false,
     "home": false,
-    "sticky": true,
+    "sticky": false,
     "affiliate": true
   },
   {
@@ -3601,7 +3601,7 @@
     "category": "Template",
     "new": false,
     "home": false,
-    "sticky": true,
+    "sticky": false,
     "affiliate": true
   },
   {
@@ -3616,7 +3616,7 @@
     "category": "Template",
     "new": false,
     "home": false,
-    "sticky": true,
+    "sticky": false,
     "affiliate": true
   },
   {
@@ -3783,20 +3783,50 @@
     "home": false,
     "sticky": false,
     "affiliate": false
-    },
-    {
-      "site_section": "Kit",
-      "url": "https://pazly.dev/",
-      "url_image": "products/pazly.jpg",
-      "title": "Pazly",
-      "description": "Great landing pages for your products. Build fast without coding. Own what you build. Drag and drop editable components and build beautiful responsive websites.",
-      "url_author": "https://twitter.com/cd_bara",
-      "author": "Cris",
-      "download": "",
-      "category": "Page Builder",
-      "new": true,
-      "home": false,
-      "sticky": false,
-      "affiliate": false
-    }
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://pazly.dev/",
+    "url_image": "products/pazly.jpg",
+    "title": "Pazly",
+    "description": "Great landing pages for your products. Build fast without coding. Own what you build. Drag and drop editable components and build beautiful responsive websites.",
+    "url_author": "https://twitter.com/cd_bara",
+    "author": "Cris",
+    "download": "",
+    "category": "Page Builder",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/33903731",
+    "url_image": "products/tailkit.jpg",
+    "title": "Tailkit",
+    "description": "Hundreds of carefully crafted, easy to customize, fully responsive UI components and templates for your Tailwind CSS based projects. (Affiliate Link)",
+    "download": "$79+",
+    "url_author": "https://tailkit.com",
+    "author": "pixelcave",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://tailgrids.com/?ref=tailwindtoolbox",
+    "url_image": "products/tailgrids.svg",
+    "title": "TailGrids",
+    "description": "300+ Tailwind CSS UI Components and Blocks, that you can copy-paste",
+    "download": "$69+",
+    "url_author": "https://www.tailgrids.com",
+    "author": "TailGrids",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
+  }
 ]
