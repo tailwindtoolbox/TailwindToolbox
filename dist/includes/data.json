@@ -3828,5 +3828,20 @@
     "home": false,
     "sticky": false,
     "affiliate": true
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://tailgrids.com/?ref=tailwindtoolbox",
+    "url_image": "products/tailgrids.svg",
+    "title": "TailGrids",
+    "description": "300+ Tailwind CSS UI Components and Blocks, that you can copy-paste",
+    "download": "$69+",
+    "url_author": "https://www.tailgrids.com",
+    "author": "TailGrids",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
   }
 ]
