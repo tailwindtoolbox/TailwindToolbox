@@ -3827,7 +3827,7 @@
     "new": true,
     "home": false,
     "sticky": false,
-    "affiliate": true
+    "affiliate": false
   },
   {
     "site_section": "Kit",
@@ -3839,6 +3839,21 @@
     "url_author": "https://www.tailgrids.com",
     "author": "TailGrids",
     "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/272979059",
+    "url_image": "products/myspace.jpg",
+    "title": "Classic Myspace",
+    "description": "Replica of the Classic Myspace Layout from 2006 recreated using Tailwind CSS v3. Fully responsive. (Affiliate Link)",
+    "download": "$25+",
+    "url_author": "https://dalton.sutton.io",
+    "author": "Dalton Sutton",
+    "category": "Template",
     "new": true,
     "home": false,
     "sticky": false,
