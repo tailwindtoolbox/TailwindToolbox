@@ -3858,5 +3858,35 @@
     "home": false,
     "sticky": false,
     "affiliate": true
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://github.com/Microwawe/mamba-ui",
+    "url_image": "products/mambaui.jpg",
+    "title": "Mamba UI",
+    "description": "A free UI kit with 100 Tailwind CSS components and templates.",
+    "url_author": "https://twitter.com/nnowwakk",
+    "author": "Mirko Nowak",
+    "download": "",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://cruip.com/tidy/?ref=tailwindtoolbox",
+    "url_image": "products/cruip-tidy.jpg",
+    "title": "Tidy",
+    "description": "Clean and modern HTML, React, and Vue.js landing page template for startups.",
+    "url_author": "https://cruip.com/",
+    "author": "Cruip",
+    "download": "$39",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
   }
 ]
