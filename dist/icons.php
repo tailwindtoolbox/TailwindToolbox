@@ -36,7 +36,7 @@
 
 
 		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
-			<div class="w-full mb-8 mt-6 sticky top-icon bg-brand-white z-10">
+			<div class="w-full mb-8 mt-6 sticky top-icon bg-brand-white z-5">
 
 				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
 
