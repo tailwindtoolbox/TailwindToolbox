@@ -36,7 +36,7 @@
 
 
 		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
-			<div class="w-full mb-8 mt-6 sticky top-icon bg-brand-white z-10">
+			<div class="w-full mb-8 mt-6 sticky top-icon bg-brand-white z-5">
 
 				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
 
@@ -74,7 +74,7 @@
 			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
 			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 		</div>
-		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky bottom-0 bg-brand-white z-50" x-show.transition="currentSVG != ''">
+		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky top-40 bg-brand-white z-50" x-show.transition="currentSVG != ''">
 
 			<button type="button" class="md:hidden float-right" x-on:click="currentSVG = ''">
 
