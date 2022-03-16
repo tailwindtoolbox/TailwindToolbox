@@ -3270,7 +3270,7 @@
     "author": "SaaS Blocks",
     "category": "UI Kit",
     "new": false,
-    "home": true,
+    "home": false,
     "sticky": true,
     "affiliate": true
   },
@@ -3887,6 +3887,21 @@
     "new": true,
     "home": false,
     "sticky": false,
+    "affiliate": true
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://www.devwares.com/windframe/?via=amrit",
+    "url_image": "templates/windframe.png",
+    "title": "Windframe [$]",
+    "description": "Windframe is a Visual builder for rapidly prototyping and building stunning webpages using 250+ easily editable Tailwind CSS templates (Affiliate Link)",
+    "download": "$0+ pm",
+    "url_author": "https://www.devwares.com/windframe/?via=amrit",
+    "author": "Devwares",
+    "category": "UI Kit, Page Builder",
+    "new": true,
+    "home": true,
+    "sticky": true,
     "affiliate": true
   }
 ]
