@@ -3963,5 +3963,35 @@
     "home": false,
     "sticky": false,
     "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/620897395/rbklq",
+    "url_image": "products/ari-taildash.jpg",
+    "title": "Taildash [$]",
+    "description": "Taildash is a Tailwind admin dashboard template with responsive design (Affiliate Link)",
+    "download": "$23+",
+    "url_author": "https://gumroad.com/a/620897395",
+    "author": "Ari Budin",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/620897395/eytgsk",
+    "url_image": "products/ari-tailpro.jpg",
+    "title": "Tailpro [$]",
+    "description": "Tailpro is Tailwind CSS Landing templates with optimized by Google Core Web Vital (Affiliate Link)",
+    "download": "$23+",
+    "url_author": "https://gumroad.com/a/620897395",
+    "author": "Ari Budin",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
   }
 ]
