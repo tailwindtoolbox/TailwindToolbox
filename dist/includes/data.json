@@ -329,7 +329,7 @@
     "author": "Themesberg",
     "download": "",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": false
@@ -3629,7 +3629,7 @@
     "url_author": "https://www.pagesection.com/",
     "author": "Page Section",
     "category": "HTML",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3644,7 +3644,7 @@
     "author": "Themesberg",
     "download": "$89",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": true
@@ -3659,7 +3659,7 @@
     "author": "Tomve",
     "download": "",
     "category": "Landing",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3779,7 +3779,7 @@
     "author": "Ejul Faey",
     "download": "",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3794,7 +3794,7 @@
     "author": "Cris",
     "download": "",
     "category": "Page Builder",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3809,7 +3809,7 @@
     "url_author": "https://tailkit.com",
     "author": "pixelcave",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -3824,7 +3824,7 @@
     "url_author": "https://www.tailgrids.com",
     "author": "TailGrids",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3839,7 +3839,7 @@
     "url_author": "https://www.tailgrids.com",
     "author": "TailGrids",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3854,7 +3854,7 @@
     "url_author": "https://dalton.sutton.io",
     "author": "Dalton Sutton",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -3869,7 +3869,7 @@
     "author": "Mirko Nowak",
     "download": "",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3884,7 +3884,7 @@
     "author": "Cruip",
     "download": "$39",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -3899,7 +3899,7 @@
     "url_author": "https://www.devwares.com/windframe/?via=amrit",
     "author": "Devwares",
     "category": "UI Kit, Page Builder",
-    "new": true,
+    "new": false,
     "home": true,
     "sticky": true,
     "affiliate": true
@@ -3914,7 +3914,7 @@
     "author": "Mark Mead",
     "download": "",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3929,7 +3929,7 @@
     "author": "Halit Güvenilir",
     "download": "$5+",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3944,7 +3944,7 @@
     "author": "Suraj Air",
     "download": "",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -3974,7 +3974,7 @@
     "url_author": "https://gumroad.com/a/620897395",
     "author": "Ari Budin",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -3989,9 +3989,54 @@
     "url_author": "https://gumroad.com/a/620897395",
     "author": "Ari Budin",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://tailwind.ws/",
+    "url_image": "products/tailwindws.jpg",
+    "title": "Tailwind.ws [$]",
+    "description": "A library of a free and premium Tailwind Blocks and Builder",
+    "url_author": "https://Bootstraptor.com",
+    "author": "Bootstraptor",
+    "download": "$22+",
+    "category": "UI Kit, Page Builder",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/iozcelik/SarissaPersonalBlog",
+    "url_image": "templates/sarissa.jpg",
+    "title": "Sarissa Personel Blo",
+    "description": "Open source, generic blog template for Tailwind CSS with DaisyUI component library",
+    "url_author": "https://github.com/iozcelik",
+    "author": "İsmail Özçelik",
+    "download": "",
+    "category": "Blog",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://tailus.io",
+    "url_image": "products/tailus.jpg",
+    "title": "Tailus Blocks",
+    "description": "50 free Beautiful and Modern blocks built with Tailwind CSS",
+    "url_author": "https://twitter.com/meschacirung",
+    "author": "Méschac Irung",
+    "download": "",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
