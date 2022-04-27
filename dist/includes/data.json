@@ -3285,8 +3285,8 @@
     "author": "Wicked Labs",
     "category": "Template",
     "new": false,
-    "home": true,
-    "sticky": true,
+    "home": false,
+    "sticky": false,
     "affiliate": true
   },
   {
@@ -4038,5 +4038,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://gumroad.com/a/685286515",
+    "url_image": "products/unwrapped.jpg",
+    "title": "Unwrapped UI [$]",
+    "description": "A sleek prototyping kit for your next Tailwind CSS project (Affiliate Link)",
+    "download": "$59+",
+    "url_author": "https://github.com/michael-andreuzza",
+    "author": "Michael Andreuzza",
+    "category": "UI Kit",
+    "new": true,
+    "home": true,
+    "sticky": true,
+    "affiliate": true
   }
 ]
