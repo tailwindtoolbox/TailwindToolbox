@@ -3135,7 +3135,7 @@
     "author": "Creative Tim",
     "category": "Admin",
     "new": false,
-    "home": true,
+    "home": false,
     "sticky": false,
     "affiliate": true
   },
@@ -4053,5 +4053,35 @@
     "home": true,
     "sticky": true,
     "affiliate": true
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://comingsoonkit.com/?ref=tailwindtoolbox",
+    "url_image": "products/comingsoonkit.png",
+    "title": "Coming Soon Kit [$]",
+    "description": "50+ unique coming soon pages for SaaS products, mobile apps, info-products and more! (Affiliate Link)",
+    "download": "$25+",
+    "url_author": "https://comingsoonkit.com/?ref=tailwindtoolbox",
+    "author": "Coming Soon Kit",
+    "category": "UI Kit",
+    "new": true,
+    "home": true,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/daison12006013/sveltekit-starter",
+    "url_image": "templates/windmill.png",
+    "title": "SvelteKit Admin",
+    "description": "SvelteKit Starter Template - based on Windmill Admin template",
+    "url_author": "https://github.com/daison12006013",
+    "author": "Daison Cariño",
+    "download": "",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
