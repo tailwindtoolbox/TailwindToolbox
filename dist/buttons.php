@@ -40,24 +40,24 @@
 
     </style>
 </head>
-<body class="bg-brand-white leading-normal tracking-normal nunito">
+<body class="leading-normal tracking-normal bg-brand-white nunito">
 
 	<?php include 'includes/nav-templates.php';?>
 
 	<!--header-->
-	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">	
+    <div class="z-20 flex items-center pb-6 mt-24 mb-6 text-center bg-cover" style="background-image: url(bg.svg)">	
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Button Playground</span>
+			<span class="px-3 mb-5 text-3xl font-bold text-center text-white bg-brand md:text-5xl sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Button Playground</span>
 		</div>
 	</div>
 
 
 
 	<div class="container mx-auto mb-8" id="post-content">
-		<div class="w-full -mt-12 md:-mt-32 px-0">
+		<div class="w-full px-0 -mt-12 md:-mt-32">
 
-			<div class="bg-white rounded overflow-hidden shadow mx-1">
-				<div class="flex flex-wrap p-3 sm:p-6 text-grey-darker leading-normal text-base md:text-xl">
+			<div class="mx-1 overflow-hidden bg-white rounded shadow">
+				<div class="flex flex-wrap p-3 text-base leading-normal sm:p-6 text-grey-darker md:text-xl">
 						<p class="my-2 font-bold">
 							Interactive playground for creating Tailwind CSS buttons
 							<br>Based on: <a href="https://github.com/minthemiddle/tailwind-button-playground">https://github.com/minthemiddle/tailwind-button-playground</a>
@@ -68,12 +68,12 @@
 	</div>
 
 
-		<div class="container mx-auto mb-8 flex inline-block flex-wrap">
+		<div class="container flex flex-wrap inline-block mx-auto mb-8">
 
 
 			<div class="w-full pb-6 md:w-1/5">
 				<div class="sticky pin-t" style="top:9em;">
-					<p class="text-brand text-center font-bold mb-2">Advertisment</p>
+					<p class="mb-2 font-bold text-center text-brand">Advertisment</p>
 					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 			</div>
 				<div></div>
@@ -82,37 +82,37 @@
 		
 			</div>
 
-			<div class="w-full md:w-4/5 px-0">
+			<div class="w-full px-0 md:w-4/5">
 				<!--Buttons-->
 
-		<div class="bg-white rounded overflow-hidden shadow mx-1 text-center md:sticky md:pin-t md:z-50" style="top:9em;">
+		<div class="mx-1 overflow-hidden text-center bg-white rounded shadow md:sticky md:pin-t md:z-50" style="top:9em;">
 		
-				<div class="flex justify-center items-center py-6">
+				<div class="flex items-center justify-center py-6">
             <!-- Start: Component -->
-            <button id="button1" class="p-2 text-sm bg-black text-white no-underline hover:underline">Submit</button>
+            <button id="button1" class="p-2 text-sm text-white no-underline bg-black hover:underline">Submit</button>
             <!-- end: Component -->
         </div>
 
 
-        <div class="w-4/5 mx-auto border bg-gray-100 rounded shadow p-1" onmouseover="this.classList.toggle('cursor-copy')" onclick="copyToClipboard(ac.innerHTML)">
+        <div class="w-4/5 p-1 mx-auto bg-gray-100 border rounded shadow" onmouseover="this.classList.toggle('cursor-copy')" onclick="copyToClipboard(ac.innerHTML)">
             <pre><code id="ac" class="whitespace-normal"></code></pre>
 				</div>
 				
-				<div class="flex items-center justify-center flex-wrap my-8">
+				<div class="flex flex-wrap items-center justify-center my-8">
 
-					<label class="block tracking-wider text-gray-700 text-xs font-bold mr-4" for="buttontext">
+					<label class="block mr-4 text-xs font-bold tracking-wider text-gray-700" for="buttontext">
 							Set Button Text
 					</label>
-					<input id="buttontext" class="block appearance-none w-32 bg-gray-200 border border-gray-200 text-gray-700 p-4 rounded-lg leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mr-4" value="Submit" onchange="setButtonText();">
+					<input id="buttontext" class="block w-32 p-4 mr-4 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-white focus:border-gray-500" value="Submit" onchange="setButtonText();">
 		
-					<button class="bg-gray-200 rounded-lg p-4 mr-4" onclick="copyToClipboard(ac.innerHTML)">Copy classes</button>
-					<button class="bg-gray-200 rounded-lg p-4 mr-4" onclick="copyToClipboard(`<div class='${ac.innerHTML}'>Submit</div>`)">Copy full tag</button>
+					<button class="p-4 mr-4 bg-gray-200 rounded-lg" onclick="copyToClipboard(ac.innerHTML)">Copy classes</button>
+					<button class="p-4 mr-4 bg-gray-200 rounded-lg" onclick="copyToClipboard(`<div class='${ac.innerHTML}'>Submit</div>`)">Copy full tag</button>
 		
 					<div class="flex items-center">
-					<button class="bg-gray-200 rounded-lg p-4" id="r" onclick="getContrast()">Check Contrast Ratio</button>
+					<button class="p-4 bg-gray-200 rounded-lg" id="r" onclick="getContrast()">Check Contrast Ratio</button>
 						<div class="ml-4"><span id="c_ratio"></span></div> 
 					</div>
-						<!--<button class="ml-4 bg-gray-200 rounded-lg p-4" id="r" onclick="setButtonText()">Change button text</button>-->
+						<!--<button class="p-4 ml-4 bg-gray-200 rounded-lg" id="r" onclick="setButtonText()">Change button text</button>-->
 				</div>
 
 		</div>
@@ -123,11 +123,11 @@
     <div class="flex flex-wrap justify-center mt-8">
 
         <div id="control-textsize" class="mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="textsize">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="textsize">
                 Text Size
             </label>
             <div class="relative">
-                <select id="textsize" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('text-xs','text-sm','text-base','text-lg','text-xl','text-2xl','text-3xl','text-4xl','text-5xl','text-6xl');addComponentClass(value);">
+                <select id="textsize" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('text-xs','text-sm','text-base','text-lg','text-xl','text-2xl','text-3xl','text-4xl','text-5xl','text-6xl');addComponentClass(value);">
                     <option value="text-xs">text-xs (default)</option>
                     <option value="text-sm">text-sm</option>
                     <option value="text-base" selected>text-base</option>
@@ -140,38 +140,38 @@
 										<option value="text-6xl">text-6xl</option>
 										
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
         </div>
 		
 		
-		<div id="control-decoration" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="decoration">
+		<div id="control-decoration" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="decoration">
                 Text Decoration
             </label>
             <div class="relative">
-                <select id="decoration" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('underline','line-through','no-underline');addComponentClass(value);">
+                <select id="decoration" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('underline','line-through','no-underline');addComponentClass(value);">
                     <option value="underline">underline</option>
                     <option value="line-through">line-through</option>
                     <option value="no-underline" selected>no-underline (default)</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
         </div>
 		
 		
-		<div id="control-padding" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+		<div id="control-padding" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
                 Text Size
             </label>
             <div class="relative">
-                <select id="padding" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="clearFields('p-');addComponentClass(value);">
+                <select id="padding" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="clearFields('p-');addComponentClass(value);">
                     <option value="p-0">p-0 (default)</option>
                     <option value="p-1">p-1</option>
                     <option value="p-2" selected>p-2</option>
@@ -180,19 +180,19 @@
                     <option value="p-5">p-5</option>
 										<option value="p-6">p-6</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
         </div>
 		
-        <div id="control-background-color" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="control-background-color" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
                 Background Color
             </label>
             <div class="relative">
-                <select id="background" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="clearFields('bg-');addComponentClass(value,bgcolorvalue.innerHTML);">
+                <select id="background" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="clearFields('bg-');addComponentClass(value,bgcolorvalue.innerHTML);">
                     <option value="bg-transparent">bg-transparent</option>
 										<option value="bg-white">bg-white</option>
                     <option value="bg-black" selected>bg-black</option>
@@ -208,21 +208,21 @@
 										<option value="bg-pink-">bg-pink</option>
 
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
 			<div class="flex">
-				<input type="range" min="100" max="900" value="500" step="100" class="slider mr-2" id="bgcolor" onchange="clearFields('bg-');addComponentClass(document.getElementById('background').value,bgcolorvalue.innerHTML);"><div id="bgcolorvalue"></div>
+				<input type="range" min="100" max="900" value="500" step="100" class="mr-2 slider" id="bgcolor" onchange="clearFields('bg-');addComponentClass(document.getElementById('background').value,bgcolorvalue.innerHTML);"><div id="bgcolorvalue"></div>
 			</div>
         </div>
-        <div id="control-text-color" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="control-text-color" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
                 Text Color
             </label>
             <div class="relative">
-                <select id="text" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('text-black', 'text-white', 'text-gray', 'text-red', 'text-orange','text-yellow','text-green','text-teal','text-blue','text-indigo','text-purple','text-pink');addComponentClass(value,textcolorvalue.innerHTML)">
+                <select id="text" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('text-black', 'text-white', 'text-gray', 'text-red', 'text-orange','text-yellow','text-green','text-teal','text-blue','text-indigo','text-purple','text-pink');addComponentClass(value,textcolorvalue.innerHTML)">
                     <option value="text-white" selected>text-white</option>
 										<option value="text-black">text-black</option>
 										<option value="text-gray-">text-gray </option>
@@ -237,21 +237,21 @@
 										<option value="text-pink-">text-pink</option>
 
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
 			<div class="flex">
-				<input type="range" min="100" max="900" value="500" step="100" class="slider mr-2" id="textcolor" onchange="resetComponentClasses('text-black', 'text-white', 'text-gray', 'text-red', 'text-orange','text-yellow','text-green','text-teal','text-blue','text-indigo','text-purple','text-pink');addComponentClass(document.getElementById('text').value,textcolorvalue.innerHTML);"><div id="textcolorvalue"></div>
+				<input type="range" min="100" max="900" value="500" step="100" class="mr-2 slider" id="textcolor" onchange="resetComponentClasses('text-black', 'text-white', 'text-gray', 'text-red', 'text-orange','text-yellow','text-green','text-teal','text-blue','text-indigo','text-purple','text-pink');addComponentClass(document.getElementById('text').value,textcolorvalue.innerHTML);"><div id="textcolorvalue"></div>
 			</div>
         </div>
-        <div id="control-shadow" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="control-shadow" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
                 Shadow
             </label>
             <div class="relative">
-                <select id="padding" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('shadow-none', 'shadow','shadow-md','shadow-lg','shadow-xl','shadow-2xl','shadow-inner','shadow-outline');addComponentClass(value);">
+                <select id="padding" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('shadow-none', 'shadow','shadow-md','shadow-lg','shadow-xl','shadow-2xl','shadow-inner','shadow-outline');addComponentClass(value);">
                     <option value="">shadow-none</option>
                     <option value="shadow">shadow</option>
                     <option value="shadow-md">shadow-md</option>
@@ -261,57 +261,57 @@
                     <option value="shadow-inner">shadow-inner</option>
                     <option value="shadow-outline">shadow-outline</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
         </div>
 		
-        <div id="control-border-rounding" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="control-border-rounding" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
                 Rounded border
             </label>
             <div class="relative">
-                <select id="padding" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('rounded-sm', 'rounded', 'rounded-lg', 'rounded-full');addComponentClass(value);">
+                <select id="padding" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('rounded-sm', 'rounded', 'rounded-lg', 'rounded-full');addComponentClass(value);">
                     <option value="">rounded-none (default)</option>
                     <option value="rounded-sm">rounded-sm</option>
                     <option value="rounded">rounded</option>
                     <option value="rounded-lg">rounded-lg</option>
                     <option value="rounded-full">rounded-full</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
         </div>
 
 
-		<div id="hover-control-decoration" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="decoration">
+		<div id="hover-control-decoration" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="decoration">
                 HOVER: Text Decoration
             </label>
             <div class="relative">
-                <select id="hover-decoration" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('hover:underline','hover:line-through','hover:no-underline');addComponentClass(value);">
+                <select id="hover-decoration" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('hover:underline','hover:line-through','hover:no-underline');addComponentClass(value);">
                     <option value="hover:underline" selected>underline (default)</option>
                     <option value="hover:line-through">line-through</option>
                     <option value="hover:no-underline">no-underline</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
         </div>
 	
 	
-        <div id="hover-control-background-color" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="hover-control-background-color" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
 							HOVER: Background Color
             </label>
             <div class="relative">
-                <select id="hover-background" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="clearFields('hover:bg-');addComponentClass(value,hoverbgcolorvalue.innerHTML);">
+                <select id="hover-background" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="clearFields('hover:bg-');addComponentClass(value,hoverbgcolorvalue.innerHTML);">
                     <option value="hover:bg-transparent">bg-transparent</option>
 										<option value="hover:bg-white">bg-white</option>
                     <option value="hover:bg-black" selected>bg-black</option>
@@ -327,22 +327,22 @@
 										<option value="hover:bg-pink-">bg-pink</option>
 
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
 			<div class="flex">
-				<input type="range" min="100" max="900" value="500" step="100" class="slider mr-2" id="hoverbgcolor" onchange="clearFields('hover:bg-');addComponentClass(document.getElementById('hover-background').value,hoverbgcolorvalue.innerHTML);"><div id="hoverbgcolorvalue"></div>
+				<input type="range" min="100" max="900" value="500" step="100" class="mr-2 slider" id="hoverbgcolor" onchange="clearFields('hover:bg-');addComponentClass(document.getElementById('hover-background').value,hoverbgcolorvalue.innerHTML);"><div id="hoverbgcolorvalue"></div>
 			</div>
 			<div id="srcHoverBackground"></div>
         </div>
-        <div id="hover-control-text-color" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="hover-control-text-color" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
 							HOVER: Text Color
             </label>
             <div class="relative">
-                <select id="hover-text" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('hover:text-black', 'hover:text-white', 'hover:text-gray', 'hover:text-red', 'hover:text-orange','hover:text-yellow','hover:text-green','hover:text-teal','hover:text-blue','hover:text-indigo','hover:text-purple','hover:text-pink');addComponentClass(value,hovertextcolorvalue.innerHTML)">
+                <select id="hover-text" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('hover:text-black', 'hover:text-white', 'hover:text-gray', 'hover:text-red', 'hover:text-orange','hover:text-yellow','hover:text-green','hover:text-teal','hover:text-blue','hover:text-indigo','hover:text-purple','hover:text-pink');addComponentClass(value,hovertextcolorvalue.innerHTML)">
                     <option value="hover:text-white" selected>text-white</option>
 										<option value="hover:text-black">text-black</option>
 										<option value="hover:text-gray-">text-gray </option>
@@ -357,21 +357,21 @@
 										<option value="hover:text-pink-">text-pink</option>
 
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>
 			<div class="flex">
-				<input type="range" min="100" max="900" value="500" step="100" class="slider mr-2" id="hovertextcolor" onchange="resetComponentClasses('hover:text-black', 'hover:text-white', 'hover:text-gray', 'hover:text-red', 'hover:text-orange','hover:text-yellow','hover:text-green','hover:text-teal','hover:text-blue','hover:text-indigo','hover:text-purple','hover:text-pink');addComponentClass(document.getElementById('hover-text').value,hovertextcolorvalue.innerHTML);"><div id="hovertextcolorvalue"></div>
+				<input type="range" min="100" max="900" value="500" step="100" class="mr-2 slider" id="hovertextcolor" onchange="resetComponentClasses('hover:text-black', 'hover:text-white', 'hover:text-gray', 'hover:text-red', 'hover:text-orange','hover:text-yellow','hover:text-green','hover:text-teal','hover:text-blue','hover:text-indigo','hover:text-purple','hover:text-pink');addComponentClass(document.getElementById('hover-text').value,hovertextcolorvalue.innerHTML);"><div id="hovertextcolorvalue"></div>
 			</div>
         </div>
-        <div id="hover-control-shadow" class="ml-4 mt-4 mb-6">
-            <label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+        <div id="hover-control-shadow" class="mt-4 mb-6 ml-4">
+            <label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
                 HOVER: Shadow
             </label>
             <div class="relative">
-                <select id="hover-padding" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('hover:shadow-none', 'hover:shadow','hover:shadow-md','hover:shadow-lg','hover:shadow-xl','hover:shadow-2xl','hover:shadow-inner','hover:shadow-outline');addComponentClass(value);">
+                <select id="hover-padding" class="block w-full px-4 py-3 pr-8 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" onchange="resetComponentClasses('hover:shadow-none', 'hover:shadow','hover:shadow-md','hover:shadow-lg','hover:shadow-xl','hover:shadow-2xl','hover:shadow-inner','hover:shadow-outline');addComponentClass(value);">
                     <option value="hover:">shadow-none</option>
                     <option value="hover:shadow">shadow</option>
                     <option value="hover:shadow-md">shadow-md</option>
@@ -381,8 +381,8 @@
                     <option value="hover:shadow-inner">shadow-inner</option>
                     <option value="hover:shadow-outline">shadow-outline</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                 </div>
             </div>

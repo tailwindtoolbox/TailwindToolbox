@@ -1,4 +1,4 @@
-<nav id="header" class="fixed top-0 z-10 w-full shadow bg-brand" style="background-image: linear-gradient(120deg, #3b7977 0%, #72b1bb 100%);">
+<nav id="header" class="fixed top-0 z-10 w-full shadow bg-brand " style="background-image: linear-gradient(120deg, #3b7977 0%, #72b1bb 100%);">
 	<div class="container flex flex-wrap items-center justify-between w-full px-3 py-3 mx-auto mt-0">
 		<!--Logo-->
 		<div class="flex items-center justify-between w-full pl-2 md:w-1/2 xl:pl-0">
@@ -19,16 +19,7 @@
 		<!--/Logo-->
 
 		<!--Search-->
-		<div id="search-container" class="order-3 hidden w-full max-w-md pt-3 mx-auto md:pt-0 md:block md:w-1/2 md:ml-auto">
-			<div class="relative max-w-3xl px-6 mx-auto">
-				<div class="absolute top-0 left-0 flex items-center h-10 pl-10 mt-1">
-					<svg class="w-4 h-4 text-gray-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-						<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
-					</svg>
-				</div>
-				<input id="search-toggle" type="search" placeholder="Enter search term ('/' to focus)" class="block w-full py-3 pl-12 pr-4 font-bold text-gray-700 rounded-lg bg-brand-white focus:outline-none focus:bg-white focus:shadow" onkeyup="updateSearchResults(this.value);">
-			</div>
-		</div>
+
 	</div>
 	<!--End Search-->
 
@@ -99,20 +90,6 @@
 		</ul>
 	</div>
 	<!--/Main Nav-->
-
-	<!--Search Content-->
-	<div id="search-content" class="relative z-50 w-full">
-		<div id="searchresults" class="h-auto max-w-3xl mx-auto"></div>
-		<!-- No search results message-->
-		<div id="nosearchresults" class="flex hidden px-6 bg-white">
-			<svg class="w-6 h-6 text-indigo-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-				<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
-			</svg>
-			<span class="ml-4 font-bold"> Oops, no search results!!!1</span>
-		</div>
-		<!-- / No search results -->
-	</div>
-	<!--/Search Content-->
 
 	</div>
 

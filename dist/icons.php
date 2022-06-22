@@ -16,29 +16,29 @@
 	<script src="icons.min.json"></script>
 </head>
 
-<body class="bg-brand-white leading-normal tracking-normal nunito">
+<body class="leading-normal tracking-normal bg-brand-white nunito">
 
 	<?php include 'includes/nav.php'; ?>
 
 	<!--header-->
-	<div class="z-20 mt-24 pb-6 mb-6 flex items-center text-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
-		<div class="flex flex-col w-full justify-center items-center pt-6 md:pt-16">
+	<div class="z-20 flex items-center pb-6 mt-24 mb-6 text-center bg-cover" style="background-image: url(bg.svg)">
+		<div class="flex flex-col items-center justify-center w-full pt-6 md:pt-16">
 			<div class="px-3">
 				<h1 class="pt-6">
-					<span class="bg-brand font-bold text-center text-white text-3xl sm:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Icons for Tailwind CSS</span></span>
+					<span class="px-3 mb-5 text-3xl font-bold text-center text-white bg-brand sm:text-4xl sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Icons for Tailwind CSS</span></span>
 				</h1>
-				<p class="max-w-3xl mx-auto leading-normal my-6 font-bold text-base lg:text-xl text-left lg:text-center">A simple viewer for some Open Source icon packs to customise and copy/paste into your Tailwind CSS project.<br>
+				<p class="max-w-3xl mx-auto my-6 text-base font-bold leading-normal text-left lg:text-xl lg:text-center">A simple viewer for some Open Source icon packs to customise and copy/paste into your Tailwind CSS project.<br>
 			</div>
 		</div>
 	</div>
-	<div class="container mx-auto mb-8 flex flex-wrap pb-16" x-data="loadIcons()">
+	<div class="container flex flex-wrap pb-16 mx-auto mb-8" x-data="loadIcons()">
 
 
 
-		<div class="px-4 w-full md:w-3/5 mb-2 md:px-3">
-			<div class="w-full mb-8 mt-6 sticky top-icon bg-brand-white z-5">
+		<div class="w-full px-4 mb-2 md:w-3/5 md:px-3">
+			<div class="sticky w-full mt-6 mb-8 top-icon bg-brand-white z-5">
 
-				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full bg-white focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3">
+				<input x-model="search" placeholder="Search for an icon..." type="search" class="block w-full px-4 py-3 font-bold text-gray-700 bg-white rounded-lg focus:outline-none focus:bg-white focus:shadow">
 
 				<div class="mt-2">
 					<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
@@ -51,8 +51,8 @@
 			<div class="flex flex-wrap">
 
 				<template x-for="icon in filteredIcons" :key="icon.filename">
-					<div x-show="pack === icon.pack || pack === 'all'" class="flex flex-grow-0 p-2 hover:bg-white hover:shadow hover:rounded transition duration-150 ease-in-out transform hover:scale-125 ">
-						<div class="mx-auto h-8 w-8 overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
+					<div x-show="pack === icon.pack || pack === 'all'" class="flex flex-grow-0 p-2 transition duration-150 ease-in-out transform hover:bg-white hover:shadow hover:rounded hover:scale-125 ">
+						<div class="w-8 h-8 mx-auto overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
 					
 														$refs.code.value =  needsWeight(classColor) ? 
 															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + icon.svg : 
@@ -67,18 +67,18 @@
 			</div>
 
 			<p class="pt-8 font-bold">Icon Credits:</p>
-			<a class="text-brand font-bold" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> (<a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>)
-			<a class="text-brand font-bold" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow">Tabler</a> (<a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>) and
-			<a class="text-brand font-bold" href="https://github.com/feathericons/feather" target="_blank" rel="nofollow">Feather</a> (<a class="text-brand" href="https://twitter.com/colebemis" target="_blank" rel="nofollow">Cole Bemis'</a>)
+			<a class="font-bold text-brand" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> (<a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>)
+			<a class="font-bold text-brand" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow">Tabler</a> (<a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>) and
+			<a class="font-bold text-brand" href="https://github.com/feathericons/feather" target="_blank" rel="nofollow">Feather</a> (<a class="text-brand" href="https://twitter.com/colebemis" target="_blank" rel="nofollow">Cole Bemis'</a>)
 
-			<p class="text-brand text-center font-bold mb-2 md:pt-8">Advertisment</p>
+			<p class="mb-2 font-bold text-center text-brand md:pt-8">Advertisment</p>
 			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
 		</div>
-		<div class="mx-auto w-full md:w-2/5 px-2 h-full sticky top-40 bg-brand-white z-50" x-show.transition="currentSVG != ''">
+		<div class="sticky z-50 w-full h-full px-2 mx-auto md:w-2/5 top-40 bg-brand-white" x-show.transition="currentSVG != ''">
 
-			<button type="button" class="md:hidden float-right" x-on:click="currentSVG = ''">
+			<button type="button" class="float-right md:hidden" x-on:click="currentSVG = ''">
 
-				<svg class="h-8 w-8 inline text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<svg class="inline w-8 h-8 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<circle cx="12" cy="12" r="10" />
 					<line x1="15" y1="9" x2="9" y2="15" />
 					<line x1="9" y1="9" x2="15" y2="15" />
@@ -86,18 +86,18 @@
 
 			</button>
 
-			<div class="flex flex-grow-0 items-center justify-center w-full max-w-sm mx-auto p-2" id="iconPreview" x-ref="code1" x-html="needsWeight(classColor) ? 
+			<div class="flex items-center justify-center flex-grow-0 w-full max-w-sm p-2 mx-auto" id="iconPreview" x-ref="code1" x-html="needsWeight(classColor) ? 
 																'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG : 
 																'<svg class=&quot' + classSize + ' ' + classColor + '&quot ' + currentSVG "></div>
 
-			<div class="w-full flex flex-wrap justify-center">
+			<div class="flex flex-wrap justify-center w-full">
 
 				<div id="control-textsize" class="mt-4 mb-6">
-					<label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="textsize">
+					<label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="textsize">
 						Icon Size
 					</label>
 					<div class="relative">
-						<select class="form-input mt-1 block w-full" x-model="classSize" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
+						<select class="block w-full mt-1 form-input" x-model="classSize" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
 																'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG : 
 																'<svg class=&quot' + classSize + ' ' + classColor + '&quot ' + currentSVG ">
 							<option value="h-1 w-1">1 (0.25rem - 4px)</option>
@@ -120,19 +120,19 @@
 						</select>
 
 						<div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-							<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 								<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
 							</svg>
 						</div>
 					</div>
 				</div>
 
-				<div id="control-text-color" class="ml-4 mt-4 mb-6">
-					<label class="block tracking-wider text-gray-700 text-xs font-bold mb-2" for="padding">
+				<div id="control-text-color" class="mt-4 mb-6 ml-4">
+					<label class="block mb-2 text-xs font-bold tracking-wider text-gray-700" for="padding">
 						Icon Color
 					</label>
 					<div class="relative">
-						<select class="form-input mt-1 block w-full" x-model="classColor" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
+						<select class="block w-full mt-1 form-input" x-model="classColor" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
 															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG : 
 															'<svg class=&quot' + classSize + ' ' + classColor + '&quot ' + currentSVG ">
 							<option value="text-red-" selected>text-red</option>
@@ -150,13 +150,13 @@
 						</select>
 
 						<div class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-							<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 								<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
 							</svg>
 						</div>
 					</div>
 					<div class="flex" x-show="needsWeight(classColor)">
-						<input type="range" min="100" max="900" value="800" step="100" class="slider mr-2" id="textcolor" x-model="classColorWeight" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
+						<input type="range" min="100" max="900" value="800" step="100" class="mr-2 slider" id="textcolor" x-model="classColorWeight" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
 															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG : 
 															'<svg class=&quot' + classSize + ' ' + classColor +  '&quot ' + currentSVG " />
 						<span x-text="classColorWeight"></span>
@@ -164,16 +164,16 @@
 				</div>
 			</div>
 
-			<textarea rows="6" readonly class="hidden md:block w-full p-4 border shadow rounded" id="codeSrc" x-ref="code"></textarea>
+			<textarea rows="6" readonly class="hidden w-full p-4 border rounded shadow md:block" id="codeSrc" x-ref="code"></textarea>
 
-			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc" class="mx-auto mt-0 md:mt-6 w-full max-w-xs flex items-center justify-center bg-brand hover:bg-teal-500 outline-none focus:border-teal-900 text-white font-extrabold py-3 px-5 rounded shadow">
-				<svg class="inline fill-current h-4 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc" class="flex items-center justify-center w-full max-w-xs px-5 py-3 mx-auto mt-0 font-extrabold text-white rounded shadow outline-none md:mt-6 bg-brand hover:bg-teal-500 focus:border-teal-900">
+				<svg class="inline h-4 pr-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
 					<path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z" />
 					<path d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z" />
 				</svg>
 				Copy to clipboard
 			</button>
-			<div class="w-full mt-4 text-brand font-bold text-center" id="clipboardMessage"></div>
+			<div class="w-full mt-4 font-bold text-center text-brand" id="clipboardMessage"></div>
 
 		</div>
 	</div>

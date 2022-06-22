@@ -18,7 +18,7 @@
 	<?php include 'includes/nav.php'; ?>
 
 	<!--header-->
-	<div class="z-20 flex items-center pb-6 mt-24 mb-6 text-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+	<div class="z-20 flex items-center pb-6 mt-24 mb-6 text-center bg-cover" style="background-image: url(bg.svg)">
 		<div class="flex flex-col items-center justify-center w-full pt-6 md:pt-16">
 			<div class="px-3">
 				<h1 class="pt-6">
