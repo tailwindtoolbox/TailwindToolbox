@@ -4173,5 +4173,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://github.com/creativetimofficial/soft-ui-dashboard-tailwind",
+    "url_image": "templates/softui.jpg",
+    "title": "Soft UI Dashboard",
+    "description": "Soft UI Dashboard Tailwind is built with over 70 frontend individual elements.",
+    "url_author": "https://github.com/creativetimofficial",
+    "author": "Creative Tim",
+    "download": "",
+    "category": "Admin",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
