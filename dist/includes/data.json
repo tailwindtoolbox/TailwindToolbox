@@ -4188,5 +4188,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://lazydev-vercel-app.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp",
+    "url_image": "products/lazydev.jpg",
+    "title": "Lazydev React Components",
+    "description": "Lazydev - UI components for React (Site in Uzbek)",
+    "url_author": "https://github.com/AnvarovM",
+    "author": "Muhammad Anvarov",
+    "download": "",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
