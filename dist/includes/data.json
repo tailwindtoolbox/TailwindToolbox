@@ -4263,5 +4263,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://www.loopple.com/product/tailwind-css-sales-dashboard-soft-ui",
+    "url_image": "templates/loople-sales.jpg",
+    "title": "Sales Dashboard ",
+    "description": "Sales Dashboard using Soft UI Dashboard design and Tailwind CSS",
+    "url_author": "https://www.loopple.com/",
+    "author": "Loopple",
+    "download": "",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
