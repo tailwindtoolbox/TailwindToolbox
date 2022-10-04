@@ -1,0 +1,50 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Card from '../components/Card.astro';
+import { Image, Picture } from '@astrojs/image/components';
+
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import dataJSON from '../data/data.json'
+
+function SortArray(x, y){
+    if (x.title < y.title) {return -1;}
+    if (x.title > y.title) {return 1;}
+    return 0;
+}
+const data = dataJSON.sort(SortArray);
+
+const { title, description, section } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+		<main class="max-w-6xl mx-auto">
+			<h1 class="text-center"><span class="p-1.5 text-3xl font-bold text-center text-white shadow-md shadow-green-200 bg-teal-600 rounded text-extrabold">{title}</span></h1>
+			<p class="mt-4 text-center"> 
+				{description}
+			</p>
+			<p>
+			<ul class="grid max-w-3xl grid-cols-2 gap-4 mx-auto lg:grid-cols-4 md:grid-cols-3">
+				{ data.filter(d => d.site_section == section && d.sticky).map((item) => (
+					<Card item={item} />
+				)) }
+
+				{ data.filter(d => d.site_section == section && !d.sticky).map((item) => (
+				<Card item={item} />
+				)) }
+			</ul>
+
+			</p>
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
