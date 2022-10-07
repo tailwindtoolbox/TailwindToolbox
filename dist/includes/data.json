@@ -4278,5 +4278,36 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/979784819/bbbfs",
+    "url_image": "products/redpixel-podcast.jpg",
+    "title": "Podcast Template [$]",
+    "description": "Podcast is a premium template with a beautiful design, tailored specifically for podcast websites. It was made with the latest technologies like Tailwind CSS, Alpine.JS and includes all the needed features (Affiliate Link)",
+    "download": "$39",
+    "url_author": "https://redpixelthemes.com/",
+    "author": "Red Pixel Themes",
+    "category": "Template",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/620897395/knxaa",
+    "url_image": "products/ari-tailboard.jpg",
+    "title": "Tailboard [$]",
+    "description": "Taildash is a Tailwind admin dashboard template with responsive design (Affiliate Link)",
+    "download": "$29+",
+    "url_author": "https://gumroad.com/a/620897395",
+    "author": "Ari Budin",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
   }
 ]
