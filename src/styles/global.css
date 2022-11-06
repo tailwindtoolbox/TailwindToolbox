@@ -4,396 +4,52 @@
 
 @layer base {
   html {
-    font-family: Satoshi-Medium, system-ui, sans-serif;
-	@apply text-xl leading-loose
+    font-family: 'Nunito', system-ui, sans-serif;
+	@apply text-xl leading-loose tracking-wide
   }
   h1 {
-    font-family: Satoshi-Variable, system-ui, sans-serif;
-	
- font-variation-settings: 'wght' 800.0;
-	@apply text-xl leading-loose
+    font-family: 'Nunito', system-ui, sans-serif;
+	@apply font-bold
+
   }
 }
 
-/**
- * @license
- *
- * Font Family: Author
- * Designed by: Satya Rajpurohit
- * URL: https://www.fontshare.com/fonts/author
- * Â© 2022 Indian Type Foundry
- *
- * Font Styles:
- * Author Variable(Variable font)
- * Author Variable Italic(Variable font)
- * Author Extralight
- * Author Extralight Italic
- * Author Light
- * Author Light Italic
- * Author Regular
- * Author Italic
- * Author Medium
- * Author Medium Italic
- * Author Semibold
- * Author Semibold Italic
- * Author Bold
- * Author Bold Italic
- *
-*/
-
-
-/**
-* This is a variable font
-* You can controll variable axes as shown below:
-* font-variation-settings: 'wght' 700.0;
-*
-* available axes:
-
-* 'wght' (range from 200.0 to 700.0)
-
-*/
-
+/* nunito-regular - latin */
 @font-face {
-	font-family: 'Author-Variable';
-	src: url('/fonts/Author-Variable.woff2') format('woff2'),
-		 url('/fonts/Author-Variable.woff') format('woff'),
-		 url('/fonts/Author-Variable.ttf') format('truetype');
-		 font-weight: 200 700;
-		 font-display: swap;
-		 font-style: normal;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/nunito-v25-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('fonts/nunito-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/nunito-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/nunito-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/nunito-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/nunito-v25-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
   }
-  
-  
-  /**
-  * This is a variable font
-  * You can controll variable axes as shown below:
-  * font-variation-settings: 'wght' 700.0;
-  *
-  * available axes:
-  
-  * 'wght' (range from 200.0 to 700.0)
-  
-  */
-  
+  /* nunito-600 - latin */
   @font-face {
-	font-family: 'Author-VariableItalic';
-	src: url('/fonts/Author-VariableItalic.woff2') format('woff2'),
-		 url('/fonts/Author-VariableItalic.woff') format('woff'),
-		 url('/fonts/Author-VariableItalic.ttf') format('truetype');
-		 font-weight: 200 700;
-		 font-display: swap;
-		 font-style: italic;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/nunito-v25-latin-600.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('fonts/nunito-v25-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/nunito-v25-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/nunito-v25-latin-600.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/nunito-v25-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/nunito-v25-latin-600.svg#Nunito') format('svg'); /* Legacy iOS */
   }
-  
-  
+  /* nunito-800 - latin */
   @font-face {
-	font-family: 'Author-Extralight';
-	src: url('/fonts/Author-Extralight.woff2') format('woff2'),
-		 url('/fonts/Author-Extralight.woff') format('woff'),
-		 url('/fonts/Author-Extralight.ttf') format('truetype');
-		 font-weight: 200;
-		 font-display: swap;
-		 font-style: normal;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/nunito-v25-latin-800.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('fonts/nunito-v25-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/nunito-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/nunito-v25-latin-800.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/nunito-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/nunito-v25-latin-800.svg#Nunito') format('svg'); /* Legacy iOS */
   }
-  
-  
-  @font-face {
-	font-family: 'Author-ExtralightItalic';
-	src: url('/fonts/Author-ExtralightItalic.woff2') format('woff2'),
-		 url('/fonts/Author-ExtralightItalic.woff') format('woff'),
-		 url('/fonts/Author-ExtralightItalic.ttf') format('truetype');
-		 font-weight: 200;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-Light';
-	src: url('/fonts/Author-Light.woff2') format('woff2'),
-		 url('/fonts/Author-Light.woff') format('woff'),
-		 url('/fonts/Author-Light.ttf') format('truetype');
-		 font-weight: 300;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-LightItalic';
-	src: url('/fonts/Author-LightItalic.woff2') format('woff2'),
-		 url('/fonts/Author-LightItalic.woff') format('woff'),
-		 url('/fonts/Author-LightItalic.ttf') format('truetype');
-		 font-weight: 300;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-Regular';
-	src: url('/fonts/Author-Regular.woff2') format('woff2'),
-		 url('/fonts/Author-Regular.woff') format('woff'),
-		 url('/fonts/Author-Regular.ttf') format('truetype');
-		 font-weight: 400;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-Italic';
-	src: url('/fonts/Author-Italic.woff2') format('woff2'),
-		 url('/fonts/Author-Italic.woff') format('woff'),
-		 url('/fonts/Author-Italic.ttf') format('truetype');
-		 font-weight: 400;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-Medium';
-	src: url('/fonts/Author-Medium.woff2') format('woff2'),
-		 url('/fonts/Author-Medium.woff') format('woff'),
-		 url('/fonts/Author-Medium.ttf') format('truetype');
-		 font-weight: 500;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-MediumItalic';
-	src: url('/fonts/Author-MediumItalic.woff2') format('woff2'),
-		 url('/fonts/Author-MediumItalic.woff') format('woff'),
-		 url('/fonts/Author-MediumItalic.ttf') format('truetype');
-		 font-weight: 500;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-Semibold';
-	src: url('/fonts/Author-Semibold.woff2') format('woff2'),
-		 url('/fonts/Author-Semibold.woff') format('woff'),
-		 url('/fonts/Author-Semibold.ttf') format('truetype');
-		 font-weight: 600;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-SemiboldItalic';
-	src: url('/fonts/Author-SemiboldItalic.woff2') format('woff2'),
-		 url('/fonts/Author-SemiboldItalic.woff') format('woff'),
-		 url('/fonts/Author-SemiboldItalic.ttf') format('truetype');
-		 font-weight: 600;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-Bold';
-	src: url('/fonts/Author-Bold.woff2') format('woff2'),
-		 url('/fonts/Author-Bold.woff') format('woff'),
-		 url('/fonts/Author-Bold.ttf') format('truetype');
-		 font-weight: 700;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Author-BoldItalic';
-	src: url('/fonts/Author-BoldItalic.woff2') format('woff2'),
-		 url('/fonts/Author-BoldItalic.woff') format('woff'),
-		 url('/fonts/Author-BoldItalic.ttf') format('truetype');
-		 font-weight: 700;
-		 font-display: swap;
-		 font-style: italic;
-  }
-
-
-  /**
- * @license
- *
- * Font Family: Satoshi
- * Designed by: Deni Anggara
- * URL: https://www.fontshare.com/fonts/satoshi
- * Â© 2022 Indian Type Foundry
- *
- * Font Styles:
- * Satoshi Variable(Variable font)
- * Satoshi Variable Italic(Variable font)
- * Satoshi Light
- * Satoshi Light Italic
- * Satoshi Regular
- * Satoshi Italic
- * Satoshi Medium
- * Satoshi Medium Italic
- * Satoshi Bold
- * Satoshi Bold Italic
- * Satoshi Black
- * Satoshi Black Italic
- *
-*/
-
-
-/**
-* This is a variable font
-* You can controll variable axes as shown below:
-* font-variation-settings: 'wght' 900.0;
-*
-* available axes:
-
-* 'wght' (range from 300.0 to 900.0)
-
-*/
-
-@font-face {
-	font-family: 'Satoshi-Variable';
-	src: url('/fonts/Satoshi-Variable.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Variable.woff') format('woff'),
-		 url('/fonts/Satoshi-Variable.ttf') format('truetype');
-		 font-weight: 300 900;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  /**
-  * This is a variable font
-  * You can controll variable axes as shown below:
-  * font-variation-settings: 'wght' 900.0;
-  *
-  * available axes:
-  
-  * 'wght' (range from 300.0 to 900.0)
-  
-  */
-  
-  @font-face {
-	font-family: 'Satoshi-VariableItalic';
-	src: url('/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
-		 url('/fonts/Satoshi-VariableItalic.woff') format('woff'),
-		 url('/fonts/Satoshi-VariableItalic.ttf') format('truetype');
-		 font-weight: 300 900;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-Light';
-	src: url('/fonts/Satoshi-Light.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Light.woff') format('woff'),
-		 url('/fonts/Satoshi-Light.ttf') format('truetype');
-		 font-weight: 300;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-LightItalic';
-	src: url('/fonts/Satoshi-LightItalic.woff2') format('woff2'),
-		 url('/fonts/Satoshi-LightItalic.woff') format('woff'),
-		 url('/fonts/Satoshi-LightItalic.ttf') format('truetype');
-		 font-weight: 300;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-Regular';
-	src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Regular.woff') format('woff'),
-		 url('/fonts/Satoshi-Regular.ttf') format('truetype');
-		 font-weight: 400;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-Italic';
-	src: url('/fonts/Satoshi-Italic.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Italic.woff') format('woff'),
-		 url('/fonts/Satoshi-Italic.ttf') format('truetype');
-		 font-weight: 400;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-Medium';
-	src: url('/fonts/Satoshi-Medium.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Medium.woff') format('woff'),
-		 url('/fonts/Satoshi-Medium.ttf') format('truetype');
-		 font-weight: 500;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-MediumItalic';
-	src: url('/fonts/Satoshi-MediumItalic.woff2') format('woff2'),
-		 url('/fonts/Satoshi-MediumItalic.woff') format('woff'),
-		 url('/fonts/Satoshi-MediumItalic.ttf') format('truetype');
-		 font-weight: 500;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-Bold';
-	src: url('/fonts/Satoshi-Bold.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Bold.woff') format('woff'),
-		 url('/fonts/Satoshi-Bold.ttf') format('truetype');
-		 font-weight: 700;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-BoldItalic';
-	src: url('/fonts/Satoshi-BoldItalic.woff2') format('woff2'),
-		 url('/fonts/Satoshi-BoldItalic.woff') format('woff'),
-		 url('/fonts/Satoshi-BoldItalic.ttf') format('truetype');
-		 font-weight: 700;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-Black';
-	src: url('/fonts/Satoshi-Black.woff2') format('woff2'),
-		 url('/fonts/Satoshi-Black.woff') format('woff'),
-		 url('/fonts/Satoshi-Black.ttf') format('truetype');
-		 font-weight: 900;
-		 font-display: swap;
-		 font-style: normal;
-  }
-  
-  
-  @font-face {
-	font-family: 'Satoshi-BlackItalic';
-	src: url('/fonts/Satoshi-BlackItalic.woff2') format('woff2'),
-		 url('/fonts/Satoshi-BlackItalic.woff') format('woff'),
-		 url('/fonts/Satoshi-BlackItalic.ttf') format('truetype');
-		 font-weight: 900;
-		 font-display: swap;
-		 font-style: italic;
-  }
-  
-  
