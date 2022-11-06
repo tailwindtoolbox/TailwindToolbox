@@ -4145,6 +4145,21 @@
     "affiliate": false
   },
   {
+    "site_section": "Marketplace",
+    "url": "https://web3templates.com/templates/stablo-minimal-blog-website-template",
+    "url_image": "templates/stablo.jpg",
+    "title": "Stablo Pro [$]",
+    "description": "Stablo is a minimal blog website template built with Next.js, Tailwind CSS & Sanity CMS",
+    "url_author": "https://web3templates.com/",
+    "author": "Web 3 Templates",
+    "download": "$49",
+    "category": "Blog",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
+  },
+  {
     "site_section": "Template",
     "url": "https://web3templates.com/templates/stablo-minimal-blog-website-template",
     "url_image": "templates/nextly.jpg",
@@ -4229,7 +4244,7 @@
     "author": "Loopple",
     "download": "",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4244,7 +4259,7 @@
     "author": "Tushar Gugnani",
     "download": "",
     "category": "HTML",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4259,7 +4274,7 @@
     "author": "Atul Arvind",
     "download": "",
     "category": "Blog",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4274,7 +4289,7 @@
     "author": "Loopple",
     "download": "",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4305,9 +4320,24 @@
     "url_author": "https://gumroad.com/a/620897395",
     "author": "Ari Budin",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://tocinocode.com/",
+    "url_image": "products/tocinocode.jpg",
+    "title": "Tocinocode - UI Components",
+    "description": "Tocinocode is a free open source collection of over 70 free components of beautiful Tailwind CSS based UI components that are easy to customize.",
+    "url_author": "https://www.linkedin.com/in/jeycon-morera-b7887418b/",
+    "author": "Jeycon MC",
+    "download": "",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
