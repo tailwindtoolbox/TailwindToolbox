@@ -4354,5 +4354,20 @@
     "home": false,
     "sticky": false,
     "affiliate": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://shuffle.dev/tailwind",
+    "url_image": "products/shuffle.jpg",
+    "title": "Shuffle Editor",
+    "description": "A visual editor for Tailwind CSS with a simple, intuitive drag ",
+    "url_author": "https://shuffle.dev/",
+    "author": "Shuffle",
+    "download": "",
+    "category": "UI Kit, Page Builder",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false
   }
 ]
