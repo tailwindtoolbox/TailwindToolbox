@@ -329,7 +329,7 @@
     "author": "Themesberg",
     "download": "",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": true,
     "affiliate": false
@@ -4410,7 +4410,7 @@
     "author": "Htmlstream",
     "download": "",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4425,7 +4425,7 @@
     "author": "Tailus UI",
     "download": "",
     "category": "Landing",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4440,7 +4440,7 @@
     "author": "Tailus UI",
     "download": "$20",
     "category": "Template",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4455,7 +4455,7 @@
     "author": "Tailus UI",
     "download": "",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4470,7 +4470,7 @@
     "author": "Robbin Singh",
     "download": "",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4485,7 +4485,7 @@
     "author": "Danny Postma",
     "download": "",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4500,7 +4500,7 @@
     "url_author": "https://twitter.com/nutlope",
     "author": "Hassan El Mghari",
     "category": "Browser, Color, Colour",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4515,7 +4515,7 @@
     "author": "Elegant Goodies",
     "download": "",
     "category": "UI Kit",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false
@@ -4530,7 +4530,7 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -4545,7 +4545,7 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -4560,7 +4560,7 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -4575,7 +4575,7 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -4590,7 +4590,7 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -4605,7 +4605,7 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true
@@ -4620,6 +4620,36 @@
     "author": "Elegant Goodies",
     "download": "$19",
     "category": "tbc",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/620897395/ucpdq",
+    "url_image": "products/ari-reactdash.jpg",
+    "title": "Reactdash [$]",
+    "description": "Reactdash is a React dashboard admin template with UI components built with Tailwind CSS & React JS. (Affiliate Link)",
+    "download": "$29+",
+    "url_author": "https://gumroad.com/a/620897395",
+    "author": "Ari Budin",
+    "category": "Template",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/620897395/vdjed",
+    "url_image": "products/ari-tailmater.jpg",
+    "title": "Tailmater [$]",
+    "description": "Tailmater is open source Modern Web Material 3 UI Kit based on Tailwind CSS framework (Affiliate Link)",
+    "download": "$0+",
+    "url_author": "https://gumroad.com/a/620897395",
+    "author": "Ari Budin",
+    "category": "UI Kit",
     "new": true,
     "home": false,
     "sticky": false,
