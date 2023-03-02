@@ -2540,21 +2540,6 @@
     "affiliate": false
   },
   {
-    "site_section": "Generator",
-    "url": "https://tailwind-tools.com",
-    "url_image": "toolsutilities/tailwindtools.jpg",
-    "title": "Tailwind Tools",
-    "description": "Quickly generate Tailwind CSS grid, flexbox, table, and typography components with no code.",
-    "download": "",
-    "url_author": "https://twitter.com/tailwindtools",
-    "author": "Tailwind Tools",
-    "category": "tbc",
-    "new": false,
-    "home": false,
-    "sticky": false,
-    "affiliate": false
-  },
-  {
     "site_section": "Kit",
     "url": "https://www.tailwind-kit.com/",
     "url_image": "components/tailwind-kit.jpg",
