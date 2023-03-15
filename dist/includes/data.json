@@ -3051,18 +3051,18 @@
   },
   {
     "site_section": "Kit",
-    "url": "https://a.paddle.com/v2/click/113942/124350?link=3345",
+    "url": "https://flowbite.com",
     "url_image": "templates/flowbiteui.png",
     "title": "Flowbite UI [$]",
     "description": "Figma design kit built for integration with Tailwind CSS featuring UI components and an admin dashboard layout. Built by Themesberg. (Affiliate Link)",
     "download": "$129+",
-    "url_author": "https://flowbite.design",
+    "url_author": "https://flowbite.com",
     "author": "Themesberg",
     "category": "UI Kit",
     "new": false,
-    "home": true,
+    "home": false,
     "sticky": true,
-    "affiliate": true
+    "affiliate": false
   },
   {
     "site_section": "Marketplace",
@@ -4639,5 +4639,35 @@
     "home": false,
     "sticky": false,
     "affiliate": true
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://lexingtonthemes.lemonsqueezy.com/?aff=3KMAV",
+    "url_image": "products/lexington.jpg",
+    "title": "Lexington",
+    "description": "Beautifully crafted with HTML, Astro.js, and Tailwind (Affiliate)",
+    "download": "$199+",
+    "url_author": "https://lexingtonthemes.lemonsqueezy.com/?aff=3KMAV",
+    "author": "Michael Andreuzza",
+    "category": "UI Kit",
+    "new": true,
+    "home": true,
+    "sticky": true,
+    "affiliate": true
+  },
+  {
+    "site_section": "Component",
+    "url": "https://windstatic.com/",
+    "url_image": "products/windstatic.jpg",
+    "title": "Windstatic",
+    "description": "A set of 161 elements & layouts made with Tailwind CSS and Alpine.js",
+    "download": "",
+    "url_author": "https://windstatic.com/",
+    "author": "Michael Andreuzza",
+    "category": "UI Kit",
+    "new": true,
+    "home": false,
+    "sticky": true,
+    "affiliate": false
   }
 ]
