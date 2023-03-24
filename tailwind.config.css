@@ -41,7 +41,7 @@
 /*Card*/
 
 .card {
-  @apply bg-white rounded overflow-hidden shadow mx-2;
+  @apply mx-2 overflow-hidden bg-white rounded shadow;
   transition: -webkit-transform 0.1s ease-in;
   transition: transform 0.1s ease-in;
   transition: transform 0.1s ease-in, -webkit-transform 0.1s ease-in;
@@ -54,20 +54,20 @@
 }
 
 .card img {
-  @apply h-auto w-auto rounded-t shadow;
+  @apply w-auto h-auto rounded-t shadow;
 }
 
 .new-badge {
-  @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 right-0;
+  @apply absolute top-0 right-0 p-1 ml-2 text-sm font-bold text-white border-none rounded bg-brand;
 }
 
 .sticky-badge {
-  @apply ml-2 bg-brand text-white text-sm border-none rounded font-bold p-1 absolute top-0 left-0;
+  @apply absolute top-0 left-0 p-1 ml-2 text-sm font-bold text-white border-none rounded bg-brand;
 }
 
 
 .card-title {
-  @apply text-center font-bold text-sm pt-2 my-1;
+  @apply pt-2 my-1 text-sm font-bold text-center;
 }
 
 .card-description {
@@ -80,16 +80,16 @@
 }
 
 .card-author {
-  @apply text-center text-gray-200 text-xs mb-3;
+  @apply mb-3 text-xs text-center text-gray-200;
 }
 
 @screen sm {
   .card-title {
-    @apply text-base my-2;
+    @apply my-2 text-base;
   }
 
   .card-description {
-    @apply block absolute top-0 bg-brand text-white font-bold text-sm p-3;
+    @apply absolute top-0 block p-3 text-sm font-bold text-white bg-brand;
     transition: -webkit-transform 0.1s ease-in;
     transition: transform 1s ease-in;
     transition: transform 1s ease-in, -webkit-transform 1s ease-in;
@@ -102,29 +102,29 @@
 
 /*Links*/
 .navlink {
-  @apply mr-2 pb-1 px-2 border-l-2 border-b-0 border-transparent text-white text-base font-bold text-center no-underline;
+  @apply px-2 pb-1 mr-2 text-base font-bold text-center text-white no-underline border-b-0 border-l-2 border-transparent;
 }
 
 .navlink:hover {
-  @apply text-teal-200 border-teal-100 no-underline;
+  @apply text-teal-200 no-underline border-teal-100;
 }
 
 @screen sm {
   .navlink {
-    @apply mr-2 pb-1 px-2 border-l-0 border-b-2;
+    @apply px-2 pb-1 mr-2 border-b-2 border-l-0;
   }
 }
 
 .footerlink {
-  @apply text-brand-ondark font-bold no-underline;
+  @apply font-bold no-underline text-brand-ondark;
 }
 
 .footerlink:hover {
-  @apply text-brand-alt font-bold no-underline;
+  @apply font-bold no-underline text-brand-alt;
 }
 
 a {
-  @apply text-brand underline;
+  @apply underline text-brand;
 }
 a:hover {
   @apply text-teal-700 underline;
@@ -132,11 +132,11 @@ a:hover {
 
 /*Code syntax*/
 pre code {
-  @apply my-4 p-4 overflow-x-auto text-xs w-full border rounded shadow;
+  @apply w-full p-4 my-4 overflow-x-auto text-xs border rounded shadow;
 }
 
 code {
-  @apply text-brand text-xs bg-gray-100 p-1;
+  @apply p-1 text-xs bg-gray-100 text-brand;
 }
 
 @screen md {
@@ -148,32 +148,32 @@ code {
 
 /*Faux cmd window */
 .window-nav {
-  @apply rounded-t border-t border-l border-r border-teal-400 bg-teal-400 px-4 py-2;
+  @apply px-4 py-2 bg-teal-400 border-t border-l border-r border-teal-400 rounded-t;
 }
 .window-nav-dot {
-  @apply inline-block rounded-full bg-gray-100 h-3 w-3 mr-1;
+  @apply inline-block w-3 h-3 mr-1 bg-gray-100 rounded-full;
 }
 .window-bg {
-  @apply relative bg-black text-white text-sm font-mono tracking-wide break-normal p-4;
+  @apply relative p-4 font-mono text-sm tracking-wide text-white break-normal bg-black;
 }
 
 /*Button*/
 .btn {
-  @apply bg-brand text-white no-underline text-sm border-none rounded font-bold p-3 mt-2;
+  @apply p-3 mt-2 text-sm font-bold text-white no-underline border-none rounded bg-brand;
 }
 .btn:hover {
-  @apply bg-teal-700 text-white no-underline shadow;
+  @apply text-white no-underline bg-teal-700 shadow;
 }
 .template-btn {
-  @apply block w-full bg-brand text-white text-sm border-none rounded font-bold fixed p-3 mt-2 relative inset-x-0 bottom-0;
+  @apply fixed relative inset-x-0 bottom-0 block w-full p-3 mt-2 text-sm font-bold text-white border-none rounded bg-brand;
 }
 .template-btn:hover {
-  @apply bg-teal-400 no-underline;
+  @apply no-underline bg-teal-400;
 }
 
 /*Card
   .card {
-    @apply bg-white rounded overflow-hidden shadow mx-2;
+    @apply mx-2 overflow-hidden bg-white rounded shadow;
   }
   .card:hover {
     @apply shadow-lg;
@@ -186,43 +186,43 @@ code {
   @apply outline-none;
 }
 a.tab {
-  @apply text-gray-700 no-underline border-b-4 border-transparent inline-block py-3 px-4 font-semibold -mb-px;
+  @apply inline-block px-4 py-3 -mb-px font-semibold text-gray-700 no-underline border-b-4 border-transparent;
 }
 a.tab:hover {
-  @apply text-brand no-underline border-b-4 border-brand;
+  @apply no-underline border-b-4 text-brand border-brand;
 }
 a.active-tab {
-  @apply text-brand no-underline border-b-4 border-brand inline-block py-3 px-4 font-semibold -mb-px;
+  @apply inline-block px-4 py-3 -mb-px font-semibold no-underline border-b-4 text-brand border-brand;
 }
 a.active-tab:hover {
   @apply text-gray-700 no-underline border-b-4 border-gray-700;
 }
 
 button.tab {
-  @apply text-gray-700 no-underline border-b-4 border-transparent w-full text-left block py-3 px-4 font-semibold;
+  @apply flex items-center w-full gap-2 p-3 font-semibold text-left text-gray-700 no-underline border-b-4 border-transparent;
 }
 button.tab:hover {
-  @apply text-brand bg-transparent  no-underline border-b-4 border-brand;
+  @apply no-underline bg-transparent bg-gray-100 border-b-4 text-brand border-brand;
 }
 button.active-tab {
-  @apply text-brand no-underline border-b-4 border-brand w-full text-left block py-3 px-4 font-semibold;
+  @apply flex items-center w-full px-4 py-3 font-semibold text-left no-underline bg-gray-100 border-b-4 text-brand border-brand;
 }
 button.active-tab:hover {
-  @apply text-gray-700 no-underline border-b-4 border-gray-700;
+  @apply no-underline bg-gray-100 border-b-4 text-brand border-brand;
 }
 
 @screen md {
   button.tab {
-    @apply border-l-4 border-b-0;
+    @apply border-b-0 border-l-4;
   }
   button.tab:hover {
-    @apply text-brand border-l-4 border-b-0;
+    @apply border-b-0 border-l-4 text-brand;
   }
   button.active-tab {
-    @apply text-brand border-l-4 border-b-0;
+    @apply border-b-0 border-l-4 text-brand;
   }
   button.active-tab:hover {
-    @apply text-gray-700 border-l-4 border-b-0;
+    @apply border-b-0 border-l-4 text-brand border-brand;
   }
 }
 
@@ -447,7 +447,7 @@ header {
 }
 
 .markdown a {
-  @apply text-blue-600 font-semibold;
+  @apply font-semibold text-blue-600;
 }
 
 .markdown strong a {
@@ -455,43 +455,43 @@ header {
 }
 
 .markdown h1 {
-  @apply leading-tight border-b text-4xl font-semibold mb-4 mt-6 pb-2;
+  @apply pb-2 mt-6 mb-4 text-4xl font-semibold leading-tight border-b;
 }
 
 .markdown h2 {
-  @apply leading-tight border-b text-2xl font-semibold mb-4 mt-6 pb-2;
+  @apply pb-2 mt-6 mb-4 text-2xl font-semibold leading-tight border-b;
 }
 
 .markdown h3 {
-  @apply leading-snug text-lg font-semibold mb-4 mt-6;
+  @apply mt-6 mb-4 text-lg font-semibold leading-snug;
 }
 
 .markdown h4 {
-  @apply leading-none text-base font-semibold mb-4 mt-6;
+  @apply mt-6 mb-4 text-base font-semibold leading-none;
 }
 
 .markdown h5 {
-  @apply leading-tight text-sm font-semibold mb-4 mt-6;
+  @apply mt-6 mb-4 text-sm font-semibold leading-tight;
 }
 
 .markdown h6 {
-  @apply leading-tight text-sm font-semibold text-gray-600 mb-4 mt-6;
+  @apply mt-6 mb-4 text-sm font-semibold leading-tight text-gray-600;
 }
 
 .markdown blockquote {
-  @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
+  @apply pl-4 pr-4 text-base text-gray-600 border-l-4 border-gray-300;
 }
 
 .markdown ul {
-  @apply text-base pl-8 list-disc;
+  @apply pl-8 text-base list-disc;
 }
 
 .markdown ol {
-  @apply text-base pl-8 list-decimal;
+  @apply pl-8 text-base list-decimal;
 }
 
 .markdown kbd {
-  @apply text-xs inline-block rounded border px-1 py-05 align-middle font-normal font-mono shadow;
+  @apply inline-block px-1 font-mono text-xs font-normal align-middle border rounded shadow py-05;
 }
 
 .markdown table {
@@ -499,11 +499,11 @@ header {
 }
 
 .markdown th {
-  @apply border py-1 px-3;
+  @apply px-3 py-1 border;
 }
 
 .markdown td {
-  @apply border py-1 px-3;
+  @apply px-3 py-1 border;
 }
 
 /**

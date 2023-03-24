@@ -3485,7 +3485,7 @@
     "affiliate": false
   },
   {
-    "site_section": "Kit",
+    "site_section": "Template",
     "url": "https://nextlessjs.com",
     "url_image": "templates/nextless.jpg",
     "title": "Nextless - SaaS Boilerplate",
@@ -3493,7 +3493,7 @@
     "download": "",
     "url_author": "https://nextlessjs.com",
     "author": "Ixartz",
-    "category": "Boilerplate",
+    "category": "Admin Landing",
     "new": false,
     "home": false,
     "sticky": false,
