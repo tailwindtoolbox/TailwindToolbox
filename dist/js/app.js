@@ -224,11 +224,14 @@ function filterTemplates(filterVal) {
   }
 
   //Scroll to top
-  window.scroll({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
+  var ele = document.getElementById("filter");
+  window.scrollTo({ left: ele.offsetLeft, top: ele.offsetTop - 150, behavior: "smooth" });
+
+  // window.scroll({
+  //   top: 0,
+  //   left: 0,
+  //   behavior: "smooth",
+  // });
 }
 
 function calcIframeHeight(offset) {

@@ -36,7 +36,7 @@
 		</div>
 	</div>
 
-	<div class="container flex flex-wrap inline-block mx-auto mb-8">
+	<div class="container flex flex-wrap inline-block mx-auto mb-8" id="filter">
 		<div class="w-full pb-6 md:w-1/5">
 			<div class="sticky flex flex-col pin-t" style="top:9em;">
 				<!--Filters-->
@@ -128,7 +128,7 @@
 
 						foreach ($filters as $filter) {
 							echo "\t\t\t\t\t\t<li class=\"mr-1\">";
-							echo "\t\t\t\t\t\t\t<button class=\"tab -mb-px\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\"><span class=\"w-6\">" . $icon[$filter] . "</span>" . $filter . "</button>\n";
+							echo "\t\t\t\t\t\t\t<button class=\"tab\" onclick=\"javascript:filterTemplates('" . $filter . "');\" data-twfilter=\"" . $filter . "\"><span class=\"w-6\">" . $icon[$filter] . "</span>" . $filter . "</button>\n";
 							echo "\t\t\t\t\t\t</li>";
 						}
 						?>
