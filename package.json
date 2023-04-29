@@ -20,7 +20,7 @@
     "@tailwindcss/custom-forms": "^0.2.1",
     "cssnano": "^5.1.15",
     "plop": "^2.7.4",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^3.3.2"
   },
   "scripts": {
     "del:js": "rimraf tailwind.config.js",
