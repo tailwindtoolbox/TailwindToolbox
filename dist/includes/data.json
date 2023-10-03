@@ -5378,5 +5378,21 @@
     "sticky": false,
     "affiliate": false,
     "sponsor": false
+  },
+  {
+    "site_section": "Plugin",
+    "url": "https://github.com/mwnciau/tailwindcss-unimportant",
+    "url_image": "placeholder.png",
+    "title": "Unimportant",
+    "description": "A plugin that creates lower-specificity utility classes that can be used to create components with overridable defaults.",
+    "url_author": "https://github.com/mwnciau",
+    "author": "Simon J",
+    "download": "",
+    "category": "Utilities",
+    "new": false,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
+    "sponsor": false
   }
 ]
