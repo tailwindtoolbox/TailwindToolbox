@@ -5406,9 +5406,41 @@
     "download": "$39",
     "category": "Blog",
     "new": true,
-    "home": true,
+    "home": false,
     "sticky": false,
     "affiliate": true,
+    "sponsor": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://www.nuweb.dev",
+    "url_image": "toolsutilities/nuweb.jpg",
+    "title": "Nuweb [$]",
+    "description": "Build your web easier in the browser",
+    "url_author": "https://www.linkedin.com/in/vasilz/",
+    "author": "Vasil",
+    "download": "",
+    "category": "Browser",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
+    "sponsor": false
+  },
+  {
+    "site_section": "Template",
+    "url": "https://boxmodel.dev/templates/porto/html",
+    "url_image": "templates/porto.jpg",
+    "title": "Porto",
+    "description": "Portfolio template for developers - Showcase your skills, projects, and experience.",
+    "url_author": "https://boxmodel.dev",
+    "author": "BoxModel",
+    "download": "",
+    "category": "Portfolio",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
     "sponsor": false
   }
 ]
