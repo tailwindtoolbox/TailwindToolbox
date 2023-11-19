@@ -5442,5 +5442,21 @@
     "sticky": false,
     "affiliate": false,
     "sponsor": false
+  },
+  {
+    "site_section": "Generator",
+    "url": "https://mkfizi.dev/tailbone",
+    "url_image": "toolsutilities/tailbone.jpg",
+    "title": "Tailbone",
+    "description": "Generate your personalize UX skeleton screen with TailwindCSS",
+    "url_author": "https://github.com/mkfizi",
+    "author": "Khafizi Noh",
+    "download": "",
+    "category": "Generator",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
+    "sponsor": false
   }
 ]
