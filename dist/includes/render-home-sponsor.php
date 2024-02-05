@@ -13,7 +13,7 @@
 			$card = '
 				<!--{{title}} Template-->
 				<div class="w-1/2 pb-0 mb-4 lg:w-1/4 md:mb-6" data-twcat="{{category}}">
-					<a href="{{url}}" class="no-underline hover:no-underline">
+					<a href="{{url}}" target="_blank" class="no-underline hover:no-underline">
 						<div class="card">
 							<div class="relative">
 								<img src="{{url_image}}" alt="{{title}}">
@@ -124,7 +124,9 @@
 			<div class="flex-grow w-full pb-3 my-10 text-center sm:pb-0">
 				<a href="https://www.tailwindtoolbox.com/starter-<?= strtolower($show_section); ?>s"
 					class="p-4 text-xl font-bold text-white no-underline border-none rounded bg-brand hover:bg-teal-dark hover:text-white">Show
-					all <?= strtolower($show_section); ?>s</a>
+					all
+					<?= strtolower($show_section); ?>s
+				</a>
 			</div>
 
 

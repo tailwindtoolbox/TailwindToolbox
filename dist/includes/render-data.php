@@ -13,7 +13,7 @@
 			$card = '
 				<!--{{title}} Template-->
 				<div class="w-1/2 pb-0 mb-4 lg:w-1/4 md:mb-6" data-twcat="{{category}}">
-					<a href="{{url}}" class="no-underline hover:no-underline">
+					<a href="{{url}}" target="_blank" class="no-underline hover:no-underline">
 						<div class="card">
 							<div class="relative">
 								<img src="{{url_image}}" alt="{{title}}">

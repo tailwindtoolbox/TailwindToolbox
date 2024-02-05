@@ -1,8 +1,10 @@
 <!--section-->
-<div class="container mx-auto mb-16 mt-0">
+<div class="container mx-auto mt-0 mb-16">
 	<div class="w-full px-1 md:px-0">
 
-		<div id="filterMsg" class="w-full mb-4 bg-teal-200 border-brand leading-loose text-brand text-center font-bold cursor-pointer" onclick="javascript:filterTemplates('');" data-twfilter="all"></div>
+		<div id="filterMsg"
+			class="w-full mb-4 font-bold leading-loose text-center bg-teal-200 cursor-pointer border-brand text-brand"
+			onclick="javascript:filterTemplates('');" data-twfilter="all"></div>
 
 		<div class="flex flex-wrap mb-2 md:px-3">
 
@@ -10,8 +12,8 @@
 			// Store Card template
 			$card = '
 				<!--{{title}} Guide-->
-				<div class="w-1/2 lg:w-1/4 mb-4 md:mb-6 pb-0" data-twcat="{{category}}">
-					<a href="{{url}}" class="no-underline hover:no-underline">
+				<div class="w-1/2 pb-0 mb-4 lg:w-1/4 md:mb-6" data-twcat="{{category}}">
+					<a href="{{url}}" target="_blank" class="no-underline hover:no-underline">
 						<div class="card">
 							<div class="relative">
 								<img src="{{url_image}}" alt="{{title}}">
@@ -62,7 +64,7 @@
 				$url_image = $template['url_image'];
 				$title = $template['title'];
 				$description = $template['description'];
-				$download =	''; //$template['download'];
+				$download = ''; //$template['download'];
 				$url_Author = $template['url_author'];
 				$author = $template['author'];
 				$category = $template['category'];
