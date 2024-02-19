@@ -4677,7 +4677,7 @@
   },
   {
     "site_section": "Tool",
-    "url": "https://tailscan.com",
+    "url": "tailscan.com/?via=TailwindToolbox",
     "url_image": "toolsutilities/tailscan.jpg",
     "title": "Tailscan [$]",
     "description": "The ultimate developer tool for Tailwind CSS. Build and design your Tailwind website visually, right within the browser.",
@@ -4688,7 +4688,7 @@
     "new": false,
     "home": true,
     "sticky": true,
-    "affiliate": false,
+    "affiliate": true,
     "sponsor": false
   },
   {
