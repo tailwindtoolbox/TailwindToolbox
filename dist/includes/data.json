@@ -6116,5 +6116,21 @@
     "sticky": false,
     "affiliate": true,
     "sponsor": false
+  },
+  {
+    "site_section": "Kit",
+    "url": "https://landify.design/landify-ui?aff=3KMAV",
+    "url_image": "products/lunarui.jpg",
+    "title": "Lunar UI",
+    "description": "Lunar UI is a collection of interactive Tailwind CSS components built for React and Vue.js. (Affiliate)",
+    "url_author": "https://lunarui.dev?aff=3KMAV",
+    "author": "Lunar UI",
+    "download": "$59",
+    "category": "UI Kit",
+    "new": false,
+    "home": false,
+    "sticky": true,
+    "affiliate": true,
+    "sponsor": false
   }
 ]
