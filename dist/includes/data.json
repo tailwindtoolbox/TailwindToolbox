@@ -6228,5 +6228,21 @@
     "sticky": false,
     "affiliate": false,
     "sponsor": false
+  },
+  {
+    "site_section": "Tool",
+    "url": "https://purecode.ai",
+    "url_image": "toolsutilities/purecode-ai.jpg",
+    "title": "PureCode AI [$]",
+    "description": "Frontend UI Copilot - Type to generate UI components with AI",
+    "url_author": "https://purecode.ai",
+    "author": "PureCode AI",
+    "download": "",
+    "category": "Browser, IDE",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
+    "sponsor": false
   }
 ]
