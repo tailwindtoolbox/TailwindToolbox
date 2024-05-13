@@ -6212,5 +6212,21 @@
     "sticky": false,
     "affiliate": false,
     "sponsor": false
+  },
+  {
+    "site_section": "Component",
+    "url": "https://www.tailflows.com/exemples",
+    "url_image": "components/tailflows.jpg",
+    "title": "Tailflows UI blocks",
+    "description": "Free custom blocks to use in your website",
+    "url_author": "https://gederooney.me",
+    "author": "Rony Gédéon",
+    "download": "",
+    "category": "tbc",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
+    "sponsor": false
   }
 ]
