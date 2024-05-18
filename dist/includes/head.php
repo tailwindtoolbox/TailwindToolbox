@@ -7,29 +7,30 @@
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="theme-color" content="#3b7977">
 
+<!-- Primary Meta Tags -->
+<title>Tailwind Toolbox</title>
+<meta name="title" content="Tailwind Toolbox" />
+<meta name="description"
+    content="A directory of open source starter templates and components,  UI kits, generators, tools and a marketplace to kick start your Tailwind CSS project" />
+
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.tailwindtoolbox.com/">
-<meta property="og:title" content="Tailwind Toolbox - Free Starter Templates for Tailwind CSS">
-<meta property="og:description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
-<meta property="og:image" content="https://www.tailwindtoolbox.com/social.png">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tailwindtoolbox.com/" />
+<meta property="og:title" content="Tailwind Toolbox" />
+<meta property="og:description"
+    content="A directory of open source starter templates and components,  UI kits, generators, tools and a marketplace to kick start your Tailwind CSS project" />
+<meta property="og:image" content="https://www.tailwindtoolbox.com/social.png" />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.tailwindtoolbox.com/">
-<meta property="twitter:title" content="Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS">
-<meta property="twitter:description" content="Free open source Tailwind CSS starter templates and components to get you started quickly to creating websites in Tailwind CSS!">
-<meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png">
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://tailwindtoolbox.com/" />
+<meta property="twitter:title" content="Tailwind Toolbox" />
+<meta property="twitter:description"
+    content="A directory of open source starter templates and components,  UI kits, generators, tools and a marketplace to kick start your Tailwind CSS project" />
+<meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
 
 <!-- Stylesheets -->
 <link href="css/tailwind.min.css?v=20210110" rel="stylesheet">
 <link href="css/carbon.min.css?v=20210406" rel="stylesheet">
-
-<!-- Microsoft Clarity -->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "hmsd5424xn");
-</script>
