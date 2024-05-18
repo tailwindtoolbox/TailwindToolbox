@@ -6244,5 +6244,21 @@
     "sticky": false,
     "affiliate": false,
     "sponsor": false
+  },
+  {
+    "site_section": "Marketplace",
+    "url": "https://web3templates.lemonsqueezy.com/checkout/buy/fc684313-22a5-422a-a910-ed6cbee04bb3?aff=3KMAV",
+    "url_image": "products/bsaas.jpg",
+    "title": "bSaaS [$]",
+    "description": "Business, SaaS & Startup Website Template built with Astro, Tailwind CSS 4 (Affiliate)",
+    "url_author": "https://web3templates.lemonsqueezy.com/?aff=3KMAV",
+    "author": "Web 3 Templates",
+    "download": "$49",
+    "category": "Landing, Agency",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true,
+    "sponsor": false
   }
 ]
