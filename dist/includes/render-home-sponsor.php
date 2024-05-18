@@ -17,8 +17,6 @@
 						<div class="card">
 							<div class="relative">
 								<img src="{{url_image}}" alt="{{title}}">
-								{{new}}
-								{{affiliate}}
 							</div>
 
 							<div class="card-title">

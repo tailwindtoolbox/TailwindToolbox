@@ -45,7 +45,7 @@
     "author": "Tailwind Toolbox",
     "category": "Landing",
     "new": false,
-    "home": true,
+    "home": false,
     "sticky": false,
     "affiliate": false,
     "sponsor": false
@@ -147,7 +147,7 @@
     "author": "Tailwind Toolbox",
     "category": "Admin",
     "new": false,
-    "home": true,
+    "home": false,
     "sticky": false,
     "affiliate": false,
     "sponsor": false
@@ -5416,7 +5416,7 @@
     "url": "https://web3templates.com/templates/astroship-pro-astro-saas-website-template?aff=3KMAV",
     "url_image": "products/astroship-pro.jpg",
     "title": "Astroship [$]",
-    "description": "Astroship Pro is a template for SAAS, startups, marketing websites & landing pages (Affiliate)",
+    "description": "Astroship Pro is a template for SAAS, startups, marketing websites & landing pages (Affiliate Link)",
     "url_author": "https://shop.web3templates.com?aff=3KMAV",
     "author": "Web 3 Templates",
     "download": "$39",
@@ -5425,7 +5425,7 @@
     "home": false,
     "sticky": false,
     "affiliate": true,
-    "sponsor": false
+    "sponsor": true
   },
   {
     "site_section": "Tool",
@@ -6250,7 +6250,7 @@
     "url": "https://web3templates.com/templates/bsaas-business-saas-startup-website-template?aff=3KMAV",
     "url_image": "products/bsaas.jpg",
     "title": "bSaaS [$]",
-    "description": "Business, SaaS & Startup Website Template built with Astro, Tailwind CSS 4 (Affiliate)",
+    "description": "Business, SaaS & Startup Website Template built with Astro, Tailwind CSS 4 (Affiliate Link)",
     "url_author": "https://shop.web3templates.com?aff=3KMAV",
     "author": "Web 3 Templates",
     "download": "$49",
@@ -6259,7 +6259,7 @@
     "home": false,
     "sticky": false,
     "affiliate": true,
-    "sponsor": false
+    "sponsor": true
   },
   {
     "site_section": "Marketplace",
