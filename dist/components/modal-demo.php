@@ -1,113 +1,133 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind CSS Starter Component - Modal : Tailwind Toolbox</title>
-		<meta name="description" content="Simple Modal in Tailwind CSS">
-		<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter component,free component,modal">
-		<?php include '../includes/head-templates.php';?>
 
-		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> 
-	  
-	    <style>
-		  .modal {
-		    transition: opacity 0.25s ease;
-		  }
-		    body.modal-active {
-			  overflow-x: hidden;
-			  overflow-y: visible !important;
-		  }
-	    </style>
- 
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Modal with Tailwind CSS</title>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
+	<style>
+		html:has(dialog[open]) {
+			overflow: hidden;
+		}
+
+		@keyframes scaleDown {
+			0% {
+				opacity: 1;
+				transform: scale(1);
+			}
+
+			100% {
+				opacity: 0;
+				transform: scale(0);
+			}
+		}
+
+		@keyframes slideInUp {
+			0% {
+				opacity: 0;
+				transform: translateY(20%);
+			}
+
+			100% {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		dialog[open]::backdrop {
+			backdrop-filter: blur(5px);
+		}
+
+		@media (prefers-reduced-motion: no-preference) {
+			dialog {
+				opacity: 0;
+				transform: scale(0.9);
+			}
+
+			dialog.showing {
+				animation: slideInUp 0.3s ease-out forwards;
+			}
+
+			dialog.closing {
+				animation: scaleDown 0.3s ease-in forwards;
+			}
+		}
+
+		.close-button {
+			position: absolute;
+			top: 1rem;
+			right: 1rem;
+			cursor: pointer;
+		}
+	</style>
 </head>
 
-<body class="bg-gray-200 flex items-center justify-center h-screen">
+<body class="flex items-center justify-center h-screen bg-gray-200">
+	<button id="openModalButton" class="px-4 py-2 text-white bg-indigo-500 rounded">
+		Open Modal
+	</button>
 
-	<button class="modal-open bg-transparent border border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4 rounded-full">Open Modal</button>
-
-	<!--Modal-->
-	<div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
-		<div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
-
-        <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
-		
-			<div class="modal-close absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50"><svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path></svg><span class="text-sm">(Esc)</span></div>
-
-			<!-- Add margin if you want to see some of the overlay behind the modal-->
-			<div class="modal-content py-4 text-left px-6">
-			
-				<!--Title-->
-				<div class="flex justify-between items-center pb-3">
-				  <p class="text-2xl font-bold">Simple Modal!</p>	
-				  <div class="modal-close cursor-pointer z-50"><svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path></svg></div>				  
-				</div>
-			
-				<!--Body-->
-				<p>Modal content can go here</p>
-				<p>...</p>
-				<p>...</p>
-				<p>...</p>
-				<p>...</p>
-			  
-				<!--Footer-->
-				<div class="flex justify-end pt-2">
-				  <button class="px-4 bg-transparent p-3 rounded-lg text-indigo-500 hover:bg-gray-100 hover:text-indigo-400 mr-2">Action</button>
-				  <button class="modal-close px-4 bg-indigo-500 p-3 rounded-lg text-white hover:bg-indigo-400">Close</button>
-				</div>
-				
-			</div>
-
+	<dialog id="modal" class="relative p-6 bg-white rounded-lg shadow-lg">
+		<button id="closeModalButtonTop" class="close-button">
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-700 hover:text-gray-900" fill="none"
+				viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		</button>
+		<h2 class="mb-4 text-lg font-semibold">Modal Title</h2>
+		<p class="mb-4 text-gray-700">
+			This is a modal dialog created using the &lt;dialog&gt; element and
+			Tailwind CSS.
+		</p>
+		<div class="flex justify-end space-x-2">
+			<button id="secondaryActionButton" class="px-4 py-2 text-white bg-gray-500 rounded">
+				Secondary Action
+			</button>
+			<button id="closeModalButtonBottom" class="px-4 py-2 text-white bg-indigo-500 rounded">
+				Close
+			</button>
 		</div>
-		
-    </div>
-	  
-	
+	</dialog>
+
 	<script>
-		 
-		var openmodal = document.querySelectorAll('.modal-open')
-		for (var i = 0; i < openmodal.length; i++) {
-		  openmodal[i].addEventListener('click', function(event){
-			event.preventDefault()
-			toggleModal()
-		  })
+		const modal = document.getElementById("modal");
+		const openModalButton = document.getElementById("openModalButton");
+		const closeModalButtonTop = document.getElementById(
+			"closeModalButtonTop"
+		);
+		const closeModalButtonBottom = document.getElementById(
+			"closeModalButtonBottom"
+		);
+		const secondaryActionButton = document.getElementById(
+			"secondaryActionButton"
+		);
+
+		openModalButton.addEventListener("click", () => {
+			modal.classList.remove("closing");
+			modal.showModal();
+			modal.classList.add("showing");
+		});
+
+		closeModalButtonTop.addEventListener("click", closeModal);
+		closeModalButtonBottom.addEventListener("click", closeModal);
+		secondaryActionButton.addEventListener("click", () => {
+			console.log("Secondary action executed");
+		});
+
+		function closeModal() {
+			modal.classList.remove("showing");
+			modal.classList.add("closing");
+			modal.addEventListener(
+				"animationend",
+				() => {
+					modal.close();
+					modal.classList.remove("closing");
+				},
+				{ once: true }
+			);
 		}
-
-		const overlay = document.querySelector('.modal-overlay')
-		overlay.addEventListener('click', toggleModal)
-
-		var closemodal = document.querySelectorAll('.modal-close')
-		for (var i = 0; i < closemodal.length; i++) {
-		  closemodal[i].addEventListener('click', toggleModal)
-		}
-
-		document.onkeydown = function(evt) {
-		  evt = evt || window.event
-		  var isEscape = false
-		  if ("key" in evt) {
-			isEscape = (evt.key === "Escape" || evt.key === "Esc")
-		  } else {
-			isEscape = (evt.keyCode === 27)
-		  }
-		  if (isEscape && document.body.classList.contains('modal-active')) {
-			toggleModal()
-		  }
-		};
-
-
-		function toggleModal () {
-		  const body = document.querySelector('body')
-		  const modal = document.querySelector('.modal')
-		  modal.classList.toggle('opacity-0')
-		  modal.classList.toggle('pointer-events-none')
-		  body.classList.toggle('modal-active')
-		}
-
-		 
 	</script>
-
 </body>
 
 </html>
