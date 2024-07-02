@@ -147,7 +147,7 @@
     "author": "Tailwind Toolbox",
     "category": "Admin",
     "new": false,
-    "home": false,
+    "home": true,
     "sticky": false,
     "affiliate": false,
     "sponsor": false
@@ -266,7 +266,7 @@
     "author": "Tailwind Toolbox",
     "category": "Blog",
     "new": false,
-    "home": false,
+    "home": true,
     "sticky": false,
     "affiliate": false,
     "sponsor": false
@@ -5425,7 +5425,7 @@
     "home": false,
     "sticky": false,
     "affiliate": true,
-    "sponsor": true
+    "sponsor": false
   },
   {
     "site_section": "Tool",
@@ -6259,7 +6259,7 @@
     "home": false,
     "sticky": false,
     "affiliate": true,
-    "sponsor": true
+    "sponsor": false
   },
   {
     "site_section": "Marketplace",
