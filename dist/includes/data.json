@@ -3189,18 +3189,18 @@
   },
   {
     "site_section": "Kit",
-    "url": "https://a.paddle.com/v2/click/37973/124350?link=3167",
+    "url": "https://devdojo.com/tails",
     "url_image": "templates/tails.jpg",
     "title": "Tails [$]",
-    "description": "Tails is the ultimate drag'n drop page creator built for Tailwind CSS (Affiliate Link)",
+    "description": "Tails is the ultimate drag'n drop page creator built for Tailwind CSS",
     "download": "$15 pm",
-    "url_author": "https://a.paddle.com/v2/click/37973/124350?link=3167",
+    "url_author": "https://devdojo.com/tails",
     "author": "Dev Dojo",
     "category": "UI Kit, Page Builder",
     "new": false,
-    "home": true,
-    "sticky": true,
-    "affiliate": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
     "sponsor": false
   },
   {
@@ -6375,7 +6375,7 @@
   },
   {
     "site_section": "Kit",
-    "url": "https://www.dynaui.design/",
+    "url": "https://www.dynaui.design/?via=tailwindtoolbox",
     "url_image": "products/dynaui.jpg",
     "title": "DynaUI [$]",
     "description": "Animated components built with React, Tailwind CSS, and Framer Motion",
@@ -6384,9 +6384,9 @@
     "download": "",
     "category": "UI Kit",
     "new": true,
-    "home": false,
-    "sticky": false,
-    "affiliate": false,
+    "home": true,
+    "sticky": true,
+    "affiliate": true,
     "sponsor": false
   }
 ]
