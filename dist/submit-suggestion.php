@@ -26,10 +26,11 @@ $emailHTML = '
 	  "author": "' . $author . '",<br>
 	  "download": "",<br>
 	  "category": "tbc",<br>
-	  "new": false,<br>
+	  "new": true,<br>
 	  "home": false,<br>
       "sticky": false,<br>
-      "affiliate": false<br>
+      "affiliate": false,<br>
+	  "sponsor": false<br>
 	  },<br><br>
 	';
 
@@ -41,11 +42,8 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 $emailSent = mail($to, $subject, $emailHTML, $headers);
 
-if ($emailSent)
-{
+if ($emailSent) {
 	echo '<p style="color:#3b7977;">🙌 Thank you!!! We will review your submission and add it to the site shortly</p>';
-}
-else
-{
+} else {
 	echo '<p style="color:red;">😓 Oops! Something went wrong! Tweet us instead? @tailwindtoolbox</p>';
 }
