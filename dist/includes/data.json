@@ -5635,7 +5635,22 @@
     "affiliate": true,
     "sponsor": false
   },
-
+  {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/620897395/ctlta",
+    "url_image": "products/ari-futurism.jpg",
+    "title": "Futurism [$]",
+    "description": "Futurism is Html dashboard using a Futuristic Sci-fi design (Affiliate Link)",
+    "download": "$29+",
+    "url_author": "https://gumroad.com/a/620897395",
+    "author": "Ari Budin",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": true,
+    "sponsor": false
+  },
   {
     "site_section": "Marketplace",
     "url": "https://lexingtonthemes.lemonsqueezy.com/buy/95522c10-eed2-4620-84ab-5cbd34efc225?aff=3KMAV",
@@ -6470,6 +6485,22 @@
     "sponsor": false
   },
   {
+    "site_section": "Marketplace",
+    "url": "https://gumroad.com/a/224147987/ypysfa",
+    "url_image": "products/spike.jpg",
+    "title": "Spike Admin [$]",
+    "description": "Paid version of the Spike Tailwind Admin Dashboard (Affiliate)",
+    "url_author": "https://github.com/wrappixel",
+    "author": "WrapPixel",
+    "download": "$49",
+    "category": "Admin",
+    "new": false,
+    "home": false,
+    "sticky": true,
+    "affiliate": true,
+    "sponsor": false
+  },
+  {
     "site_section": "Generator",
     "url": "https://aicolors.co",
     "url_image": "toolsutilities/aicolors.jpg",
@@ -6479,7 +6510,7 @@
     "author": "Tiatun Tiatun",
     "download": "",
     "category": "Color, Colour",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": false,
