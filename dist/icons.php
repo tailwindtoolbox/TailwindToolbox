@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Icon Generator for Tailwind CSS</title>
+	<title>Windy Toolbox - Icon Generator for Tailwind CSS</title>
 	<meta name="description"
-		content="Icon Viewer for Heroicons, Tabler and Feather Icons - set the size and colour for your icon and copy the code for your Tailwind CSS project">
+		content="(Formerly Tailwind Toolbox) Icon Viewer for Heroicons, Tabler and Feather Icons - set the size and colour for your icon and copy the code for your Tailwind CSS project">
 	<meta name="keywords"
-		content="tailwind,tailwindcss,heroicons, heroicons viewer,tabler, tabler viewer, feather icons, feather viewer">
+		content="Tailwind Toolbox,tailwind,tailwindcss,heroicons, heroicons viewer,tabler, tabler viewer, feather icons, feather viewer">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 	<script src="https://cdn.tailwindcss.com"></script>

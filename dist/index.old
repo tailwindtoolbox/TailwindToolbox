@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Toolbox - Free Starter Templates for Tailwind CSS</title>
-	<meta name="description" content="Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
+    <title>Windy Toolbox - Free Starter Templates for Tailwind CSS</title>
+	<meta name="description" content="(Formerly Tailwind Toolbox) Free open source Tailwind CSS starter templates to get you started quickly to creating websites in Tailwind CSS!">
 	<meta name="author" content="Astrava.Solutions">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -22,7 +22,7 @@
 	  "@context": "http://schema.org",
 	  "@type": "Organization",
 	  "url": "https://www.tailwindtoolbox.com",
-	  "name": "Tailwind Toolbox",
+	  "name": "Windy Toolbox",
 	  "logo": "https://www.tailwindtoolbox.com/monitor.svg",
 	  "sameAs": [
 		"http://www.twitter.com/tailwindtoolbox",
@@ -51,7 +51,7 @@
 		    <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold pl-3">
 				<a class="text-white no-underline hover:text-white hover:no-underline" href="https://www.tailwindtoolbox.com">
 					<svg class="fill-current text-white h-6 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 3H2v14h5V3zm2 0v14h9V3H9zM0 3c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm3 1h3v2H3V4zm0 3h3v2H3V7zm0 3h3v2H3v-2z"></path></svg> 
-					<span class="text-3xl pl-2">Tailwind Toolbox</span>
+					<span class="text-3xl pl-2">Windy Toolbox</span>
 				</a>
             </div>
 			<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
@@ -68,7 +68,7 @@
 			<div class="container mx-auto text-center content-center items-center">				
 				<div class="pt-32 px-5">
 					<span class="bg-brand font-bold text-center text-white text-2xl sm:text-3xl md:text-4xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Free Starter templates for your next Tailwind CSS project!</span></span><br>
-					<img src="monitor.svg" class="mt-12 h-48 md:h-64" alt="Tailwind Toolbox">
+					<img src="monitor.svg" class="mt-12 h-48 md:h-64" alt="Windy Toolbox">
 				</div>
 			</div>
 		</div>

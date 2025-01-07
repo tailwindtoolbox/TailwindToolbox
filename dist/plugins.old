@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Useful Plugins for Tailwind CSS</title>
-	<meta name="description" content="Useful Plugins for Tailwind CSS to help you setup for your next project">
+	<title>Windy Toolbox - Useful Plugins for Tailwind CSS</title>
+	<meta name="description" content="(Formerly Tailwind Toolbox) Useful Plugins for Tailwind CSS to help you setup for your next project">
 	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,plugins">
 	<?php include 'includes/head.php';?>
 	

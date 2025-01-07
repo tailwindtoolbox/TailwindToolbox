@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>DataTables </title>
-	<meta name="description" content="">
+	<meta name="description" content="(Formerly Tailwind Toolbox) ">
 	<meta name="keywords" content="">
 	<link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet">
 	<!--Replace with your tailwind.css once created-->
@@ -183,11 +183,11 @@
 	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
 	<script>
-		$(document).ready(function() {
+		$(document).ready(function () {
 
 			var table = $('#example').DataTable({
-					responsive: true
-				})
+				responsive: true
+			})
 				.columns.adjust()
 				.responsive.recalc();
 		});

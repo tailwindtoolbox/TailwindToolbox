@@ -1,7 +1,7 @@
 <footer class="px-2 pt-0 pb-2 mt-0 text-gray-100 bg-gray-700">
 	<div class="container py-8 mx-auto">
 
-		<div class="flex flex-wrap px-4 mb-2">
+		<div class="flex flex-wrap px-4 mb-8">
 			<!--Col 1-->
 			<div class="w-full px-3 pb-3 mb-2 text-center md:w-1/3 md:text-left md:mb-0 sm:pb-0">
 				<p class="my-3 text-xl font-bold text-white">What is Tailwind CSS?</p>
@@ -21,11 +21,12 @@
 			</div>
 			<!--Col 3-->
 			<div class="w-full px-3 pb-3 mb-2 text-center md:w-1/3 md:text-left sm:px-1 md:mb-0 sm:pb-0">
-				<p class="my-3 text-xl font-bold text-white">About Tailwind Toolbox</p>
+				<p class="my-3 text-xl font-bold text-white">About Windy Toolbox</p>
 
-				<p><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Tailwind
-						Toolbox</a> is a project created by and maintained by <a class="footerlink"
-						href="https://twitter.com/amritnagi">Amrit Nagi</a>. Not affiliated with Tailwind Labs, just a
+				<p><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank" rel="noopener">Windy
+						Toolbox</a> (formerly known as Tailwind Toolbox) is a project created by and maintained by <a
+						class="footerlink" href="https://twitter.com/amritnagi">Amrit Nagi</a>. Not affiliated with
+					Tailwind Labs, just a
 					huge fan.</p>
 
 				<a href="https://www.tailwindtoolbox.com/submit"
@@ -68,7 +69,7 @@
 							<path
 								d="m4 11v0.0068977c0 2.2058 1.7878 3.9931 3.9931 3.9931h6.0138c2.2058 0 3.9931-1.7878 3.9931-3.9931v-10.007h-14v2h-1.9951c-1.111 0-2.0049 0.89458-2.0049 1.9981v4.0038c0 1.1114 0.89762 1.9981 2.0049 1.9981h1.9951zm0-2v-4h-2v4h2zm-2 8v-1h18v1l-4 2h-10l-4-2z" />
 						</svg></a>
-					<svg onclick="javascript:alert('Tailwind Toolbox is a cookie free zone!!');"
+					<svg onclick="javascript:alert('Windy Toolbox is a cookie free zone!!');"
 						class="inline w-6 h-6 fill-current text-brand-ondark" enable-background="new 0 0 1000 1000"
 						version="1.1" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 						<title>A cookie free zone!</title>
@@ -95,3 +96,10 @@
 
 	</div>
 </footer>
+<div class="fixed inset-x-0 bottom-0 w-full">
+	<div class="px-4 py-3 text-brand bg-brand-white">
+		<p class="text-sm font-bold text-center">
+			Windy Toolbox is the new name for Tailwind Toolbox.... A refreshed site is coming soon!
+		</p>
+	</div>
+</div>

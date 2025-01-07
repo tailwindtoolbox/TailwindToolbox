@@ -153,7 +153,7 @@ function updateSearchResults(value) {
         result[item].site_section +
         "</span>" +
         result[item].title +
-        (result[item].author === "Tailwind Toolbox"
+        (result[item].author === "Windy Toolbox"
           ? ""
           : '<span class="text-indigo-300 font-normal"> by ' +
             result[item].author +
@@ -220,12 +220,19 @@ function filterTemplates(filterVal) {
     filterMsg.classList.add("hidden");
   } else {
     filterMsg.classList.remove("hidden");
-    filterMsg.innerHTML = "Showing: " + filterVal + " templates - Click here to show all templates!";
+    filterMsg.innerHTML =
+      "Showing: " +
+      filterVal +
+      " templates - Click here to show all templates!";
   }
 
   //Scroll to top
   var ele = document.getElementById("filter");
-  window.scrollTo({ left: ele.offsetLeft, top: ele.offsetTop - 150, behavior: "smooth" });
+  window.scrollTo({
+    left: ele.offsetLeft,
+    top: ele.offsetTop - 150,
+    behavior: "smooth",
+  });
 
   // window.scroll({
   //   top: 0,
@@ -235,7 +242,9 @@ function filterTemplates(filterVal) {
 }
 
 function calcIframeHeight(offset) {
-  var the_height = document.getElementById("iframecontent").contentWindow.document.body.scrollHeight;
+  var the_height =
+    document.getElementById("iframecontent").contentWindow.document.body
+      .scrollHeight;
   document.getElementById("iframecontent").height = the_height + offset;
 }
 

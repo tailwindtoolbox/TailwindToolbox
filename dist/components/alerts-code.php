@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tailwind CSS Starter Component - Alerts / Toasts : Tailwind Toolbox</title>
+  <title>Tailwind CSS Starter Component - Alerts / Toasts : Windy Toolbox</title>
 
   <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet">
   <!--Replace with your tailwind.css once created-->
@@ -48,8 +48,8 @@
     }
 
     /* -------------------------------------------------------------
-	 * Animations generated using Animista * w: http://animista.net, 
-	 * ---------------------------------------------------------- */
+   * Animations generated using Animista * w: http://animista.net, 
+   * ---------------------------------------------------------- */
 
     @-webkit-keyframes slide-in-top {
       0% {
@@ -228,11 +228,15 @@
   <div class="alert-banner w-full fixed top-0">
     <input type="checkbox" class="hidden" id="banneralert">
 
-    <label class="close cursor-pointer flex items-center justify-between w-full p-2 bg-red-500 shadow text-white" title="close" for="banneralert">
+    <label class="close cursor-pointer flex items-center justify-between w-full p-2 bg-red-500 shadow text-white"
+      title="close" for="banneralert">
       Banner Alert (click anywhere to close)
 
-      <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-        <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+      <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+        viewBox="0 0 18 18">
+        <path
+          d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+        </path>
       </svg>
     </label>
   </div>
@@ -246,8 +250,11 @@
       Footer Alert (Only use X to close)
 
       <label class="close cursor-pointer" title="close" for="footeralert">
-        <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-          <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+        <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+          viewBox="0 0 18 18">
+          <path
+            d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+          </path>
         </svg>
       </label>
     </div>
@@ -258,11 +265,16 @@
   <div class="alert-toast fixed bottom-0 right-0 m-8 w-5/6 md:w-full max-w-sm">
     <input type="checkbox" class="hidden" id="footertoast">
 
-    <label class="close cursor-pointer flex items-start justify-between w-full p-2 bg-green-500 h-24 rounded shadow-lg text-white" title="close" for="footertoast">
+    <label
+      class="close cursor-pointer flex items-start justify-between w-full p-2 bg-green-500 h-24 rounded shadow-lg text-white"
+      title="close" for="footertoast">
       Toast Alert (click anywhere to close)
 
-      <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-        <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+      <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+        viewBox="0 0 18 18">
+        <path
+          d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+        </path>
       </svg>
     </label>
   </div>

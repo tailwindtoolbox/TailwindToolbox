@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - UI Kits and Page builders</title>
+	<title>Windy Toolbox - UI Kits and Page builders</title>
 	<meta name="description"
-		content="Tailwind CSS UI kits and website building tools to quickly start your next project">
+		content="(Formerly Tailwind Toolbox) Tailwind CSS UI kits and website building tools to quickly start your next project">
 	<meta name="keywords"
-		content="tailwind,tailwindcss,tailwind css,css,starter template,free components, ui kits, ui components, website builder, builder">
+		content="Tailwind Toolbox,tailwind,tailwindcss,tailwind css,css,starter template,free components, ui kits, ui components, website builder, builder">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 

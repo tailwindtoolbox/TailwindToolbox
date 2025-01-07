@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Free Starter Templates</title>
+	<title>Windy Toolbox - Free Starter Templates</title>
 	<meta name="description"
-		content="Free open source Tailwind CSS starter templates to quickly start your next project">
+		content="(Formerly Tailwind Toolbox) Free open source Tailwind CSS starter templates to quickly start your next project">
 	<meta name="keywords"
-		content="tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
+		content="Tailwind Toolbox,tailwind,tailwindcss,tailwind css,css,starter template,free template,admin templates, admin template, admin dashboard, free tailwind templates, tailwind example">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 

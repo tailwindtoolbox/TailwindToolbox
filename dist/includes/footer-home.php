@@ -3,7 +3,7 @@
 			rel="noopener">Tailwind CSS</a> is a utility-first CSS framework for rapid UI development</p>
 
 	<p class="px-5 py-3 text-sm text-white"><a class="footerlink" href="https://www.tailwindtoolbox.com" target="_blank"
-			rel="noopener">Tailwind Toolbox</a> is a project created by and maintained by <a class="footerlink"
+			rel="noopener">Windy Toolbox</a> is a project created by and maintained by <a class="footerlink"
 			href="https://twitter.com/amritnagi">Amrit Nagi</a></p>
 
 	<p class="py-3">

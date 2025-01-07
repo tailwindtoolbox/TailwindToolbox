@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Marketplace</title>
+	<title>Windy Toolbox - Marketplace</title>
 	<meta name="description"
-		content="Tailwind CSS marketplace to purchase beautifully designed templates and dashboards from designers across the world">
+		content="(Formerly Tailwind Toolbox) Tailwind CSS marketplace to purchase beautifully designed templates and dashboards from designers across the world">
 	<meta name="keywords"
-		content="tailwind,tailwindcss,tailwind css,css,starter template,free components, ui kits, ui components, premium templates, professional templates">
+		content="Tailwind Toolbox,tailwind,tailwindcss,tailwind css,css,starter template,free components, ui kits, ui components, premium templates, professional templates">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
 

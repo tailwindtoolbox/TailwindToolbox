@@ -8,15 +8,15 @@
 <meta name="theme-color" content="#3b7977">
 
 <!-- Primary Meta Tags -->
-<title>Tailwind Toolbox</title>
-<meta name="title" content="Tailwind Toolbox" />
+<title>Windy Toolbox</title>
+<meta name="title" content="Windy Toolbox" />
 <meta name="description"
     content="A directory of open source starter templates and components,  UI kits, generators, tools and a marketplace to kick start your Tailwind CSS project" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://tailwindtoolbox.com/" />
-<meta property="og:title" content="Tailwind Toolbox" />
+<meta property="og:title" content="Windy Toolbox" />
 <meta property="og:description"
     content="A directory of open source starter templates and components,  UI kits, generators, tools and a marketplace to kick start your Tailwind CSS project" />
 <meta property="og:image" content="https://www.tailwindtoolbox.com/social.png" />
@@ -24,7 +24,7 @@
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://tailwindtoolbox.com/" />
-<meta property="twitter:title" content="Tailwind Toolbox" />
+<meta property="twitter:title" content="Windy Toolbox" />
 <meta property="twitter:description"
     content="A directory of open source starter templates and components,  UI kits, generators, tools and a marketplace to kick start your Tailwind CSS project" />
 <meta property="twitter:image" content="https://www.tailwindtoolbox.com/social.png" />

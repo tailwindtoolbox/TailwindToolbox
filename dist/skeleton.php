@@ -5,9 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Basic Skeleton Template</title>
-	<meta name="description" content="Free skeleton template to start your Tailwind CSS project">
-	<meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,skeleton, skeleton template">
+	<title>Windy Toolbox - Basic Skeleton Template</title>
+	<meta name="description"
+		content="(Formerly Tailwind Toolbox) (Formerly Tailwind Toolbox) Free skeleton template to start your Tailwind CSS project">
+	<meta name="keywords"
+		content="Tailwind Toolbox,tailwind,tailwindcss,tailwind css,css,starter template,free template,skeleton, skeleton template">
 	<?php include 'includes/head.php'; ?>
 
 	<?php include 'includes/analytics.php'; ?>
@@ -21,9 +23,12 @@
 	<?php include 'includes/nav.php'; ?>
 
 	<!--header-->
-	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+	<div class="h-64 md:h-half mt-6 bg-cover bg-right flex items-center"
+		style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
 		<div class="flex-1 text-center">
-			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Skeleton Template</span>
+			<span class="bg-brand font-bold text-center text-white text-3xl md:text-5xl px-3 mb-5 sm:mb-16"
+				style="box-decoration-break: clone;-webkit-box-decoration-break: clone;">Tailwind Skeleton
+				Template</span>
 		</div>
 	</div>
 
@@ -34,13 +39,17 @@
 			<div class="bg-white rounded shadow mx-1">
 				<div class="p-3 sm:p-6 lg:p-8 text-grey-darker leading-normal text-base md:text-xl">
 
-					<p class="text-xl md:text-2xl my-6 font-bold">This is a simple skeleton template for you to start your project with. Just copy the text and paste it into your editor</p>
+					<p class="text-xl md:text-2xl my-6 font-bold">This is a simple skeleton template for you to start
+						your project with. Just copy the text and paste it into your editor</p>
 
-					<p>If you build something using any of these template, please tweet us at <a href="https://www.twitter.com/tailwindtoolbox">@tailwindtoolbox</a> so we can check it out!</p>
+					<p>If you build something using any of these template, please tweet us at <a
+							href="https://www.twitter.com/tailwindtoolbox">@tailwindtoolbox</a> so we can check it out!
+					</p>
 				</div>
 
 				<div class="w-4/5 py-4 mx-auto">
-					<div id="divClipboard" class="overflow-x-auto bg-gray-100 text-sm md:text-base w-full border rounded shadow px-5 mb-5">
+					<div id="divClipboard"
+						class="overflow-x-auto bg-gray-100 text-sm md:text-base w-full border rounded shadow px-5 mb-5">
 						<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -67,7 +76,7 @@
 &lt;body class=&quot;bg-grey-100 font-sans leading-normal tracking-normal&quot;&gt;
 
   &lt;div class=&quot;container mx-auto&quot;&gt;
-    &lt;h1 class=&quot;text-2xl font-bold text-indigo-500&quot;&gt;Hello World&lt;/h1&gt;
+	&lt;h1 class=&quot;text-2xl font-bold text-indigo-500&quot;&gt;Hello World&lt;/h1&gt;
   &lt;/div&gt;
 
 
@@ -86,8 +95,12 @@
 					</div>
 
 					<div class="py-4">
-						<button id="copyButton" onclick="copyClipboard()" class="w-full sm:w-auto bg-brand hover:bg-teal-500 text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">Copy Text</button>
-						<button class="w-full mt-6 sm:mt-0 sm:w-auto bg-brand hover:bg-teal-500 text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg" id="dwn-btn">Download</button>
+						<button id="copyButton" onclick="copyClipboard()"
+							class="w-full sm:w-auto bg-brand hover:bg-teal-500 text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg">Copy
+							Text</button>
+						<button
+							class="w-full mt-6 sm:mt-0 sm:w-auto bg-brand hover:bg-teal-500 text-white text-xl font-extrabold py-3 px-5 rounded shadow hover:shadow-lg"
+							id="dwn-btn">Download</button>
 						<span id="confirmation"></span>
 					</div>
 
@@ -95,7 +108,9 @@
 				</div>
 
 				<div class="p-6">
-					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+					<script async type="text/javascript"
+						src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom"
+						id="_carbonads_js"></script>
 				</div>
 
 			</div>
@@ -124,7 +139,7 @@
 				document.execCommand("Copy");
 
 				document.getElementById("copyButton").textContent = "Copied!";
-				setTimeout(function() {
+				setTimeout(function () {
 					document.getElementById("copyButton").textContent = "Copy Text";
 				}, 1500);
 
@@ -139,7 +154,7 @@
 				document.execCommand("Copy");
 
 				document.getElementById("copyButton").textContent = "Copied!";
-				setTimeout(function() {
+				setTimeout(function () {
 					document.getElementById("copyButton").textContent = "Copy Text";
 				}, 1500);
 
@@ -162,7 +177,7 @@
 		}
 
 		// Start file download.
-		document.getElementById("dwn-btn").addEventListener("click", function() {
+		document.getElementById("dwn-btn").addEventListener("click", function () {
 			// Generate download of hello.txt file with some content
 			var text = document.getElementById("divClipboard").innerText;
 			var filename = "index.html";

@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tailwind Toolbox - Tabler Icons Viewer</title>
-	<meta name="description" content="Paweł Kuna's Tabler Icons viewer - set the size and colour for your icon and copy the code">
+	<title>Windy Toolbox - Tabler Icons Viewer</title>
+	<meta name="description"
+		content="(Formerly Tailwind Toolbox) Paweł Kuna's Tabler Icons viewer - set the size and colour for your icon and copy the code">
 	<meta name="keywords" content="tailwind,tailwindcss,icons, tabler, tabler viewer">
 	<?php include 'includes/head.php'; ?>
 	<?php include 'includes/analytics.php'; ?>
@@ -26,9 +27,18 @@
 		<div class="flex flex-col items-center justify-center w-full pt-6 md:pt-16">
 			<div class="px-3">
 				<h1 class="pt-6">
-					<span class="px-3 mb-5 text-3xl font-bold text-center text-white bg-brand sm:text-4xl sm:mb-16" style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Icons for Tailwind CSS</span></span>
+					<span class="px-3 mb-5 text-3xl font-bold text-center text-white bg-brand sm:text-4xl sm:mb-16"
+						style="box-decoration-break: clone;-webkit-box-decoration-break: clone;"><span>Icons for
+							Tailwind CSS</span></span>
 				</h1>
-				<p class="max-w-3xl mx-auto my-6 text-base font-bold leading-normal text-left lg:text-xl lg:text-center">A simple viewer for <a class="text-brand" href="https://twitter.com/steveschoger" target="_blank" rel="nofollow">Steve Schoger</a>'s <a class="text-brand" href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a> and <a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł Kuna</a>'s <a class="text-brand" href="https://github.com/tabler/tabler-icons" target="_blank" rel="nofollow"> Tabler</a> icons.</p>
+				<p
+					class="max-w-3xl mx-auto my-6 text-base font-bold leading-normal text-left lg:text-xl lg:text-center">
+					A simple viewer for <a class="text-brand" href="https://twitter.com/steveschoger" target="_blank"
+						rel="nofollow">Steve Schoger</a>'s <a class="text-brand"
+						href="https://github.com/refactoringui/heroicons" target="_blank" rel="nofollow">Heroicons</a>
+					and <a class="text-brand" href="https://twitter.com/codecalm" target="_blank" rel="nofollow">Paweł
+						Kuna</a>'s <a class="text-brand" href="https://github.com/tabler/tabler-icons" target="_blank"
+						rel="nofollow"> Tabler</a> icons.</p>
 			</div>
 		</div>
 	</div>
@@ -36,7 +46,9 @@
 
 		<div class="sticky top-0 z-50 w-full h-full px-2 mx-auto md:w-2/5 bg-brand-white" style="top:8em;">
 
-			<div class="flex items-center justify-center w-full max-w-sm p-2 mx-auto " id="iconPreview" x-ref="code1" x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG"></div>
+			<div class="flex items-center justify-center w-full max-w-sm p-2 mx-auto " id="iconPreview" x-ref="code1"
+				x-html="'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG">
+			</div>
 
 			<div class="flex flex-wrap justify-center w-full">
 
@@ -104,7 +116,8 @@
 						</div>
 					</div>
 					<div class="flex" x-show="needsWeight(classColor)">
-						<input type="range" min="100" max="900" value="800" step="100" class="mr-2 slider" id="textcolor" x-model="classColorWeight" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
+						<input type="range" min="100" max="900" value="800" step="100" class="mr-2 slider"
+							id="textcolor" x-model="classColorWeight" x-on:change="$refs.code.value  =  needsWeight(classColor) ? 
 															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + currentSVG : 
 															'<svg class=&quot' + classSize + ' ' + classColor +  '&quot ' + currentSVG " />
 						<span x-text="classColorWeight"></span>
@@ -112,12 +125,16 @@
 				</div>
 			</div>
 
-			<textarea rows="6" readonly class="hidden w-full p-4 border rounded shadow md:block" id="codeSrc" x-ref="code"></textarea>
+			<textarea rows="6" readonly class="hidden w-full p-4 border rounded shadow md:block" id="codeSrc"
+				x-ref="code"></textarea>
 
-			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc" class="flex items-center justify-center w-full max-w-xs px-5 py-3 mx-auto mt-6 font-extrabold text-white rounded shadow outline-none bg-brand hover:bg-teal-500 focus:border-teal-900">
-				<svg class="inline h-4 pr-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+			<button type="button" id="clipboardBtn" data-clipboard-target="#codeSrc"
+				class="flex items-center justify-center w-full max-w-xs px-5 py-3 mx-auto mt-6 font-extrabold text-white rounded shadow outline-none bg-brand hover:bg-teal-500 focus:border-teal-900">
+				<svg class="inline h-4 pr-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+					fill="currentColor">
 					<path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z" />
-					<path d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z" />
+					<path
+						d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z" />
 				</svg>
 				Copy to clipboard
 			</button>
@@ -129,7 +146,9 @@
 
 
 			<p class="mb-2 font-bold text-center text-brand md:pt-8">Advertisment</p>
-			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom" id="_carbonads_js"></script>
+			<script async type="text/javascript"
+				src="//cdn.carbonads.com/carbon.js?serve=CK7D52JJ&placement=wwwtailwindtoolboxcom"
+				id="_carbonads_js"></script>
 
 
 
@@ -139,13 +158,18 @@
 		<div class="flex flex-wrap items-stretch w-full px-4 mb-2 md:w-3/5 md:px-3">
 			<div class="w-full mb-8">
 				<a class="tab" href="#" @click.prevent="pack = 'all'" :class="{ 'active-tab' : pack === 'all' }">All</a>
-				<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Outline'" :class="{ 'active-tab' : pack === 'Heroicons - Outline' }">Heroicons (Outline)</a>
-				<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Solid'" :class="{ 'active-tab' : pack === 'Heroicons - Solid' }">Heroicons (Solid)</a>
-				<a class="tab" href="#" @click.prevent="pack = 'Tabler'" :class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
+				<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Outline'"
+					:class="{ 'active-tab' : pack === 'Heroicons - Outline' }">Heroicons (Outline)</a>
+				<a class="tab" href="#" @click.prevent="pack = 'Heroicons - Solid'"
+					:class="{ 'active-tab' : pack === 'Heroicons - Solid' }">Heroicons (Solid)</a>
+				<a class="tab" href="#" @click.prevent="pack = 'Tabler'"
+					:class="{ 'active-tab' : pack === 'Tabler' }">Tabler</a>
 			</div>
 			<template x-for="icon in icons" :key="icon.filename">
-				<div x-show="pack === icon.pack || pack === 'all'" class="flex p-2 transition duration-150 ease-in-out transform hover:bg-white hover:shadow hover:rounded hover:scale-125 ">
-					<div class="w-8 h-8 mx-auto overflow-hidden" x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
+				<div x-show="pack === icon.pack || pack === 'all'"
+					class="flex p-2 transition duration-150 ease-in-out transform hover:bg-white hover:shadow hover:rounded hover:scale-125 ">
+					<div class="w-8 h-8 mx-auto overflow-hidden"
+						x-html="'<svg class=&quot' + previewClasses + '&quot ' + icon.svg" x-on:click="currentSVG = icon.svg;
 					
 														$refs.code.value =  needsWeight(classColor) ? 
 															'<svg class=&quot' + classSize + ' ' + classColor + classColorWeight + '&quot ' + icon.svg : 
@@ -196,11 +220,11 @@
 		var clipboard = new ClipboardJS('#clipboardBtn');
 
 
-		clipboard.on('success', function(e) {
+		clipboard.on('success', function (e) {
 
 			document.getElementById('clipboardMessage').innerHTML = "Copied!!!!!!";
 
-			setTimeout(function() {
+			setTimeout(function () {
 				document.getElementById('clipboardMessage').innerHTML = "";
 			}.bind(this), 1000);
 
@@ -208,10 +232,10 @@
 			e.clearSelection();
 		});
 
-		clipboard.on('error', function(e) {
+		clipboard.on('error', function (e) {
 			document.getElementById('clipboardMessage').innerHTML = "Something went wrong!";
 
-			setTimeout(function() {
+			setTimeout(function () {
 				document.getElementById('clipboardMessage').innerHTML = "";
 			}.bind(this), 2000);
 
