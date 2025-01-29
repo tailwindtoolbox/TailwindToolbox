@@ -6622,10 +6622,42 @@
     "url_author": " https://sportyblocks.com/?ref=tailwindtoolbox",
     "author": "Sportyblocks",
     "category": "Admin",
-    "new": true,
+    "new": false,
     "home": false,
     "sticky": false,
     "affiliate": true,
+    "sponsor": false
+  },
+  {
+    "site_section": "Template",
+    "url": " https://codedthemes.com/item/datta-able-free-tailwind-admin-template/",
+    "url_image": "templates/datta-able.jpg",
+    "title": "Datta Able (Free)",
+    "description": "Admin theme with multiple pages (pro version available)",
+    "download": "$35+",
+    "url_author": " https://codedthemes.com",
+    "author": "Coded Themes",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
+    "sponsor": false
+  },
+  {
+    "site_section": "Marketplace",
+    "url": " https://codedthemes.com/item/datta-able-tailwind-admin-template/",
+    "url_image": "templates/datta-able.jpg",
+    "title": "Datta Able Pro [$]",
+    "description": "Admin theme with multiple pages (free version available)",
+    "download": "$35+",
+    "url_author": " https://codedthemes.com",
+    "author": "Coded Themes",
+    "category": "Admin",
+    "new": true,
+    "home": false,
+    "sticky": false,
+    "affiliate": false,
     "sponsor": false
   }
 ]
